@@ -1,24 +1,24 @@
 export const company = {
   dark: true,
-  darkmode: false,
+  darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: false,
+  price: true,
   objectCover: '50%',
-  id: 'monzacars',
-  name: 'Monza Cars',
-  adress: 'Av. San Martín 2493',
+  id: 'lipariautomotores',
+  name: 'Lipari Automotores',
+  adress: 'Micro Parque industrial Alvear',
   city: 'Rosario - Santa Fe',
-  email: 'monza-cars.srl@hotmail.com.ar',
-  instagram: 'monzacarssrl',
-  facebook: 'https://www.facebook.com/MonzaCarsSRL/',
-  whatsapp: ['3417227799', '3415413281', '3415719063', '3415817428'],
-  googlemapsLink: 'https://maps.app.goo.gl/gbb1uftGQdHuevuw8',
+  email: 'lipariautomotores@gmail.com',
+  instagram: 'lipari.automotores',
+  facebook: 'https://www.facebook.com/Lipari.automotores.srl/',
+  whatsapp: ['3413816684'],
+  googlemapsLink: 'https://maps.app.goo.gl/Na7RqEG8QXUSW1EFA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.005568192482!2d-60.70756820364861!3d-32.84510424240187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6516fb339e253%3A0xc583efac6216569c!2sMONZA%20CARS%20S.R.L.!5e0!3m2!1sen!2sar!4v1755569651314!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106990.40890596712!2d-60.64542596726528!3d-33.07093658321201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b65303b4e0b2f5%3A0xfdbc496444c2f7b5!2sLipari%20Automotores%20S.R.L!5e0!3m2!1sen!2sar!4v1755570460548!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9:30 a 13:30 y 15:30 a 19:30hs',
-    'Sábados 9 a 13:30hs',
+    'Lunes a Viernes 09:00 a 13:00 y 15:00 a 19:00hs',
+    'Sábados 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://monzacars.vercel.app/',
-  title: 'Monza Cars - Compra y Venta de Autos',
+  metadataBase: 'https://lipariautomotores.vercel.app/',
+  title: 'Lipari Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

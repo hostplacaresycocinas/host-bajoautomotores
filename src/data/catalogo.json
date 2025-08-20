@@ -1,19 +1,19 @@
 [
   {
-    "id": "chevrolet-prisma-lt-2012",
-    "name": "Chevrolet Prisma Lt",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2012,
-    "kilometraje": 110000,
+    "id": "nissan-frontier-x-gear-4x4-automatica-2022",
+    "name": "Nissan Frontier X Gear 4x4 Automática",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2022,
+    "kilometraje": 102000,
     "precio": {
-      "valor": 999999,
+      "valor": 39900000,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta",
+    "categoria": "Pickup",
+    "transmision": "Automático",
+    "motor": "2.5",
+    "combustible": "Diésel",
     "puertas": 4,
     "images": [
       "1-1.webp",
@@ -22,26 +22,24 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp"
+      "1-7.webp"
     ],
-    "descripcion": "Chevrolet Prisma Lt\n\nAño: 2012\nKilómetros: 110.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Nissan Frontier X gear 4x4 Automática\n\nAño: 2022\nÚnica mano\n102.000kms\nServicios oficiales\nEstado general INMACULADO!\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "chevrolet-tracker-1-2-t-manual-2021",
-    "name": "Chevrolet Tracker 1.2 T Manual",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
+    "id": "hyundai-creta-gl-connect-2021",
+    "name": "Hyundai Creta Gl Connect",
+    "marca": "Hyundai",
+    "marcaId": "hyundai",
     "ano": 2021,
-    "kilometraje": 8500,
+    "kilometraje": 89200,
     "precio": {
-      "valor": 999999,
+      "valor": 25900000,
       "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.2",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -53,32 +51,26 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp",
-      "2-10.webp",
-      "2-11.webp",
-      "2-12.webp",
-      "2-13.webp",
-      "2-14.webp",
-      "2-15.webp"
+      "2-9.webp"
     ],
-    "descripcion": "Chevrolet Tracker 1.2 T Manual\n\nAño: 2021\nKilómetros: 8.500\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Hyundai Creta Gl Connect\n\nAño: 2021\n89.200kms\nPrimera mano\nServicios oficiales\nEstado general impecable!\nMotor cadenero!\n\nLipari Automotores srl\nMicro Parque industrial Alvear sta fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "toyota-yaris-xls-1-5-2021",
-    "name": "Toyota Yaris XLS 1.5",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2021,
-    "kilometraje": 51000,
+    "id": "citroen-c4-lounge-shine-2015",
+    "name": "Citroen C4 Lounge Shine",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2015,
+    "kilometraje": 81000,
     "precio": {
-      "valor": 999999,
+      "valor": 20700000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.5",
+    "categoria": "Sedán",
+    "transmision": "Automático",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -86,28 +78,26 @@
       "3-4.webp",
       "3-5.webp",
       "3-6.webp",
-      "3-7.webp",
-      "3-8.webp",
-      "3-9.webp"
+      "3-7.webp"
     ],
-    "descripcion": "Toyota Yaris XLS 1.5\n\nAño: 2021\nKilómetros: 51.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Citroen C4 Lounge Shine\n\nCaja Automática\nMotor 1.6 turbo\nTope de gama\n81.000kms\nÚnico dueño\nRealmente impecable!\n\nPrecio *$20.700.000*\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "renault-kangoo-furgon-gnc-2024",
-    "name": "Renault Kangoo Furgón GNC",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2024,
-    "kilometraje": 39000,
+    "id": "chevrolet-trailblazer-ltz-4x4-at-2017",
+    "name": "Chevrolet Trailblazer Ltz+ 4x4 At",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2017,
+    "kilometraje": 142000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 25900,
+      "moneda": "USD"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "GNC",
-    "puertas": 3,
+    "categoria": "SUV",
+    "transmision": "Automático",
+    "motor": "2.8",
+    "combustible": "Diésel",
+    "puertas": 5,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -117,24 +107,25 @@
       "4-6.webp",
       "4-7.webp",
       "4-8.webp",
-      "4-9.webp"
+      "4-9.webp",
+      "4-10.webp"
     ],
-    "descripcion": "Renault Kangoo Furgón GNC\n\nAño: 2024\nKilómetros: 39.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Chevrolet Trailblazer Ltz+ 4x4 At\n\nAño 2017\nNeumáticos nuevos 0km sin rodar\nVersión tope de gama\n142.000kms\nTodos los servicios oficiales Chevrolet\nEstado IMPECABLE!!!"
   },
   {
-    "id": "ford-ecosport-se-1-5-2020",
-    "name": "Ford EcoSport SE 1.5",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2020,
-    "kilometraje": 44600,
+    "id": "citroen-c4-cactus-vti-feel-pack-2019",
+    "name": "Citroën C4 Cactus Vti Feel Pack",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2019,
+    "kilometraje": 110000,
     "precio": {
-      "valor": 999999,
+      "valor": 19900000,
       "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.5",
+    "transmision": "Automático",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -144,32 +135,26 @@
       "5-4.webp",
       "5-5.webp",
       "5-6.webp",
-      "5-7.webp",
-      "5-8.webp",
-      "5-9.webp",
-      "5-10.webp",
-      "5-11.webp",
-      "5-12.webp",
-      "5-13.webp"
+      "5-7.webp"
     ],
-    "descripcion": "Ford EcoSport SE 1.5\n\nAño: 2020\nKilómetros: 44.600\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Citroën C4 Cactus Vti Feel Pack\n\nCaja Automática\nAño 2019\nÚnico dueño\nNeumaticos nuevos\n+Gnc de 5ta generación\n110.000kms\nEstado IMPECABLE!!\n\nLipari Automotores srl\nMicro Parque industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!!!"
   },
   {
-    "id": "chevrolet-tracker-1-2-t-at-2025",
-    "name": "Chevrolet Tracker 1.2 T AT",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "peugeot-408-allure-2-0-2015",
+    "name": "Peugeot 408 Allure + 2.0",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2015,
+    "kilometraje": 95000,
     "precio": {
-      "valor": 999999,
+      "valor": 12900000,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
-    "motor": "1.2",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "2.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -177,30 +162,26 @@
       "6-4.webp",
       "6-5.webp",
       "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp",
-      "6-11.webp"
+      "6-7.webp"
     ],
-    "descripcion": "Chevrolet Tracker 1.2 T AT\n\nAño: 2025\nKilómetros: 0km\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Peugeot 408 Allure + 2.0\n\nAño 2015\nÚnico dueño\n95.000kms\nEstado Impecable\nInmejorable relación precio producto!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684!\n\nLos mejores usados REALES!"
   },
   {
-    "id": "peugeot-partner-presence-1-4-gnc-2015",
-    "name": "Peugeot Partner Presence 1.4 GNC",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 156300,
+    "id": "royal-enfield-interceptor-650-2024",
+    "name": "Royal Enfield Interceptor 650",
+    "marca": "Royal Enfield",
+    "marcaId": "royal-enfield",
+    "ano": 2024,
+    "kilometraje": 11000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 7500,
+      "moneda": "USD"
     },
-    "categoria": "Utilitario",
+    "categoria": "Moto",
     "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "GNC",
-    "puertas": 3,
+    "motor": "0.65",
+    "combustible": "Nafta",
+    "puertas": 0,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -209,28 +190,26 @@
       "7-5.webp",
       "7-6.webp",
       "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
+      "7-8.webp"
     ],
-    "descripcion": "Peugeot Partner Presence 1.4 GNC\n\nAño: 2015\nKilómetros: 156.300\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Royal Enfield Interceptor 650\n\nMod Black Ray\nAño 2024\n11.000kms\nIgual a 0km!\nEstado Impecable\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono 3413816684\n\nLos mejores usados REALES!!"
   },
   {
-    "id": "citroen-berlingo-furgon-mixto-1-6-hdi-2017",
-    "name": "Citroen Berlingo Furgón Mixto 1.6 HDI",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2017,
-    "kilometraje": 156000,
+    "id": "jeep-compass-sport-mt6-2020",
+    "name": "Jeep Compass Sport mt6",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2020,
+    "kilometraje": 89000,
     "precio": {
-      "valor": 999999,
+      "valor": 25900000,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Diésel",
-    "puertas": 3,
+    "motor": "1.8",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -238,28 +217,24 @@
       "8-4.webp",
       "8-5.webp",
       "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp",
-      "8-11.webp"
+      "8-7.webp"
     ],
-    "descripcion": "Citroen Berlingo Furgón Mixto 1.6 HDI\n\nAño: 2017\nKilómetros: 156.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Jeep Compass Sport mt6\n\nAño 2020\nÚnico dueño\nService oficial\n89.000kms\nNeumaticos nuevos\nEstado IMPECABLE!!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "chevrolet-prisma-1-4-ltz-automatico-2019",
-    "name": "Chevrolet Prisma 1.4 LTZ Automático",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2019,
-    "kilometraje": 110000,
+    "id": "renault-fluence-privilege-2-0-16v-2012",
+    "name": "Renault Fluence Privilege 2.0 16v",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2012,
+    "kilometraje": 163000,
     "precio": {
-      "valor": 999999,
+      "valor": 11900000,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
-    "transmision": "Automático",
-    "motor": "1.4",
+    "transmision": "Manual",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -269,22 +244,20 @@
       "9-4.webp",
       "9-5.webp",
       "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp"
+      "9-7.webp"
     ],
-    "descripcion": "Chevrolet Prisma 1.4 LTZ Automático\n\nAño: 2019\nKilómetros: 110.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Renault Fluence Privilege 2.0 16v\n\nMantenimiento oficial renault\nAño 2012\nNeumaticos nuevos\nMotor Nissan Cadenero\nEstado INOBJETABLE!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "peugeot-3008-premium-at-2013",
-    "name": "Peugeot 3008 Premium AT",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2013,
-    "kilometraje": 158000,
+    "id": "mercedes-benz-gla200-urban-2017",
+    "name": "Mercedes Benz Gla200 Urban",
+    "marca": "Mercedes Benz",
+    "marcaId": "mercedes-benz",
+    "ano": 2017,
+    "kilometraje": 110000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 27400,
+      "moneda": "USD"
     },
     "categoria": "SUV",
     "transmision": "Automático",
@@ -298,31 +271,26 @@
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp",
-      "10-11.webp",
-      "10-12.webp"
+      "10-7.webp"
     ],
-    "descripcion": "Peugeot 3008 Premium AT\n\nAño: 2013\nKilómetros: 158.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Mercedes Benz Gla200 Urban\n\nAño 2017\n110.000kms\nSegundo dueño\nNeumaticos continental impecable\n\nLipari Automotores Srl\nMicro Parque Industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   },
   {
-    "id": "chevrolet-s10-ls-4x2-2020",
-    "name": "Chevrolet S10 LS 4x2",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2020,
-    "kilometraje": 9400,
+    "id": "peugeot-3008-gt-linea-hdi-2018",
+    "name": "Peugeot 3008 Gt Línea Hdi",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2018,
+    "kilometraje": 100000,
     "precio": {
-      "valor": 999999,
+      "valor": 37900000,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "2.5",
+    "motor": "2.0",
     "combustible": "Diésel",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -330,30 +298,23 @@
       "11-4.webp",
       "11-5.webp",
       "11-6.webp",
-      "11-7.webp",
-      "11-8.webp",
-      "11-9.webp",
-      "11-10.webp",
-      "11-11.webp",
-      "11-12.webp",
-      "11-13.webp",
-      "11-14.webp"
+      "11-7.webp"
     ],
-    "descripcion": "Chevrolet S10 LS 4x2\n\nAño: 2020\nKilómetros: 9.400\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nVendedor Daniel: +54 9 3415 89-0901\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Peugeot 3008 Gt Línea Hdi\n\nAño 2018\nÚnico dueño\nServicios oficiales\nNeumaticos Michelin nuevos\nMantenimiento 100% al dia!\n100.000kms recién cumplidos.\n\nLipari Automotores Srl\nMicro Parque Industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!!"
   },
   {
-    "id": "volkswagen-gol-trend-1-6-msi-2017",
-    "name": "Volkswagen Gol Trend 1.6 MSI",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2017,
-    "kilometraje": 152000,
+    "id": "citroen-c4-cactus-shine-2015",
+    "name": "Citroen C4 Cactus Shine",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2015,
+    "kilometraje": 65000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
+    "categoria": "SUV",
+    "transmision": "Automático",
     "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
@@ -364,11 +325,8 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp",
-      "12-8.webp",
-      "12-9.webp",
-      "12-10.webp"
+      "12-7.webp"
     ],
-    "descripcion": "Volkswagen Gol Trend 1.6 MSI\n\nAño: 2017\nKilómetros: 152.000\n\nTomamos tu vehículo! Consúltanos.\n\nComunícate con nuestros vendedores:\nVendedor Diego: +54 9 341 571-9063\nMonza Cars WhatsApp: +54 9 341 722-7799\n\nAca también podes ver todos nuestros vehiculos y sus precios 👉 https://www.rosariogarage.com/monzacars/\n\n¡O dejanos tu número en los comentarios y te llamamos!\n\nEL AUTO QUE BUSCAS, LO TENEMOS ACÁ!!!\n30 AÑOS DE TRAYECTORIA!\n\n- Pagá tu auto en cómodas cuotas\n- La entrega más RÁPIDA!\n- Usados SELECCIONADOS GARANTIZADOS!\n- Atención personalizada\n- Gestoría y Escribanía propia\n- Tomamos tu usado al MEJOR PRECIO!\n- Hacemos rendir tu dinero\n\n- CERO KILÓMETROS EN TODA LA GAMA\n* FIAT\n* CHEVROLET\n* VOLKSWAGEN"
+    "descripcion": "Citroen C4 Cactus Shine\n\n1.6 Turbo Automática\nVersión tope de gama\nÚnico dueño\n65.000kms\nServicios oficiales.\nEstado Impecable!!!\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
   }
 ]
