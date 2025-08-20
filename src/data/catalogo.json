@@ -1,20 +1,20 @@
 [
   {
-    "id": "nissan-frontier-platinum-at-4x4-2023",
-    "name": "Nissan Frontier Platinum At 4x4",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2023,
-    "kilometraje": 138000,
+    "id": "honda-fit-ex-2017",
+    "name": "Honda Fit Ex",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2017,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Hatchback",
     "transmision": "Automático",
-    "motor": "2.5",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -24,19 +24,17 @@
       "1-6.webp",
       "1-7.webp",
       "1-8.webp",
-      "1-9.webp",
-      "1-10.webp",
-      "1-11.webp"
+      "1-9.webp"
     ],
-    "descripcion": "NISSAN FRONTIER PLATINIUM AT 4X4\n\nAño 2023\nEn garantía\nKms 138.000\nVehículo de ciudad\nCuero techo\nCámaras 360\nAsientos eléctricos calefaccionados\nAsistencias de manejo\nModos de conducción\nPick up de un comfort y andar hermoso\nToda original\nÚnico dueño"
+    "descripcion": "Honda Fit Ex 2017\n\nCaja automática de 7ma con levas al volante\nTapizado de cuero\nÚnico dueño\nService oficiales\nTomamos permutas\nFinanciación, tasa fija y en pesos!"
   },
   {
-    "id": "ford-ecosport-titanium-manual-2019",
-    "name": "Ford Ecosport Titanium Manual",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2019,
-    "kilometraje": 60400,
+    "id": "renault-duster-confort-plus-1-6-2013",
+    "name": "Renault Duster Confort Plus 1.6",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2013,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -52,56 +50,52 @@
       "2-3.webp",
       "2-4.webp",
       "2-5.webp",
-      "2-6.webp"
+      "2-6.webp",
+      "2-7.webp"
     ],
-    "descripcion": "Ford Ecosport Titanium manual\n\nAño 2019\nKms 60.400\nCuero\nClima\nCámara\nVel crucero\nGPS\nEtc.\nImpecable"
+    "descripcion": "RENAULT DUSTER\n\nAño 2013\nConfort Plus 1.6\nCaja manual\nÚnico dueño\nCubiertas nuevas\nTomamos permutas\nFinanciamos a tasa fija y en pesos\nAgregados Pantalla con navegador"
   },
   {
-    "id": "chevrolet-s10-4x4-ltz-automatica-2012",
-    "name": "Chevrolet S10 4x4 Ltz Automática",
+    "id": "chevrolet-tracker-ltz-2017",
+    "name": "Chevrolet Tracker Ltz",
     "marca": "Chevrolet",
     "marcaId": "chevrolet",
-    "ano": 2012,
-    "kilometraje": 150400,
+    "ano": 2017,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automático",
-    "motor": "2.8",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.4",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
       "3-3.webp",
       "3-4.webp",
       "3-5.webp",
-      "3-6.webp",
-      "3-7.webp",
-      "3-8.webp",
-      "3-9.webp",
-      "3-10.webp",
-      "3-11.webp"
+      "3-6.webp"
     ],
-    "descripcion": "Chevrolet S10 4x4 ltz automática\n\nAño 2012\nKms 150.400\nIncreíble Estado\nCuero techo\nCámara clima\nVelocidad crucero\nAsientos eléctricos\nABS airbags\nLlantas etc.\n4x4\n4 gomas nuevas\nMuy cuidada muy original\nÚnica"
+    "descripcion": "CHEVROLET TRACKER LTZ\n\nAño 2017\nTransmisión manual\nManuales y segunda llave\nTomamos permutas\nFinanciación tasa fija y en pesos\nConsúltanos"
   },
   {
-    "id": "jeep-compass-limited-td-diesel-2020",
-    "name": "Jeep Compass Limited Td Diesel",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2020,
-    "kilometraje": 98000,
+    "id": "ford-ka-se-1-5-2017",
+    "name": "Ford Ka Se 1.5",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2017,
+    "kilometraje": 90000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
-    "motor": "2.0",
-    "combustible": "Diésel",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.5",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "4-1.webp",
@@ -111,24 +105,24 @@
       "4-5.webp",
       "4-6.webp"
     ],
-    "descripcion": "Jeep Compass limited td (diesel)\n\nAño 2020\n4x4 automática\nKm 98.000\nCuero\nCámara techo etc\nHermosa toda original\nLECCESE AUTOMOTORES SRL\n45 AÑOS SOBRE CALLE CORDOBA 5673"
+    "descripcion": "Ford KA SE 1.5\n\nAño 2017\nÚnica mano\n90.000kms\nManuales y segunda llave\nTomamos permutas\nFinanciamos, hasta el 50% tasa fija y en pesos"
   },
   {
-    "id": "chevrolet-equinox-ls-automatica-2020",
-    "name": "Chevrolet Equinox Ls Automática",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2020,
-    "kilometraje": 55000,
+    "id": "peugeot-308-cc-2011",
+    "name": "Peugeot 308 Cc",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2011,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Automático",
-    "motor": "1.5",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -136,24 +130,26 @@
       "5-4.webp",
       "5-5.webp",
       "5-6.webp",
-      "5-7.webp"
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp"
     ],
-    "descripcion": "Chevrolet Equinox ls automática\n\nAño 2020\nKms 55.000\nÚnica mano\n4 gomas nuevas\nInmaculada"
+    "descripcion": "PEUGEOT 308 CC 2011\n\nCaja Automática\nManuales y segunda llave\nPantalla táctil con Android\nTomamos permutas\nFinanciación a tasa fija y en pesos"
   },
   {
-    "id": "renault-duster-oroch-1-6-dinamique-2018",
-    "name": "Renault Duster Oroch 1.6 Dinamique",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2018,
-    "kilometraje": 143000,
+    "id": "ram-1500-2020",
+    "name": "Ram 1500",
+    "marca": "Ram",
+    "marcaId": "ram",
+    "ano": 2020,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "transmision": "Automático",
+    "motor": "3.6",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -165,115 +161,72 @@
       "6-6.webp",
       "6-7.webp"
     ],
-    "descripcion": "Renault Duster Oroch 1.6 dinamique\n\nAño 2018\nKms 143.000\nMotor 1.6 k4m fierro\nNunca gnc\nOriginal"
+    "descripcion": "RAM 1500 2020"
   },
   {
-    "id": "toyota-etios-xs-5-ptas-2015",
-    "name": "Toyota Etios Xs 5 Ptas",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2015,
-    "kilometraje": 96000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["7-1.webp", "7-2.webp", "7-3.webp"],
-    "descripcion": "Toyota Etios xs 5 ptas\n\nAño 2015\nKms 96.000\nExcelente\nToyota es toyota"
-  },
-  {
-    "id": "renault-sandero-stepway-1-6-2011",
-    "name": "Renault Sandero Stepway 1.6",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2011,
-    "kilometraje": 98000,
+    "id": "chevrolet-tracker-ltz-2016",
+    "name": "Chevrolet Tracker Ltz",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2016,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp",
-      "8-7.webp"
-    ],
-    "descripcion": "Renault Sandero Stepway 1.6\n\nAño 2011\nKms 98.000\nÚnico dueño\nImpecable"
+    "images": ["7-1.webp", "7-2.webp", "7-3.webp"],
+    "descripcion": "CHEVROLET TRACKER LTZ\n\nTransmisión manual\nAño 2016\nSegundo dueño\nManuales\nSegunda llave\nTomamos permutas\nFinanciamos"
   },
   {
-    "id": "renault-kwid-1-0-2020",
-    "name": "Renault Kwid 1.0",
+    "id": "ford-ranger-xlt-4x2-2018",
+    "name": "Ford Ranger Xlt 4x2",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2018,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.5",
+    "combustible": "Nafta/GNC",
+    "puertas": 4,
+    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
+    "descripcion": "FORD RANGER XLT 4x2\n\nAño 2018\nMotor 2.5 Nafta GNC\nÚnica mano\nService oficiales\nManuales y segunda llave"
+  },
+  {
+    "id": "toyota-hilux-sr-4x4-2016",
+    "name": "Toyota Hilux Sr 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2016,
+    "kilometraje": 116000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.4",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": ["9-1.webp", "9-2.webp", "9-3.webp", "9-4.webp"],
+    "descripcion": "TOYOTA HILUX SR 4X4 2016\n\nSegundo dueño\n116.000kms\nManuales y segunda llave\nTomamos permutas\nFinanciamos a tasa fija y en pesos"
+  },
+  {
+    "id": "renault-logan-privilege-2016",
+    "name": "Renault Logan Privilege",
     "marca": "Renault",
     "marcaId": "renault",
-    "ano": 2020,
-    "kilometraje": 53000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp"
-    ],
-    "descripcion": "Renault Kwid 1.0\n\nAño 2020\nKms 53.000\nExcelente"
-  },
-  {
-    "id": "nissan-note-1-6-exclusive-cvt-2015",
-    "name": "Nissan Note 1.6 Exclusive Cvt",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2015,
-    "kilometraje": 97000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automático",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp",
-      "10-7.webp",
-      "10-8.webp"
-    ],
-    "descripcion": "Nissan Note 1.6 exclusive cvt\n\nAño 2015\nKms 97.000\nEl más full automático\nVelocidad crucero\nClima etc"
-  },
-  {
-    "id": "volkswagen-virtus-1-6-trendline-gnc-2020",
-    "name": "Volkswagen Virtus 1.6 Trendline Gnc",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2020,
-    "kilometraje": 82000,
+    "ano": 2016,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -281,35 +234,47 @@
     "categoria": "Sedán",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "GNC",
+    "combustible": "Nafta",
     "puertas": 4,
-    "images": ["11-1.webp", "11-2.webp", "11-3.webp", "11-4.webp", "11-5.webp"],
-    "descripcion": "Volkswagen virtus 1.6 trendline GNC\n\nAño 2020\nKms 82.000\nExcelente"
+    "images": ["10-1.webp", "10-2.webp", "10-3.webp", "10-4.webp"],
+    "descripcion": "RENAULT LOGAN PRIVILEGE\n\nAño 2016\nNavegador y sensores de estacionamiento\nÚnica mano\nManuales y segunda llave\nTomamos permutas\nFinanciamos"
   },
   {
-    "id": "fiat-palio-attractive-1-4-full-2017",
-    "name": "Fiat Palio Attractive 1.4 Full",
+    "id": "fiat-cronos-precision-at-2023",
+    "name": "Fiat Cronos Precision At",
     "marca": "Fiat",
     "marcaId": "fiat",
-    "ano": 2017,
-    "kilometraje": 112000,
+    "ano": 2023,
+    "kilometraje": 40000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4",
+    "categoria": "Sedán",
+    "transmision": "Automático",
+    "motor": "1.8",
     "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp"
-    ],
-    "descripcion": "Fiat Palio attractive 1.4 full\n\nAño 2017\nKms 112.000\n5 ptas full"
+    "puertas": 4,
+    "images": ["11-1.webp", "11-2.webp", "11-3.webp", "11-4.webp"],
+    "descripcion": "FIAT CRONOS PRECISION AT\n\nAño 2023\nTransmisión automática\n40.000 en garantía\nManuales y segunda llave\nTomamos permutas\nFinanciamos, tasa fija y en pesos"
+  },
+  {
+    "id": "ford-ranger-xlt-2-5-nafta-2023",
+    "name": "Ford Ranger Xlt 2.5 Nafta",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2023,
+    "kilometraje": 39000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.5",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": ["12-1.webp", "12-2.webp", "12-3.webp", "12-4.webp"],
+    "descripcion": "FORD RANGER XLT\n\n2.5 Nafta\nCaja manual de 5ta\nAño 2023\n39.000 Kms\nService Oficiales\nManuales y segunda llave\nFinanciación a tasa fija y en pesos\nTomamos permutas"
   }
 ]

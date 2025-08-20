@@ -1,24 +1,24 @@
 export const company = {
   dark: true,
-  darkmode: false,
+  darkmode: true,
   shortAdress: true,
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'lecceseautomotores',
-  name: 'Leccese Automotores',
-  adress: 'Av. Eva Perón 5673',
-  city: 'Rosario - Santa Fe',
-  email: null,
-  instagram: 'leccese_automotores',
-  facebook: 'https://www.facebook.com/p/Leccese-Automotores-100044743366548/',
-  whatsapp: ['3414564499', '3415803140'],
-  googlemapsLink: 'https://maps.app.goo.gl/fb6hWzox1HRLX5hX9',
+  id: 'amcars',
+  name: 'AMCARS',
+  adress: 'Brig. Gral. J M de Rosas 5406',
+  city: 'San Justo',
+  email: 'amcars_sj@hotmail.com',
+  instagram: 'amcars_sanjusto',
+  facebook: 'https://www.facebook.com/amcarsok',
+  whatsapp: ['1127171228'],
+  googlemapsLink: 'https://maps.app.goo.gl/CU1acGXzxKk2tieh8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.591504021261!2d-60.7005655841079!3d-32.93538936671546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b65335ae70114f%3A0xf61d3919f96737f2!2sLeccese%20Automotores%20srl!5e0!3m2!1sen!2sar!4v1755571775992!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.509294763139!2d-58.5717393!3d-34.692332199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc615fd5964db%3A0x167805c202edf402!2sAMcars%20automotores!5e0!3m2!1sen!2sar!4v1755606767900!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 13:00 y 15:30 a 18:30hs',
-    'Sábados 09:30 a 13:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábados 09:30 a 15:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://lecceseautomotores.vercel.app/',
-  title: 'Leccese Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://amcars.vercel.app/',
+  title: 'AMCARS - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
