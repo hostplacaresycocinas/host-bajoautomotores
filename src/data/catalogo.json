@@ -1,18 +1,18 @@
 [
   {
-    "id": "honda-fit-ex-2017",
-    "name": "Honda Fit Ex",
-    "marca": "Honda",
-    "marcaId": "honda",
-    "ano": 2017,
-    "kilometraje": 999999,
+    "id": "fiat-fastback-0km-2025",
+    "name": "Fiat Fastback 0km",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Automático",
-    "motor": "1.5",
+    "motor": "1.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -23,27 +23,26 @@
       "1-5.webp",
       "1-6.webp",
       "1-7.webp",
-      "1-8.webp",
-      "1-9.webp"
+      "1-8.webp"
     ],
-    "descripcion": "Honda Fit Ex 2017\n\nCaja automática de 7ma con levas al volante\nTapizado de cuero\nÚnico dueño\nService oficiales\nTomamos permutas\nFinanciación, tasa fija y en pesos!"
+    "descripcion": "Fiat Fastback 0km 2025"
   },
   {
-    "id": "renault-duster-confort-plus-1-6-2013",
-    "name": "Renault Duster Confort Plus 1.6",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 999999,
+    "id": "ford-f150-raptor-32000km-2022",
+    "name": "Ford F150 Raptor",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2022,
+    "kilometraje": 32000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "categoria": "Pickup",
+    "transmision": "Automático",
+    "motor": "3.5",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -51,24 +50,27 @@
       "2-4.webp",
       "2-5.webp",
       "2-6.webp",
-      "2-7.webp"
+      "2-7.webp",
+      "2-8.webp",
+      "2-9.webp",
+      "2-10.webp"
     ],
-    "descripcion": "RENAULT DUSTER\n\nAño 2013\nConfort Plus 1.6\nCaja manual\nÚnico dueño\nCubiertas nuevas\nTomamos permutas\nFinanciamos a tasa fija y en pesos\nAgregados Pantalla con navegador"
+    "descripcion": "Ford F150 Raptor 32.000km 2022"
   },
   {
-    "id": "chevrolet-tracker-ltz-2017",
-    "name": "Chevrolet Tracker Ltz",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2017,
-    "kilometraje": 999999,
+    "id": "peugeot-2008-gt-0km-2025",
+    "name": "Peugeot 2008 Gt",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.4",
+    "transmision": "Automático",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -77,51 +79,59 @@
       "3-3.webp",
       "3-4.webp",
       "3-5.webp",
-      "3-6.webp"
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp",
+      "3-10.webp"
     ],
-    "descripcion": "CHEVROLET TRACKER LTZ\n\nAño 2017\nTransmisión manual\nManuales y segunda llave\nTomamos permutas\nFinanciación tasa fija y en pesos\nConsúltanos"
+    "descripcion": "Peugeot 2008 GT 0km 2025"
   },
   {
-    "id": "ford-ka-se-1-5-2017",
-    "name": "Ford Ka Se 1.5",
-    "marca": "Ford",
-    "marcaId": "ford",
+    "id": "mini-cooper-pepper-142000km-2017",
+    "name": "Mini Cooper Pepper",
+    "marca": "Mini",
+    "marcaId": "mini",
     "ano": 2017,
-    "kilometraje": 90000,
+    "kilometraje": 142000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Manual",
+    "transmision": "Automático",
     "motor": "1.5",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 3,
     "images": [
       "4-1.webp",
       "4-2.webp",
       "4-3.webp",
       "4-4.webp",
       "4-5.webp",
-      "4-6.webp"
+      "4-6.webp",
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp"
     ],
-    "descripcion": "Ford KA SE 1.5\n\nAño 2017\nÚnica mano\n90.000kms\nManuales y segunda llave\nTomamos permutas\nFinanciamos, hasta el 50% tasa fija y en pesos"
+    "descripcion": "Mini Cooper Pepper 142.000km 2017"
   },
   {
-    "id": "peugeot-308-cc-2011",
-    "name": "Peugeot 308 Cc",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2011,
-    "kilometraje": 999999,
+    "id": "mercedes-benz-c300-hev-5000km-2022",
+    "name": "Mercedes Benz C300 Hev",
+    "marca": "Mercedes-Benz",
+    "marcaId": "mercedes-benz",
+    "ano": 2022,
+    "kilometraje": 5000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Automático",
-    "motor": "1.6",
-    "combustible": "Nafta",
+    "motor": "2.0",
+    "combustible": "Híbrido",
     "puertas": 4,
     "images": [
       "5-1.webp",
@@ -134,24 +144,24 @@
       "5-8.webp",
       "5-9.webp"
     ],
-    "descripcion": "PEUGEOT 308 CC 2011\n\nCaja Automática\nManuales y segunda llave\nPantalla táctil con Android\nTomamos permutas\nFinanciación a tasa fija y en pesos"
+    "descripcion": "Mercedes Benz C300 Hev 5.000km 2022"
   },
   {
-    "id": "ram-1500-2020",
-    "name": "Ram 1500",
-    "marca": "Ram",
-    "marcaId": "ram",
+    "id": "jeep-grand-cherokee-limited-v6-137000km-2020",
+    "name": "Jeep Grand Cherokee Limited V6",
+    "marca": "Jeep",
+    "marcaId": "jeep",
     "ano": 2020,
-    "kilometraje": 999999,
+    "kilometraje": 137000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "SUV",
     "transmision": "Automático",
     "motor": "3.6",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -159,17 +169,50 @@
       "6-4.webp",
       "6-5.webp",
       "6-6.webp",
-      "6-7.webp"
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp"
     ],
-    "descripcion": "RAM 1500 2020"
+    "descripcion": "Jeep Grand Cherokee Limited V6 137.000km 2020"
   },
   {
-    "id": "chevrolet-tracker-ltz-2016",
+    "id": "chevrolet-s10-ltz-4x4-at-183000km-2022",
+    "name": "Chevrolet S10 Ltz 4x4 At",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2022,
+    "kilometraje": 183000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automático",
+    "motor": "2.8",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "7-1.webp",
+      "7-2.webp",
+      "7-3.webp",
+      "7-4.webp",
+      "7-5.webp",
+      "7-6.webp",
+      "7-7.webp",
+      "7-8.webp",
+      "7-9.webp",
+      "7-10.webp"
+    ],
+    "descripcion": "Chevrolet S10 LTZ 4x4 AT 183.000km 2022"
+  },
+  {
+    "id": "chevrolet-tracker-ltz-108000km-2015",
     "name": "Chevrolet Tracker Ltz",
     "marca": "Chevrolet",
     "marcaId": "chevrolet",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "ano": 2015,
+    "kilometraje": 108000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -179,102 +222,130 @@
     "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": ["7-1.webp", "7-2.webp", "7-3.webp"],
-    "descripcion": "CHEVROLET TRACKER LTZ\n\nTransmisión manual\nAño 2016\nSegundo dueño\nManuales\nSegunda llave\nTomamos permutas\nFinanciamos"
+    "images": [
+      "8-1.webp",
+      "8-2.webp",
+      "8-3.webp",
+      "8-4.webp",
+      "8-5.webp",
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp"
+    ],
+    "descripcion": "Chevrolet Tracker LTZ 108.000km 2015"
   },
   {
-    "id": "ford-ranger-xlt-4x2-2018",
-    "name": "Ford Ranger Xlt 4x2",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2018,
-    "kilometraje": 999999,
+    "id": "hyundai-hb-20-safety-cvt-0km-2025",
+    "name": "Hyundai Hb 20 Safety Cvt",
+    "marca": "Hyundai",
+    "marcaId": "hyundai",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.5",
-    "combustible": "Nafta/GNC",
-    "puertas": 4,
-    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
-    "descripcion": "FORD RANGER XLT 4x2\n\nAño 2018\nMotor 2.5 Nafta GNC\nÚnica mano\nService oficiales\nManuales y segunda llave"
+    "categoria": "Hatchback",
+    "transmision": "Automático",
+    "motor": "1.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp",
+      "9-7.webp",
+      "9-8.webp",
+      "9-9.webp",
+      "9-10.webp"
+    ],
+    "descripcion": "Hyundai HB 20 Safety CVT 0km 2025"
   },
   {
-    "id": "toyota-hilux-sr-4x4-2016",
-    "name": "Toyota Hilux Sr 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2016,
-    "kilometraje": 116000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.4",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": ["9-1.webp", "9-2.webp", "9-3.webp", "9-4.webp"],
-    "descripcion": "TOYOTA HILUX SR 4X4 2016\n\nSegundo dueño\n116.000kms\nManuales y segunda llave\nTomamos permutas\nFinanciamos a tasa fija y en pesos"
-  },
-  {
-    "id": "renault-logan-privilege-2016",
-    "name": "Renault Logan Privilege",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "id": "vw-vento-gli-114000km-2017",
+    "name": "Vw Vento Gli",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 114000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Manual",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": [
+      "10-1.webp",
+      "10-2.webp",
+      "10-3.webp",
+      "10-4.webp",
+      "10-5.webp",
+      "10-6.webp",
+      "10-7.webp",
+      "10-8.webp",
+      "10-9.webp",
+      "10-10.webp"
+    ],
+    "descripcion": "VW Vento GLI 114.000km 2017"
+  },
+  {
+    "id": "citroen-basalt-shine-0km-2025",
+    "name": "Citroen Basalt Shine",
+    "marca": "Citroën",
+    "marcaId": "citroen",
+    "ano": 2025,
+    "kilometraje": 0,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automático",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["10-1.webp", "10-2.webp", "10-3.webp", "10-4.webp"],
-    "descripcion": "RENAULT LOGAN PRIVILEGE\n\nAño 2016\nNavegador y sensores de estacionamiento\nÚnica mano\nManuales y segunda llave\nTomamos permutas\nFinanciamos"
+    "puertas": 5,
+    "images": [
+      "11-1.webp",
+      "11-2.webp",
+      "11-3.webp",
+      "11-4.webp",
+      "11-5.webp",
+      "11-6.webp"
+    ],
+    "descripcion": "Citroen Basalt Shine 0km 2025"
   },
   {
-    "id": "fiat-cronos-precision-at-2023",
-    "name": "Fiat Cronos Precision At",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2023,
-    "kilometraje": 40000,
+    "id": "bmw-x3-3-0i-53500km-2021",
+    "name": "Bmw X3 3.0i",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2021,
+    "kilometraje": 53500,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "SUV",
     "transmision": "Automático",
-    "motor": "1.8",
+    "motor": "3.0",
     "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["11-1.webp", "11-2.webp", "11-3.webp", "11-4.webp"],
-    "descripcion": "FIAT CRONOS PRECISION AT\n\nAño 2023\nTransmisión automática\n40.000 en garantía\nManuales y segunda llave\nTomamos permutas\nFinanciamos, tasa fija y en pesos"
-  },
-  {
-    "id": "ford-ranger-xlt-2-5-nafta-2023",
-    "name": "Ford Ranger Xlt 2.5 Nafta",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2023,
-    "kilometraje": 39000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.5",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["12-1.webp", "12-2.webp", "12-3.webp", "12-4.webp"],
-    "descripcion": "FORD RANGER XLT\n\n2.5 Nafta\nCaja manual de 5ta\nAño 2023\n39.000 Kms\nService Oficiales\nManuales y segunda llave\nFinanciación a tasa fija y en pesos\nTomamos permutas"
+    "puertas": 5,
+    "images": [
+      "12-1.webp",
+      "12-2.webp",
+      "12-3.webp",
+      "12-4.webp",
+      "12-5.webp",
+      "12-6.webp",
+      "12-7.webp"
+    ],
+    "descripcion": "BMW X3 3.0i 53.500km 2021"
   }
 ]

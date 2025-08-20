@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'amcars',
-  name: 'AMCARS',
-  adress: 'Brig. Gral. J M de Rosas 5406',
-  city: 'San Justo',
-  email: 'amcars_sj@hotmail.com',
-  instagram: 'amcars_sanjusto',
-  facebook: 'https://www.facebook.com/amcarsok',
-  whatsapp: ['1127171228'],
-  googlemapsLink: 'https://maps.app.goo.gl/CU1acGXzxKk2tieh8',
+  id: 'hmexclusivos',
+  name: 'HM Exclusivos',
+  adress: 'San Martin 62',
+  city: 'Oncativo - Cba',
+  email: 'hmexclusivos@hotmail.com',
+  instagram: 'hmexclusivos',
+  facebook: 'https://www.facebook.com/profile.php?id=100063727022830',
+  whatsapp: ['3572532725'],
+  googlemapsLink: 'https://maps.app.goo.gl/KYJD9GjgTwhkPu117',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.509294763139!2d-58.5717393!3d-34.692332199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc615fd5964db%3A0x167805c202edf402!2sAMcars%20automotores!5e0!3m2!1sen!2sar!4v1755606767900!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.9506381864226!2d-63.68999068741447!3d-31.907938520080258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd23f00c2a9c3f%3A0xfb2ed673523333d8!2sHM%20EXCLUSIVOS!5e0!3m2!1sen!2sar!4v1755608330182!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábados 09:30 a 15:30hs',
+    'Lunes a Viernes 08:30 a 19:30hs',
+    'Sábados 08:30 a 12:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://amcars.vercel.app/',
-  title: 'AMCARS - Compra y Venta de Autos',
+  metadataBase: 'https://hmexclusivos.vercel.app/',
+  title: 'HM Exclusivos - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
