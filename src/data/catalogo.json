@@ -1,13 +1,13 @@
 [
   {
-    "id": "nissan-frontier-x-gear-4x4-automatica-2022",
-    "name": "Nissan Frontier X Gear 4x4 Automática",
+    "id": "nissan-frontier-platinum-at-4x4-2023",
+    "name": "Nissan Frontier Platinum At 4x4",
     "marca": "Nissan",
     "marcaId": "nissan",
-    "ano": 2022,
-    "kilometraje": 102000,
+    "ano": 2023,
+    "kilometraje": 138000,
     "precio": {
-      "valor": 39900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Pickup",
@@ -22,19 +22,23 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp"
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp",
+      "1-10.webp",
+      "1-11.webp"
     ],
-    "descripcion": "Nissan Frontier X gear 4x4 Automática\n\nAño: 2022\nÚnica mano\n102.000kms\nServicios oficiales\nEstado general INMACULADO!\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "NISSAN FRONTIER PLATINIUM AT 4X4\n\nAño 2023\nEn garantía\nKms 138.000\nVehículo de ciudad\nCuero techo\nCámaras 360\nAsientos eléctricos calefaccionados\nAsistencias de manejo\nModos de conducción\nPick up de un comfort y andar hermoso\nToda original\nÚnico dueño"
   },
   {
-    "id": "hyundai-creta-gl-connect-2021",
-    "name": "Hyundai Creta Gl Connect",
-    "marca": "Hyundai",
-    "marcaId": "hyundai",
-    "ano": 2021,
-    "kilometraje": 89200,
+    "id": "ford-ecosport-titanium-manual-2019",
+    "name": "Ford Ecosport Titanium Manual",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2019,
+    "kilometraje": 60400,
     "precio": {
-      "valor": 25900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
@@ -48,28 +52,25 @@
       "2-3.webp",
       "2-4.webp",
       "2-5.webp",
-      "2-6.webp",
-      "2-7.webp",
-      "2-8.webp",
-      "2-9.webp"
+      "2-6.webp"
     ],
-    "descripcion": "Hyundai Creta Gl Connect\n\nAño: 2021\n89.200kms\nPrimera mano\nServicios oficiales\nEstado general impecable!\nMotor cadenero!\n\nLipari Automotores srl\nMicro Parque industrial Alvear sta fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Ford Ecosport Titanium manual\n\nAño 2019\nKms 60.400\nCuero\nClima\nCámara\nVel crucero\nGPS\nEtc.\nImpecable"
   },
   {
-    "id": "citroen-c4-lounge-shine-2015",
-    "name": "Citroen C4 Lounge Shine",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2015,
-    "kilometraje": 81000,
+    "id": "chevrolet-s10-4x4-ltz-automatica-2012",
+    "name": "Chevrolet S10 4x4 Ltz Automática",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2012,
+    "kilometraje": 150400,
     "precio": {
-      "valor": 20700000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Pickup",
     "transmision": "Automático",
-    "motor": "1.6",
-    "combustible": "Nafta",
+    "motor": "2.8",
+    "combustible": "Diésel",
     "puertas": 4,
     "images": [
       "3-1.webp",
@@ -78,24 +79,28 @@
       "3-4.webp",
       "3-5.webp",
       "3-6.webp",
-      "3-7.webp"
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp",
+      "3-10.webp",
+      "3-11.webp"
     ],
-    "descripcion": "Citroen C4 Lounge Shine\n\nCaja Automática\nMotor 1.6 turbo\nTope de gama\n81.000kms\nÚnico dueño\nRealmente impecable!\n\nPrecio *$20.700.000*\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Chevrolet S10 4x4 ltz automática\n\nAño 2012\nKms 150.400\nIncreíble Estado\nCuero techo\nCámara clima\nVelocidad crucero\nAsientos eléctricos\nABS airbags\nLlantas etc.\n4x4\n4 gomas nuevas\nMuy cuidada muy original\nÚnica"
   },
   {
-    "id": "chevrolet-trailblazer-ltz-4x4-at-2017",
-    "name": "Chevrolet Trailblazer Ltz+ 4x4 At",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2017,
-    "kilometraje": 142000,
+    "id": "jeep-compass-limited-td-diesel-2020",
+    "name": "Jeep Compass Limited Td Diesel",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2020,
+    "kilometraje": 98000,
     "precio": {
-      "valor": 25900,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Automático",
-    "motor": "2.8",
+    "motor": "2.0",
     "combustible": "Diésel",
     "puertas": 5,
     "images": [
@@ -104,28 +109,24 @@
       "4-3.webp",
       "4-4.webp",
       "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
+      "4-6.webp"
     ],
-    "descripcion": "Chevrolet Trailblazer Ltz+ 4x4 At\n\nAño 2017\nNeumáticos nuevos 0km sin rodar\nVersión tope de gama\n142.000kms\nTodos los servicios oficiales Chevrolet\nEstado IMPECABLE!!!"
+    "descripcion": "Jeep Compass limited td (diesel)\n\nAño 2020\n4x4 automática\nKm 98.000\nCuero\nCámara techo etc\nHermosa toda original\nLECCESE AUTOMOTORES SRL\n45 AÑOS SOBRE CALLE CORDOBA 5673"
   },
   {
-    "id": "citroen-c4-cactus-vti-feel-pack-2019",
-    "name": "Citroën C4 Cactus Vti Feel Pack",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2019,
-    "kilometraje": 110000,
+    "id": "chevrolet-equinox-ls-automatica-2020",
+    "name": "Chevrolet Equinox Ls Automática",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2020,
+    "kilometraje": 55000,
     "precio": {
-      "valor": 19900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Automático",
-    "motor": "1.6",
+    "motor": "1.5",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -137,22 +138,22 @@
       "5-6.webp",
       "5-7.webp"
     ],
-    "descripcion": "Citroën C4 Cactus Vti Feel Pack\n\nCaja Automática\nAño 2019\nÚnico dueño\nNeumaticos nuevos\n+Gnc de 5ta generación\n110.000kms\nEstado IMPECABLE!!\n\nLipari Automotores srl\nMicro Parque industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!!!"
+    "descripcion": "Chevrolet Equinox ls automática\n\nAño 2020\nKms 55.000\nÚnica mano\n4 gomas nuevas\nInmaculada"
   },
   {
-    "id": "peugeot-408-allure-2-0-2015",
-    "name": "Peugeot 408 Allure + 2.0",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 95000,
+    "id": "renault-duster-oroch-1-6-dinamique-2018",
+    "name": "Renault Duster Oroch 1.6 Dinamique",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2018,
+    "kilometraje": 143000,
     "precio": {
-      "valor": 12900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "2.0",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -164,50 +165,41 @@
       "6-6.webp",
       "6-7.webp"
     ],
-    "descripcion": "Peugeot 408 Allure + 2.0\n\nAño 2015\nÚnico dueño\n95.000kms\nEstado Impecable\nInmejorable relación precio producto!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684!\n\nLos mejores usados REALES!"
+    "descripcion": "Renault Duster Oroch 1.6 dinamique\n\nAño 2018\nKms 143.000\nMotor 1.6 k4m fierro\nNunca gnc\nOriginal"
   },
   {
-    "id": "royal-enfield-interceptor-650-2024",
-    "name": "Royal Enfield Interceptor 650",
-    "marca": "Royal Enfield",
-    "marcaId": "royal-enfield",
-    "ano": 2024,
-    "kilometraje": 11000,
+    "id": "toyota-etios-xs-5-ptas-2015",
+    "name": "Toyota Etios Xs 5 Ptas",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2015,
+    "kilometraje": 96000,
     "precio": {
-      "valor": 7500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Moto",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "0.65",
+    "motor": "1.5",
     "combustible": "Nafta",
-    "puertas": 0,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp"
-    ],
-    "descripcion": "Royal Enfield Interceptor 650\n\nMod Black Ray\nAño 2024\n11.000kms\nIgual a 0km!\nEstado Impecable\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono 3413816684\n\nLos mejores usados REALES!!"
+    "puertas": 5,
+    "images": ["7-1.webp", "7-2.webp", "7-3.webp"],
+    "descripcion": "Toyota Etios xs 5 ptas\n\nAño 2015\nKms 96.000\nExcelente\nToyota es toyota"
   },
   {
-    "id": "jeep-compass-sport-mt6-2020",
-    "name": "Jeep Compass Sport mt6",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2020,
-    "kilometraje": 89000,
+    "id": "renault-sandero-stepway-1-6-2011",
+    "name": "Renault Sandero Stepway 1.6",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2011,
+    "kilometraje": 98000,
     "precio": {
-      "valor": 25900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.8",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -219,49 +211,48 @@
       "8-6.webp",
       "8-7.webp"
     ],
-    "descripcion": "Jeep Compass Sport mt6\n\nAño 2020\nÚnico dueño\nService oficial\n89.000kms\nNeumaticos nuevos\nEstado IMPECABLE!!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Renault Sandero Stepway 1.6\n\nAño 2011\nKms 98.000\nÚnico dueño\nImpecable"
   },
   {
-    "id": "renault-fluence-privilege-2-0-16v-2012",
-    "name": "Renault Fluence Privilege 2.0 16v",
+    "id": "renault-kwid-1-0-2020",
+    "name": "Renault Kwid 1.0",
     "marca": "Renault",
     "marcaId": "renault",
-    "ano": 2012,
-    "kilometraje": 163000,
+    "ano": 2020,
+    "kilometraje": 53000,
     "precio": {
-      "valor": 11900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
+    "motor": "1.0",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "9-1.webp",
       "9-2.webp",
       "9-3.webp",
       "9-4.webp",
       "9-5.webp",
-      "9-6.webp",
-      "9-7.webp"
+      "9-6.webp"
     ],
-    "descripcion": "Renault Fluence Privilege 2.0 16v\n\nMantenimiento oficial renault\nAño 2012\nNeumaticos nuevos\nMotor Nissan Cadenero\nEstado INOBJETABLE!\n\nLipari Automotores Srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Renault Kwid 1.0\n\nAño 2020\nKms 53.000\nExcelente"
   },
   {
-    "id": "mercedes-benz-gla200-urban-2017",
-    "name": "Mercedes Benz Gla200 Urban",
-    "marca": "Mercedes Benz",
-    "marcaId": "mercedes-benz",
-    "ano": 2017,
-    "kilometraje": 110000,
+    "id": "nissan-note-1-6-exclusive-cvt-2015",
+    "name": "Nissan Note 1.6 Exclusive Cvt",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2015,
+    "kilometraje": 97000,
     "precio": {
-      "valor": 27400,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Automático",
-    "motor": "2.0",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -271,51 +262,44 @@
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp"
+      "10-7.webp",
+      "10-8.webp"
     ],
-    "descripcion": "Mercedes Benz Gla200 Urban\n\nAño 2017\n110.000kms\nSegundo dueño\nNeumaticos continental impecable\n\nLipari Automotores Srl\nMicro Parque Industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Nissan Note 1.6 exclusive cvt\n\nAño 2015\nKms 97.000\nEl más full automático\nVelocidad crucero\nClima etc"
   },
   {
-    "id": "peugeot-3008-gt-linea-hdi-2018",
-    "name": "Peugeot 3008 Gt Línea Hdi",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2018,
-    "kilometraje": 100000,
-    "precio": {
-      "valor": 37900000,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diésel",
-    "puertas": 5,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp",
-      "11-7.webp"
-    ],
-    "descripcion": "Peugeot 3008 Gt Línea Hdi\n\nAño 2018\nÚnico dueño\nServicios oficiales\nNeumaticos Michelin nuevos\nMantenimiento 100% al dia!\n100.000kms recién cumplidos.\n\nLipari Automotores Srl\nMicro Parque Industrial Alvear Sta Fe\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!!"
-  },
-  {
-    "id": "citroen-c4-cactus-shine-2015",
-    "name": "Citroen C4 Cactus Shine",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2015,
-    "kilometraje": 65000,
+    "id": "volkswagen-virtus-1-6-trendline-gnc-2020",
+    "name": "Volkswagen Virtus 1.6 Trendline Gnc",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2020,
+    "kilometraje": 82000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
+    "categoria": "Sedán",
+    "transmision": "Manual",
     "motor": "1.6",
+    "combustible": "GNC",
+    "puertas": 4,
+    "images": ["11-1.webp", "11-2.webp", "11-3.webp", "11-4.webp", "11-5.webp"],
+    "descripcion": "Volkswagen virtus 1.6 trendline GNC\n\nAño 2020\nKms 82.000\nExcelente"
+  },
+  {
+    "id": "fiat-palio-attractive-1-4-full-2017",
+    "name": "Fiat Palio Attractive 1.4 Full",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2017,
+    "kilometraje": 112000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -324,9 +308,8 @@
       "12-3.webp",
       "12-4.webp",
       "12-5.webp",
-      "12-6.webp",
-      "12-7.webp"
+      "12-6.webp"
     ],
-    "descripcion": "Citroen C4 Cactus Shine\n\n1.6 Turbo Automática\nVersión tope de gama\nÚnico dueño\n65.000kms\nServicios oficiales.\nEstado Impecable!!!\n\nLipari Automotores srl\nMicro Parque industrial Alvear\nTeléfono ☎️ 3413816684\n\nLos mejores usados REALES!"
+    "descripcion": "Fiat Palio attractive 1.4 full\n\nAño 2017\nKms 112.000\n5 ptas full"
   }
 ]
