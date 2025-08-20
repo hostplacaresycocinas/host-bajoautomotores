@@ -1,5 +1,5 @@
 export const company = {
-  dark: true,
+  dark: false,
   darkmode: true,
   shortAdress: true,
   favicon: false,
