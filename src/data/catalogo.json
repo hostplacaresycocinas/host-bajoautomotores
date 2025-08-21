@@ -1,18 +1,18 @@
 [
   {
-    "id": "fiat-fastback-0km-2025",
-    "name": "Fiat Fastback 0km",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "ford-eco-sport-1-6-titanium-144000km-2013",
+    "name": "Ford Eco Sport 1.6 Titanium",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2013,
+    "kilometraje": 144000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "Automático",
-    "motor": "1.0",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -23,26 +23,32 @@
       "1-5.webp",
       "1-6.webp",
       "1-7.webp",
-      "1-8.webp"
+      "1-8.webp",
+      "1-9.webp",
+      "1-10.webp",
+      "1-11.webp",
+      "1-12.webp",
+      "1-13.webp",
+      "1-14.webp"
     ],
-    "descripcion": "Fiat Fastback 0km 2025"
+    "descripcion": "Ford ▪️▪️▪️▪️🚗 Eco Sport 1.6 Titanium ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️\n🔥 KM - 144.000 ▪️▪️▪️\n🕙 Año 2013 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n✅ Encendido Touch\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "ford-f150-raptor-32000km-2022",
-    "name": "Ford F150 Raptor",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2022,
-    "kilometraje": 32000,
+    "id": "fiat-palio-1-4-attractive-92000km-2018",
+    "name": "Fiat Palio 1.4 Attractive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2018,
+    "kilometraje": 92000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automático",
-    "motor": "3.5",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -53,23 +59,24 @@
       "2-7.webp",
       "2-8.webp",
       "2-9.webp",
-      "2-10.webp"
+      "2-10.webp",
+      "2-11.webp"
     ],
-    "descripcion": "Ford F150 Raptor 32.000km 2022"
+    "descripcion": "Nuevo ingreso ✅ Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Palio 1.4 Attractive ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 92.000 ▪️▪️▪️\n🕙 Año 2018 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "peugeot-2008-gt-0km-2025",
-    "name": "Peugeot 2008 Gt",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "renault-sandero-ii-stepway-dynamique-143000km-2017",
+    "name": "Renault Sandero II Stepway Dynamique",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2017,
+    "kilometraje": 143000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "Automático",
+    "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
@@ -83,26 +90,29 @@
       "3-7.webp",
       "3-8.webp",
       "3-9.webp",
-      "3-10.webp"
+      "3-10.webp",
+      "3-11.webp",
+      "3-12.webp",
+      "3-13.webp"
     ],
-    "descripcion": "Peugeot 2008 GT 0km 2025"
+    "descripcion": "Nuevo ingreso ✅ Renault 🤩 ▪️▪️▪️▪️\n\n🚗 Sandero II Stepway Dynamique ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KMS - 143.000 ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "mini-cooper-pepper-142000km-2017",
-    "name": "Mini Cooper Pepper",
-    "marca": "Mini",
-    "marcaId": "mini",
-    "ano": 2017,
-    "kilometraje": 142000,
+    "id": "fiat-siena-1-4-el-attractive-seguridad-92000km-2016",
+    "name": "Fiat Siena 1.4 EL Attractive Seguridad",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2016,
+    "kilometraje": 92000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automático",
-    "motor": "1.5",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
-    "puertas": 3,
+    "puertas": 4,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -113,26 +123,28 @@
       "4-7.webp",
       "4-8.webp",
       "4-9.webp",
-      "4-10.webp"
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp"
     ],
-    "descripcion": "Mini Cooper Pepper 142.000km 2017"
+    "descripcion": "Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Siena 1.4 EL Attractive Seguridad ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 92.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "mercedes-benz-c300-hev-5000km-2022",
-    "name": "Mercedes Benz C300 Hev",
-    "marca": "Mercedes-Benz",
-    "marcaId": "mercedes-benz",
-    "ano": 2022,
-    "kilometraje": 5000,
+    "id": "peugeot-208-active-87000km-2017",
+    "name": "Peugeot 208 Active",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2017,
+    "kilometraje": 87000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automático",
-    "motor": "2.0",
-    "combustible": "Híbrido",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -142,26 +154,31 @@
       "5-6.webp",
       "5-7.webp",
       "5-8.webp",
-      "5-9.webp"
+      "5-9.webp",
+      "5-10.webp",
+      "5-11.webp",
+      "5-12.webp",
+      "5-13.webp",
+      "5-14.webp"
     ],
-    "descripcion": "Mercedes Benz C300 Hev 5.000km 2022"
+    "descripcion": "Peugeot 🤩 ▪️▪️▪️▪️\n\n🚗 208 Active ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 87.000 kms ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "jeep-grand-cherokee-limited-v6-137000km-2020",
-    "name": "Jeep Grand Cherokee Limited V6",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2020,
-    "kilometraje": 137000,
+    "id": "renault-nuevo-logan-1-6-privilege-123000km-2016",
+    "name": "Renault Nuevo Logan 1.6 Privilege",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2016,
+    "kilometraje": 123000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
-    "motor": "3.6",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -172,26 +189,28 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp"
+      "6-10.webp",
+      "6-11.webp",
+      "6-12.webp"
     ],
-    "descripcion": "Jeep Grand Cherokee Limited V6 137.000km 2020"
+    "descripcion": "Renault 😁 ▪️▪️▪️▪️\n\n🚗 Nuevo Logan 1.6 Privilege ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 123.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Sensor de estacionamiento\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "chevrolet-s10-ltz-4x4-at-183000km-2022",
-    "name": "Chevrolet S10 Ltz 4x4 At",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2022,
-    "kilometraje": 183000,
+    "id": "renault-sandero-expression-125000km-2017",
+    "name": "Renault Sandero Expression",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2017,
+    "kilometraje": 125000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automático",
-    "motor": "2.8",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -202,24 +221,27 @@
       "7-7.webp",
       "7-8.webp",
       "7-9.webp",
-      "7-10.webp"
+      "7-10.webp",
+      "7-11.webp",
+      "7-12.webp",
+      "7-13.webp"
     ],
-    "descripcion": "Chevrolet S10 LTZ 4x4 AT 183.000km 2022"
+    "descripcion": "❌ Reservado ❌\n\nRenault 🤩 ▪️▪️▪️▪️\n\n🚗 Sandero Expression ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 125.000 ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n☎️ 1128718706 (Fredy)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "chevrolet-tracker-ltz-108000km-2015",
-    "name": "Chevrolet Tracker Ltz",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
+    "id": "fiat-palio-essence-1-6-79000km-2015",
+    "name": "Fiat Palio Essence 1.6",
+    "marca": "Fiat",
+    "marcaId": "fiat",
     "ano": 2015,
-    "kilometraje": 108000,
+    "kilometraje": 79000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -231,24 +253,29 @@
       "8-6.webp",
       "8-7.webp",
       "8-8.webp",
-      "8-9.webp"
+      "8-9.webp",
+      "8-10.webp",
+      "8-11.webp",
+      "8-12.webp",
+      "8-13.webp",
+      "8-14.webp"
     ],
-    "descripcion": "Chevrolet Tracker LTZ 108.000km 2015"
+    "descripcion": "❌ VENDIDO ❌\n\nNUEVO INGRESO ✅ Fiat 😍 ▪️▪️▪️▪️\n\n🚗 Palio Essence 1.6 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 79.000 ▪️▪️▪️\n🕙 Año 2015 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n☎️ 1128718706 (Fredy)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "hyundai-hb-20-safety-cvt-0km-2025",
-    "name": "Hyundai Hb 20 Safety Cvt",
-    "marca": "Hyundai",
-    "marcaId": "hyundai",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "ford-ecosport-1-6-titanium-104000km-2016",
+    "name": "Ford Ecosport 1.6 Titanium",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2016,
+    "kilometraje": 104000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automático",
-    "motor": "1.0",
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -261,26 +288,30 @@
       "9-7.webp",
       "9-8.webp",
       "9-9.webp",
-      "9-10.webp"
+      "9-10.webp",
+      "9-11.webp",
+      "9-12.webp",
+      "9-13.webp",
+      "9-14.webp"
     ],
-    "descripcion": "Hyundai HB 20 Safety CVT 0km 2025"
+    "descripcion": "❌ VENDIDO ❌\n\nFord 🤩 ▪️▪️▪️▪️\n\n🚗 Ecosport 1.6 Titanium 😍 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 104.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n✅ Encendido Touch\n✅ Sensor de estacionamiento\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "vw-vento-gli-114000km-2017",
-    "name": "Vw Vento Gli",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2017,
-    "kilometraje": 114000,
+    "id": "peugeot-207-compact-174000km-2012",
+    "name": "Peugeot 207 Compact",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2012,
+    "kilometraje": 174000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "10-1.webp",
       "10-2.webp",
@@ -291,50 +322,61 @@
       "10-7.webp",
       "10-8.webp",
       "10-9.webp",
-      "10-10.webp"
+      "10-10.webp",
+      "10-11.webp",
+      "10-12.webp",
+      "10-13.webp"
     ],
-    "descripcion": "VW Vento GLI 114.000km 2017"
+    "descripcion": "Peugeot 🤩 ▪️▪️▪️▪️\n\n🚗 207 Compact ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 174.000 ▪️▪️▪️\n🕙 Año 2012 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "citroen-basalt-shine-0km-2025",
-    "name": "Citroen Basalt Shine",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "ford-ka-top-pulse-1-6-136000km-2009",
+    "name": "Ford Ka Top Pulse 1.6",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2009,
+    "kilometraje": 136000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 3,
     "images": [
       "11-1.webp",
       "11-2.webp",
       "11-3.webp",
       "11-4.webp",
       "11-5.webp",
-      "11-6.webp"
+      "11-6.webp",
+      "11-7.webp",
+      "11-8.webp",
+      "11-9.webp",
+      "11-10.webp",
+      "11-11.webp",
+      "11-12.webp",
+      "11-13.webp",
+      "11-14.webp"
     ],
-    "descripcion": "Citroen Basalt Shine 0km 2025"
+    "descripcion": "❌ VENDIDO ❌\n\nFord 😍 ▪️▪️▪️▪️\n\n🚗 Ka Top Pulse 1.6 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 136.000 kms ▪️▪️▪️\n🕙 Año 2009 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   },
   {
-    "id": "bmw-x3-3-0i-53500km-2021",
-    "name": "Bmw X3 3.0i",
-    "marca": "BMW",
-    "marcaId": "bmw",
-    "ano": 2021,
-    "kilometraje": 53500,
+    "id": "fiat-palio-1-4-attractive-109000km-2014",
+    "name": "Fiat Palio 1.4 Attractive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2014,
+    "kilometraje": 109000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automático",
-    "motor": "3.0",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -344,8 +386,14 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp"
+      "12-7.webp",
+      "12-8.webp",
+      "12-9.webp",
+      "12-10.webp",
+      "12-11.webp",
+      "12-12.webp",
+      "12-13.webp"
     ],
-    "descripcion": "BMW X3 3.0i 53.500km 2021"
+    "descripcion": "Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Palio 1.4 Attractive ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 109.000 kms ▪️▪️▪️\n🕙 Año 2014 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
   }
 ]

@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'hmexclusivos',
-  name: 'HM Exclusivos',
-  adress: 'San Martin 62',
-  city: 'Oncativo - Cba',
-  email: 'hmexclusivos@hotmail.com',
-  instagram: 'hmexclusivos',
-  facebook: 'https://www.facebook.com/profile.php?id=100063727022830',
-  whatsapp: ['3572532725'],
-  googlemapsLink: 'https://maps.app.goo.gl/KYJD9GjgTwhkPu117',
+  id: 'milanautomotores',
+  name: 'Milan Automotores',
+  adress: 'Nestor kirchner 9.960',
+  city: 'Ezeiza',
+  email: 'info@milanautomotores.com.ar',
+  instagram: 'milan_automotores',
+  facebook: 'https://www.facebook.com/MilanAutomotores/',
+  whatsapp: ['1138811441', '1128718706'],
+  googlemapsLink: 'https://maps.app.goo.gl/u48EcGqj3eRwvGDw7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.9506381864226!2d-63.68999068741447!3d-31.907938520080258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd23f00c2a9c3f%3A0xfb2ed673523333d8!2sHM%20EXCLUSIVOS!5e0!3m2!1sen!2sar!4v1755608330182!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1704844.8139512613!2d-62.4405027!3d-33.4291092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd9a639169dff%3A0xf65639b3547d753f!2sMilan%20Automotores!5e0!3m2!1sen!2sar!4v1755638901929!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 08:30 a 19:30hs',
-    'Sábados 08:30 a 12:00hs',
+    'Lunes a Viernes 09:30 a 19:00hs',
+    'Sábados 09:30 a 14:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://hmexclusivos.vercel.app/',
-  title: 'HM Exclusivos - Compra y Venta de Autos',
+  metadataBase: 'https://milanautomotores.vercel.app/',
+  title: 'Milan Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
