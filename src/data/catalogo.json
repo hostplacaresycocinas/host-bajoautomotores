@@ -1,20 +1,20 @@
 [
   {
-    "id": "ford-eco-sport-1-6-titanium-144000km-2013",
-    "name": "Ford Eco Sport 1.6 Titanium",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2013,
-    "kilometraje": 144000,
+    "id": "nissan-versa-advance-1-6-mt-118000km-2019",
+    "name": "Nissan Versa Advance 1.6 MT",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2019,
+    "kilometraje": 118000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 12500,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -25,28 +25,24 @@
       "1-7.webp",
       "1-8.webp",
       "1-9.webp",
-      "1-10.webp",
-      "1-11.webp",
-      "1-12.webp",
-      "1-13.webp",
-      "1-14.webp"
+      "1-10.webp"
     ],
-    "descripcion": "Ford ▪️▪️▪️▪️🚗 Eco Sport 1.6 Titanium ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️\n🔥 KM - 144.000 ▪️▪️▪️\n🕙 Año 2013 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n✅ Encendido Touch\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Nissan Versa\n\nAño 2019\nAdvance 1.6 MT\n118.000 km\nU$S 12.500"
   },
   {
-    "id": "fiat-palio-1-4-attractive-92000km-2018",
-    "name": "Fiat Palio 1.4 Attractive",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2018,
-    "kilometraje": 92000,
+    "id": "ford-focus-2-0-se-plus-at-166000km-2014",
+    "name": "Ford Focus 2.0 Se Plus AT",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2014,
+    "kilometraje": 166000,
     "precio": {
-      "valor": 999999,
+      "valor": 14000000,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4",
+    "transmision": "Automática",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -59,27 +55,26 @@
       "2-7.webp",
       "2-8.webp",
       "2-9.webp",
-      "2-10.webp",
-      "2-11.webp"
+      "2-10.webp"
     ],
-    "descripcion": "Nuevo ingreso ✅ Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Palio 1.4 Attractive ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 92.000 ▪️▪️▪️\n🕙 Año 2018 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Ford Focus\n\nAño 2014\n2.0 Se Plus At\n166.000 km\n14.000.00$"
   },
   {
-    "id": "renault-sandero-ii-stepway-dynamique-143000km-2017",
-    "name": "Renault Sandero II Stepway Dynamique",
-    "marca": "Renault",
-    "marcaId": "renault",
+    "id": "peugeot-408-1-6-feline-thp-tiptronic-44000km-2017",
+    "name": "Peugeot 408 1.6 Feline THP Tiptronic",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
     "ano": 2017,
-    "kilometraje": 143000,
+    "kilometraje": 44000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 15000,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -90,29 +85,26 @@
       "3-7.webp",
       "3-8.webp",
       "3-9.webp",
-      "3-10.webp",
-      "3-11.webp",
-      "3-12.webp",
-      "3-13.webp"
+      "3-10.webp"
     ],
-    "descripcion": "Nuevo ingreso ✅ Renault 🤩 ▪️▪️▪️▪️\n\n🚗 Sandero II Stepway Dynamique ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KMS - 143.000 ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Peugeot 408\n\nAño 2017\n1.6 Feline Thp Tiptronic\n44.000 km\nU$S 15.000"
   },
   {
-    "id": "fiat-siena-1-4-el-attractive-seguridad-92000km-2016",
-    "name": "Fiat Siena 1.4 EL Attractive Seguridad",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2016,
-    "kilometraje": 92000,
+    "id": "jeep-compass-2-4-sport-at-49000km-2021",
+    "name": "Jeep Compass 2.4 Sport AT",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2021,
+    "kilometraje": 49000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 30500,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.4",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.4",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -123,22 +115,20 @@
       "4-7.webp",
       "4-8.webp",
       "4-9.webp",
-      "4-10.webp",
-      "4-11.webp",
-      "4-12.webp"
+      "4-10.webp"
     ],
-    "descripcion": "Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Siena 1.4 EL Attractive Seguridad ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 92.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Jeep Compass\n\nAño 2021\n2.4 Sport At\n49.000 km\nU$S 30.500"
   },
   {
-    "id": "peugeot-208-active-87000km-2017",
-    "name": "Peugeot 208 Active",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2017,
-    "kilometraje": 87000,
+    "id": "nissan-march-sense-pure-drive-96000km-2018",
+    "name": "Nissan March Sense Pure Drive",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2018,
+    "kilometraje": 96000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 12000,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
@@ -155,30 +145,26 @@
       "5-7.webp",
       "5-8.webp",
       "5-9.webp",
-      "5-10.webp",
-      "5-11.webp",
-      "5-12.webp",
-      "5-13.webp",
-      "5-14.webp"
+      "5-10.webp"
     ],
-    "descripcion": "Peugeot 🤩 ▪️▪️▪️▪️\n\n🚗 208 Active ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 87.000 kms ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Nissan March\n\nAño 2018\nSense Pure drive\n96.000 km\nU$S 12.000"
   },
   {
-    "id": "renault-nuevo-logan-1-6-privilege-123000km-2016",
-    "name": "Renault Nuevo Logan 1.6 Privilege",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2016,
-    "kilometraje": 123000,
+    "id": "volkswagen-taos-highline-1-4-250-tsi-35000km-2021",
+    "name": "Volkswagen Taos Highline 1.4 250 TSI",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2021,
+    "kilometraje": 35000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 31000,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.4",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -189,27 +175,25 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp",
-      "6-11.webp",
-      "6-12.webp"
+      "6-10.webp"
     ],
-    "descripcion": "Renault 😁 ▪️▪️▪️▪️\n\n🚗 Nuevo Logan 1.6 Privilege ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 123.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Sensor de estacionamiento\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Volkswagen Taos\n\nAño 2021\nHighline 1.4 250 Tsi\n35.000 km\nU$S 31.000"
   },
   {
-    "id": "renault-sandero-expression-125000km-2017",
-    "name": "Renault Sandero Expression",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2017,
-    "kilometraje": 125000,
+    "id": "toyota-hilux-sw4-srx-2-8-4x4-7as-at-250000km-2016",
+    "name": "Toyota Hilux SW4 SRX 2.8 4x4 7As AT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2016,
+    "kilometraje": 250000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 30000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.8",
+    "combustible": "Diesel",
     "puertas": 5,
     "images": [
       "7-1.webp",
@@ -221,29 +205,26 @@
       "7-7.webp",
       "7-8.webp",
       "7-9.webp",
-      "7-10.webp",
-      "7-11.webp",
-      "7-12.webp",
-      "7-13.webp"
+      "7-10.webp"
     ],
-    "descripcion": "❌ Reservado ❌\n\nRenault 🤩 ▪️▪️▪️▪️\n\n🚗 Sandero Expression ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 125.000 ▪️▪️▪️\n🕙 Año 2017 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n☎️ 1128718706 (Fredy)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Toyota Hilux SW4\n\nAño 2016\nSrx 2.8 4x4 7As At\n250.000 km\nU$S 30.000"
   },
   {
-    "id": "fiat-palio-essence-1-6-79000km-2015",
-    "name": "Fiat Palio Essence 1.6",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2015,
-    "kilometraje": 79000,
+    "id": "toyota-corolla-seg-hibrido-1-8-ecvt-130000km-2022",
+    "name": "Toyota Corolla Seg Híbrido 1.8 ECVT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2022,
+    "kilometraje": 130000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 24500,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Sedán",
+    "transmision": "Automática",
+    "motor": "1.8",
+    "combustible": "Híbrido",
+    "puertas": 4,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -254,26 +235,22 @@
       "8-7.webp",
       "8-8.webp",
       "8-9.webp",
-      "8-10.webp",
-      "8-11.webp",
-      "8-12.webp",
-      "8-13.webp",
-      "8-14.webp"
+      "8-10.webp"
     ],
-    "descripcion": "❌ VENDIDO ❌\n\nNUEVO INGRESO ✅ Fiat 😍 ▪️▪️▪️▪️\n\n🚗 Palio Essence 1.6 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 79.000 ▪️▪️▪️\n🕙 Año 2015 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n☎️ 1128718706 (Fredy)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Toyota Corolla\n\nAño 2022\nSeg Hibrido 1.8 Ecvt\n130.000 km\nU$S 24.500"
   },
   {
-    "id": "ford-ecosport-1-6-titanium-104000km-2016",
-    "name": "Ford Ecosport 1.6 Titanium",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
-    "kilometraje": 104000,
+    "id": "volkswagen-suran-trendline-1-6-130000km-2013",
+    "name": "Volkswagen Suran Trendline 1.6",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
+    "kilometraje": 130000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 10000,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Utilitario",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
@@ -288,28 +265,24 @@
       "9-7.webp",
       "9-8.webp",
       "9-9.webp",
-      "9-10.webp",
-      "9-11.webp",
-      "9-12.webp",
-      "9-13.webp",
-      "9-14.webp"
+      "9-10.webp"
     ],
-    "descripcion": "❌ VENDIDO ❌\n\nFord 🤩 ▪️▪️▪️▪️\n\n🚗 Ecosport 1.6 Titanium 😍 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 104.000 kms ▪️▪️▪️\n🕙 Año 2016 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n✅ Encendido Touch\n✅ Sensor de estacionamiento\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Volkswagen Suran\n\nAño 2013\nTrendline 1.6\n130.000 km\nU$S 10.000"
   },
   {
-    "id": "peugeot-207-compact-174000km-2012",
-    "name": "Peugeot 207 Compact",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2012,
-    "kilometraje": 174000,
+    "id": "honda-hr-v-ex-l-1-8-2wd-cvt-48000km-2019",
+    "name": "Honda HR-V Ex-l 1.8 2WD CVT",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2019,
+    "kilometraje": 48000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 25500,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.8",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -322,29 +295,26 @@
       "10-7.webp",
       "10-8.webp",
       "10-9.webp",
-      "10-10.webp",
-      "10-11.webp",
-      "10-12.webp",
-      "10-13.webp"
+      "10-10.webp"
     ],
-    "descripcion": "Peugeot 🤩 ▪️▪️▪️▪️\n\n🚗 207 Compact ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 174.000 ▪️▪️▪️\n🕙 Año 2012 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Honda Hr-V •VENDIDO•\n\nAño 2019\nEx-l 1.8 2wd Cvt\n48.000 km\nU$S 25.500"
   },
   {
-    "id": "ford-ka-top-pulse-1-6-136000km-2009",
-    "name": "Ford Ka Top Pulse 1.6",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2009,
-    "kilometraje": 136000,
+    "id": "nissan-versa-1-6-advance-at-71000km-2017",
+    "name": "Nissan Versa 1.6 Advance AT",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2017,
+    "kilometraje": 71000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 15000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 3,
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -355,28 +325,24 @@
       "11-7.webp",
       "11-8.webp",
       "11-9.webp",
-      "11-10.webp",
-      "11-11.webp",
-      "11-12.webp",
-      "11-13.webp",
-      "11-14.webp"
+      "11-10.webp"
     ],
-    "descripcion": "❌ VENDIDO ❌\n\nFord 😍 ▪️▪️▪️▪️\n\n🚗 Ka Top Pulse 1.6 ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 136.000 kms ▪️▪️▪️\n🕙 Año 2009 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Nissan Versa\n\nAño 2017\n1.6 Advance At\n71.000 km\nU$S 15.000"
   },
   {
-    "id": "fiat-palio-1-4-attractive-109000km-2014",
-    "name": "Fiat Palio 1.4 Attractive",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2014,
-    "kilometraje": 109000,
+    "id": "chevrolet-spin-activ-ltz-1-8-manual-61000km-2020",
+    "name": "Chevrolet Spin Activ LTZ 1.8 Manual",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2020,
+    "kilometraje": 61000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 18500,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "1.8",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -389,11 +355,8 @@
       "12-7.webp",
       "12-8.webp",
       "12-9.webp",
-      "12-10.webp",
-      "12-11.webp",
-      "12-12.webp",
-      "12-13.webp"
+      "12-10.webp"
     ],
-    "descripcion": "Fiat 🤩 ▪️▪️▪️▪️\n\n🚗 Palio 1.4 Attractive ▪️▪️▪️▪️\n\n🕹️ Transmisión - Manual ▪️▪️▪️▪️\n🔥 KM - 109.000 kms ▪️▪️▪️\n🕙 Año 2014 ▪️▪️▪️▪️\n\n✅ Aire Acondicionado\n✅ Dirección Hidráulica\n✅ Levanta vidrios eléctricos\n✅ Cierre centralizado\n\n💰 Consúltanos por financiación 💰\n🚙 Tomamos permutas 🚙\n\n☎️ 1138811441 (Alan)\n📍 Estamos en Av Néstor Kirchner 9960-Carlos Spegazzini 📍"
+    "descripcion": "Chevrolet Spin\n\nAño 2020\nActiv Ltz 1.8 Manual\n61.000 km\nU$S 18.500"
   }
 ]

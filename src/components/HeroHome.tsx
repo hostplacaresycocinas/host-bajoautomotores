@@ -47,7 +47,7 @@ const HeroHome = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className='text-lg lg:text-xl xl:text-2xl text-center text-color-text-light mx-4 max-w-md sm:max-w-md lg:max-w-lg xl:max-w-2xl'
             >
-              Vehículos seleccionados, financiación flexible y asesoramiento
+              Vehículos seleccionados, financiación a tu medida y asesoramiento
               personalizado. ¡Contactanos!
             </motion.p>
             <motion.div

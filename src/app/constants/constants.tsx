@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
-  price: false,
+  favicon: false,
+  price: true,
   objectCover: '50%',
-  id: 'milanautomotores',
-  name: 'Milan Automotores',
-  adress: 'Nestor kirchner 9.960',
-  city: 'Ezeiza',
-  email: 'info@milanautomotores.com.ar',
-  instagram: 'milan_automotores',
-  facebook: 'https://www.facebook.com/MilanAutomotores/',
-  whatsapp: ['1138811441', '1128718706'],
-  googlemapsLink: 'https://maps.app.goo.gl/u48EcGqj3eRwvGDw7',
+  id: 'fernandezalonsoautomoviles',
+  name: 'Fernández Alonso Automóviles',
+  adress: 'Av. Libertador 13231',
+  city: 'Martínez',
+  email: 'alonsojoaquin@hotmail.com',
+  instagram: 'fernandezalonsoautomoviles',
+  facebook: 'https://www.facebook.com/profile.php?id=100064711505075',
+  whatsapp: ['1144771650'],
+  googlemapsLink: 'https://maps.app.goo.gl/u6MPWovTDAFd4Ctx7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1704844.8139512613!2d-62.4405027!3d-33.4291092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd9a639169dff%3A0xf65639b3547d753f!2sMilan%20Automotores!5e0!3m2!1sen!2sar!4v1755638901929!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.5740698557897!2d-58.48775928733349!3d-34.488327851303346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1754f778d67%3A0x560f4bb3a0e9041!2sFERN%C3%81NDEZ%20ALONSO%20AUTOM%C3%93VILES!5e0!3m2!1sen!2sar!4v1755781814684!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 19:00hs',
-    'Sábados 09:30 a 14:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábados y Domingos Cerrrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://milanautomotores.vercel.app/',
-  title: 'Milan Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://fernandezalonsoautomoviles.vercel.app/',
+  title: 'Fernández Alonso Automóviles - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
