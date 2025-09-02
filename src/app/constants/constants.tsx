@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'carcity',
-  name: 'Car City',
-  adress: 'Av. Bartolomé Mitre 5001',
-  city: 'Avellaneda',
+  id: 'rectaautomotores',
+  name: 'RECTA AUTOMOTORES',
+  adress: 'Bv. Los Granaderos 3258',
+  city: 'Córdoba',
   email: null,
-  instagram: 'automotores_carcity',
-  facebook: 'https://www.facebook.com/automotorescarcity.com.ar',
-  whatsapp: ['1165929481'],
-  googlemapsLink: 'https://maps.app.goo.gl/rqcfjqxWKrsLrLF86',
+  instagram: 'rectaautomotores',
+  facebook: 'https://www.facebook.com/rectaautomotores',
+  whatsapp: ['3512350329'],
+  googlemapsLink: 'https://maps.app.goo.gl/rWsLMWhPvaHKSNn36',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3978556956904!2d-58.32945281366548!3d-34.695143776955604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332f6f7509d1f%3A0xdf66f87665ea29c4!2sAutomotores%20Car%20City!5e0!3m2!1sen!2sar!4v1756164418534!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.508822823723!2d-64.22025175446441!3d-31.37253072305218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432992f3d7ace9f%3A0xed1d92d11eb5c5f4!2sRecta%20Automotores!5e0!3m2!1sen!2sar!4v1756626778772!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 19:00hs',
-    'Sábados 09:30 a 15:00hs',
+    'Lunes a Viernes 10 a 13 y 15 a 19hs',
+    'Sábados 10 a 13hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://carcity.vercel.app/',
-  title: 'Car City - Compra y Venta de Autos',
+  metadataBase: 'https://rectaautomotores.vercel.app/',
+  title: 'RECTA AUTOMOTORES - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

@@ -1,20 +1,20 @@
 [
   {
-    "id": "citroen-c4-lounge-exclusive-at-2013",
-    "name": "Citroen C4 Lounge Exclusive AT",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2013,
-    "kilometraje": 999999,
+    "id": "nissan-kicks-advance-1-6l-mt-2017-50000km",
+    "name": "Nissan Kicks Advance 1.6L MT",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2017,
+    "kilometraje": 50000,
     "precio": {
-      "valor": 9000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
+    "categoria": "SUV",
+    "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -26,24 +26,24 @@
       "1-8.webp",
       "1-9.webp"
     ],
-    "descripcion": "Citroen C4 Lounge\n\nModelo 2013\nVersión Exclusive At\n\n6 Tapizados de cuero\nTecho eléctrico\nCaja automática de 6 velocidades + caja secuencial\nPantalla multimedia\nCámara de estacionamiento\nSensor de estacionamiento\nVidrios y espejos eléctricos\nCierre centralizados\nDoble air bag\nAire acondicionado\nDuplicado de llaves\nManuales\n\nAnticipo de $ 9.000.000\nFinanciamos sólo con DNI\nAprobación inmediata\nAceptamos permuta como parte de pago\n\nUbicación : Av. Mitre 5001 esquina Magdalena\nDominico Avellaneda"
+    "descripcion": "💥 NISSAN KICKS ADVANCE 1.6L MT 2017 💥\n\n50.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "peugeot-208-2025-0km",
-    "name": "Peugeot 208",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "toyota-corolla-xli-1-8l-mt6-2018-110000km-gnc",
+    "name": "Toyota Corolla XLI 1.8L MT6",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2018,
+    "kilometraje": 110000,
     "precio": {
-      "valor": 3000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.8",
+    "combustible": "GNC",
+    "puertas": 4,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -53,27 +53,26 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp",
-      "2-10.webp"
+      "2-9.webp"
     ],
-    "descripcion": "Peugeot 208\n\nModelo 2025\n0km!\n\nPantalla de 10 pulgadas\nPantalla multimedia\nCámara de retroceso\nLlantas de aleación\nCaja automática\n\nPodes retirar con anticipo de $3.000.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nEl nuevo Peugeot 208 2025 combina diseño europeo moderno, tecnología de última generación y excelente eficiencia ✨\n\n📍 Estamos ubicados en Av Mitre 5001, esquina Magdalena (frente al parque Dominico)\nVilla Dominico - Avellaneda\n\nCelular de contacto 📲 1165929481"
+    "descripcion": "💥 TOYOTA COROLLA XLI 1.8L MT6 2018 💥\n\n110.000 KM\nCUENTA CON GNC\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "chevrolet-cruze-1-4-turbo-2019",
-    "name": "Chevrolet Cruze 1.4 Turbo",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
+    "id": "nissan-march-activ-1-6l-manual-2019-90000km",
+    "name": "Nissan March Activ 1.6L Manual",
+    "marca": "Nissan",
+    "marcaId": "nissan",
     "ano": 2019,
-    "kilometraje": 999999,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 12000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -83,24 +82,23 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp",
-      "3-10.webp"
+      "3-9.webp"
     ],
-    "descripcion": "Chevrolet Cruze\n\nModelo 2019\nMotor 1.4 Turbo\nÚnico dueño\n\nCaja de 6 velocidades\nTapizados de cuero\nAuto Stop\nPantalla multimedia + cámara de estacionamiento con guía\nVelocidad crucero\nLlantas de aleación\nComando de voz\nDuplicado de llaves\nManuales\n\nPodes retirar con anticipo de $12.000.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481"
+    "descripcion": "💥 NISSAN MARCH ACTIV 1.6L MANUAL 2019 💥\n\n90.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "renault-duster-2013-81000km",
-    "name": "Renault Duster",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 81000,
+    "id": "nissan-note-exclusive-1-6l-cvt-2018-45000km",
+    "name": "Nissan Note Exclusive 1.6L CVT",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2018,
+    "kilometraje": 45000,
     "precio": {
-      "valor": 8000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
+    "categoria": "Hatchback",
+    "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
@@ -113,26 +111,25 @@
       "4-6.webp",
       "4-7.webp",
       "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
+      "4-9.webp"
     ],
-    "descripcion": "Renault Duster ✨\n\nModelo 2013\n81.000 kilómetros\n\nVidrios eléctricos x4\nCierre centralizados\n4 gomas nuevas\nAire acondicionado\nDoble air bag\n\nPodes retirar con anticipo de $8.000.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCel de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena (Frente al parque Dominico)\nVilla Dominico - Avellaneda"
+    "descripcion": "💥 NISSAN NOTE EXCLUSIVE 1.6L CVT 2018 💥\n\n45.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "volkswagen-suran-trendline-1-6-gnc-2016",
-    "name": "Volkswagen Suran Trendline 1.6 GNC",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2016,
+    "id": "peugeot-308-allure-nav-1-6l-hdi-mt6-2020",
+    "name": "Peugeot 308 Allure Nav 1.6L HDI MT6",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2020,
     "kilometraje": 999999,
     "precio": {
-      "valor": 10500000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "GNC",
+    "combustible": "Diesel",
     "puertas": 5,
     "images": [
       "5-1.webp",
@@ -142,25 +139,26 @@
       "5-5.webp",
       "5-6.webp",
       "5-7.webp",
-      "5-8.webp"
+      "5-8.webp",
+      "5-9.webp"
     ],
-    "descripcion": "Volkswagen Suran\n\nModelo 2016\nVersión Trendline\nMotor 1.6 - Gnc 5ta generación\nÚnico dueño\n\nSensor de estacionamiento con guía\nVidrios eléctricos x4\nEspejos eléctricos\nDirección eléctrica\nCierre centralizados\nDoble air bag\nFrenos abs\nFaros antiniebla\nLlantas de aleación\nComandos al volante\nDuplicado de llaves\nManuales\nAlfombras de fábrica\n\nAdemás, todos nuestros autos cuentan con un plus:\nTratamiento de abrillantado a la pintura ☑️\nLimpieza de interior ☑️\nVTV ☑️\nGrabado de autopartes ☑️\n\nPodes retirar con anticipo de $10.500.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\n📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 PEUGEOT 308 ALLURE NAV 1.6L HDI MT6 2020 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "ford-mondeo-2-0-240cv-2016",
-    "name": "Ford Mondeo 2.0 240 CV",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
+    "id": "amarok-highline-pack-2-0l-180cv-4x2-mt6-2013",
+    "name": "Amarok Highline Pack 2.0L 180CV 4x2 MT6",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
     "kilometraje": 999999,
     "precio": {
-      "valor": 14000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
+    "categoria": "Pickup",
+    "transmision": "Manual",
     "motor": "2.0",
-    "combustible": "Nafta",
+    "combustible": "Diesel",
     "puertas": 4,
     "images": [
       "6-1.webp",
@@ -172,24 +170,24 @@
       "6-7.webp",
       "6-8.webp"
     ],
-    "descripcion": "Ford Mondeo\n\nModelo 2016\nMotor 2.0 - 240 CV\n\nTapizados de cuero\nCaja automática con levas al volante - Caja secuencia\nTecho eléctrico\nComputadora de abordo\nCámara de estacionamiento con guía\nAsientos eléctricos\nVidrios eléctricos X4\nEspejos eléctricos\nCierre centralizados\nCódigo con numeración de puertas\n\nPodes retirar con anticipo de $14.000.000\nFinanciamos solo con DNI\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 AMAROK HIGHLINE PACK 2.0L 180CV 4X2 MT6 2013 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "peugeot-2008-feline-2019-58000km",
-    "name": "Peugeot 2008 Feline",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2019,
-    "kilometraje": 58000,
+    "id": "fiat-cronos-drive-plus-1-3l-cvt-2025-patentado-0km",
+    "name": "Fiat Cronos Drive Plus 1.3L CVT",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
-      "valor": 12000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "categoria": "Sedán",
+    "transmision": "Automática",
+    "motor": "1.3",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -202,11 +200,11 @@
       "7-9.webp",
       "7-10.webp"
     ],
-    "descripcion": "Peugeot 2008\n\nModelo 2019\nVersión Feline\n\nCuenta con 58.000 kilómetros\nCaja de 6ta\nTecho panorámico\nVelocidad crucero\nPantalla multimedia + cámara de estacionamiento con guía\nSensor de estacionamiento delantero y trasero\nLlantas de aleación\nFrenos abs\nDoble Air Bag\n\nPodes retirar con anticipo de $12.000.000\nFinanciamos solo con dni\nAprobación inmediata\nAceptamos permuta como parte de pago\n\nCel de contacto 1165929481\n\n📍 Av. Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 FIAT CRONOS DRIVE PLUS 1.3L CVT 2025 PATENTADO 💥\n\n0 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y Motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "volkswagen-gol-trendline-1-6-2017",
-    "name": "Volkswagen Gol Trendline 1.6",
+    "id": "volkswagen-gol-trendline-1-6l-2017",
+    "name": "Volkswagen Gol Trendline 1.6L",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
     "ano": 2017,
@@ -232,11 +230,11 @@
       "8-9.webp",
       "8-10.webp"
     ],
-    "descripcion": "Volkswagen Gol\n\nModelo 2017\nVersión Trendline\nMotor 1.6\n\nPodes retirar con anticipo de $9.000.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 VOLKSWAGEN GOL TRENDLINE 1.6L 2017 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "peugeot-308-allure-1-6-2015",
-    "name": "Peugeot 308 Allure 1.6",
+    "id": "peugeot-308-allure-1-6l-2015",
+    "name": "Peugeot 308 Allure 1.6L",
     "marca": "Peugeot",
     "marcaId": "peugeot",
     "ano": 2015,
@@ -262,11 +260,11 @@
       "9-9.webp",
       "9-10.webp"
     ],
-    "descripcion": "Peugeot 308\n\nModelo 2015\nVersión Allure\nMotor 1.6\n\nPodes retirar con anticipo de $8.500.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 PEUGEOT 308 ALLURE 1.6L 2015 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "chevrolet-onix-premier-1-0-turbo-2022",
-    "name": "Chevrolet Onix Premier 1.0 Turbo",
+    "id": "chevrolet-onix-premier-1-0l-turbo-2022",
+    "name": "Chevrolet Onix Premier 1.0L Turbo",
     "marca": "Chevrolet",
     "marcaId": "chevrolet",
     "ano": 2022,
@@ -292,11 +290,11 @@
       "10-9.webp",
       "10-10.webp"
     ],
-    "descripcion": "Chevrolet Onix\n\nModelo 2022\nVersión Premier\nMotor 1.0 Turbo\n\nPodes retirar con anticipo de $11.000.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 CHEVROLET ONIX PREMIER 1.0L TURBO 2022 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "renault-kwid-zen-1-0-2021",
-    "name": "Renault Kwid Zen 1.0",
+    "id": "renault-kwid-zen-1-0l-2021",
+    "name": "Renault Kwid Zen 1.0L",
     "marca": "Renault",
     "marcaId": "renault",
     "ano": 2021,
@@ -322,11 +320,11 @@
       "11-9.webp",
       "11-10.webp"
     ],
-    "descripcion": "Renault Kwid\n\nModelo 2021\nVersión Zen\nMotor 1.0\n\nPodes retirar con anticipo de $7.500.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 RENAULT KWID ZEN 1.0L 2021 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   },
   {
-    "id": "fiat-argo-trekking-1-3-2019",
-    "name": "Fiat Argo Trekking 1.3",
+    "id": "fiat-argo-trekking-1-3l-2019",
+    "name": "Fiat Argo Trekking 1.3L",
     "marca": "Fiat",
     "marcaId": "fiat",
     "ano": 2019,
@@ -352,6 +350,6 @@
       "12-9.webp",
       "12-10.webp"
     ],
-    "descripcion": "Fiat Argo\n\nModelo 2019\nVersión Trekking\nMotor 1.3\n\nPodes retirar con anticipo de $9.500.000\nFinanciamos solo con dni\nLa aprobación es inmediata\nAceptamos permuta como parte de pago\n\nCelular de contacto 📲 1165929481\n\n📍 Av Mitre 5001, esquina Magdalena\nV.Dominico - Avellaneda (Frente al parque Dominico)"
+    "descripcion": "💥 FIAT ARGO TREKKING 1.3L 2019 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
   }
 ]

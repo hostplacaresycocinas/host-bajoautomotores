@@ -22,7 +22,7 @@ const NosotrosPage = () => {
             className='object-cover'
             priority
           />
-          <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/80'></div>
+          <div className='absolute inset-0 bg-black/80 md:bg-black/70'></div>
         </div>
 
         {/* Contenido centrado */}
