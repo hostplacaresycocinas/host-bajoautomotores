@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'automotoressanjuan',
-  name: 'AUTOMOTORES SAN JUAN',
-  adress: 'Leandro N. Alem Sur 1209',
-  city: 'San Juan',
-  email: 'automotoressanjuan7@gmail.com',
-  instagram: 'automotoressanjuan_oficial',
-  facebook: 'https://www.facebook.com/automotoressj20',
-  whatsapp: ['2644670985', '2645061987'],
-  googlemapsLink: 'https://maps.app.goo.gl/ZQAVh1GgrxtrB6sg8',
+  id: 'carcity',
+  name: 'Car City',
+  adress: 'Av. Bartolomé Mitre 5001',
+  city: 'Avellaneda',
+  email: null,
+  instagram: 'automotores_carcity',
+  facebook: 'https://www.facebook.com/automotorescarcity.com.ar',
+  whatsapp: ['1165929481'],
+  googlemapsLink: 'https://maps.app.goo.gl/rqcfjqxWKrsLrLF86',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.0852645835594!2d-68.52806742796105!3d-31.549274537400986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141819592f8c9%3A0x6a68f90e331b8bcf!2sAutomotores%20San%20Juan!5e0!3m2!1sen!2sar!4v1756625693992!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3978556956904!2d-58.32945281366548!3d-34.695143776955604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332f6f7509d1f%3A0xdf66f87665ea29c4!2sAutomotores%20Car%20City!5e0!3m2!1sen!2sar!4v1756164418534!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 8:30 a 13 y 17:30 a 20:30hs',
-    'Sábados y Domingos Cerrrado',
+    'Lunes a Viernes 09:30 a 19:00hs',
+    'Sábados 09:30 a 15:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://automotoressanjuan.vercel.app/',
-  title: 'AUTOMOTORES SAN JUAN - Compra y Venta de Autos',
+  metadataBase: 'https://carcity.vercel.app/',
+  title: 'Car City - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
