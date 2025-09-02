@@ -435,10 +435,10 @@ export default function AutoDetailPage() {
             <div className='lg:sticky lg:top-28'>
               <div className='bg-white lg:border lg:border-gray-200 lg:rounded-lg lg:shadow-lg lg:p-8'>
                 <div className=' mb-3 md:mb-4 lg:mb-6'>
-                  <h1 className='text-xl md:text-2xl font-semibold text-color-title line-clamp-3'>
+                  <h1 className='text-xl md:text-2xl font-bold text-color-title line-clamp-3'>
                     {car.model}
                   </h1>
-                  <div className='flex flex-wrap items-center gap-2 text-sm text-color-text mt-2'>
+                  <div className='flex flex-wrap items-center gap-2 text-base text-color-text mt-2'>
                     <span className='font-medium text-color-text'>
                       {car.brand}
                     </span>
@@ -469,7 +469,7 @@ export default function AutoDetailPage() {
 
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 text-color-text mb-6'>
                   <div>
-                    <p className='text-color-text text-sm font-medium'>
+                    <p className='text-color-text text-base font-medium'>
                       Kilometraje
                     </p>
                     <p
@@ -484,7 +484,7 @@ export default function AutoDetailPage() {
                   </div>
                   {car.motor && (
                     <div className='flex flex-col gap-1'>
-                      <p className='text-color-text text-sm font-medium'>
+                      <p className='text-color-text text-base font-medium'>
                         Motor
                       </p>
                       <p className='text-color-title font-medium'>
@@ -493,11 +493,11 @@ export default function AutoDetailPage() {
                     </div>
                   )}
                   <div className='flex flex-col gap-1'>
-                    <p className='text-color-text text-sm font-medium'>Año</p>
+                    <p className='text-color-text text-base font-medium'>Año</p>
                     <p className='text-color-title font-medium'>{car.year}</p>
                   </div>
                   <div>
-                    <p className='text-color-text text-sm font-medium'>
+                    <p className='text-color-text text-base font-medium'>
                       Transmisión
                     </p>
                     <p className='text-color-title font-medium'>
@@ -505,14 +505,14 @@ export default function AutoDetailPage() {
                     </p>
                   </div>
                   <div>
-                    <p className='text-color-text text-sm font-medium'>
+                    <p className='text-color-text text-base font-medium'>
                       Combustible
                     </p>
                     <p className='text-color-title font-medium'>{car.fuel}</p>
                   </div>
                   {car.doors ? (
                     <div>
-                      <p className='text-color-text text-sm font-medium'>
+                      <p className='text-color-text text-base font-medium'>
                         Puertas
                       </p>
                       <p className='text-color-title font-medium'>

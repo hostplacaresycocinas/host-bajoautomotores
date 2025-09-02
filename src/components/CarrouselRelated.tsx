@@ -295,7 +295,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                         company.dark
                           ? 'group-hover:text-color-primary'
                           : 'group-hover:text-color-primary-dark'
-                      } text-color-title text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                      } text-color-title text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                     >
                       {auto.model}
                     </h3>
@@ -303,7 +303,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                     <div
                       className={`${
                         company.price ? '' : 'hidden'
-                      } text-color-primary text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                      } text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                     >
                       {auto.price.moneda === 'ARS' ? '$' : 'US$'}
                       {auto.price.valor.toLocaleString('es-ES')}

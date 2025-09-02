@@ -10,12 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        manrope: ['var(--font-manrope)', 'sans-serif'],
+        oswald: ['var(--font-oswald)', 'sans-serif'],
+        sourceSans3: ['var(--font-source-sans-3)', 'sans-serif'],
       },
       colors: {
-        'color-primary': '#2F42AB',
-        'color-primary-dark': '#293990',
-        'color-primary-light': '#798AE8',
+        'color-primary': '#C32019',
+        'color-primary-dark': '#EE160D',
+        'color-primary-light': '#F23028',
         'color-primary-admin': '#E9262C',
         'color-primary-dark-admin': '#F0161C',
         'color-secondary': '#1E1E1E',
@@ -26,7 +27,7 @@ const config: Config = {
         'color-tertiary-light': '#FFE39C',
         'color-bg-primary': '#ffff',
         'color-bg-secondary': '#141517',
-        'color-bg-secondary-dark': '#181725',
+        'color-bg-secondary-dark': '#000000',
         'color-bg-secondary-light': '#1E1E1E',
         'color-title': '#1E1E1E',
         'color-title-light': '#ffff',

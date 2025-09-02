@@ -682,7 +682,7 @@ const CatalogoPage = () => {
                                 company.dark
                                   ? 'group-hover:text-color-primary'
                                   : 'group-hover:text-color-primary-dark'
-                              } text-color-title text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                              } text-color-title text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                             >
                               {car.model}
                             </h3>
@@ -690,7 +690,7 @@ const CatalogoPage = () => {
                             <div
                               className={`${
                                 company.price ? '' : 'hidden'
-                              } text-color-primary text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                              } text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                             >
                               {car.price.moneda === 'ARS' ? '$' : 'US$'}
                               {car.price.valor.toLocaleString('es-ES')}

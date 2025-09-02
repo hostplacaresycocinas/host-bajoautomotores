@@ -1,20 +1,20 @@
 [
   {
-    "id": "nissan-versa-advance-1-6-mt-118000km-2019",
-    "name": "Nissan Versa Advance 1.6 MT",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2019,
-    "kilometraje": 118000,
+    "id": "peugeot-2008-allure-nav-2018-75000km",
+    "name": "Peugeot 2008 Allure Nav",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2018,
+    "kilometraje": 75000,
     "precio": {
-      "valor": 12500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Manual",
+    "categoria": "SUV",
+    "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -23,26 +23,24 @@
       "1-5.webp",
       "1-6.webp",
       "1-7.webp",
-      "1-8.webp",
-      "1-9.webp",
-      "1-10.webp"
+      "1-8.webp"
     ],
-    "descripcion": "Nissan Versa\n\nAño 2019\nAdvance 1.6 MT\n118.000 km\nU$S 12.500"
+    "descripcion": "⚡️ Peugeot 2008 Allure Nav 2018 🔥🚗✅\n\n75.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "ford-focus-2-0-se-plus-at-166000km-2014",
-    "name": "Ford Focus 2.0 Se Plus AT",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2014,
-    "kilometraje": 166000,
+    "id": "volkswagen-up-highline-2019-60000km",
+    "name": "Volkswagen Up Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2019,
+    "kilometraje": 60000,
     "precio": {
-      "valor": 14000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "2.0",
+    "transmision": "Manual",
+    "motor": "1.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -57,24 +55,24 @@
       "2-9.webp",
       "2-10.webp"
     ],
-    "descripcion": "Ford Focus\n\nAño 2014\n2.0 Se Plus At\n166.000 km\n14.000.00$"
+    "descripcion": "⚡️ Volkswagen Up Highline 2019 🔥🚗✅\n\n60.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "peugeot-408-1-6-feline-thp-tiptronic-44000km-2017",
-    "name": "Peugeot 408 1.6 Feline THP Tiptronic",
+    "id": "peugeot-partner-patagonica-vtc-plus-hdi-2022-40000km",
+    "name": "Peugeot Partner Patagonica VTC Plus HDI",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2017,
-    "kilometraje": 44000,
+    "ano": 2022,
+    "kilometraje": 40000,
     "precio": {
-      "valor": 15000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
+    "categoria": "Utilitario",
+    "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 4,
+    "combustible": "Diesel",
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -87,24 +85,24 @@
       "3-9.webp",
       "3-10.webp"
     ],
-    "descripcion": "Peugeot 408\n\nAño 2017\n1.6 Feline Thp Tiptronic\n44.000 km\nU$S 15.000"
+    "descripcion": "⚡️ Peugeot Partner Patagonica VTC plus HDI 2022 🔥🚗✅\n\n40.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "jeep-compass-2-4-sport-at-49000km-2021",
-    "name": "Jeep Compass 2.4 Sport AT",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2021,
-    "kilometraje": 49000,
+    "id": "volkswagen-amarok-trendline-4x4-2015-145000km",
+    "name": "Volkswagen Amarok Trendline 4x4",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2015,
+    "kilometraje": 145000,
     "precio": {
-      "valor": 30500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.4",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.0",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -117,22 +115,22 @@
       "4-9.webp",
       "4-10.webp"
     ],
-    "descripcion": "Jeep Compass\n\nAño 2021\n2.4 Sport At\n49.000 km\nU$S 30.500"
+    "descripcion": "⚡️ Volkswagen Amarok Trendline 4x4 2015 🔥🚗✅\n\n145.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "nissan-march-sense-pure-drive-96000km-2018",
-    "name": "Nissan March Sense Pure Drive",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2018,
-    "kilometraje": 96000,
+    "id": "fiat-palio-attractive-top-2017-90000km",
+    "name": "Fiat Palio Attractive Top",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2017,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 12000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -147,24 +145,24 @@
       "5-9.webp",
       "5-10.webp"
     ],
-    "descripcion": "Nissan March\n\nAño 2018\nSense Pure drive\n96.000 km\nU$S 12.000"
+    "descripcion": "⚡️ Fiat Palio Atractive Top 2017 🔥🚗✅\n\n90.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "volkswagen-taos-highline-1-4-250-tsi-35000km-2021",
-    "name": "Volkswagen Taos Highline 1.4 250 TSI",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2021,
-    "kilometraje": 35000,
+    "id": "audi-a5-multitronic-caja-8-marchas-225-hp-2014",
+    "name": "Audi A5 Multitronic Caja 8 Marchas 225 HP",
+    "marca": "Audi",
+    "marcaId": "audi",
+    "ano": 2014,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 31000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Deportivo",
     "transmision": "Automática",
-    "motor": "1.4",
+    "motor": "2.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 2,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -177,23 +175,23 @@
       "6-9.webp",
       "6-10.webp"
     ],
-    "descripcion": "Volkswagen Taos\n\nAño 2021\nHighline 1.4 250 Tsi\n35.000 km\nU$S 31.000"
+    "descripcion": "⚡️ AUDI A5 multitronic caja 8 marchas 225 hp 2014 🔥🚗\n\n🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "toyota-hilux-sw4-srx-2-8-4x4-7as-at-250000km-2016",
-    "name": "Toyota Hilux SW4 SRX 2.8 4x4 7As AT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2016,
-    "kilometraje": 250000,
+    "id": "peugeot-308-allure-nav-1-6-2014-90000km",
+    "name": "Peugeot 308 Allure Nav 1.6",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2014,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 30000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.8",
-    "combustible": "Diesel",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "7-1.webp",
@@ -207,24 +205,24 @@
       "7-9.webp",
       "7-10.webp"
     ],
-    "descripcion": "Toyota Hilux SW4\n\nAño 2016\nSrx 2.8 4x4 7As At\n250.000 km\nU$S 30.000"
+    "descripcion": "⚡️ Peugeot 308 Allure nav 1.6 2014 🔥🚗✅\n\n90.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "toyota-corolla-seg-hibrido-1-8-ecvt-130000km-2022",
-    "name": "Toyota Corolla Seg Híbrido 1.8 ECVT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 130000,
+    "id": "citroen-c4-cactus-shine-1-6-t-2020-68000km",
+    "name": "Citroen C4 Cactus Shine 1.6 T",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2020,
+    "kilometraje": 68000,
     "precio": {
-      "valor": 24500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "SUV",
     "transmision": "Automática",
-    "motor": "1.8",
-    "combustible": "Híbrido",
-    "puertas": 4,
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -237,24 +235,24 @@
       "8-9.webp",
       "8-10.webp"
     ],
-    "descripcion": "Toyota Corolla\n\nAño 2022\nSeg Hibrido 1.8 Ecvt\n130.000 km\nU$S 24.500"
+    "descripcion": "⚡️ Citroen C4 Cactus Shine 1.6 T 2020 🔥🚗✅\n\n68.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "volkswagen-suran-trendline-1-6-130000km-2013",
-    "name": "Volkswagen Suran Trendline 1.6",
+    "id": "volkswagen-amarok-v6-highline-2024-21000km",
+    "name": "Volkswagen Amarok V6 Highline",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2013,
-    "kilometraje": 130000,
+    "ano": 2024,
+    "kilometraje": 21000,
     "precio": {
-      "valor": 10000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "3.0",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "9-1.webp",
       "9-2.webp",
@@ -267,22 +265,22 @@
       "9-9.webp",
       "9-10.webp"
     ],
-    "descripcion": "Volkswagen Suran\n\nAño 2013\nTrendline 1.6\n130.000 km\nU$S 10.000"
+    "descripcion": "⚡️ Volkswagen Amarok V6 HIGHLINE 2024 🔥🚗✅\n\n21.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "honda-hr-v-ex-l-1-8-2wd-cvt-48000km-2019",
-    "name": "Honda HR-V Ex-l 1.8 2WD CVT",
-    "marca": "Honda",
-    "marcaId": "honda",
-    "ano": 2019,
-    "kilometraje": 48000,
+    "id": "peugeot-308-active-pack-2017-88000km",
+    "name": "Peugeot 308 Active Pack",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2017,
+    "kilometraje": 88000,
     "precio": {
-      "valor": 25500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.8",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -297,22 +295,22 @@
       "10-9.webp",
       "10-10.webp"
     ],
-    "descripcion": "Honda Hr-V •VENDIDO•\n\nAño 2019\nEx-l 1.8 2wd Cvt\n48.000 km\nU$S 25.500"
+    "descripcion": "⚡️ Peugeot 308 Active Pack 2017 🔥🚗✅\n\n88.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "nissan-versa-1-6-advance-at-71000km-2017",
-    "name": "Nissan Versa 1.6 Advance AT",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2017,
-    "kilometraje": 71000,
+    "id": "chevrolet-astra-gls-2-0-2011-155000km",
+    "name": "Chevrolet Astra GLS 2.0",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2011,
+    "kilometraje": 155000,
     "precio": {
-      "valor": 15000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
     "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6",
+    "transmision": "Manual",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -327,22 +325,22 @@
       "11-9.webp",
       "11-10.webp"
     ],
-    "descripcion": "Nissan Versa\n\nAño 2017\n1.6 Advance At\n71.000 km\nU$S 15.000"
+    "descripcion": "⚡️ Chevrolet Astra GLS 2.0 2011 1ra mano 🔥🚗✅\n\n155.000 Km ‼️\n\n🏁🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   },
   {
-    "id": "chevrolet-spin-activ-ltz-1-8-manual-61000km-2020",
-    "name": "Chevrolet Spin Activ LTZ 1.8 Manual",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2020,
-    "kilometraje": 61000,
+    "id": "renault-capture-intense-2-0-2018",
+    "name": "Renault Capture Intense 2.0",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2018,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 18500,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.8",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -357,6 +355,6 @@
       "12-9.webp",
       "12-10.webp"
     ],
-    "descripcion": "Chevrolet Spin\n\nAño 2020\nActiv Ltz 1.8 Manual\n61.000 km\nU$S 18.500"
+    "descripcion": "⚡️ Renault Capture Intense 2.0 2018 🔥🚗\n\n🏬 Te esperamos por nuestro concesionario.\n📍 Av Alem 1209 sur Esquina Abraham tapia capital San Juan.\n\n🧐 Consulta por tu financiación.\n🧐 Tomamos tu usado en forma de pago 🚗🏦\n\nTenemos Créditos prendarios y personales, con excelentes tasas 😎\n\nCONSULTA AHORA ‼️\n\n📲 2644670985 Pablo Garcés\n📲 2645061987 Sergio Martin\n☎️ 4225731 Fijo\n\n✨ Calidad y atención Garantizada ✨"
   }
 ]

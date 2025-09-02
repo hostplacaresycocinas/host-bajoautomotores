@@ -1,10 +1,15 @@
 import type { Metadata } from 'next';
-import { Manrope } from 'next/font/google';
+import { Oswald, Source_Sans_3 } from 'next/font/google';
 import './globals.css';
 import { metadataCompany } from './constants/constants';
 import { ScrollToTopProvider } from '../components/ScrollToTopProvider';
 
-const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
+const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
+
+const sourceSans3 = Source_Sans_3({
+  subsets: ['latin'],
+  variable: '--font-source-sans-3',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(metadataCompany.metadataBase),
@@ -20,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang='es'>
       <body
-        className={`${manrope.variable} font-manrope font bg-color-bg-primary text-color-text antialiased`}
+        className={`${oswald.variable} ${sourceSans3.variable} varible-oswald font-sourceSans3 bg-color-bg-primary text-color-text text-lg antialiased`}
       >
         <ScrollToTopProvider />
         {children}

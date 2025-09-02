@@ -1,6 +1,5 @@
 'use client';
 
-import { company } from '@/app/constants/constants';
 import Link from 'next/link';
 import HeroCarousel from './HeroCarousel';
 import { motion } from 'framer-motion';
@@ -19,25 +18,25 @@ const HeroHome = () => {
               className={`absolute w-full h-full top-0 -right-0 bg-black/65 md:bg-black/75 -z-20`}
             ></div>
 
-            <div className='flex flex-col items-center mb-1'>
+            <div className='flex flex-col gap-2 md:gap-3 items-center font-oswald'>
               <div className='md:gap-3 text-nowrap'>
                 <motion.h2
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
-                  className='text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold text-color-primary-light'
+                  className='uppercase text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-bold text-color-primary-light'
                 >
-                  Usados Seleccionados,
+                  Venta y Consignación
                 </motion.h2>
               </div>
-              <div className='md:gap-3 text-nowrap lg:mb-1'>
+              <div className='md:gap-3 text-nowrap lg:mb-2'>
                 <motion.h2
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
-                  className='text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold text-color-title-light'
+                  className='uppercase text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-bold text-color-title-light'
                 >
-                  Vehículos 0km
+                  Vehículos Seleccionados
                 </motion.h2>
               </div>
             </div>
@@ -45,36 +44,25 @@ const HeroHome = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className='text-lg lg:text-xl xl:text-2xl text-center text-color-text-light mx-4 max-w-md sm:max-w-md lg:max-w-lg xl:max-w-2xl'
+              className='text-lg lg:text-xl xl:text-2xl text-center text-color-text-light mx-4 max-w-md sm:max-w-md lg:max-w-lg xl:max-w-xl mb-1 sm:mb-2 md:mb-4 mt-1'
             >
-              Vehículos seleccionados, financiación a tu medida y asesoramiento
-              personalizado. ¡Contactanos!
+              Tenemos el auto que buscas: Vehículos seleccionados, usados y 0km.
+              ¡Consultanos!
             </motion.p>
+
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className='flex mt-4 md:mt-3 lg:mt-4 xl:mt-5 gap-5 mb-2 md:mb-1 lg:mb-0'
+              className='flex flex-col sm:flex-row gap-3 md:gap-4 mb-2 md:mb-1 lg:mb-0'
             >
               <Link
                 href='/catalogo'
-                className={`${
-                  company.dark
-                    ? 'text-color-title-light bg-color-primary hover:bg-color-primary-dark ring ring-color-primary hover:ring-color-primary-dark'
-                    : 'text-color-title-light bg-color-primary hover:bg-color-primary-dark ring ring-color-primary hover:ring-color-primary-dark'
-                } lg:text-lg transition-colors py-2.5 md:py-3.5 px-5 md:px-8 rounded-lg`}
+                className='flex group relative px-6 md:px-8 py-3.5 md:py-4 bg-color-primary hover:bg-color-primary-dark text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform'
               >
-                Ver Catálogo
-              </Link>
-              <Link
-                href='/contacto'
-                className={`${
-                  company.dark
-                    ? 'backdrop-blur bg-white/10 text-white font-medium ring ring-color-primary-dark hover:bg-white/20'
-                    : 'backdrop-blur bg-white/10 text-white font-medium ring ring-color-primary-dark hover:bg-white/20'
-                } lg:text-lg transition-colors py-2.5 md:py-3.5 px-5 md:px-8 rounded-lg`}
-              >
-                Contactanos
+                <span className='relative z-10 flex items-center justify-center gap-2'>
+                  <span>Explorar Catálogo</span>
+                </span>
               </Link>
             </motion.div>
           </article>
