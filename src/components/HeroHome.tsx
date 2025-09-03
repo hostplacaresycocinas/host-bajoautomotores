@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { company } from '@/app/constants/constants';
 import HeroCarousel from './HeroCarousel';
 import { motion } from 'framer-motion';
 
