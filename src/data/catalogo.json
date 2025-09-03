@@ -1,20 +1,20 @@
 [
   {
-    "id": "nissan-kicks-advance-1-6l-mt-2017-50000km",
-    "name": "Nissan Kicks Advance 1.6L MT",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2017,
-    "kilometraje": 50000,
+    "id": "volkswagen-virtus-confortline-2018",
+    "name": "Volkswagen Virtus Confortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 21900000,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -24,25 +24,26 @@
       "1-6.webp",
       "1-7.webp",
       "1-8.webp",
-      "1-9.webp"
+      "1-9.webp",
+      "1-10.webp"
     ],
-    "descripcion": "💥 NISSAN KICKS ADVANCE 1.6L MT 2017 💥\n\n50.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "ENORME SEDAN NOS INGRESA DE LOS QUE NO EXISTEN , EN UN ESTADO INMACULADO.\n\nVOLKSWAGEN VIRTUS MOD 2018 CONFORTLINE FULL AUTOMÁTICO PRIMERA MANO IMPERDIBLE.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE FAROS AUXILIARES INTERIOR INMEJORABLE.\n\n💰PRECIO DE LISTA $ 21.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 48 CUOTAS FIJAS EN PESOS.\n\n✍️APTO CRÉDITO BANCOR AL 100% .\n✍️APTO CRÉDITO UVA AL 17 (12,18,24 CUOTAS ).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "toyota-corolla-xli-1-8l-mt6-2018-110000km-gnc",
-    "name": "Toyota Corolla XLI 1.8L MT6",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2018,
-    "kilometraje": 110000,
+    "id": "fiat-strada-doble-cabina-2013",
+    "name": "Fiat Strada Doble Cabina",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2013,
+    "kilometraje": 140000,
     "precio": {
-      "valor": 999999,
+      "valor": 15000000,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.8",
-    "combustible": "GNC",
+    "motor": "1.6 16v",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "2-1.webp",
@@ -53,26 +54,27 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp"
+      "2-9.webp",
+      "2-10.webp"
     ],
-    "descripcion": "💥 TOYOTA COROLLA XLI 1.8L MT6 2018 💥\n\n110.000 KM\nCUENTA CON GNC\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "BIENVENIDA ELLA, NOS TOCA PRESENTAR UNAS DE LAS PICK UP MÁS VENDIDAS DE LOS ÚLTIMOS AÑOS Y EN UN ESTADO INMEJORABLE.\n\nFIAT STRADA MOD 2013 DOBLE CABINA LOOCKER PACK SEGURIDAD 1.6 16v IMPERDIBLE SEGUNDA MANO CON 140 MIL KM INMACULADA COMO POCAS FULL TOPE DE GAMA.\n\n💰PRECIO DE LISTA $ 15.000.000 RECIBO MENOR FINANCIO ENTREGA DE $8.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️APTA CRÉDITO BANCOR AL 100 %.\n✍️APTA CRÉDITO UVA (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "nissan-march-activ-1-6l-manual-2019-90000km",
-    "name": "Nissan March Activ 1.6L Manual",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2019,
-    "kilometraje": 90000,
+    "id": "ford-fiesta-kinetic-trend-plus-2011",
+    "name": "Ford Fiesta Kinetic Trend Plus",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2011,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 12900000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -82,26 +84,31 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp"
+      "3-9.webp",
+      "3-10.webp",
+      "3-11.webp",
+      "3-12.webp",
+      "3-13.webp",
+      "3-14.webp"
     ],
-    "descripcion": "💥 NISSAN MARCH ACTIV 1.6L MANUAL 2019 💥\n\n90.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "INGRESANDO OTRO GRAN SEDAN IMPERDIBLE 🥰🫶\n\nFORD FIESTA MOD 2011 KINETIC TREND PLUS SEDAN 4 PUERTAS FULL FULL ( mexicano).\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE LLANTAS INTERIOR IMPECABLE.\n\n💰PRECIO LISTA $ 12.900.000 RECIBO MENOR FINANCIO ENTREGA DE $7.000.000 RESTO HASTA 36 MESES CUOTAS FIJAS EN PESOS.\n\n✍️ APTA CRÉDITO BANCOR AL 100 %.\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "nissan-note-exclusive-1-6l-cvt-2018-45000km",
-    "name": "Nissan Note Exclusive 1.6L CVT",
-    "marca": "Nissan",
-    "marcaId": "nissan",
+    "id": "volkswagen-virtus-confortline-2018-2",
+    "name": "Volkswagen Virtus Confortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
     "ano": 2018,
-    "kilometraje": 45000,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 21900000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Automática",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -111,26 +118,30 @@
       "4-6.webp",
       "4-7.webp",
       "4-8.webp",
-      "4-9.webp"
+      "4-9.webp",
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp",
+      "4-13.webp"
     ],
-    "descripcion": "💥 NISSAN NOTE EXCLUSIVE 1.6L CVT 2018 💥\n\n45.000 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "ENORME SEDAN NOS INGRESA DE LOS QUE NO EXISTEN , EN UN ESTADO INMACULADO.\n\nVOLKSWAGEN VIRTUS MOD 2018 CONFORTLINE FULL AUTOMÁTICO PRIMERA MANO IMPERDIBLE.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE FAROS AUXILIARES INTERIOR INMEJORABLE.\n\n💰PRECIO DE LISTA $ 21.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 48 CUOTAS FIJAS EN PESOS.\n\n✍️APTO CRÉDITO BANCOR AL 100% .\n✍️APTO CRÉDITO UVA AL 17 (12,18,24 CUOTAS ).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "peugeot-308-allure-nav-1-6l-hdi-mt6-2020",
-    "name": "Peugeot 308 Allure Nav 1.6L HDI MT6",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2020,
-    "kilometraje": 999999,
+    "id": "mini-cooper-chili-classic-2010",
+    "name": "Mini Cooper Chili Classic",
+    "marca": "Mini",
+    "marcaId": "mini",
+    "ano": 2010,
+    "kilometraje": 139000,
     "precio": {
-      "valor": 999999,
+      "valor": 17900000,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Diesel",
-    "puertas": 5,
+    "combustible": "Nafta",
+    "puertas": 3,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -140,25 +151,26 @@
       "5-6.webp",
       "5-7.webp",
       "5-8.webp",
-      "5-9.webp"
+      "5-9.webp",
+      "5-10.webp"
     ],
-    "descripcion": "💥 PEUGEOT 308 ALLURE NAV 1.6L HDI MT6 2020 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "POR FAVOR , NOS INGRESA ALGO MUY PERO MUY DIFÍCIL DE CONSEGUIR, POR SUS AÑOS.\n\nMINI COOPER MOD 2010 CHILI CLASSIC 1.6 INMACULADO FULL FULL SEGUNDA MANO CON SOLO 139 MIL KM INMACULADO.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA ARRANCA STAR/STOP LEVANTA VIDRIOS ALARMA CIERRE , FUNCIONANDO ABSOLUTAMENTE TODO , LLANTAS AGRAGADAS CON CUBIERTAD NUEVAS INTERIOR INMEJORABLE.\n\n💰 PRECIO DE LISTA $ 17.900.000 RECIBO MENOR , FINANCIO ENTREGA $ 12.000.000 RESTO HASTA 24 CUOTAS FIJAS EN PESOS , C/REC SUELDO.\n\n✍️CRÉDITO BANCOR AL 100%\n✅ NUEVA E UNICA SUCURSAL.\n\n⚠️AV ALEM 647 ⚠️\n📲 3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "amarok-highline-pack-2-0l-180cv-4x2-mt6-2013",
-    "name": "Amarok Highline Pack 2.0L 180CV 4x2 MT6",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
+    "id": "fiat-strada-doble-cabina-2013-2",
+    "name": "Fiat Strada Doble Cabina",
+    "marca": "Fiat",
+    "marcaId": "fiat",
     "ano": 2013,
-    "kilometraje": 999999,
+    "kilometraje": 140000,
     "precio": {
-      "valor": 999999,
+      "valor": 15000000,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diesel",
+    "motor": "1.6 16v",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "6-1.webp",
@@ -168,24 +180,31 @@
       "6-5.webp",
       "6-6.webp",
       "6-7.webp",
-      "6-8.webp"
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp",
+      "6-11.webp",
+      "6-12.webp",
+      "6-13.webp",
+      "6-14.webp",
+      "6-15.webp"
     ],
-    "descripcion": "💥 AMAROK HIGHLINE PACK 2.0L 180CV 4X2 MT6 2013 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "BIENVENIDA ELLA, NOS TOCA PRESENTAR UNAS DE LAS PICK UP MÁS VENDIDAS DE LOS ÚLTIMOS AÑOS Y EN UN ESTADO INMEJORABLE.\n\nFIAT STRADA MOD 2013 DOBLE CABINA LOOCKER PACK SEGURIDAD 1.6 16v IMPERDIBLE SEGUNDA MANO CON 140 MIL KM INMACULADA COMO POCAS FULL TOPE DE GAMA.\n\n💰PRECIO DE LISTA $ 15.000.000 RECIBO MENOR FINANCIO ENTREGA DE $8.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️APTA CRÉDITO BANCOR AL 100 %.\n✍️APTA CRÉDITO UVA (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "fiat-cronos-drive-plus-1-3l-cvt-2025-patentado-0km",
-    "name": "Fiat Cronos Drive Plus 1.3L CVT",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "citroen-c-elysee-shine-2018",
+    "name": "Citroen C-Elysee Shine",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2018,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 18900000,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "1.3",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -198,26 +217,31 @@
       "7-7.webp",
       "7-8.webp",
       "7-9.webp",
-      "7-10.webp"
+      "7-10.webp",
+      "7-11.webp",
+      "7-12.webp",
+      "7-13.webp",
+      "7-14.webp",
+      "7-15.webp"
     ],
-    "descripcion": "💥 FIAT CRONOS DRIVE PLUS 1.3L CVT 2025 PATENTADO 💥\n\n0 KM\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y Motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "OTRO SEDAN DE LOS MÁS LINDOS NOS INGRESAN EN NUESTRA AGENCIA 🫶🥰.\n\nCITROEN C-ELYSSE MOD 2018 SHINE 1.6 AUTOMATICO FULL TOPE DE GAMA , EL MÁS COMPLETO DE LA LÍNEA.\n\nAIRE ACONDICIONADO CLIMATIZADOR DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES FAROS AUXILIARES TAPIZADO DE CUERO , LLANTAS CON CUBIERTAS NUEVAS, ITV AL DÍA , CAJA AUTOMÁTICA PRIMERA MANO INMACULADO.\n\n💰 PRECIO DE LISTA $ 18.900.000 RECIBO MENOR FINANCIO ENTREGA DE $10.000.000 RESTO HASTA 36 CUOTAS FIJAS TASA ESPECIAL DIRECTO DEL BANCO.\n\n✍️ CRÉDITO BANCOR AL 100%.\n✍️CRÉDITO UVA AL 17 (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "volkswagen-gol-trendline-1-6l-2017",
-    "name": "Volkswagen Gol Trendline 1.6L",
+    "id": "volkswagen-amarok-confortline-2018",
+    "name": "Volkswagen Amarok Confortline",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2017,
+    "ano": 2018,
     "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 33900000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0 TDI",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -228,25 +252,28 @@
       "8-7.webp",
       "8-8.webp",
       "8-9.webp",
-      "8-10.webp"
+      "8-10.webp",
+      "8-11.webp",
+      "8-12.webp",
+      "8-13.webp"
     ],
-    "descripcion": "💥 VOLKSWAGEN GOL TRENDLINE 1.6L 2017 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "INMACULADO PERO INMACULADO INGRESO, LA CAMIONETA QUE TODO EL MUNDO BUSCA Y EN UN ESTADO INMEJORABLE.\n\nVOLKSWAGEN AMAROK CONFORTLINE MOD 2018 LÍNEA NUEVA , COMO POCAS EN SU ESTADO 🥰 FULL DSG ( AUTOMÁTICA) .\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES FAROS AUXILIARES IMPERDIBLE.\n\n💰 PRECIO DE LISTA $ 33.900.000 RECIBO MENOR FINANCIO ENTREGA DE 18.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️ CRÉDITO UVA al 17% (12,18,24 cuotas).\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "peugeot-308-allure-1-6l-2015",
-    "name": "Peugeot 308 Allure 1.6L",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
+    "id": "renault-kangoo-confort-2010",
+    "name": "Renault Kangoo Confort",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2010,
     "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 11900000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Nafta",
+    "combustible": "GNC",
     "puertas": 5,
     "images": [
       "9-1.webp",
@@ -258,24 +285,26 @@
       "9-7.webp",
       "9-8.webp",
       "9-9.webp",
-      "9-10.webp"
+      "9-10.webp",
+      "9-11.webp",
+      "9-12.webp"
     ],
-    "descripcion": "💥 PEUGEOT 308 ALLURE 1.6L 2015 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "NOS VUELVE A  INGRESAR LA ÚTIL PARA TODO , LA MÁS COMPLETA, PARA TRABAJAR PARA LA FAMILIA , PARA PASEAR , PARA TODO.\n\nRENAULT KANGOO MOD 2010 GNC CONFORT 5 ASIENTOS ( MIXTA) , MUY CUIDADA POR SUS AÑOS.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRULICA.\n\n💰PRECIO DE LISTA $ 11.900.000 RECIBO MENOR FINANCIO ENTREGA $7.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "chevrolet-onix-premier-1-0l-turbo-2022",
-    "name": "Chevrolet Onix Premier 1.0L Turbo",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2022,
-    "kilometraje": 999999,
+    "id": "peugeot-208-allure-nav-2019",
+    "name": "Peugeot 208 Allure Nav",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2019,
+    "kilometraje": 37000,
     "precio": {
-      "valor": 999999,
+      "valor": 20900000,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.0",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -288,24 +317,27 @@
       "10-7.webp",
       "10-8.webp",
       "10-9.webp",
-      "10-10.webp"
+      "10-10.webp",
+      "10-11.webp",
+      "10-12.webp",
+      "10-13.webp"
     ],
-    "descripcion": "💥 CHEVROLET ONIX PREMIER 1.0L TURBO 2022 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "REALMENTE DE PELÍCULA, NOS VUELVE A INGRESAR UN LEON DE LOS QUE YA NO QUEDAN🥰.\n\nPEUGEOT 208 MOD 2019 ALLURE NAV / FULL TOPE DE GAMA CON SOLO 37 MIL KM PRIMERA MANO INMACULADO.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE LLANTAS FAROS AUXILIARES NAVEGADOR/GPS IMPERDIBLE.\n\n💰PRECIO DE LISTA $20.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️CRÉDITO UVA EN 24 CUOTAS( tasa especial).\n\n📲3516235746/3516807544 RECIBIMOS WHATSAPPS."
   },
   {
-    "id": "renault-kwid-zen-1-0l-2021",
-    "name": "Renault Kwid Zen 1.0L",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2021,
+    "id": "volkswagen-vento-variant-2009",
+    "name": "Volkswagen Vento Variant",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2009,
     "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
+      "valor": 11900000,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Familiar",
     "transmision": "Manual",
-    "motor": "1.0",
+    "motor": "2.5",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -318,24 +350,28 @@
       "11-7.webp",
       "11-8.webp",
       "11-9.webp",
-      "11-10.webp"
+      "11-10.webp",
+      "11-11.webp",
+      "11-12.webp",
+      "11-13.webp",
+      "11-14.webp"
     ],
-    "descripcion": "💥 RENAULT KWID ZEN 1.0L 2021 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "BIENVENIDA ELLA, UNAS DE LAS RURAL MÁS BONITAS DEL MERCADO Y EN UN ESTADO INMEJORABLE.\n\nVW VENTO MOD 2009 VARIANT 2.5 ADVANCE FULL FULL , IMPECABLE 2 MANO.\n\nAIRE ACONDICIONADO CLIMATIZADOR DIRECCIÓN HIDRÁULICA LEVANTA VIDRIOS ALARMA CIERRE DOBLE TECHO SOLAR PANORÁMICO LLANTAS FAROS AUXILIARES.\n\n💰PRECIO DE LISTA $11.900.000 RECIBO MENOR FINANCIO ENTREGA $8.000.000 RESTO HASTA 24 CUOTAS FIJAS EN PESOS ( con rec de sueldo).\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
   },
   {
-    "id": "fiat-argo-trekking-1-3l-2019",
-    "name": "Fiat Argo Trekking 1.3L",
-    "marca": "Fiat",
-    "marcaId": "fiat",
+    "id": "ford-ka-s-2019",
+    "name": "Ford Ka S",
+    "marca": "Ford",
+    "marcaId": "ford",
     "ano": 2019,
-    "kilometraje": 999999,
+    "kilometraje": 69000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.3",
+    "motor": "1.5",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -348,8 +384,12 @@
       "12-7.webp",
       "12-8.webp",
       "12-9.webp",
-      "12-10.webp"
+      "12-10.webp",
+      "12-11.webp",
+      "12-12.webp",
+      "12-13.webp",
+      "12-14.webp"
     ],
-    "descripcion": "💥 FIAT ARGO TREKKING 1.3L 2019 💥\n\nTU PRÓXIMO AUTO ESTA EN RECTA CAR ⚡️\n\nConocé todos los modelos disponibles en historias destacadas ⚡️\n\n✅ Financiación hasta 100%\n✅ Cuotas fijas en pesos\n✅ Usados seleccionados, 0KM y motos\n✅ Recibimos tu usado y lo cotizamos al mejor precio\n✅ Entrega inmediata\n\nVeni a conocernos\nBv. Los Granaderos 3258"
+    "descripcion": "FORD KA MOD 2019 S INMACULADO CON SOLO 69 MIL KM.\n\nRECIBO MENOR FINANCIO."
   }
 ]

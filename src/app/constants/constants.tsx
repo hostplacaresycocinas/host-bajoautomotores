@@ -5,20 +5,20 @@ export const company = {
   favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'rectaautomotores',
-  name: 'RECTA AUTOMOTORES',
-  adress: 'Bv. Los Granaderos 3258',
+  id: 'montoyaautomotores',
+  name: 'Montoya Automotores',
+  adress: 'Av. Alem 647',
   city: 'Córdoba',
-  email: null,
-  instagram: 'rectaautomotores',
-  facebook: 'https://www.facebook.com/rectaautomotores',
-  whatsapp: ['3512350329'],
-  googlemapsLink: 'https://maps.app.goo.gl/rWsLMWhPvaHKSNn36',
+  email: 'mati_10cba@hotmail.com',
+  instagram: 'montoyaautomotores',
+  facebook: 'https://www.facebook.com/Montoyaautomotores/',
+  whatsapp: ['3516235746', '3516807544'],
+  googlemapsLink: 'https://maps.app.goo.gl/MQZAiEYnsT5qZKcYA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.508822823723!2d-64.22025175446441!3d-31.37253072305218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432992f3d7ace9f%3A0xed1d92d11eb5c5f4!2sRecta%20Automotores!5e0!3m2!1sen!2sar!4v1756626778772!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.701903508546!2d-64.16733990000002!3d-31.394782099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329933c57cfd1b%3A0xc1cf2598ea7d1368!2sMontoya%20Automotores!5e0!3m2!1sen!2sar!4v1756899408927!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 10 a 13 y 15 a 19hs',
-    'Sábados 10 a 13hs',
+    'Lunes a Viernes 9:30 a 13 y 15 a 19hs',
+    'Sábados y Domingos Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://rectaautomotores.vercel.app/',
-  title: 'RECTA AUTOMOTORES - Compra y Venta de Autos',
+  metadataBase: 'https://montoyaautomotores.vercel.app/',
+  title: 'Montoya Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
