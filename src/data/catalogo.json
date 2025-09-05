@@ -1,20 +1,20 @@
 [
   {
-    "id": "volkswagen-virtus-confortline-2018",
-    "name": "Volkswagen Virtus Confortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
+    "id": "peugeot-207-allure-xs-2012",
+    "name": "Peugeot 207 Allure Xs",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2012,
     "kilometraje": 999999,
     "precio": {
-      "valor": 21900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -27,23 +27,23 @@
       "1-9.webp",
       "1-10.webp"
     ],
-    "descripcion": "ENORME SEDAN NOS INGRESA DE LOS QUE NO EXISTEN , EN UN ESTADO INMACULADO.\n\nVOLKSWAGEN VIRTUS MOD 2018 CONFORTLINE FULL AUTOMÁTICO PRIMERA MANO IMPERDIBLE.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE FAROS AUXILIARES INTERIOR INMEJORABLE.\n\n💰PRECIO DE LISTA $ 21.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 48 CUOTAS FIJAS EN PESOS.\n\n✍️APTO CRÉDITO BANCOR AL 100% .\n✍️APTO CRÉDITO UVA AL 17 (12,18,24 CUOTAS ).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nPeugeot 207\nModelo: 2012\nVersión: allure xs\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - levanta cristales - cierre centralizado - alarma - Bluetooth - comando volante - abs - airbagas - llantas de aleación - antinieblas - mamniales\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba Capital ]"
   },
   {
-    "id": "fiat-strada-doble-cabina-2013",
-    "name": "Fiat Strada Doble Cabina",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2013,
-    "kilometraje": 140000,
+    "id": "chevrolet-s10-ls-4x2-2017",
+    "name": "Chevrolet S10 Ls 4x2",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2017,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 15000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.6 16v",
-    "combustible": "Nafta",
+    "motor": "2.8 tdci",
+    "combustible": "Diesel",
     "puertas": 4,
     "images": [
       "2-1.webp",
@@ -57,22 +57,22 @@
       "2-9.webp",
       "2-10.webp"
     ],
-    "descripcion": "BIENVENIDA ELLA, NOS TOCA PRESENTAR UNAS DE LAS PICK UP MÁS VENDIDAS DE LOS ÚLTIMOS AÑOS Y EN UN ESTADO INMEJORABLE.\n\nFIAT STRADA MOD 2013 DOBLE CABINA LOOCKER PACK SEGURIDAD 1.6 16v IMPERDIBLE SEGUNDA MANO CON 140 MIL KM INMACULADA COMO POCAS FULL TOPE DE GAMA.\n\n💰PRECIO DE LISTA $ 15.000.000 RECIBO MENOR FINANCIO ENTREGA DE $8.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️APTA CRÉDITO BANCOR AL 100 %.\n✍️APTA CRÉDITO UVA (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nChevrolet s10\nModelo: 2017\nVersión: LS 4x2\nMotor: 2.8 tdci\nCombustible: diesel\nTransmisión: manual\n\nCaracterísticas: aire - dirección - Bluetooth - airbags - abs - computadora a bordo - impecable estado -\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba Capital ]"
   },
   {
-    "id": "ford-fiesta-kinetic-trend-plus-2011",
-    "name": "Ford Fiesta Kinetic Trend Plus",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2011,
+    "id": "fiat-cronos-drive-plus-2023",
+    "name": "Fiat Cronos Drive Plus",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2023,
     "kilometraje": 999999,
     "precio": {
-      "valor": 12900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "1.3",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -84,31 +84,26 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp",
-      "3-10.webp",
-      "3-11.webp",
-      "3-12.webp",
-      "3-13.webp",
-      "3-14.webp"
+      "3-9.webp"
     ],
-    "descripcion": "INGRESANDO OTRO GRAN SEDAN IMPERDIBLE 🥰🫶\n\nFORD FIESTA MOD 2011 KINETIC TREND PLUS SEDAN 4 PUERTAS FULL FULL ( mexicano).\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE LLANTAS INTERIOR IMPECABLE.\n\n💰PRECIO LISTA $ 12.900.000 RECIBO MENOR FINANCIO ENTREGA DE $7.000.000 RESTO HASTA 36 MESES CUOTAS FIJAS EN PESOS.\n\n✍️ APTA CRÉDITO BANCOR AL 100 %.\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nFiat Cronos\nModelo: 2023\nVersión: drive plus\nMotor: 1.3\nTransmisión: manual\nCombustible: nafta\n\nCaracterísticas: climatizador - dirección - cierre centralizado - levanta cristales - llave navaja - pantalla multimedia - cámara retroceso - abs - airbags - computadora a bordo - antinieblas - apertura bahul - lentas de aleación -\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "volkswagen-virtus-confortline-2018-2",
-    "name": "Volkswagen Virtus Confortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
+    "id": "peugeot-partner-confort-furgon-2010",
+    "name": "Peugeot Partner Confort Furgón",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2010,
     "kilometraje": 999999,
     "precio": {
-      "valor": 21900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 4,
+    "categoria": "Utilitario",
+    "transmision": "Manual",
+    "motor": "1.9 d",
+    "combustible": "Diesel",
+    "puertas": 3,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -122,26 +117,27 @@
       "4-10.webp",
       "4-11.webp",
       "4-12.webp",
-      "4-13.webp"
+      "4-13.webp",
+      "4-14.webp"
     ],
-    "descripcion": "ENORME SEDAN NOS INGRESA DE LOS QUE NO EXISTEN , EN UN ESTADO INMACULADO.\n\nVOLKSWAGEN VIRTUS MOD 2018 CONFORTLINE FULL AUTOMÁTICO PRIMERA MANO IMPERDIBLE.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE FAROS AUXILIARES INTERIOR INMEJORABLE.\n\n💰PRECIO DE LISTA $ 21.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 48 CUOTAS FIJAS EN PESOS.\n\n✍️APTO CRÉDITO BANCOR AL 100% .\n✍️APTO CRÉDITO UVA AL 17 (12,18,24 CUOTAS ).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nPeugeot Partner\nModelo: 2010\nVersión: confort furgón\nMotor: 1.9 d\nCombustible : diesel\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre - llantas de aleación - cubiertas recién colocadas - mecanica en excelente estado - equipo de frio recien colocado - equipada lista para trabajar .\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba capital ]"
   },
   {
-    "id": "mini-cooper-chili-classic-2010",
-    "name": "Mini Cooper Chili Classic",
-    "marca": "Mini",
-    "marcaId": "mini",
-    "ano": 2010,
-    "kilometraje": 139000,
+    "id": "peugeot-partner-confort-5-plazas-2012",
+    "name": "Peugeot Partner Confort 5 Plazas",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2012,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 17900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 3,
+    "motor": "1.4",
+    "combustible": "Nafta - GNC",
+    "puertas": 5,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -152,26 +148,27 @@
       "5-7.webp",
       "5-8.webp",
       "5-9.webp",
-      "5-10.webp"
+      "5-10.webp",
+      "5-11.webp"
     ],
-    "descripcion": "POR FAVOR , NOS INGRESA ALGO MUY PERO MUY DIFÍCIL DE CONSEGUIR, POR SUS AÑOS.\n\nMINI COOPER MOD 2010 CHILI CLASSIC 1.6 INMACULADO FULL FULL SEGUNDA MANO CON SOLO 139 MIL KM INMACULADO.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA ARRANCA STAR/STOP LEVANTA VIDRIOS ALARMA CIERRE , FUNCIONANDO ABSOLUTAMENTE TODO , LLANTAS AGRAGADAS CON CUBIERTAD NUEVAS INTERIOR INMEJORABLE.\n\n💰 PRECIO DE LISTA $ 17.900.000 RECIBO MENOR , FINANCIO ENTREGA $ 12.000.000 RESTO HASTA 24 CUOTAS FIJAS EN PESOS , C/REC SUELDO.\n\n✍️CRÉDITO BANCOR AL 100%\n✅ NUEVA E UNICA SUCURSAL.\n\n⚠️AV ALEM 647 ⚠️\n📲 3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nPeugeot Partner\nModelo: 2012\nVersión: confort 5 plazas\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - equipada con asientos homologados - portón lateral- vidriada completa - tubos de gnc en chasis - enganche para trailer -\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "fiat-strada-doble-cabina-2013-2",
-    "name": "Fiat Strada Doble Cabina",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2013,
-    "kilometraje": 140000,
+    "id": "volkswagen-suran-confortline-2012",
+    "name": "Volkswagen Suran Confortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2012,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 15000000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Familiar",
     "transmision": "Manual",
-    "motor": "1.6 16v",
-    "combustible": "Nafta",
-    "puertas": 4,
+    "motor": "1.6",
+    "combustible": "Nafta - GNC",
+    "puertas": 5,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -182,31 +179,26 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp",
-      "6-11.webp",
-      "6-12.webp",
-      "6-13.webp",
-      "6-14.webp",
-      "6-15.webp"
+      "6-10.webp"
     ],
-    "descripcion": "BIENVENIDA ELLA, NOS TOCA PRESENTAR UNAS DE LAS PICK UP MÁS VENDIDAS DE LOS ÚLTIMOS AÑOS Y EN UN ESTADO INMEJORABLE.\n\nFIAT STRADA MOD 2013 DOBLE CABINA LOOCKER PACK SEGURIDAD 1.6 16v IMPERDIBLE SEGUNDA MANO CON 140 MIL KM INMACULADA COMO POCAS FULL TOPE DE GAMA.\n\n💰PRECIO DE LISTA $ 15.000.000 RECIBO MENOR FINANCIO ENTREGA DE $8.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️APTA CRÉDITO BANCOR AL 100 %.\n✍️APTA CRÉDITO UVA (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nVolkswagen Suran\nModelo: 2012\nVersión: confortline\nMotor: 1.6\nCombustible: nafta - gnc\nTransmision : manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - Bluetooth - llantas de aleación - antinieblas - comando volante - manuales-\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "citroen-c-elysee-shine-2018",
-    "name": "Citroen C-Elysee Shine",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2018,
+    "id": "peugeot-207-allure-xs-2011",
+    "name": "Peugeot 207 Allure Xs",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2011,
     "kilometraje": 999999,
     "precio": {
-      "valor": 18900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
+    "combustible": "Nafta - GNC",
+    "puertas": 5,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -217,30 +209,25 @@
       "7-7.webp",
       "7-8.webp",
       "7-9.webp",
-      "7-10.webp",
-      "7-11.webp",
-      "7-12.webp",
-      "7-13.webp",
-      "7-14.webp",
-      "7-15.webp"
+      "7-10.webp"
     ],
-    "descripcion": "OTRO SEDAN DE LOS MÁS LINDOS NOS INGRESAN EN NUESTRA AGENCIA 🫶🥰.\n\nCITROEN C-ELYSSE MOD 2018 SHINE 1.6 AUTOMATICO FULL TOPE DE GAMA , EL MÁS COMPLETO DE LA LÍNEA.\n\nAIRE ACONDICIONADO CLIMATIZADOR DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES FAROS AUXILIARES TAPIZADO DE CUERO , LLANTAS CON CUBIERTAS NUEVAS, ITV AL DÍA , CAJA AUTOMÁTICA PRIMERA MANO INMACULADO.\n\n💰 PRECIO DE LISTA $ 18.900.000 RECIBO MENOR FINANCIO ENTREGA DE $10.000.000 RESTO HASTA 36 CUOTAS FIJAS TASA ESPECIAL DIRECTO DEL BANCO.\n\n✍️ CRÉDITO BANCOR AL 100%.\n✍️CRÉDITO UVA AL 17 (12,18,24 cuotas).\n\n⚠️ AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nPeugeot 207\nModelo: 2011\nVersión: allure xs\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - levanta cristales - llantas de aleación - antinieblas- manuales-\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "volkswagen-amarok-confortline-2018",
-    "name": "Volkswagen Amarok Confortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
+    "id": "fiat-siena-el-2017",
+    "name": "Fiat Siena El",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2017,
     "kilometraje": 999999,
     "precio": {
-      "valor": 33900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0 TDI",
-    "combustible": "Diésel",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.6 16v",
+    "combustible": "Nafta-GNC",
     "puertas": 4,
     "images": [
       "8-1.webp",
@@ -253,28 +240,26 @@
       "8-8.webp",
       "8-9.webp",
       "8-10.webp",
-      "8-11.webp",
-      "8-12.webp",
-      "8-13.webp"
+      "8-11.webp"
     ],
-    "descripcion": "INMACULADO PERO INMACULADO INGRESO, LA CAMIONETA QUE TODO EL MUNDO BUSCA Y EN UN ESTADO INMEJORABLE.\n\nVOLKSWAGEN AMAROK CONFORTLINE MOD 2018 LÍNEA NUEVA , COMO POCAS EN SU ESTADO 🥰 FULL DSG ( AUTOMÁTICA) .\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES FAROS AUXILIARES IMPERDIBLE.\n\n💰 PRECIO DE LISTA $ 33.900.000 RECIBO MENOR FINANCIO ENTREGA DE 18.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️ CRÉDITO UVA al 17% (12,18,24 cuotas).\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "🚫 vendido 🚫\n\nFiat Siena\nModelo: 2017\nVersión: EL\nMotor: 1.6 16v\nCombustible: nafta-gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre - levanta cristales - Bluetooth - apertura bahul - llantas de aleación - antinieblas - abs - airbagas - manuales\n\n[ recibimos tu usado como parte de pago ]\n[ múltiples opciones de financiación ]\n[ sistema llave por llave ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "renault-kangoo-confort-2010",
-    "name": "Renault Kangoo Confort",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2010,
+    "id": "chevrolet-prisma-joy-ls-2018",
+    "name": "Chevrolet Prisma Joy Ls",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2018,
     "kilometraje": 999999,
     "precio": {
-      "valor": 11900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "GNC",
-    "puertas": 5,
+    "motor": "1.4",
+    "combustible": "Nafta",
+    "puertas": 4,
     "images": [
       "9-1.webp",
       "9-2.webp",
@@ -284,28 +269,25 @@
       "9-6.webp",
       "9-7.webp",
       "9-8.webp",
-      "9-9.webp",
-      "9-10.webp",
-      "9-11.webp",
-      "9-12.webp"
+      "9-9.webp"
     ],
-    "descripcion": "NOS VUELVE A  INGRESAR LA ÚTIL PARA TODO , LA MÁS COMPLETA, PARA TRABAJAR PARA LA FAMILIA , PARA PASEAR , PARA TODO.\n\nRENAULT KANGOO MOD 2010 GNC CONFORT 5 ASIENTOS ( MIXTA) , MUY CUIDADA POR SUS AÑOS.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRULICA.\n\n💰PRECIO DE LISTA $ 11.900.000 RECIBO MENOR FINANCIO ENTREGA $7.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nChevrolet Prisma\nModelo: 2018\nVersión: JOY LS\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - levanta cristales - Bluetooth - abs - airbags - manuales\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba capital ]"
   },
   {
-    "id": "peugeot-208-allure-nav-2019",
-    "name": "Peugeot 208 Allure Nav",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2019,
-    "kilometraje": 37000,
+    "id": "fiat-palio-atractive-top-2014",
+    "name": "Fiat Palio Atractive Top",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2014,
+    "kilometraje": 999999,
     "precio": {
-      "valor": 20900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
+    "motor": "1.4",
+    "combustible": "Nafta - GNC",
     "puertas": 5,
     "images": [
       "10-1.webp",
@@ -315,31 +297,26 @@
       "10-5.webp",
       "10-6.webp",
       "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp",
-      "10-11.webp",
-      "10-12.webp",
-      "10-13.webp"
+      "10-8.webp"
     ],
-    "descripcion": "REALMENTE DE PELÍCULA, NOS VUELVE A INGRESAR UN LEON DE LOS QUE YA NO QUEDAN🥰.\n\nPEUGEOT 208 MOD 2019 ALLURE NAV / FULL TOPE DE GAMA CON SOLO 37 MIL KM PRIMERA MANO INMACULADO.\n\nAIRE ACONDICIONADO DIRECCIÓN HIDRÁULICA LEVANTA CRISTALES ALARMA CIERRE LLANTAS FAROS AUXILIARES NAVEGADOR/GPS IMPERDIBLE.\n\n💰PRECIO DE LISTA $20.900.000 RECIBO MENOR FINANCIO ENTREGA DE $12.000.000 RESTO HASTA 36 CUOTAS FIJAS EN PESOS.\n\n✍️CRÉDITO UVA EN 24 CUOTAS( tasa especial).\n\n📲3516235746/3516807544 RECIBIMOS WHATSAPPS."
+    "descripcion": "✅ disponible ✅\n\nFiat palio\nModelo: 2014\nVersión: atractive top\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - levanta cristales - alarma - airbags - abs - Bluetooth - llantas de aleación - antinieblas - apertura bahul - manuales - cubiertas nuevas!\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba Capital ]"
   },
   {
-    "id": "volkswagen-vento-variant-2009",
-    "name": "Volkswagen Vento Variant",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2009,
+    "id": "chevrolet-s10-lt-4x4-2021",
+    "name": "Chevrolet S10 Lt 4x4",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2021,
     "kilometraje": 999999,
     "precio": {
-      "valor": 11900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Familiar",
-    "transmision": "Manual",
-    "motor": "2.5",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Utilitario",
+    "transmision": "Manual 4x4",
+    "motor": "2.8 ctdi",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -349,29 +326,24 @@
       "11-6.webp",
       "11-7.webp",
       "11-8.webp",
-      "11-9.webp",
-      "11-10.webp",
-      "11-11.webp",
-      "11-12.webp",
-      "11-13.webp",
-      "11-14.webp"
+      "11-9.webp"
     ],
-    "descripcion": "BIENVENIDA ELLA, UNAS DE LAS RURAL MÁS BONITAS DEL MERCADO Y EN UN ESTADO INMEJORABLE.\n\nVW VENTO MOD 2009 VARIANT 2.5 ADVANCE FULL FULL , IMPECABLE 2 MANO.\n\nAIRE ACONDICIONADO CLIMATIZADOR DIRECCIÓN HIDRÁULICA LEVANTA VIDRIOS ALARMA CIERRE DOBLE TECHO SOLAR PANORÁMICO LLANTAS FAROS AUXILIARES.\n\n💰PRECIO DE LISTA $11.900.000 RECIBO MENOR FINANCIO ENTREGA $8.000.000 RESTO HASTA 24 CUOTAS FIJAS EN PESOS ( con rec de sueldo).\n\n⚠️AV ALEM 647 ⚠️\n📲3516235746/3516807544 RECIBIMOS WHATSAPP."
+    "descripcion": "✅ disponible ✅\n\nChevrolet S10\nModelo: 2021\nVersión: LT\nTransmisión: manual 4x4\nCombustible: diesel\nMotor: 2.8 ctdi\n\nCaracterísticas: aire. - dirección - cierre centralizado - levanta cristales - espejos electrónicos- comando volante - velocidad crucero - pantalla táctil - car olay - gps - abs - airbags - antinieblas - llantas de aleación - lona cobertor - cámara retroceso- manuales\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
   },
   {
-    "id": "ford-ka-s-2019",
-    "name": "Ford Ka S",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2019,
-    "kilometraje": 69000,
+    "id": "fiat-idea-atractive-2013",
+    "name": "Fiat Idea Atractive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2013,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Familiar",
     "transmision": "Manual",
-    "motor": "1.5",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -383,13 +355,8 @@
       "12-6.webp",
       "12-7.webp",
       "12-8.webp",
-      "12-9.webp",
-      "12-10.webp",
-      "12-11.webp",
-      "12-12.webp",
-      "12-13.webp",
-      "12-14.webp"
+      "12-9.webp"
     ],
-    "descripcion": "FORD KA MOD 2019 S INMACULADO CON SOLO 69 MIL KM.\n\nRECIBO MENOR FINANCIO."
+    "descripcion": "✅ disponible ✅\n\nFiat Idea\nModelo: 2013\nVersión: atractive\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - levanta cristales - airbags - abs - antinieblas - llantas de aleación - manuales -\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ servicio de gestoria ]\n[ múltiples opciones de financiación ]\n[ Cordoba capital ]"
   }
 ]

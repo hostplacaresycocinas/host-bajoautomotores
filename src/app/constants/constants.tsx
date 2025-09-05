@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'montoyaautomotores',
-  name: 'Montoya Automotores',
-  adress: 'Av. Alem 647',
+  id: 'cuperautomotores',
+  name: 'Cuper Automotores',
+  adress: 'Monseñor Pablo Cabrera 3940',
   city: 'Córdoba',
-  email: 'mati_10cba@hotmail.com',
-  instagram: 'montoyaautomotores',
-  facebook: 'https://www.facebook.com/Montoyaautomotores/',
-  whatsapp: ['3516235746', '3516807544'],
-  googlemapsLink: 'https://maps.app.goo.gl/MQZAiEYnsT5qZKcYA',
+  email: 'cuperautomotores@gmail.com',
+  instagram: 'cuper.automotores',
+  facebook: 'https://www.facebook.com/profile.php?id=61578867331548',
+  whatsapp: ['3513580235', '3512430387'],
+  googlemapsLink: 'https://maps.app.goo.gl/KmLC3F3LpPVidG2w5',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.701903508546!2d-64.16733990000002!3d-31.394782099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329933c57cfd1b%3A0xc1cf2598ea7d1368!2sMontoya%20Automotores!5e0!3m2!1sen!2sar!4v1756899408927!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.590464716487!2d-64.2055814!3d-31.3702786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299ed68832eaf%3A0x4df3147aa5824d1e!2sCUPER%20AUTOMOTORES!5e0!3m2!1sen!2sar!4v1757020320746!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9:30 a 13 y 15 a 19hs',
-    'Sábados y Domingos Cerrado',
+    'Lunes a Viernes 09:30 a 18:30hs',
+    'Sábados 10:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://montoyaautomotores.vercel.app/',
-  title: 'Montoya Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://cuperautomotores.vercel.app/',
+  title: 'Cuper Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
