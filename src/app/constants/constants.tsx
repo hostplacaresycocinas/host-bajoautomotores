@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'cuperautomotores',
-  name: 'Cuper Automotores',
-  adress: 'Monseñor Pablo Cabrera 3940',
-  city: 'Córdoba',
-  email: 'cuperautomotores@gmail.com',
-  instagram: 'cuper.automotores',
-  facebook: 'https://www.facebook.com/profile.php?id=61578867331548',
-  whatsapp: ['3513580235', '3512430387'],
-  googlemapsLink: 'https://maps.app.goo.gl/KmLC3F3LpPVidG2w5',
+  id: 'autovip',
+  name: 'Auto Vip',
+  adress: 'Av. Constitucion 6842',
+  city: 'Mar Del Plata',
+  email: 'autovipmdp@gmail.com',
+  instagram: 'autovipmdp',
+  facebook: 'https://www.facebook.com/autovipmdp',
+  whatsapp: ['2233431111'],
+  googlemapsLink: 'https://maps.app.goo.gl/WfRNY6Evmhsb8F1i6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.590464716487!2d-64.2055814!3d-31.3702786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299ed68832eaf%3A0x4df3147aa5824d1e!2sCUPER%20AUTOMOTORES!5e0!3m2!1sen!2sar!4v1757020320746!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.9100442442486!2d-57.57261300487462!3d-37.95588634776825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9b13c042df3%3A0x51bd05a58e665824!2sAutovip!5e0!3m2!1sen!2sar!4v1757793863565!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 18:30hs',
-    'Sábados 10:00 a 13:00hs',
+    'Lunes a Viernes 09:00 a 17:00hs',
+    'Sábados 10:00 a 13:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://cuperautomotores.vercel.app/',
-  title: 'Cuper Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://autovip.vercel.app/',
+  title: 'Auto Vip - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

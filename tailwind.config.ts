@@ -14,9 +14,9 @@ const config: Config = {
         sourceSans3: ['var(--font-source-sans-3)', 'sans-serif'],
       },
       colors: {
-        'color-primary': '#E71F21',
-        'color-primary-dark': '#FF0002',
-        'color-primary-light': '#FF2326',
+        'color-primary': '#E01316',
+        'color-primary-dark': '#FF0004',
+        'color-primary-light': '#FF2226',
         'color-primary-admin': '#E9262C',
         'color-primary-dark-admin': '#F0161C',
         'color-secondary': '#1E1E1E',

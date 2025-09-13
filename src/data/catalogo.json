@@ -1,20 +1,20 @@
 [
   {
-    "id": "peugeot-207-allure-xs-2012",
-    "name": "Peugeot 207 Allure Xs",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2012,
+    "id": "volkswagen-amarok-highline-4x2-2011",
+    "name": "Volkswagen Amarok Highline 4x2",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2011,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "2.0 TDI",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -27,24 +27,24 @@
       "1-9.webp",
       "1-10.webp"
     ],
-    "descripcion": "✅ disponible ✅\n\nPeugeot 207\nModelo: 2012\nVersión: allure xs\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - levanta cristales - cierre centralizado - alarma - Bluetooth - comando volante - abs - airbagas - llantas de aleación - antinieblas - mamniales\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba Capital ]"
+    "descripcion": "VENDIDA‼️\n\nAmarok highline 4x2\nAño 2011\nImpecable estado"
   },
   {
-    "id": "chevrolet-s10-ls-4x2-2017",
-    "name": "Chevrolet S10 Ls 4x2",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2017,
+    "id": "jeep-cherokee-trailhawk-v6-2018",
+    "name": "Jeep Cherokee Trailhawk V6",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2018,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "2.8 tdci",
-    "combustible": "Diesel",
-    "puertas": 4,
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "3.2 V6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -57,23 +57,23 @@
       "2-9.webp",
       "2-10.webp"
     ],
-    "descripcion": "✅ disponible ✅\n\nChevrolet s10\nModelo: 2017\nVersión: LS 4x2\nMotor: 2.8 tdci\nCombustible: diesel\nTransmisión: manual\n\nCaracterísticas: aire - dirección - Bluetooth - airbags - abs - computadora a bordo - impecable estado -\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba Capital ]"
+    "descripcion": "Jeep cherokee trailblack 3.2 v6 270cv de 9 marchas.\nAño 2018 y único dueño\n\nVehículo exclusivo.\nPermutas y financiación"
   },
   {
-    "id": "fiat-cronos-drive-plus-2023",
-    "name": "Fiat Cronos Drive Plus",
+    "id": "fiat-strada-adventure-locker-2018",
+    "name": "Fiat Strada Adventure Locker",
     "marca": "Fiat",
     "marcaId": "fiat",
-    "ano": 2023,
+    "ano": 2018,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.3",
-    "combustible": "Nafta",
+    "motor": "1.8",
+    "combustible": "Flex",
     "puertas": 4,
     "images": [
       "3-1.webp",
@@ -83,60 +83,44 @@
       "3-5.webp",
       "3-6.webp",
       "3-7.webp",
-      "3-8.webp",
-      "3-9.webp"
+      "3-8.webp"
     ],
-    "descripcion": "✅ disponible ✅\n\nFiat Cronos\nModelo: 2023\nVersión: drive plus\nMotor: 1.3\nTransmisión: manual\nCombustible: nafta\n\nCaracterísticas: climatizador - dirección - cierre centralizado - levanta cristales - llave navaja - pantalla multimedia - cámara retroceso - abs - airbags - computadora a bordo - antinieblas - apertura bahul - lentas de aleación -\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
+    "descripcion": "Fiat strada adventure locker\nAño 2018\nNeumáticos nuevos\nPermutas y financiación"
   },
   {
-    "id": "peugeot-partner-confort-furgon-2010",
-    "name": "Peugeot Partner Confort Furgón",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2010,
+    "id": "volkswagen-fox-track-2016",
+    "name": "Volkswagen Fox Track",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2016,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.9 d",
-    "combustible": "Diesel",
-    "puertas": 3,
-    "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp",
-      "4-11.webp",
-      "4-12.webp",
-      "4-13.webp",
-      "4-14.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nPeugeot Partner\nModelo: 2010\nVersión: confort furgón\nMotor: 1.9 d\nCombustible : diesel\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre - llantas de aleación - cubiertas recién colocadas - mecanica en excelente estado - equipo de frio recien colocado - equipada lista para trabajar .\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba capital ]"
+    "motor": "1.6",
+    "combustible": "Flex",
+    "puertas": 5,
+    "images": ["4-1.webp"],
+    "descripcion": "Fox track\nAño 2016\nImpecable"
   },
   {
-    "id": "peugeot-partner-confort-5-plazas-2012",
-    "name": "Peugeot Partner Confort 5 Plazas",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2012,
-    "kilometraje": 999999,
+    "id": "jeep-compass-sport-2020",
+    "name": "Jeep Compass Sport",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2020,
+    "kilometraje": 71000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta - GNC",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "5-1.webp",
@@ -147,27 +131,25 @@
       "5-6.webp",
       "5-7.webp",
       "5-8.webp",
-      "5-9.webp",
-      "5-10.webp",
-      "5-11.webp"
+      "5-9.webp"
     ],
-    "descripcion": "✅ disponible ✅\n\nPeugeot Partner\nModelo: 2012\nVersión: confort 5 plazas\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - equipada con asientos homologados - portón lateral- vidriada completa - tubos de gnc en chasis - enganche para trailer -\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
+    "descripcion": "‼️VENDIDA‼️\nJeep compass a/t sport\nAño 2020\n71.000km\nImpecable estado.\nPermutas y financiación."
   },
   {
-    "id": "volkswagen-suran-confortline-2012",
-    "name": "Volkswagen Suran Confortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2012,
+    "id": "citroen-c3-exclusive-2013",
+    "name": "Citroën C3 Exclusive",
+    "marca": "Citroën",
+    "marcaId": "citroen",
+    "ano": 2013,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Familiar",
+    "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Nafta - GNC",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "6-1.webp",
@@ -178,185 +160,8 @@
       "6-6.webp",
       "6-7.webp",
       "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
+      "6-9.webp"
     ],
-    "descripcion": "✅ disponible ✅\n\nVolkswagen Suran\nModelo: 2012\nVersión: confortline\nMotor: 1.6\nCombustible: nafta - gnc\nTransmision : manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - Bluetooth - llantas de aleación - antinieblas - comando volante - manuales-\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
-  },
-  {
-    "id": "peugeot-207-allure-xs-2011",
-    "name": "Peugeot 207 Allure Xs",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2011,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta - GNC",
-    "puertas": 5,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nPeugeot 207\nModelo: 2011\nVersión: allure xs\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - levanta cristales - llantas de aleación - antinieblas- manuales-\n\n[ recibimos tu vehículo como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
-  },
-  {
-    "id": "fiat-siena-el-2017",
-    "name": "Fiat Siena El",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2017,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.6 16v",
-    "combustible": "Nafta-GNC",
-    "puertas": 4,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp",
-      "8-11.webp"
-    ],
-    "descripcion": "🚫 vendido 🚫\n\nFiat Siena\nModelo: 2017\nVersión: EL\nMotor: 1.6 16v\nCombustible: nafta-gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre - levanta cristales - Bluetooth - apertura bahul - llantas de aleación - antinieblas - abs - airbagas - manuales\n\n[ recibimos tu usado como parte de pago ]\n[ múltiples opciones de financiación ]\n[ sistema llave por llave ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
-  },
-  {
-    "id": "chevrolet-prisma-joy-ls-2018",
-    "name": "Chevrolet Prisma Joy Ls",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2018,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nChevrolet Prisma\nModelo: 2018\nVersión: JOY LS\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - levanta cristales - Bluetooth - abs - airbags - manuales\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba capital ]"
-  },
-  {
-    "id": "fiat-palio-atractive-top-2014",
-    "name": "Fiat Palio Atractive Top",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2014,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta - GNC",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp",
-      "10-7.webp",
-      "10-8.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nFiat palio\nModelo: 2014\nVersión: atractive top\nMotor: 1.4\nCombustible: nafta - gnc\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - levanta cristales - alarma - airbags - abs - Bluetooth - llantas de aleación - antinieblas - apertura bahul - manuales - cubiertas nuevas!\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Córdoba Capital ]"
-  },
-  {
-    "id": "chevrolet-s10-lt-4x4-2021",
-    "name": "Chevrolet S10 Lt 4x4",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2021,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Utilitario",
-    "transmision": "Manual 4x4",
-    "motor": "2.8 ctdi",
-    "combustible": "Diesel",
-    "puertas": 4,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp",
-      "11-7.webp",
-      "11-8.webp",
-      "11-9.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nChevrolet S10\nModelo: 2021\nVersión: LT\nTransmisión: manual 4x4\nCombustible: diesel\nMotor: 2.8 ctdi\n\nCaracterísticas: aire. - dirección - cierre centralizado - levanta cristales - espejos electrónicos- comando volante - velocidad crucero - pantalla táctil - car olay - gps - abs - airbags - antinieblas - llantas de aleación - lona cobertor - cámara retroceso- manuales\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ múltiples opciones de financiación ]\n[ servicio de gestoria ]\n[ Cordoba capital ]"
-  },
-  {
-    "id": "fiat-idea-atractive-2013",
-    "name": "Fiat Idea Atractive",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2013,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Familiar",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp",
-      "12-7.webp",
-      "12-8.webp",
-      "12-9.webp"
-    ],
-    "descripcion": "✅ disponible ✅\n\nFiat Idea\nModelo: 2013\nVersión: atractive\nMotor: 1.4\nCombustible: nafta\nTransmisión: manual\n\nCaracterísticas: aire - dirección - cierre centralizado - alarma - levanta cristales - airbags - abs - antinieblas - llantas de aleación - manuales -\n\n[ recibimos tu usado como parte de pago ]\n[ sistema llave por llave ]\n[ servicio de gestoria ]\n[ múltiples opciones de financiación ]\n[ Cordoba capital ]"
+    "descripcion": "Citroen c3 exclusive\nAño 2013.\nMuy buen estado"
   }
 ]
