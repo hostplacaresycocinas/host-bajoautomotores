@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'autovip',
-  name: 'Auto Vip',
-  adress: 'Av. Constitucion 6842',
-  city: 'Mar Del Plata',
-  email: 'autovipmdp@gmail.com',
-  instagram: 'autovipmdp',
-  facebook: 'https://www.facebook.com/autovipmdp',
-  whatsapp: ['2233431111'],
-  googlemapsLink: 'https://maps.app.goo.gl/WfRNY6Evmhsb8F1i6',
+  id: 'carhousesgo',
+  name: 'Carhouse Motors',
+  adress: 'Independencia 966',
+  city: 'Santiago del Estero',
+  email: 'carhousesgo@hotmail.com',
+  instagram: 'carhousesgo',
+  facebook: 'https://www.facebook.com/profile.php?id=61576724884188',
+  whatsapp: ['3853161713', '3855218438', '3854086168'],
+  googlemapsLink: 'https://maps.app.goo.gl/teoSAM8fRS4tMEVK6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.9100442442486!2d-57.57261300487462!3d-37.95588634776825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9b13c042df3%3A0x51bd05a58e665824!2sAutovip!5e0!3m2!1sen!2sar!4v1757793863565!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.4337268992012!2d-64.25289402353897!3d-27.79641737613158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b5206ec04d657%3A0xf0d0efdb9e67f06b!2sIndependencia%20966%2C%20G4200%20Santiago%20del%20Estero!5e0!3m2!1sen!2sar!4v1754765912824!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 17:00hs',
-    'Sábados 10:00 a 13:30hs',
+    'Lunes a Viernes 09:30 a 13:30 y 17:30 a 21:30hs',
+    'Sábados 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://autovip.vercel.app/',
-  title: 'Auto Vip - Compra y Venta de Autos',
+  metadataBase: 'https://carhousesgo.vercel.app/',
+  title: 'Carhouse Motors - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
