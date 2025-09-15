@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'kaizenautomoviles',
-  name: 'Kaizen Automoviles',
-  adress: 'Av. de los inmigrantes e/ 105 y 107',
-  city: 'Mercedes',
-  email: 'kaizenautomoviles@gmail.com',
-  instagram: 'kaizen_automoviles',
-  facebook: 'https://www.facebook.com/profile.php?id=61576724884188',
-  whatsapp: ['2324503849'],
-  googlemapsLink: 'https://maps.app.goo.gl/kFqEhwvhMubN9pwUA',
+  id: 'maxcarautomotores',
+  name: 'MAXCAR AUTOMOTORES',
+  adress: 'Bv. Daneri 777',
+  city: 'Gualeguaychú',
+  email: 'mateo.rodriguez2017@hotmail.com',
+  instagram: 'maxcar_automotores',
+  facebook: null,
+  whatsapp: ['3446635858'],
+  googlemapsLink: 'https://maps.app.goo.gl/Uu33ex5uF5Tzw7fs8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.4118005136766!2d-59.41800393030358!3d-34.663611695242395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc739b27d7ac33%3A0x37e94fa84a20a4b8!2sKAIZEN%20Automoviles!5e0!3m2!1sen!2sar!4v1757924931200!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.6764366350554!2d-58.52775549097063!3d-33.009628266243624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b00769ee5124df%3A0x4f92f9950bf14f25!2sMaxcar%20automotores!5e0!3m2!1sen!2sar!4v1757932263599!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Con cita previa',
+    'Lunes a Viernes 08:00 a 20:30hs',
+    'Sábados 08:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://kaizenautomoviles.vercel.app/',
-  title: 'Kaizen Automoviles - Compra y Venta de Autos',
+  metadataBase: 'https://maxcarautomotores.vercel.app/',
+  title: 'MAXCAR AUTOMOTORES - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

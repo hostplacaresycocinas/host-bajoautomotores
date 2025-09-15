@@ -79,7 +79,7 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='space-y-6'
             >
-              <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight'>
+              <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight max-w-lg'>
                 <span className='text-color-primary'>Transformando</span> sueños
                 en realidad
               </h2>

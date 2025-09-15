@@ -1,20 +1,20 @@
 [
   {
-    "id": "volkswagen-tiguan-allspace-trendline-2019",
-    "name": "Volkswagen Tiguan Allspace Trendline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2019,
-    "kilometraje": 999999,
+    "id": "toyota-hilux-srv-2013",
+    "name": "Toyota Hilux SRV",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2013,
+    "kilometraje": 245000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.4T 150 CV",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Utilitario",
+    "transmision": "Manual",
+    "motor": "3.0",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -27,33 +27,25 @@
       "1-9.webp",
       "1-10.webp",
       "1-11.webp",
-      "1-12.webp",
-      "1-13.webp",
-      "1-14.webp",
-      "1-15.webp",
-      "1-16.webp",
-      "1-17.webp",
-      "1-18.webp",
-      "1-19.webp",
-      "1-20.webp"
+      "1-12.webp"
     ],
-    "descripcion": "🔑 VW TIGUAN ALLSPACE 1.4 TSI DSG 2019\n\n🚘 Versión: Trendline\n🕰️ Año: 2019\n\n🔩 Motor: 1.4T 150 CV\n⛽️ Nafta\n⚙️ Transmisión: Automática de 6 marchas\n\n📄 Descripción:\n• 7 asientos y cuero de fábrica\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio reciente de motor y caja AT\n• Cubiertas Michelin impecables\n• Distribución recién realizada"
+    "descripcion": "Toyota Hilux SRV 3.0 4x4‼️\n\n📌 Año: 2013\n📌 Km: 245.000\n📌 4 BF GOODRICH nuevas\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "toyota-corolla-xei-2014",
-    "name": "Toyota Corolla XEI",
+    "id": "toyota-hilux-dx-2015",
+    "name": "Toyota Hilux DX",
     "marca": "Toyota",
     "marcaId": "toyota",
-    "ano": 2014,
-    "kilometraje": 999999,
+    "ano": 2015,
+    "kilometraje": 285000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.8L 140 CV",
-    "combustible": "Nafta",
+    "motor": "2.5",
+    "combustible": "Diesel",
     "puertas": 4,
     "images": [
       "2-1.webp",
@@ -63,34 +55,24 @@
       "2-5.webp",
       "2-6.webp",
       "2-7.webp",
-      "2-8.webp",
-      "2-9.webp",
-      "2-10.webp",
-      "2-11.webp",
-      "2-12.webp",
-      "2-13.webp",
-      "2-14.webp",
-      "2-15.webp",
-      "2-16.webp",
-      "2-17.webp",
-      "2-18.webp"
+      "2-8.webp"
     ],
-    "descripcion": "🔑 TOYOTA COROLLA XEI 2014\n\n🚘 Versión: XEI\n🕰️ Año: 2014\n\n🔩 Motor: 1.8L 140 CV\n⛽️ Nafta\n⚙️ Transmisión: Manual de 6 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio reciente\n• Cubiertas impecables\n• Motor cadenero ⛓️\n• Sensores de estacionamiento traseros"
+    "descripcion": "Toyota Hilux DX 2.5‼️\n\n📌 Año: 2015\n📌 Km: 285.000\n📌 4 Gomas nuevas\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "ford-ranger-xl-2021",
-    "name": "Ford Ranger XL",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2021,
-    "kilometraje": 999999,
+    "id": "volkswagen-amarok-v6-extreme-2020",
+    "name": "Volkswagen Amarok V6 Extreme",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2020,
+    "kilometraje": 100000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "2.2L 125 CV",
+    "transmision": "Automática",
+    "motor": "V6 258cv",
     "combustible": "Diesel",
     "puertas": 4,
     "images": [
@@ -101,36 +83,24 @@
       "3-5.webp",
       "3-6.webp",
       "3-7.webp",
-      "3-8.webp",
-      "3-9.webp",
-      "3-10.webp",
-      "3-11.webp",
-      "3-12.webp",
-      "3-13.webp",
-      "3-14.webp",
-      "3-15.webp",
-      "3-16.webp",
-      "3-17.webp",
-      "3-18.webp",
-      "3-19.webp",
-      "3-20.webp"
+      "3-8.webp"
     ],
-    "descripcion": "🔑 FORD RANGER XL 2.2 2021\n\n🚘 Versión: XL\n🕰️ Año: 2021\n\n🔩 Motor: 2.2L 125 CV\n⛽️ Diesel\n⚙️ Transmisión: Manual de 6 marchas\n🐎 Tracción: 4X2\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio reciente\n• Cubiertas impecables\n• Motor cadenero ⛓️"
+    "descripcion": "VW Amarok V6 Extreme 258cv‼️\n\n📌 Año: 2020\n📌 Km: 100.000\n📌 4 Yokohama nuevas\n📌 Local de Gualeguaychu\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "toyota-hilux-sr-2022",
-    "name": "Toyota Hilux SR",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 999999,
+    "id": "volkswagen-amarok-v6-extreme-g2-2025",
+    "name": "Volkswagen Amarok V6 Extreme G2",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "2.8L 204 CV",
+    "transmision": "Automática",
+    "motor": "V6 258cv",
     "combustible": "Diesel",
     "puertas": 4,
     "images": [
@@ -143,33 +113,26 @@
       "4-7.webp",
       "4-8.webp",
       "4-9.webp",
-      "4-10.webp",
-      "4-11.webp",
-      "4-12.webp",
-      "4-13.webp",
-      "4-14.webp",
-      "4-15.webp",
-      "4-16.webp",
-      "4-17.webp"
+      "4-10.webp"
     ],
-    "descripcion": "🔑 TOYOTA HILUX SR 4X4 2022\n\n🚘 Versión: SR\n🕰️ Año: 2022\n\n🔩 Motor: 2.8L 204 CV\n⛽️ Diesel\n⚙️ Transmisión: Manual de 6 marchas\n🐎 Tracción: 4X4\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicios oficiales\n• Cuatro cubiertas NUEVAS Goodyear"
+    "descripcion": "VW Amarok V6 Extreme G2 258cv‼️\n\n📌 Año: 2025\n📌 Km: 0\n📌 Patentada\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "chevrolet-onix-joy-2021",
-    "name": "Chevrolet Onix Joy",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
+    "id": "volkswagen-amarok-v6-extreme-2021",
+    "name": "Volkswagen Amarok V6 Extreme",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
     "ano": 2021,
-    "kilometraje": 39800,
+    "kilometraje": 89000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4 98 CV",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Utilitario",
+    "transmision": "Automática",
+    "motor": "V6 258cv",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -181,34 +144,26 @@
       "5-8.webp",
       "5-9.webp",
       "5-10.webp",
-      "5-11.webp",
-      "5-12.webp",
-      "5-13.webp",
-      "5-14.webp",
-      "5-15.webp",
-      "5-16.webp",
-      "5-17.webp",
-      "5-18.webp",
-      "5-19.webp"
+      "5-11.webp"
     ],
-    "descripcion": "🔑 CHEVROLET ONIX JOY 2021 ¡39.800 KM!\n\n🚘 Versión: Black Edition\n🕰️ Año: 2021\n\n🔩 Motor: 1.4 98 CV\n⛽️ Nafta\n⚙️ Transmisión: Manual de 5 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio completo de motor\n• Cuatro cubiertas impecables"
+    "descripcion": "VW Amarok V6 Extreme 258cv‼️\n\n📌 Año: 2021\n📌 Km: 89.000\n📌 4 BF Goodrich nuevas\n📌 Local de Gualeguaychu\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "citroen-berlingo-hdi-business-2019",
-    "name": "Citroën Berlingo HDI Business",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2019,
-    "kilometraje": 999999,
+    "id": "volkswagen-amarok-comfortline-2014",
+    "name": "Volkswagen Amarok Comfortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2014,
+    "kilometraje": 222000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.6L 92 CV",
+    "transmision": "Automática",
+    "motor": "2.0",
     "combustible": "Diesel",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -216,30 +171,24 @@
       "6-4.webp",
       "6-5.webp",
       "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp",
-      "6-11.webp",
-      "6-12.webp",
-      "6-13.webp"
+      "6-7.webp"
     ],
-    "descripcion": "🔑 CITROEN BERLINGO HDI BUSINESS 2019\n\n🚘 Versión: Furgon Mixto 5 plazas\n🕰️ Año: 2019\n\n🔩 Motor: 1.6L 92 CV\n⛽️ Diesel\n⚙️ Transmisión: Manual de 5 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio completo de motor recién realizado\n• Amortiguadores y biletas delanteras nuevas\n• Cuatro cubiertas impecables\n• Distribución recientemente realizada"
+    "descripcion": "VW Amarok Comfortline 4x4 AT‼️\n\n📌 Año: 2014\n📌 Km: 222.000\n📌 4 Michelin nuevas\n📌 Local de Gualeguaychu\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "volkswagen-amarok-v6-highline-2020",
-    "name": "Volkswagen Amarok V6 Highline",
+    "id": "volkswagen-amarok-trendline-2013",
+    "name": "Volkswagen Amarok Trendline",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2020,
-    "kilometraje": 999999,
+    "ano": 2013,
+    "kilometraje": 150000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
-    "transmision": "Automática",
-    "motor": "3.0L 258 CV",
+    "transmision": "Manual",
+    "motor": "2.0 140hp",
     "combustible": "Diesel",
     "puertas": 4,
     "images": [
@@ -253,34 +202,25 @@
       "7-8.webp",
       "7-9.webp",
       "7-10.webp",
-      "7-11.webp",
-      "7-12.webp",
-      "7-13.webp",
-      "7-14.webp",
-      "7-15.webp",
-      "7-16.webp",
-      "7-17.webp",
-      "7-18.webp",
-      "7-19.webp",
-      "7-20.webp"
+      "7-11.webp"
     ],
-    "descripcion": "🔑 VOLKSWAGEN AMAROK V6 HIGHLINE 2020\n\n🚘 Versión: Highline\n🐎 Tracción: 4X4 (Integral)\n🕰️ Año: 2020\n\n🔩 Motor: 3.0L 258 CV\n⛽️ Diesel\n⚙️ Transmisión: Automática de 8va\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio completo de motor recién realizado\n• Servicio de caja automática recién realizado\n• Cuatro cubiertas nuevas\n• Distribución poli-V con rodillos y tensores recién realizada"
+    "descripcion": "VW Amarok Trendline 140hp C/Simple‼️\n\n📌 Año: 2013\n📌 Km: 150.000\n📌 Cubiertas nuevas\n📌 Cierre centralizado y Lev Cristales\n📌 Excelente estado\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "ford-ranger-xl-safety-2012",
-    "name": "Ford Ranger XL Safety",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2012,
-    "kilometraje": 999999,
+    "id": "volkswagen-vento-2-0tsi-2013",
+    "name": "Volkswagen Vento 2.0TSI",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
+    "kilometraje": 180000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "2.2 125 CV",
-    "combustible": "Diesel",
+    "categoria": "Sedán",
+    "transmision": "Automática",
+    "motor": "2.0TSI",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "8-1.webp",
@@ -291,35 +231,24 @@
       "8-6.webp",
       "8-7.webp",
       "8-8.webp",
-      "8-9.webp",
-      "8-10.webp",
-      "8-11.webp",
-      "8-12.webp",
-      "8-13.webp",
-      "8-14.webp",
-      "8-15.webp",
-      "8-16.webp",
-      "8-17.webp",
-      "8-18.webp",
-      "8-19.webp",
-      "8-20.webp"
+      "8-9.webp"
     ],
-    "descripcion": "🔑 FORD RANGER XL 2012\n\n🚘 Versión: XL SAFETY\n🐎 Tracción: 4X2\n🕰️ Año: 2012\n\n🔩 Motor: 2.2 125 CV\n⛽️ Diesel\n⚙️ Transmisión: Manual de 6ta\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio completo en tiempo y forma\n• Cuatro cubiertas nuevas\n• Lona Bracco, cobertor de caja, barra y estribos\n\n📲 Consultas al link de la biografía"
+    "descripcion": "VW Vento 2.0Tsi Dsg AT‼️\n\n📌 Año: 2013\n📌 Km: 180.000\n📌 Excelente estado\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "volkswagen-amarok-trendline-2021",
-    "name": "Volkswagen Amarok Trendline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2021,
-    "kilometraje": 999999,
+    "id": "peugeot-408-hdi-feline-2016",
+    "name": "Peugeot 408 HDI Feline",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2016,
+    "kilometraje": 130000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "2.0L 140 CV",
+    "motor": "HDI",
     "combustible": "Diesel",
     "puertas": 4,
     "images": [
@@ -331,36 +260,25 @@
       "9-6.webp",
       "9-7.webp",
       "9-8.webp",
-      "9-9.webp",
-      "9-10.webp",
-      "9-11.webp",
-      "9-12.webp",
-      "9-13.webp",
-      "9-14.webp",
-      "9-15.webp",
-      "9-16.webp",
-      "9-17.webp",
-      "9-18.webp",
-      "9-19.webp",
-      "9-20.webp"
+      "9-9.webp"
     ],
-    "descripcion": "🔑 VOLKSWAGEN AMAROK TRENDLINE 2021\n\n🚘 Versión: Trendline\n🐎 Tracción: 4X2\n🕰️ Año: 2021\n\n🔩 Motor: 2.0L 140 CV\n⛽️ Diesel\n⚙️ Transmisión: Manual de 6ta\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicio completo en tiempo y forma\n• Cuatro cubiertas impecables\n• Stereo multimedia de Amarok 2025 con cámara de retroceso\n• Control velocidad crucero de fábrica\n\nAdemás...\n🏳️ 4 Airbags\n🏳️ Anclajes ISOFIX\n🏳️ Espejos regulables eléctricos\n🏳️ Levanta cristales eléctricos en sus 4 puertas\n🏳️ Cierre centralizado\n🏳️ Llantas 16\"\n🏳️ Climatizador\n🏳️ Frenado automático luego de colisión\n🏳️ Asistente de ascenso, control de descenso, bloqueos mecánico y electrónico de diferencial\n🏳️ Sensores de estacionamiento traseros\n\n📲 Consultas al link de la biografía"
+    "descripcion": "Peugeot 408 HDI FELINE‼️\n\n📌 Año: 2016\n📌 Km: 130.000\n📌 Excelente estado\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "renault-duster-oroch-dynamique-2021",
-    "name": "Renault Duster Oroch Dynamique",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2021,
-    "kilometraje": 51000,
+    "id": "toyota-hilux-srv-plus-2025",
+    "name": "Toyota Hilux SRV+",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "2.0 143 CV",
-    "combustible": "Nafta",
+    "transmision": "Automática",
+    "motor": "2.8",
+    "combustible": "Diesel",
     "puertas": 4,
     "images": [
       "10-1.webp",
@@ -373,32 +291,26 @@
       "10-8.webp",
       "10-9.webp",
       "10-10.webp",
-      "10-11.webp",
-      "10-12.webp",
-      "10-13.webp",
-      "10-14.webp",
-      "10-15.webp",
-      "10-16.webp",
-      "10-17.webp"
+      "10-11.webp"
     ],
-    "descripcion": "🔑 RENAULT DUSTER OROCH DYNAMIQUE 2.0 2021 🙋 ¡51.000 KM!\n\n🚘 Versión: Dynamique\n🕰️ Año: 2021\n\n🔩 Motor: 2.0 143 CV cadenero\n⛽️ Nafta\n⚙️ Transmisión: Manual de 6 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado, único dueño de 0km\n• Servicios de fluidos en tiempo y forma (Hace 1000km)\n• Distribución completa recién realizada\n• Cuatro cubiertas michelin impecables\n\n⛔️ Tomamos tu usado en forma de pago\n⛔️ KAIZEN Automóviles 🚀"
+    "descripcion": "Toyota Hilux SRV+ 4x4 AT‼️\n\n📌 Año: 2025\n📌 Km: 0\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "nissan-kicks-sense-2020",
-    "name": "Nissan Kicks Sense",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2020,
-    "kilometraje": 52000,
+    "id": "ford-ranger-limited-plus-v6-2024",
+    "name": "Ford Ranger Limited+ V6",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2024,
+    "kilometraje": 80000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6 120 CV",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Utilitario",
+    "transmision": "Automática",
+    "motor": "V6",
+    "combustible": "Diesel",
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -412,32 +324,25 @@
       "11-10.webp",
       "11-11.webp",
       "11-12.webp",
-      "11-13.webp",
-      "11-14.webp",
-      "11-15.webp",
-      "11-16.webp",
-      "11-17.webp",
-      "11-18.webp",
-      "11-19.webp",
-      "11-20.webp"
+      "11-13.webp"
     ],
-    "descripcion": "🔑 NISSAN KICKS SENSE 1.6 2020 ¡52.000 KM!\n\n🚘 Versión: Sense\n🕰️ Año: 2020\n\n🔩 Motor: 1.6 120 CV cadenero\n⛽️ Nafta\n⚙️ Transmisión: Manual de 5 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicios de fluidos en tiempo y forma\n• Cámara de retroceso y sensores de estacionamiento\n• Cuatro cubiertas impecables\n\nKAIZEN Automóviles 🚀"
+    "descripcion": "Ford Ranger Limited+ V6‼️\n\n📌 Año: 2024\n📌 Km: 80.000\n📌 Services oficiales\n📌 En garantía oficial FORD\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   },
   {
-    "id": "volkswagen-vento-advance-plus-2016",
-    "name": "Volkswagen Vento Advance Plus",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "id": "ford-ranger-2-2-2017",
+    "name": "Ford Ranger 2.2",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2017,
+    "kilometraje": 206000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "2.5 170 CV",
-    "combustible": "Nafta",
+    "motor": "2.2",
+    "combustible": "Diesel",
     "puertas": 4,
     "images": [
       "12-1.webp",
@@ -448,9 +353,8 @@
       "12-6.webp",
       "12-7.webp",
       "12-8.webp",
-      "12-9.webp",
-      "12-10.webp"
+      "12-9.webp"
     ],
-    "descripcion": "🔑 VOLKSWAGEN VENTO ADVANCE 2016\n\n🚘 Versión: Advance Plus\n🕰️ Año: 2016\n\n🔩 Motor: 2.5 170 CV\n⛽️ Nafta\n⚙️ Transmisión: Manual de 5 marchas\n\n📄 Descripción:\n• El vehículo se encuentra en excelente estado\n• Manuales y duplicado de llave\n• Servicios de fluidos en tiempo y forma\n• Cuatro cubiertas MICHELIN impecables 🛞\n\nKAIZEN Automóviles 🚀"
+    "descripcion": "Ford Ranger 2.2 6ta‼️\n\n📌 Año: 2017\n📌 Km: 206.000\n📌 Excelente estado\n📌 Aceptamos tu usado 🤝\n\n🏦 FINANCIAMOS cuotas fijas en pesos solo con DNI\n📲 3446 635858\n📍 Gchu, Entre Rios. Bv. Daneri 777"
   }
 ]
