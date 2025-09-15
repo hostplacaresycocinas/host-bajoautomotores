@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'carhousesgo',
-  name: 'Carhouse Motors',
-  adress: 'Independencia 966',
-  city: 'Santiago del Estero',
-  email: 'carhousesgo@hotmail.com',
-  instagram: 'carhousesgo',
+  id: 'kaizenautomoviles',
+  name: 'Kaizen Automoviles',
+  adress: 'Av. de los inmigrantes e/ 105 y 107',
+  city: 'Mercedes',
+  email: 'kaizenautomoviles@gmail.com',
+  instagram: 'kaizen_automoviles',
   facebook: 'https://www.facebook.com/profile.php?id=61576724884188',
-  whatsapp: ['3853161713', '3855218438', '3854086168'],
-  googlemapsLink: 'https://maps.app.goo.gl/teoSAM8fRS4tMEVK6',
+  whatsapp: ['2324503849'],
+  googlemapsLink: 'https://maps.app.goo.gl/kFqEhwvhMubN9pwUA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.4337268992012!2d-64.25289402353897!3d-27.79641737613158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b5206ec04d657%3A0xf0d0efdb9e67f06b!2sIndependencia%20966%2C%20G4200%20Santiago%20del%20Estero!5e0!3m2!1sen!2sar!4v1754765912824!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.4118005136766!2d-59.41800393030358!3d-34.663611695242395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc739b27d7ac33%3A0x37e94fa84a20a4b8!2sKAIZEN%20Automoviles!5e0!3m2!1sen!2sar!4v1757924931200!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 13:30 y 17:30 a 21:30hs',
-    'Sábados 09:00 a 13:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Con cita previa',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://carhousesgo.vercel.app/',
-  title: 'Carhouse Motors - Compra y Venta de Autos',
+  metadataBase: 'https://kaizenautomoviles.vercel.app/',
+  title: 'Kaizen Automoviles - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
