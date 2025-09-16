@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'maxcarautomotores',
-  name: 'MAXCAR AUTOMOTORES',
-  adress: 'Bv. Daneri 777',
-  city: 'Gualeguaychú',
-  email: 'mateo.rodriguez2017@hotmail.com',
-  instagram: 'maxcar_automotores',
+  id: 'redcarspilar',
+  name: 'RedCars Pilar',
+  adress: 'Ramal Pilar Km 45',
+  city: 'Colectora Panamericana',
+  email: 'redcarspilar@gmail.com',
+  instagram: 'redcars.pilar',
   facebook: null,
-  whatsapp: ['3446635858'],
-  googlemapsLink: 'https://maps.app.goo.gl/Uu33ex5uF5Tzw7fs8',
+  whatsapp: ['1133519290', '1136204674'],
+  googlemapsLink: 'https://maps.app.goo.gl/u5pmwfz7nHnmfmTg7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.6764366350554!2d-58.52775549097063!3d-33.009628266243624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b00769ee5124df%3A0x4f92f9950bf14f25!2sMaxcar%20automotores!5e0!3m2!1sen!2sar!4v1757932263599!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6574286650803!2d-58.81385029999999!3d-34.4354558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f0b4d903b69%3A0xa823c046c7dd7fcb!2sRED%20CARS%20PILAR!5e0!3m2!1sen!2sar!4v1758035805898!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 08:00 a 20:30hs',
-    'Sábados 08:00 a 13:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábados 09:00 a 19:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://maxcarautomotores.vercel.app/',
-  title: 'MAXCAR AUTOMOTORES - Compra y Venta de Autos',
+  metadataBase: 'https://redcarspilar.vercel.app/',
+  title: 'RedCars Pilar - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
