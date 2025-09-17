@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'redcarspilar',
-  name: 'RedCars Pilar',
-  adress: 'Ramal Pilar Km 45',
-  city: 'Colectora Panamericana',
-  email: 'redcarspilar@gmail.com',
-  instagram: 'redcars.pilar',
-  facebook: null,
-  whatsapp: ['1133519290', '1136204674'],
-  googlemapsLink: 'https://maps.app.goo.gl/u5pmwfz7nHnmfmTg7',
+  id: 'nrautomoviles',
+  name: 'NR Automóviles',
+  adress: 'Matienzo 1038',
+  city: 'Monte Grande',
+  email: null,
+  instagram: 'nr.automoviles',
+  facebook: 'https://www.facebook.com/NRautomoviles/',
+  whatsapp: ['1126636600'],
+  googlemapsLink: 'https://maps.app.goo.gl/zPrhkVKrqAAKBGfM8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6574286650803!2d-58.81385029999999!3d-34.4354558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f0b4d903b69%3A0xa823c046c7dd7fcb!2sRED%20CARS%20PILAR!5e0!3m2!1sen!2sar!4v1758035805898!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.51372935829!2d-58.45161672289024!3d-34.81817386885815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd307c0d84fdb%3A0xb4fd60f50d392411!2sNR%20Automoviles!5e0!3m2!1sen!2sar!4v1758113844796!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábados 09:00 a 19:00hs',
+    'Lunes a Viernes 09:30 a 19:00hs',
+    'Sábados 09:30 a 14:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://redcarspilar.vercel.app/',
-  title: 'RedCars Pilar - Compra y Venta de Autos',
+  metadataBase: 'https://nrautomoviles.vercel.app/',
+  title: 'NR Automóviles - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
