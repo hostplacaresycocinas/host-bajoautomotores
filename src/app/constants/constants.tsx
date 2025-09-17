@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'nrautomoviles',
-  name: 'NR Automóviles',
-  adress: 'Matienzo 1038',
-  city: 'Monte Grande',
+  id: 'automotoresacosta',
+  name: 'Automotores Acosta',
+  adress: 'Colectora Eva Perón 2780',
+  city: 'Saladillo',
   email: null,
-  instagram: 'nr.automoviles',
-  facebook: 'https://www.facebook.com/NRautomoviles/',
-  whatsapp: ['1126636600'],
-  googlemapsLink: 'https://maps.app.goo.gl/zPrhkVKrqAAKBGfM8',
+  instagram: 'automotoresacostaa',
+  facebook: 'https://www.facebook.com/profile.php?id=61566537358119',
+  whatsapp: ['2345420158'],
+  googlemapsLink: 'https://maps.app.goo.gl/SecQXYano1dPxUvH9',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.51372935829!2d-58.45161672289024!3d-34.81817386885815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd307c0d84fdb%3A0xb4fd60f50d392411!2sNR%20Automoviles!5e0!3m2!1sen!2sar!4v1758113844796!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.924979403212!2d-59.78578212286365!3d-35.629575912400256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bde10046ded9e5%3A0x587ee5967cf7634!2sAcosta%20Automotores!5e0!3m2!1sen!2sar!4v1758127118527!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 19:00hs',
-    'Sábados 09:30 a 14:30hs',
+    'Lunes a Viernes 09:00 a 18:00hs',
+    'Sábados 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://nrautomoviles.vercel.app/',
-  title: 'NR Automóviles - Compra y Venta de Autos',
+  metadataBase: 'https://automotoresacosta.vercel.app/',
+  title: 'Automotores Acosta - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
