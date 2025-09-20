@@ -132,7 +132,7 @@ const ContactoPage = () => {
                         Ubicación
                       </h3>
                       <p className='text-gray-600 text-base font-medium'>
-                        {company.adress}, {company.city}
+                        {company.adress} {company.city}
                       </p>
                       <p className='text-sm text-color-primary font-medium mt-1'>
                         Ver en Google Maps →

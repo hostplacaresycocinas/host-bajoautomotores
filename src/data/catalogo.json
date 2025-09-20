@@ -1,20 +1,20 @@
 [
   {
-    "id": "chevrolet-onix-lt-2017",
-    "name": "Chevrolet Onix LT",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2017,
-    "kilometraje": 74000,
+    "id": "volkswagen-vento-tsi-sportline-2012",
+    "name": "Volkswagen Vento TSI Sportline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2012,
+    "kilometraje": 157000,
     "precio": {
-      "valor": 15400000,
-      "moneda": "ARS"
+      "valor": 16500,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "2.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -27,23 +27,23 @@
       "1-9.webp",
       "1-10.webp"
     ],
-    "descripcion": "VENDO - PERMUTO - FINANCIO ‼️‼️\nCHEVROLET ONIX LT 1.4 Año 2017\n74000km\nSegundo dueño\nServices oficiales ✅\nLa versión LT cuenta con alza cristales delanteros, central multimedia, aire direccion y calefaccion. 💎\nGran estado general tanto estetica como mecanico y cubiertas.\nEste auto se encuentra con su VTV al dia. Listo para transferir.\nEl valor es de $15.400.000, podes financiar hasta el 50% de la unidad 😎.\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo 📍\nAcercate a negociar con nosotros, nos centramos en tu tranquilidad y confianza a la hora de cada operación. Clientes de nuestro comercio avalan nuestra experiencia. 💯\n#onix #chevrolet #usadosseleccionados #bsas🇦🇷 #saladillo"
+    "descripcion": "VOLKSWAGEN VENTO 2.0 TSI SPORTLINE\n2012 | 157.000 kms\n▪️Cubiertas nuevas kuhmo\n100% original de fábrica!\n💵 16.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "ford-focus-trend-2013",
-    "name": "Ford Focus Trend",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2013,
-    "kilometraje": 194000,
+    "id": "peugeot-207-compact-2009",
+    "name": "Peugeot 207 Compact",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2009,
+    "kilometraje": 180000,
     "precio": {
-      "valor": 12400000,
-      "moneda": "ARS"
+      "valor": 7800,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Nafta",
+    "motor": "1.9",
+    "combustible": "Diésel",
     "puertas": 5,
     "images": [
       "2-1.webp",
@@ -54,24 +54,25 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp"
+      "2-9.webp",
+      "2-10.webp"
     ],
-    "descripcion": "FORD FOCUS 2.0 TREND 😍\nAño 2013 Nafta ⛽️\n194.000km\nVTV ✅\nAire - direccion.\nAlza cristales electricos.\nControl crucero.\nCubiertas al 90% 🛞\nAl dia, listo para transferir 🤝\nValor promocional $12.400.000.\nRecorda que podes financiar hasta el 50% de tu unidad en cuotas fijas y en pesos 😎\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo 📍\n#ford #fordargentina🔵 #bsas🇦🇷 #saladillo #argentina🇦🇷"
+    "descripcion": "PEUGEOT 207 1.9D COMPACT\n2009 | 180.000 kms\n▪️Cubiertas nuevas!\n💵 7.800 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "renault-clio-authentick-pack-2013",
-    "name": "Renault Clio Authentick Pack",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 140000,
+    "id": "volkswagen-gol-trend-msi-2017",
+    "name": "Volkswagen Gol Trend MSI",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 124000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 11000,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.2",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -83,25 +84,26 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp"
+      "3-9.webp",
+      "3-10.webp"
     ],
-    "descripcion": "VENDO - PERMUTO - FINANCIO ‼️\nRenault Clio 1.2 Authentick Pack\nAño 2013 140.000km\nVTV 2026 Aire - dirección - alarma\nMuy buen estado general tanto de mecanica como de estetica\nListo para rodar ✅\nAl dia, para transferir.\nConsultas al 2 3 4 5 4 2 0 1 5 8 📲\nACOSTA AUTOMOTORES, nos encontramos ubicados en Colectora Eva Peron 2780 - Saladillo 📍\n#clio #renault #vehicles #saladillo"
+    "descripcion": "GOL TREND 1.6 MSI\n2017 | 124.000 kms\n▪️4 Cubiertas nuevas\n▪️Suspensión a medida\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "peugeot-307-xs-2008",
-    "name": "Peugeot 307 XS",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2008,
-    "kilometraje": 192000,
+    "id": "volkswagen-gol-trend-2013",
+    "name": "Volkswagen Gol Trend",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
+    "kilometraje": 150000,
     "precio": {
-      "valor": 9000000,
-      "moneda": "ARS"
+      "valor": 9000,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diésel",
+    "motor": "1.6",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "4-1.webp",
@@ -115,43 +117,54 @@
       "4-9.webp",
       "4-10.webp"
     ],
-    "descripcion": "VENDO ‼️‼️\nPeugeot 307 XS Año 2008\nMotor 2.0 HDI 192.000km\nVTV 2026 ✅\nCubiertas delanteras KHUMO 90%\nCubiertas traseras al 75%\nDistribución realizada a los 191.000km\nCambio de aceite a los 190.000km\nTitular desde el año 2018 hasta la fecha vigente.\n-Papeles al dia, listo para transferir ✅\nValor de $9.000.000 negociables en efectivo.\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo 📍"
+    "descripcion": "GOL TREND 1.6\n2013 | 150.000 kms\n4 Cubiertas 0km recién colocadas\n💵 9.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "ford-ranger-xlt-2018",
-    "name": "Ford Ranger XLT",
-    "marca": "Ford",
-    "marcaId": "ford",
+    "id": "chevrolet-onix-joy-gnc-2018",
+    "name": "Chevrolet Onix Joy GNC",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
     "ano": 2018,
-    "kilometraje": 999999,
+    "kilometraje": 92000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 11000,
+      "moneda": "USD"
     },
-    "categoria": "Pickup",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.5",
+    "motor": "1.4",
     "combustible": "Nafta/GNC",
-    "puertas": 4,
-    "images": ["5-1.webp", "5-2.webp", "5-3.webp"],
-    "descripcion": "VENDIDA ‼️‼️\nFord Ranger XLT 2.5\nNafta GNC.\nAño 2018 VTV 2026\nAire direccion alza cristales electricos.\nUnidad ya entregada ✅\nNos encontramos ubicados en Colectora Eva Peron 2780 - Saladillo."
+    "puertas": 5,
+    "images": [
+      "5-1.webp",
+      "5-2.webp",
+      "5-3.webp",
+      "5-4.webp",
+      "5-5.webp",
+      "5-6.webp",
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp"
+    ],
+    "descripcion": "CHEVROLET ÓNIX JOY 1.4\n2018 | 92.000 kms\n▪️Gnc 5ta oblea 2026\n▪️Vtv 2026\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "ford-ranger-xl-4x4-0km",
-    "name": "Ford Ranger XL 4x4",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2024,
-    "kilometraje": 227,
+    "id": "volkswagen-saveiro-2011",
+    "name": "Volkswagen Saveiro",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2011,
+    "kilometraje": 135000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 11000,
+      "moneda": "USD"
     },
     "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 2,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -161,24 +174,25 @@
       "6-6.webp",
       "6-7.webp",
       "6-8.webp",
-      "6-9.webp"
+      "6-9.webp",
+      "6-10.webp"
     ],
-    "descripcion": "FORD RANGER XL 4x4 0km ✅\nV E N D I D A ‼️\nFord Ranger XL 4x4 Motor 2.0 Diesel ⛽️\nTraccion 4x4 Tipo de caja Manual.\nMonoturbo.\n227km.\nEquipamiento: Central multimedia de 10\".\nMirrorlink y apple carplay.\nAire acondicionado.\nAlza cristales electricos en las 4 puertas.\nAjuste de altura en butacas.\nEspejos electricos.\nDirección electro asistida.\nUnidad entregada en modo llave por llave 🔑 0km patentada.\nSe vos el siguiente en adquirir una de estas!\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo. Por consultas al 2 3 4 5 4 2 0 1 5 8 📲\n#0km #ranger #vendida #entregada #hacemosposiblestussueños #saladillo #bsas"
+    "descripcion": "VOLKSWAGEN SAVEIRO 1.6\n2011 | 135.000 kms\nÚNICA POR SU ESTADO!\n▪️Historial de mantenimiento desde 0km\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "chevrolet-s10-dlx-2007",
-    "name": "Chevrolet S10 DLX",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2007,
-    "kilometraje": 293000,
+    "id": "volkswagen-amarok-tdi-highline-4x2-2011",
+    "name": "Volkswagen Amarok TDI Highline 4x2",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2011,
+    "kilometraje": 173000,
     "precio": {
-      "valor": 13500000,
-      "moneda": "ARS"
+      "valor": 17500,
+      "moneda": "USD"
     },
     "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "2.8",
+    "motor": "2.0",
     "combustible": "Diésel",
     "puertas": 4,
     "images": [
@@ -193,23 +207,23 @@
       "7-9.webp",
       "7-10.webp"
     ],
-    "descripcion": "VENDIDA ‼️\nCHEVROLET S10 DLX\nMotor 2.8TDI\nDiesel ⛽️\nAño 2007\n4x2 293.000km\nVTV 11/25 ✅\nAire - dirección - calefacción - espejos electricos - alza cristales electricos.\nTotalmente al dia lista para transferir 🤝\nBuen estado general, cubiertas al 80%.\nBalanceada y alineada recientemente. Rotulas nuevas.\nCambio crapodina, embreague en buen estado.\nEl valor es de $13.500.000 con gastos de entrega incluidos.\nVehiculo ideal para uso diario o trabajo. Resuelvo tus dudas al 2 3 4 5 4 2 0 1 5 8 📲\nAcosta Automotores, nos encontramos en Ruta 205 - Colectora Eva Peron 2780, Saladillo 📍"
+    "descripcion": "AMAROK 2.0 TDI HIGHLINE 4X2\n2011 | 173.000 kms\n💵 17.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "peugeot-408-feline-2011",
-    "name": "Peugeot 408 Feline",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2011,
-    "kilometraje": 147000,
+    "id": "volkswagen-amarok-tdi-highline-4x4-automatica-2018",
+    "name": "Volkswagen Amarok TDI Highline 4x4 Automática",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 132000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 28000,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
-    "transmision": "Manual",
+    "categoria": "Pickup",
+    "transmision": "Automática",
     "motor": "2.0",
-    "combustible": "Nafta",
+    "combustible": "Diésel",
     "puertas": 4,
     "images": [
       "8-1.webp",
@@ -223,24 +237,24 @@
       "8-9.webp",
       "8-10.webp"
     ],
-    "descripcion": "VENDO - PERMUTO - FINANCIO ‼️\nPEUGEOT 408 FELINE Motor Nafta 2.0 -\nAño 2011 147.000km\nUnico dueño ✅\nVTV 2026 Accesorios: Dirección hidraulica - Climatizador bizona - Asientos calefaccionados - espejos eléctricos - techo panorámico - pantalla navegador - Cuero - Accesorios en Cromo - Apoya brazos central conductor - Apoya brazos traseros 🛞\nCubiertas delanteras 0km.\n🔧 Distribuccion recien realizada.\nFinanciamos hasta un 35% del valor de la unidad.\nTomamos tu usado al mejor valor 🤝\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo 📍\nAcercate a negociar con nosotros, nos centramos en tu tranquilidad y confianza a la hora de cada operación. Clientes de nuestro comercio avalan nuestra experiencia. 💯\n#408 #peugeot408 #ventas #reelinstagram❤️ #contenido #compraenlínea #venta #ventas"
+    "descripcion": "AMAROK 2.0 TDI HIGHLINE 4X4 AUTOMÁTICA\n2018 | 132.000 kms\n▪️4 Cubiertas nuevas Bridgestone\n🛡️Original de fábrica\n💵 28.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "peugeot-3008-premium-plus-2010",
-    "name": "Peugeot 3008 Premium Plus",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2010,
-    "kilometraje": 173000,
+    "id": "volkswagen-amarok-v6-highline-4x4-automatica-2023",
+    "name": "Volkswagen Amarok V6 Highline 4x4 Automática",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2023,
+    "kilometraje": 46000,
     "precio": {
-      "valor": 9000000,
-      "moneda": "ARS"
+      "valor": 41000,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "3.0",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "9-1.webp",
       "9-2.webp",
@@ -253,22 +267,22 @@
       "9-9.webp",
       "9-10.webp"
     ],
-    "descripcion": "VENDO - FINANCIO ‼️‼️\nPeugeot 3008 Premium Plus Año 2010\n173.000km\nMotor 1.6T -  Nafta.\nVTV al dia.\nAccesorios: control crucero, climatizador bizona, calefacción en las butacas, espejos electricos, alza cristales en las 4 puertas, parasoles traseros de ventana, techo cielo, control de tracción.\nMantenimiento: distribucion vigente, cambio de aceite y filtro 5w30 recien echos. Buen estado de cubiertas.\nMuy cuidada, comoda y practica, ideal para viajar ✅\nValor unidad $9.000.000.\nFinancia hasta el 50% cuotas fijas y en pesos 🤩\nResuelvo tus dudas al 2 3 4 5 4 2 0 1 5 8 📲\nSomos ACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo 📍.\n#instagram #peugeot3008 #seleccionada #anuncios #buenosnegocios"
+    "descripcion": "AMAROK V6 HIGHLINE 4X4 AUTOMÁTICA\n2023 | 46.000 kms\n▪️Garantía oficial Volkswagen\n▪️Service oficiales\n🛡️Original de fábrica!\n💵 41.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "ford-focus-se-2016",
-    "name": "Ford Focus SE",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
-    "kilometraje": 104000,
+    "id": "peugeot-208-feline-2015",
+    "name": "Peugeot 208 Feline",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2015,
+    "kilometraje": 150000,
     "precio": {
-      "valor": 18000000,
-      "moneda": "ARS"
+      "valor": 12000,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -281,26 +295,29 @@
       "10-7.webp",
       "10-8.webp",
       "10-9.webp",
-      "10-10.webp"
+      "10-10.webp",
+      "10-11.webp",
+      "10-12.webp",
+      "10-13.webp"
     ],
-    "descripcion": "VENDO - PERMUTO - FINANCIO ‼️\nFord Focus SE 2.0 MT\nMotor Nafta ⛽️\nAño 2016\n104.000km\nBuen estado general Cubiertas en muy buenas condiciones.\nAccesorios: climatizador de habitaculo, alza cristales electricos en las 4 puertas, asientos en cuero de fabrica, llantas de aleación, comando multimedia Sync.\nTotalmente al dia y listo para transferir 👌 Valor $18.000.000\nFinancia hasta un 50% en cuotas fijas y en pesos 🤝\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo."
+    "descripcion": "PEUGEOT 208 FELINE 1.6\n2015 | 150.000 kms\n▪️VTV 2026\n▪️Pantallas en ambos apoyacabezas\n💵 12.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "peugeot-208-feline-2014",
-    "name": "Peugeot 208 Feline",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2014,
-    "kilometraje": 123000,
+    "id": "volkswagen-bora-1-8t-240hp-2007",
+    "name": "Volkswagen Bora 1.8T 240HP",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2007,
+    "kilometraje": 170000,
     "precio": {
-      "valor": 15300000,
-      "moneda": "ARS"
+      "valor": 10000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "1.8",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -309,26 +326,28 @@
       "11-5.webp",
       "11-6.webp",
       "11-7.webp",
-      "11-8.webp"
+      "11-8.webp",
+      "11-9.webp",
+      "11-10.webp"
     ],
-    "descripcion": "VENDO - PERMUTO - FINANCIO Peugeot 208 Feline\nAño 2014\n123.000km\nVTV 2026 Motor Nafta 1.6.\nAire - dirección- climatizador ✅\nTecho cielo panoramico 😍\nControl crucero Pantalla con navegador\nCubiertas delanteras 0km\nDiscos y pastillas 0km\nValor $15.300.000\nFinancia hasta el 50% cuotas fijas y en pesos.\nAl dia listo para transferir 🤝\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo. 📍"
+    "descripcion": "VOLKSWAGEN BORA 1.8T 240HP\n2007 | 170.000 kms escaneados\n▪️Escape completo inox\n▪️Repro Comelli 240hp\n▪️Suspensión Eibach\n▪️Admisión directa Simota\n▪️Bobinas red y bujías ngk\n▪️Embrague Tormen para 350hp\n▪️Sensores de estacionamiento\n💵 10.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   },
   {
-    "id": "chevrolet-corsa-gls-2009",
-    "name": "Chevrolet Corsa GLS",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2009,
-    "kilometraje": 198000,
+    "id": "ds3-sportchic-2016",
+    "name": "DS3 Sportchic",
+    "marca": "DS",
+    "marcaId": "ds",
+    "ano": 2016,
+    "kilometraje": 86000,
     "precio": {
-      "valor": 7500000,
-      "moneda": "ARS"
+      "valor": 15500,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 3,
     "images": [
       "12-1.webp",
       "12-2.webp",
@@ -341,6 +360,6 @@
       "12-9.webp",
       "12-10.webp"
     ],
-    "descripcion": "VENDIDO ‼️\nCHEVROLET CORSA 1.4 GLS\nAño 2009\nCaja manual de 5ta\n198.000km\nBuen estado general .\nTanto cubiertas como tren delantero estan en buen estado, mecanicamente el auto funciona muy bien. $7.500.000 - Financia hasta $2.500.000.\nEl valor de venta no incluye transferencia.\nACOSTA AUTOMOTORES, ubicados en Colectora Eva Peron 2780 - Saladillo. 📍"
+    "descripcion": "DS3 SPORTCHIC\n2016 | 86.000 kms\n🎈Suspensión neumática BZ STYLE\n▪️Escape completo inox\n▪️Admisión\n▪️4 cubiertas nuevas\n▪️Pintura de fábrica\n💵 15.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
   }
 ]

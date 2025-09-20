@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: false,
+  price: true,
   objectCover: '50%',
-  id: 'automotoresacosta',
-  name: 'Automotores Acosta',
-  adress: 'Colectora Eva Perón 2780',
-  city: 'Saladillo',
-  email: null,
-  instagram: 'automotoresacostaa',
-  facebook: 'https://www.facebook.com/profile.php?id=61566537358119',
-  whatsapp: ['2345420158'],
-  googlemapsLink: 'https://maps.app.goo.gl/SecQXYano1dPxUvH9',
+  id: 'motorscash',
+  name: 'Motors Cash',
+  adress: 'Blvd. Calixto',
+  city: 'B. Dellepiane 760',
+  email: 'motorscash@gmail.com',
+  instagram: 'motors.cash',
+  facebook: null,
+  whatsapp: ['1131376888'],
+  googlemapsLink: 'https://maps.app.goo.gl/jYJjFq9M8hsdKH6e8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.924979403212!2d-59.78578212286365!3d-35.629575912400256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bde10046ded9e5%3A0x587ee5967cf7634!2sAcosta%20Automotores!5e0!3m2!1sen!2sar!4v1758127118527!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.049329496418!2d-58.97186852340885!3d-34.17065643475832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb7300416152af%3A0x394dec981d936df2!2sMotorscash!5e0!3m2!1sen!2sar!4v1758346370032!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 18:00hs',
-    'Sábados 09:00 a 13:00hs',
+    'Lunes a Viernes 09:30 a 18:00hs',
+    'Sábados 09:30 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://automotoresacosta.vercel.app/',
-  title: 'Automotores Acosta - Compra y Venta de Autos',
+  metadataBase: 'https://motorscash.vercel.app/',
+  title: 'Motors Cash - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

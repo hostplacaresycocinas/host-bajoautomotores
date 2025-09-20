@@ -155,7 +155,7 @@ const Footer = () => {
                             : 'text-color-text'
                         }`}
                       >
-                        <span>{company.adress && `${company.adress}, `}</span>
+                        <span>{company.adress && `${company.adress} `}</span>
                         <span>{company.city && `${company.city}`}</span>
                       </div>
                     </div>
