@@ -41,7 +41,9 @@ const PreguntasHome = () => {
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
             className='text-color-text max-w-2xl mx-auto md:text-lg font-medium'
           >
-            Resolvemos todas tus dudas sobre nuestros servicios y procesos
+            Contamos con mucha experiencia en el mercado automotriz.
+            <br />
+            ¡Cualquier consulta no dudes en contactarnos!
           </motion.p>
         </div>
 

@@ -16,18 +16,18 @@ const ContactoPage = () => {
     <>
       <Header />
       <div className=''>
-        {/* Hero Section */}
-        <section className='relative h-48 md:h-60 lg:h-72 flex items-center justify-center overflow-hidden'>
+        {/* Hero Section con imagen de fondo */}
+        <section className='relative h-72 md:h-80 lg:h-96 pt-10 md:pt-16 flex items-center justify-center overflow-hidden'>
           {/* Imagen de fondo con overlay */}
           <div className='absolute inset-0 z-0'>
             <Image
               src='/assets/contacto/contacto-banner.webp'
-              alt={`Equipo de ${company.name}`}
+              alt={`nosotros banner`}
               fill
               className='object-cover'
               priority
             />
-            <div className='absolute inset-0 bg-black/80 md:bg-black/70'></div>
+            <div className='absolute inset-0 bg-gradient-to-r from-black/80 md:from-black/90 via-black/50 md:via-black/60 to-black/80 md:to-black/90'></div>
           </div>
 
           {/* Contenido centrado */}
@@ -52,162 +52,191 @@ const ContactoPage = () => {
         </section>
 
         {/* Información de contacto principal */}
-        <section>
-          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start'>
-              {/* Columna izquierda - Información de contacto */}
-              <div className='space-y-6'>
-                {/* Tarjetas de contacto */}
-                <div className='space-y-6'>
-                  {/* WhatsApp */}
-                  <motion.a
-                    href={`https://api.whatsapp.com/send?phone=549${company.whatsapp[0]}&text=Hola! Quería hacer una consulta sobre un vehículo`}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.3 }}
-                    viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
-                  >
-                    <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
-                      <WhatsappFillIcon className='w-7 h-7 text-white' />
-                    </div>
-                    <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
-                        WhatsApp
-                      </h3>
-                      <p className='text-gray-600 text-base font-medium'>
-                        {company.whatsapp[0]}
-                      </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
-                        Respuesta inmediata →
-                      </p>
-                    </div>
-                  </motion.a>
+        <section className='py-16 md:py-20 lg:py-24'>
+          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+            {/* Sección de contacto */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='text-center mb-12 md:mb-16'
+            >
+              <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
+                Canales de Contacto
+              </h2>
+              <p className='text-lg md:text-xl text-gray-600 max-w-2xl mx-auto'>
+                Elegí el medio que prefieras para comunicarte con nosotros
+              </p>
+            </motion.div>
 
-                  {/* Instagram */}
-                  <motion.a
-                    href={`https://www.instagram.com/${company.instagram}/`}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.4 }}
-                    viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
-                  >
-                    <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
-                      <InstagramIcon className='w-7 h-7 text-white' />
-                    </div>
-                    <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
-                        Instagram
-                      </h3>
-                      <p className='text-gray-600 text-base font-medium'>
-                        @{company.instagram}
-                      </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
-                        Seguinos y enterate de las novedades →
-                      </p>
-                    </div>
-                  </motion.a>
-
-                  {/* Ubicación */}
-                  <motion.a
-                    href={company.googlemapsLink || ''}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
-                    viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
-                  >
-                    <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
-                      <LocationIcon className='w-7 h-7 text-white' />
-                    </div>
-                    <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
-                        Ubicación
-                      </h3>
-                      <p className='text-gray-600 text-base font-medium'>
-                        {company.adress} {company.city}
-                      </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
-                        Ver en Google Maps →
-                      </p>
-                    </div>
-                  </motion.a>
-                </div>
-              </div>
-
-              {/* Columna derecha - Horarios y mapa */}
-              <motion.div
+            {/* Grid de contacto */}
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-16 md:mb-20 max-w-md md:max-w-none mx-auto'>
+              {/* WhatsApp */}
+              <motion.a
+                href={`https://api.whatsapp.com/send?phone=549${company.whatsapp[0]}&text=Hola! Quería hacer una consulta sobre un vehículo`}
+                target='_blank'
+                rel='noopener noreferrer'
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                viewport={{ once: true, margin: '0px 100px -100px 0px' }}
-                className='space-y-8 h-full'
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className='group p-8 bg-white rounded-2xl border-2 border-gray-200 hover:border-color-primary transition-colors shadow-lg text-center'
               >
-                {/* Horarios */}
-                <div className=' rounded-3xl shadow-xl p-4 sm:p-6 lg:p-8 border border-gray-200 h-full'>
-                  <div className='text-center mb-6 sm:mb-8'>
-                    <div className='inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-color-primary rounded-xl sm:rounded-2xl shadow-lg mb-3 sm:mb-4'>
-                      <ClockIcon className='w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white' />
-                    </div>
-                    <h3 className='text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-2'>
-                      Horarios de Atención
-                    </h3>
-                    <p className='text-gray-600 text-xs sm:text-sm lg:text-base'>
-                      Te esperamos para brindarte la mejor atención
-                    </p>
-                  </div>
-
-                  <div className='space-y-2 sm:space-y-3'>
-                    <div className='relative flex flex-col gap-2 sm:gap-3'>
-                      {company.openDays.map((day, index) => (
-                        <div key={index}>
-                          <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{
-                              duration: 0.5,
-                              delay: 0.4 + index * 0.1,
-                            }}
-                            viewport={{ once: true }}
-                            className='flex items-center justify-between p-3 sm:p-4 bg-gradient-to-r from-white/90 to-gray-50/90 rounded-xl sm:rounded-2xl border border-gray-200 shadow-sm'
-                          >
-                            <div className='flex items-center space-x-2 sm:space-x-4'>
-                              <div className='w-2 h-2 sm:w-3 sm:h-3 bg-color-primary rounded-full shadow-sm'></div>
-                              <span className='font-bold text-gray-800 text-sm sm:text-base lg:text-lg'>
-                                {day}
-                              </span>
-                            </div>
-                          </motion.div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                <div className='w-16 h-16 bg-color-primary/10 rounded-xl flex items-center justify-center mb-6 mx-auto'>
+                  <WhatsappFillIcon className='w-8 h-8 text-color-primary' />
                 </div>
-              </motion.div>
-              <div className='bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 lg:col-span-2'>
-                <div className='relative'>
-                  <iframe
-                    className='w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem]'
-                    src={`${company.googlemaps}`}
-                    width='100%'
-                    height='400'
-                    loading='lazy'
-                    referrerPolicy='no-referrer-when-downgrade'
-                    style={{
-                      minWidth: '450px',
-                      border: 'none',
-                    }}
-                  ></iframe>
+                <h3 className='text-xl md:text-2xl font-bold text-gray-900 mb-2'>
+                  WhatsApp
+                </h3>
+                <p className='text-gray-600 mb-4'>{company.whatsapp[0]}</p>
+                <div className='flex items-center justify-center text-color-primary font-semibold'>
+                  <span>Chatear ahora</span>
+                  <svg
+                    className='w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M13 7l5 5m0 0l-5 5m5-5H6'
+                    />
+                  </svg>
+                </div>
+              </motion.a>
+
+              {/* Instagram */}
+              <motion.a
+                href={`https://www.instagram.com/${company.instagram}/`}
+                target='_blank'
+                rel='noopener noreferrer'
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className='group p-8 bg-white rounded-2xl border-2 border-gray-200 hover:border-color-primary transition-colors shadow-lg text-center'
+              >
+                <div className='w-16 h-16 bg-color-primary/10 rounded-xl flex items-center justify-center mb-6 mx-auto'>
+                  <InstagramIcon className='w-8 h-8 text-color-primary' />
+                </div>
+                <h3 className='text-xl md:text-2xl font-bold text-gray-900 mb-2'>
+                  Instagram
+                </h3>
+                <p className='text-gray-600 mb-4'>@{company.instagram}</p>
+                <div className='flex items-center justify-center text-color-primary font-semibold'>
+                  <span>Seguir</span>
+                  <svg
+                    className='w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M13 7l5 5m0 0l-5 5m5-5H6'
+                    />
+                  </svg>
+                </div>
+              </motion.a>
+
+              {/* Ubicación */}
+              <motion.a
+                href={company.googlemapsLink || ''}
+                target='_blank'
+                rel='noopener noreferrer'
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+                className='group p-8 bg-white rounded-2xl border-2 border-gray-200 hover:border-color-primary transition-colors shadow-lg text-center'
+              >
+                <div className='w-16 h-16 bg-color-primary/10 rounded-xl flex items-center justify-center mb-6 mx-auto'>
+                  <LocationIcon className='w-8 h-8 text-color-primary' />
+                </div>
+                <h3 className='text-xl md:text-2xl font-bold text-gray-900 mb-2'>
+                  Ubicación
+                </h3>
+                <p className='text-gray-600 mb-4'>
+                  {company.adress}, {company.city}
+                </p>
+                <div className='flex items-center justify-center text-color-primary font-semibold'>
+                  <span>Ver mapa</span>
+                  <svg
+                    className='w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M13 7l5 5m0 0l-5 5m5-5H6'
+                    />
+                  </svg>
+                </div>
+              </motion.a>
+            </div>
+
+            {/* Sección de horarios */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='max-w-3xl mx-auto mb-16 md:mb-20'
+            >
+              <div className='bg-color-bg-secondary rounded-3xl p-8 md:p-12 text-center shadow-2xl'>
+                <div className='w-16 h-16 bg-color-primary rounded-2xl flex items-center justify-center mx-auto mb-6'>
+                  <ClockIcon className='w-8 h-8 text-white' />
+                </div>
+                <h3 className='text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6'>
+                  Horarios de Atención
+                </h3>
+                <div className='space-y-4'>
+                  {company.openDays.map((day, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
+                      className='flex items-center justify-center p-4 bg-color-bg-primary backdrop-blur-sm rounded-xl border border-white/20'
+                    >
+                      <span className='text-lg md:text-xl text-color-title font-medium'>
+                        {day}
+                      </span>
+                    </motion.div>
+                  ))}
                 </div>
               </div>
-            </div>
+            </motion.div>
+
+            {/* Mapa */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className='rounded-3xl overflow-hidden shadow-2xl border-2 border-gray-200'
+            >
+              <iframe
+                className='w-full h-96 md:h-[500px] lg:h-[600px]'
+                src={`${company.googlemaps}`}
+                width='100%'
+                height='600'
+                loading='lazy'
+                referrerPolicy='no-referrer-when-downgrade'
+                style={{
+                  border: 'none',
+                }}
+              ></iframe>
+            </motion.div>
           </div>
         </section>
       </div>

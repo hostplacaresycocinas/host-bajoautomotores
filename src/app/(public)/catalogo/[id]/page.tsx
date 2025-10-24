@@ -30,8 +30,8 @@ interface ApiCar {
   description: string;
   categoryId: string;
   mileage: number;
-  motor: string;
-  transmission: string;
+  motor: string | null;
+  transmission: string | null;
   fuel: string;
   doors: number;
   position: number;
@@ -46,7 +46,7 @@ interface ApiCar {
     createdAt: string;
     updatedAt: string;
   };
-  Images: {
+  images: {
     thumbnailUrl: string;
     imageUrl: string;
     order: number;
@@ -66,7 +66,7 @@ export default function AutoDetailPage() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalStartIndex, setModalStartIndex] = useState(0);
-  const [orderedImages, setOrderedImages] = useState<ApiCar['Images']>([]);
+  const [orderedimages, setOrderedimages] = useState<ApiCar['images']>([]);
 
   const scrollPrev = useCallback(() => {
     if (embla) {
@@ -127,8 +127,8 @@ export default function AutoDetailPage() {
           description: carData.descripcion,
           categoryId: carData.categoria,
           mileage: carData.kilometraje,
-          motor: carData.motor,
-          transmission: carData.transmision,
+          motor: carData.motor || null,
+          transmission: carData.transmision || null,
           fuel: carData.combustible,
           doors: carData.puertas,
           position: 0,
@@ -139,11 +139,13 @@ export default function AutoDetailPage() {
           updatedAt: new Date().toISOString(),
           Category: {
             id: carData.categoria.toLowerCase(),
-            name: carData.categoria,
+            name:
+              carData.categoria.charAt(0).toUpperCase() +
+              carData.categoria.slice(1),
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString(),
           },
-          Images: carData.images.map((img, index) => ({
+          images: carData.images.map((img, index) => ({
             thumbnailUrl: `/assets/catalogo/${img}`,
             imageUrl: `/assets/catalogo/${img}`,
             order: index,
@@ -151,9 +153,9 @@ export default function AutoDetailPage() {
         };
 
         // Ordenar las imágenes por el campo order
-        const sortedImages = [...auto.Images].sort((a, b) => a.order - b.order);
-        setOrderedImages(sortedImages);
-        setCar({ ...auto, Images: sortedImages });
+        const sortedimages = [...auto.images].sort((a, b) => a.order - b.order);
+        setOrderedimages(sortedimages);
+        setCar({ ...auto, images: sortedimages });
       } catch (error) {
         setError(
           error instanceof Error ? error.message : 'Error al cargar el vehículo'
@@ -254,7 +256,8 @@ export default function AutoDetailPage() {
                 href={`/catalogo?categoria=${car.Category.name.toLowerCase()}`}
               >
                 <p className='text-color-text hover:text-color-primary transition-colors'>
-                  {car.Category.name}
+                  {car.Category.name.charAt(0).toUpperCase() +
+                    car.Category.name.slice(1)}
                 </p>
               </Link>
             </div>
@@ -269,7 +272,7 @@ export default function AutoDetailPage() {
               {/* Imagen principal */}
               <div className='relative mb-3'>
                 {/* Botones de navegación para la imagen principal */}
-                {car.Images.length > 1 && (
+                {car.images.length > 1 && (
                   <>
                     <button
                       onClick={scrollPrev}
@@ -289,9 +292,9 @@ export default function AutoDetailPage() {
                 )}
 
                 {/* Indicador de posición */}
-                {car.Images.length > 1 && (
+                {car.images.length > 1 && (
                   <div className='absolute bottom-4 right-4 bg-white/90 text-gray-600 px-3 py-2 rounded-full text-sm font-medium shadow-lg z-10'>
-                    {selectedIndex + 1}/{car.Images.length}
+                    {selectedIndex + 1}/{car.images.length}
                   </div>
                 )}
 
@@ -301,7 +304,7 @@ export default function AutoDetailPage() {
                   ref={mainViewportRef}
                 >
                   <div className='flex'>
-                    {orderedImages.map((image, index) => (
+                    {orderedimages.map((image, index) => (
                       <div
                         key={index}
                         className='relative min-w-full aspect-[4/3]'
@@ -350,13 +353,13 @@ export default function AutoDetailPage() {
               </div>
 
               {/* Miniaturas - grid de 3 columnas, ocultas en mobile */}
-              {car.Images.length > 1 && (
+              {car.images.length > 1 && (
                 <div className='hidden md:grid grid-cols-3 gap-3'>
-                  {orderedImages.slice(1, 4).map((image, index) => {
+                  {orderedimages.slice(1, 4).map((image, index) => {
                     const actualIndex = index + 1; // Índice real en el array (1, 2, 3)
                     const isLastThumbnail = index === 2;
-                    const hasMoreImages = car.Images.length > 4;
-                    const shouldShowBlur = isLastThumbnail && hasMoreImages;
+                    const hasMoreimages = car.images.length > 4;
+                    const shouldShowBlur = isLastThumbnail && hasMoreimages;
 
                     return (
                       <button
@@ -405,7 +408,7 @@ export default function AutoDetailPage() {
                           <div className='absolute inset-0 bg-black/40 flex items-center justify-center'>
                             <div className='text-center text-white'>
                               <div className='text-3xl font-bold'>
-                                +{car.Images.length - 4}
+                                +{car.images.length - 4}
                               </div>
                             </div>
                           </div>
@@ -448,7 +451,8 @@ export default function AutoDetailPage() {
                     </span>
                     <span className='text-color-primary'>•</span>
                     <span className='font-medium text-color-text'>
-                      {car.Category.name}
+                      {car.Category.name.charAt(0).toUpperCase() +
+                        car.Category.name.slice(1)}
                     </span>
                   </div>
                 </div>
@@ -496,14 +500,18 @@ export default function AutoDetailPage() {
                     <p className='text-color-text text-base font-medium'>Año</p>
                     <p className='text-color-title font-medium'>{car.year}</p>
                   </div>
-                  <div>
-                    <p className='text-color-text text-base font-medium'>
-                      Transmisión
-                    </p>
-                    <p className='text-color-title font-medium'>
-                      {car.transmission}
-                    </p>
-                  </div>
+                  {car.transmission ? (
+                    <div>
+                      <p className='text-color-text text-base font-medium'>
+                        Transmisión
+                      </p>
+                      <p className='text-color-title font-medium'>
+                        {car.transmission}
+                      </p>
+                    </div>
+                  ) : (
+                    ''
+                  )}
                   <div>
                     <p className='text-color-text text-base font-medium'>
                       Combustible
@@ -568,7 +576,7 @@ export default function AutoDetailPage() {
         {/* Modal de galería */}
         {showModal && (
           <ImageGalleryModal
-            images={orderedImages.map((img) => img.imageUrl)}
+            images={orderedimages.map((img) => img.imageUrl)}
             currentIndex={modalStartIndex}
             productId={car.id}
             marcaId={car.brand.toLowerCase()}
@@ -591,6 +599,7 @@ export default function AutoDetailPage() {
   return (
     <>
       <Header />
+      <div className='h-28 bg-color-bg-secondary-dark'></div>
       <div className='relative '>{renderContent()}</div>
       <Footer />
     </>

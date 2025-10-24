@@ -103,7 +103,7 @@ const CatalogoPage = () => {
       );
       const categoriasProcesadas = categoriasUnicas.map((cat) => ({
         id: cat.toLowerCase(),
-        name: cat,
+        name: cat.charAt(0).toUpperCase() + cat.slice(1),
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
       }));
@@ -295,7 +295,8 @@ const CatalogoPage = () => {
 
     const matchesMarca = !marcaFilter || car.brand === marcaFilter;
     const matchesCategoria =
-      !categoriaFilter || car.Category.name === categoriaFilter;
+      !categoriaFilter ||
+      car.Category.name.toLowerCase() === categoriaFilter.toLowerCase();
 
     return matchesSearch && matchesMarca && matchesCategoria;
   });
@@ -714,13 +715,13 @@ const CatalogoPage = () => {
                             {/* Precio o etiqueta destacada */}
                             <div className='flex justify-between items-center text-color-text mt-0.5'>
                               {car.mileage === 0 ? (
-                                <span className='text-sm font-semibold uppercase tracking-wider text-color-primary'>
+                                <span className='text-base font-semibold uppercase tracking-wider text-color-primary'>
                                   Nuevo{' '}
                                   <span className='text-color-primary'>•</span>{' '}
                                   {car.mileage.toLocaleString('es-ES')} km
                                 </span>
                               ) : (
-                                <span className='text-sm text-color-text font-medium uppercase tracking-wider'>
+                                <span className='text-base text-color-text font-medium uppercase tracking-wider'>
                                   Usado{' '}
                                   <span className='text-color-primary'>•</span>{' '}
                                   {car.mileage.toLocaleString('es-ES')} km
@@ -870,6 +871,7 @@ const CatalogoPageWithSuspense = () => {
     <div className='relative min-h-screen w-full'>
       {/* Contenido principal */}
       <Header />
+      <div className='h-28 bg-color-bg-secondary-dark'></div>
       <Suspense fallback={<div>Cargando...</div>}>
         <CatalogoPage />
       </Suspense>

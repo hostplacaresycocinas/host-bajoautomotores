@@ -1,316 +1,13 @@
 [
   {
-    "id": "volkswagen-vento-tsi-sportline-2012",
-    "name": "Volkswagen Vento TSI Sportline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2012,
-    "kilometraje": 157000,
+    "id": "toyota-corolla-xli-2024",
+    "name": "Toyota Corolla Xli",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2024,
+    "kilometraje": 0,
     "precio": {
-      "valor": 16500,
-      "moneda": "USD"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
-      "1-1.webp",
-      "1-2.webp",
-      "1-3.webp",
-      "1-4.webp",
-      "1-5.webp",
-      "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp",
-      "1-10.webp"
-    ],
-    "descripcion": "VOLKSWAGEN VENTO 2.0 TSI SPORTLINE\n2012 | 157.000 kms\n▪️Cubiertas nuevas kuhmo\n100% original de fábrica!\n💵 16.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "peugeot-207-compact-2009",
-    "name": "Peugeot 207 Compact",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2009,
-    "kilometraje": 180000,
-    "precio": {
-      "valor": 7800,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.9",
-    "combustible": "Diésel",
-    "puertas": 5,
-    "images": [
-      "2-1.webp",
-      "2-2.webp",
-      "2-3.webp",
-      "2-4.webp",
-      "2-5.webp",
-      "2-6.webp",
-      "2-7.webp",
-      "2-8.webp",
-      "2-9.webp",
-      "2-10.webp"
-    ],
-    "descripcion": "PEUGEOT 207 1.9D COMPACT\n2009 | 180.000 kms\n▪️Cubiertas nuevas!\n💵 7.800 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-gol-trend-msi-2017",
-    "name": "Volkswagen Gol Trend MSI",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2017,
-    "kilometraje": 124000,
-    "precio": {
-      "valor": 11000,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "3-1.webp",
-      "3-2.webp",
-      "3-3.webp",
-      "3-4.webp",
-      "3-5.webp",
-      "3-6.webp",
-      "3-7.webp",
-      "3-8.webp",
-      "3-9.webp",
-      "3-10.webp"
-    ],
-    "descripcion": "GOL TREND 1.6 MSI\n2017 | 124.000 kms\n▪️4 Cubiertas nuevas\n▪️Suspensión a medida\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-gol-trend-2013",
-    "name": "Volkswagen Gol Trend",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2013,
-    "kilometraje": 150000,
-    "precio": {
-      "valor": 9000,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
-    ],
-    "descripcion": "GOL TREND 1.6\n2013 | 150.000 kms\n4 Cubiertas 0km recién colocadas\n💵 9.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "chevrolet-onix-joy-gnc-2018",
-    "name": "Chevrolet Onix Joy GNC",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2018,
-    "kilometraje": 92000,
-    "precio": {
-      "valor": 11000,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "Nafta/GNC",
-    "puertas": 5,
-    "images": [
-      "5-1.webp",
-      "5-2.webp",
-      "5-3.webp",
-      "5-4.webp",
-      "5-5.webp",
-      "5-6.webp",
-      "5-7.webp",
-      "5-8.webp",
-      "5-9.webp",
-      "5-10.webp"
-    ],
-    "descripcion": "CHEVROLET ÓNIX JOY 1.4\n2018 | 92.000 kms\n▪️Gnc 5ta oblea 2026\n▪️Vtv 2026\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-saveiro-2011",
-    "name": "Volkswagen Saveiro",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2011,
-    "kilometraje": 135000,
-    "precio": {
-      "valor": 11000,
-      "moneda": "USD"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 2,
-    "images": [
-      "6-1.webp",
-      "6-2.webp",
-      "6-3.webp",
-      "6-4.webp",
-      "6-5.webp",
-      "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
-    ],
-    "descripcion": "VOLKSWAGEN SAVEIRO 1.6\n2011 | 135.000 kms\nÚNICA POR SU ESTADO!\n▪️Historial de mantenimiento desde 0km\n💵 11.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-amarok-tdi-highline-4x2-2011",
-    "name": "Volkswagen Amarok TDI Highline 4x2",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2011,
-    "kilometraje": 173000,
-    "precio": {
-      "valor": 17500,
-      "moneda": "USD"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
-    ],
-    "descripcion": "AMAROK 2.0 TDI HIGHLINE 4X2\n2011 | 173.000 kms\n💵 17.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-amarok-tdi-highline-4x4-automatica-2018",
-    "name": "Volkswagen Amarok TDI Highline 4x4 Automática",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
-    "kilometraje": 132000,
-    "precio": {
-      "valor": 28000,
-      "moneda": "USD"
-    },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.0",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp"
-    ],
-    "descripcion": "AMAROK 2.0 TDI HIGHLINE 4X4 AUTOMÁTICA\n2018 | 132.000 kms\n▪️4 Cubiertas nuevas Bridgestone\n🛡️Original de fábrica\n💵 28.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-amarok-v6-highline-4x4-automatica-2023",
-    "name": "Volkswagen Amarok V6 Highline 4x4 Automática",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2023,
-    "kilometraje": 46000,
-    "precio": {
-      "valor": 41000,
-      "moneda": "USD"
-    },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.0",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp",
-      "9-10.webp"
-    ],
-    "descripcion": "AMAROK V6 HIGHLINE 4X4 AUTOMÁTICA\n2023 | 46.000 kms\n▪️Garantía oficial Volkswagen\n▪️Service oficiales\n🛡️Original de fábrica!\n💵 41.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "peugeot-208-feline-2015",
-    "name": "Peugeot 208 Feline",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 150000,
-    "precio": {
-      "valor": 12000,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp",
-      "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp",
-      "10-11.webp",
-      "10-12.webp",
-      "10-13.webp"
-    ],
-    "descripcion": "PEUGEOT 208 FELINE 1.6\n2015 | 150.000 kms\n▪️VTV 2026\n▪️Pantallas en ambos apoyacabezas\n💵 12.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
-  },
-  {
-    "id": "volkswagen-bora-1-8t-240hp-2007",
-    "name": "Volkswagen Bora 1.8T 240HP",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2007,
-    "kilometraje": 170000,
-    "precio": {
-      "valor": 10000,
+      "valor": 999999,
       "moneda": "USD"
     },
     "categoria": "Sedán",
@@ -318,48 +15,102 @@
     "motor": "1.8",
     "combustible": "Nafta",
     "puertas": 4,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp",
-      "11-7.webp",
-      "11-8.webp",
-      "11-9.webp",
-      "11-10.webp"
-    ],
-    "descripcion": "VOLKSWAGEN BORA 1.8T 240HP\n2007 | 170.000 kms escaneados\n▪️Escape completo inox\n▪️Repro Comelli 240hp\n▪️Suspensión Eibach\n▪️Admisión directa Simota\n▪️Bobinas red y bujías ngk\n▪️Embrague Tormen para 350hp\n▪️Sensores de estacionamiento\n💵 10.000 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
+    "images": ["1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp"],
+    "descripcion": "NUEVO INGRESO A LA VENTA 💣💣\n\n🔸TOYOTA COROLLA XLI🔸\n2024✨\n\nFinanciación hasta el 60% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colon 343, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
   },
   {
-    "id": "ds3-sportchic-2016",
-    "name": "DS3 Sportchic",
-    "marca": "DS",
-    "marcaId": "ds",
-    "ano": 2016,
-    "kilometraje": 86000,
+    "id": "peugeot-208-allure-tiptronic-2017",
+    "name": "Peugeot 208 Allure Tiptronic",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2017,
+    "kilometraje": 67000,
     "precio": {
-      "valor": 15500,
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automática",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp"],
+    "descripcion": "Peugeot 208 Allure Tiptronic 2017 – 67.000 km.\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colón esq. Sgto.cabral, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
+  },
+  {
+    "id": "volkswagen-gol-2019",
+    "name": "Volkswagen Gol",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2019,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
       "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 3,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp",
-      "12-7.webp",
-      "12-8.webp",
-      "12-9.webp",
-      "12-10.webp"
-    ],
-    "descripcion": "DS3 SPORTCHIC\n2016 | 86.000 kms\n🎈Suspensión neumática BZ STYLE\n▪️Escape completo inox\n▪️Admisión\n▪️4 cubiertas nuevas\n▪️Pintura de fábrica\n💵 15.500 u$d\n-Excelente estado\n-Tomamos permutas\n📞Contacto: 1131376888\n📍BLVD CALIXTO DELLEPIANE 760, CAMPANA CENTRO\n🔥MOTORSCASH🔥"
+    "puertas": 5,
+    "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp"],
+    "descripcion": "VOLKSWAGEN GOL 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colón esq. Sgto.cabral, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
+  },
+  {
+    "id": "toyota-etios-xls-2019",
+    "name": "Toyota Etios Xls",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2019,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["4-1.webp", "4-2.webp", "4-3.webp"],
+    "descripcion": "TOYOTA ETIOS XLS 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
+  },
+  {
+    "id": "toyota-corolla-xei-2022",
+    "name": "Toyota Corolla Xei",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2022,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.8",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": ["5-1.webp", "5-2.webp", "5-3.webp"],
+    "descripcion": "TOYOTA COROLLA XEI 2022✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
+  },
+  {
+    "id": "honda-wr-v-2019",
+    "name": "Honda Wr-V",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2019,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp"],
+    "descripcion": "HONDA WR-V 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
   }
 ]

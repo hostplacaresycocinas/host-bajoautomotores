@@ -34,7 +34,7 @@ const Gallery = () => {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <section className='mt-10 mb-16 md:mt-16 md:mb-24 relative overflow-hidden'>
+    <section className='mt-8 mb-16 md:mt-12 md:mb-24 relative overflow-hidden'>
       {/* Patrón de fondo sutil */}
       <div className='absolute inset-0 bg-grid-pattern opacity-5'></div>
       <div className='max-w-4xl mx-auto px-4 sm:px-6 relative z-10'>

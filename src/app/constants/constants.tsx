@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: true,
+  price: false,
   objectCover: '50%',
-  id: 'motorscash',
-  name: 'Motors Cash',
-  adress: 'Blvd. Calixto',
-  city: 'B. Dellepiane 760',
-  email: 'motorscash@gmail.com',
-  instagram: 'motors.cash',
-  facebook: null,
-  whatsapp: ['1131376888'],
-  googlemapsLink: 'https://maps.app.goo.gl/jYJjFq9M8hsdKH6e8',
+  id: 'villamariaautomotores',
+  name: 'Villa Maria Automotores',
+  adress: 'Av. Colón 343',
+  city: 'Villa Maria',
+  email: 'villamariaautomotores@gmail.com',
+  instagram: 'villamariaautomotores',
+  facebook: 'https://www.facebook.com/profile.php?id=100063641979614',
+  whatsapp: ['3534794721', '3534242200'],
+  googlemapsLink: 'https://maps.app.goo.gl/hpwkw45jAhXRXUrn9',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.049329496418!2d-58.97186852340885!3d-34.17065643475832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb7300416152af%3A0x394dec981d936df2!2sMotorscash!5e0!3m2!1sen!2sar!4v1758346370032!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.332083390006!2d-63.268246423473876!3d-32.410261645000986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc439c5d953a13%3A0x684a46293d2d85ab!2sVilla%20Mar%C3%ADa%20Automotores!5e0!3m2!1sen!2sar!4v1760239878955!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:30 a 18:00hs',
-    'Sábados 09:30 a 13:00hs',
+    'Lunes a Viernes 08:30 a 20:00hs',
+    'Sábados 09:90 a 12:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://motorscash.vercel.app/',
-  title: 'Motors Cash - Compra y Venta de Autos',
+  metadataBase: 'https://villamariaautomotores.vercel.app/',
+  title: 'Villa Maria Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
