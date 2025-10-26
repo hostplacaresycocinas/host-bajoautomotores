@@ -30,8 +30,8 @@ const Header = () => {
     <motion.header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-black shadow-lg shadow-black/20'
-          : 'bg-gradient-to-b from-black/80 via-black/60 to-transparent md:via-black/60'
+          ? 'bg-color-bg-secondary-dark shadow-lg shadow-color-bg-secondary-dark/20'
+          : 'bg-gradient-to-b from-color-bg-secondary-dark/80 via-color-bg-secondary-dark/60 to-transparent md:via-color-bg-secondary-dark/60'
       }`}
     >
       <div className='flex justify-center'>
@@ -186,7 +186,7 @@ const Header = () => {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className='fixed right-0 top-[80px] md:top-[81px] h-[calc(100vh-73px)] md:h-[calc(100vh-81px)] w-[280px] sm:w-[320px] bg-black/95 backdrop-blur-xl border-l border-neutral-700/50 shadow-2xl md:hidden overflow-y-auto'
+              className='fixed right-0 top-[80px] md:top-[81px] h-[calc(100vh-73px)] md:h-[calc(100vh-81px)] w-[280px] sm:w-[320px] bg-color-bg-secondary-dark backdrop-blur-xl border-l border-neutral-700/50 shadow-2xl md:hidden overflow-y-auto'
             >
               <ul className='flex flex-col gap-1 p-6'>
                 {navigation.map((nav) => {

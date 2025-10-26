@@ -1,105 +1,10 @@
 [
   {
-    "id": "toyota-corolla-xli-2024",
-    "name": "Toyota Corolla Xli",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "USD"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.8",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp"],
-    "descripcion": "NUEVO INGRESO A LA VENTA 💣💣\n\n🔸TOYOTA COROLLA XLI🔸\n2024✨\n\nFinanciación hasta el 60% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colon 343, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
-  },
-  {
-    "id": "peugeot-208-allure-tiptronic-2017",
-    "name": "Peugeot 208 Allure Tiptronic",
+    "id": "peugeot-2008-allure-2020",
+    "name": "Peugeot 2008 Allure",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2017,
-    "kilometraje": 67000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp"],
-    "descripcion": "Peugeot 208 Allure Tiptronic 2017 – 67.000 km.\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colón esq. Sgto.cabral, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
-  },
-  {
-    "id": "volkswagen-gol-2019",
-    "name": "Volkswagen Gol",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2019,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp"],
-    "descripcion": "VOLKSWAGEN GOL 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Colón esq. Sgto.cabral, Villa María. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
-  },
-  {
-    "id": "toyota-etios-xls-2019",
-    "name": "Toyota Etios Xls",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2019,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["4-1.webp", "4-2.webp", "4-3.webp"],
-    "descripcion": "TOYOTA ETIOS XLS 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
-  },
-  {
-    "id": "toyota-corolla-xei-2022",
-    "name": "Toyota Corolla Xei",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "USD"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.8",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["5-1.webp", "5-2.webp", "5-3.webp"],
-    "descripcion": "TOYOTA COROLLA XEI 2022✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
-  },
-  {
-    "id": "honda-wr-v-2019",
-    "name": "Honda Wr-V",
-    "marca": "Honda",
-    "marcaId": "honda",
-    "ano": 2019,
+    "ano": 2020,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
@@ -107,10 +12,189 @@
     },
     "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.5",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp"],
-    "descripcion": "HONDA WR-V 2019✨\n\nFinanciación hasta el 80% con solo tu DNI 💳 ¡Lo que soñás está a tu alcance!\n\nTomamos tu usado al mejor precio 🚗💰 porque sabemos lo importante que es avanzar hacia tu nuevo auto sin complicaciones.\n\n✨Contamos con una amplia variedad de usados y 0km de todas las marcas. Todo en un solo lugar, pensado para que elegir sea más fácil. 👌\n\n📍 Visítanos en Av. Carranza y 25 de Mayo, Villa Nueva. Tu próximo auto está más cerca de lo que pensás.\n\n📲 Consultanos 3534794721\n\nVILLA MARÍA AUTOMOTORES"
+    "images": [
+      "1-1.webp",
+      "1-2.webp",
+      "1-3.webp",
+      "1-4.webp",
+      "1-5.webp",
+      "1-6.webp",
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp",
+      "1-10.webp"
+    ],
+    "descripcion": "Peugeot 2008 Allure nafta 1.6 MT, excelente estado año 2020.\n\nTomamos tu auto en parte de pago y te financiamos al resto.\n\nNo dudes en consultar."
+  },
+  {
+    "id": "fiat-argo-drive-2024",
+    "name": "Fiat Argo Drive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2024,
+    "kilometraje": 0,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.3",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "2-1.webp",
+      "2-2.webp",
+      "2-3.webp",
+      "2-4.webp",
+      "2-5.webp",
+      "2-6.webp",
+      "2-7.webp",
+      "2-8.webp",
+      "2-9.webp"
+    ],
+    "descripcion": "Fiat Argo Drive 1.3 LN, 0km.\n\nEntrega inmediata."
+  },
+  {
+    "id": "renault-kwid-iconic-2019",
+    "name": "Renault Kwid Icónic",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2019,
+    "kilometraje": 65000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "3-1.webp",
+      "3-2.webp",
+      "3-3.webp",
+      "3-4.webp",
+      "3-5.webp",
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp",
+      "3-10.webp"
+    ],
+    "descripcion": "Renault Kwid Icónic 1.0 año 2019 con 65 mil km.\n\nExcelente unidad."
+  },
+  {
+    "id": "toyota-hilux-srv-2019",
+    "name": "Toyota Hilux SRV",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2019,
+    "kilometraje": 175000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Utilitario",
+    "transmision": "Automática",
+    "motor": "2.8",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "4-1.webp",
+      "4-2.webp",
+      "4-3.webp",
+      "4-4.webp",
+      "4-5.webp",
+      "4-6.webp",
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp",
+      "4-13.webp",
+      "4-14.webp",
+      "4-15.webp",
+      "4-16.webp",
+      "4-17.webp",
+      "4-18.webp",
+      "4-19.webp"
+    ],
+    "descripcion": "Toyota Hilux SRV 4x4 AT 2019.\n\nMuy buen estado, 175.000 km.\n\nTomamos tu auto en parte de pago y te financiamos el resto.\n\nHasta 36 cuotas con tasa fija o crédito UVA.\n\nNo dudes en consultarnos."
+  },
+  {
+    "id": "ford-fiesta-kinetic-2016",
+    "name": "Ford Fiesta Kinetic S",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2016,
+    "kilometraje": 106000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "5-1.webp",
+      "5-2.webp",
+      "5-3.webp",
+      "5-4.webp",
+      "5-5.webp",
+      "5-6.webp",
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp",
+      "5-11.webp",
+      "5-12.webp",
+      "5-13.webp",
+      "5-14.webp",
+      "5-15.webp"
+    ],
+    "descripcion": "Ford Fiesta Kinetic S 1.6 nafta 5p año 2016.\n\nExcelente estado con 106.000 km."
+  },
+  {
+    "id": "fiat-argo-drive-2024-2",
+    "name": "Fiat Argo Drive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2024,
+    "kilometraje": 0,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.3",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp",
+      "6-11.webp",
+      "6-12.webp",
+      "6-13.webp",
+      "6-14.webp",
+      "6-15.webp"
+    ],
+    "descripcion": "Fiat Argo Drive 1.3 LI EA Nueva MT.\n\n0km. Entrega inmediata."
   }
 ]
