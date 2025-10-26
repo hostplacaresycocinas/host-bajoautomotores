@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'cimarautomotores',
-  name: 'Cimar Automotores',
-  adress: 'Av. de Circunvalación 2005',
-  city: 'Tapiales',
-  email: 'cimarautomotores@hotmail.com',
-  instagram: 'cimarautomotores',
-  facebook: 'https://www.facebook.com/cimar.automotores/',
-  whatsapp: ['1152482875', '1153384776'],
-  googlemapsLink: 'https://maps.app.goo.gl/UPG6SkLfb3nhjDrB9',
+  id: 'negrucciautomobile',
+  name: 'Negrucci Automobile',
+  adress: '12 de octubre 1021',
+  city: 'Venado Tuerto',
+  email: 'negrucciautos@gmail.com',
+  instagram: 'negrucci_automobile',
+  facebook: 'https://www.facebook.com/p/Negrucci-Automobile-100063509773492/',
+  whatsapp: ['3462589587'],
+  googlemapsLink: 'https://maps.app.goo.gl/cpBC24BWPU1cVjn39',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.852714706925!2d-58.50133472338832!3d-34.708894663061905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccedd1772eaf5%3A0xaef24b4aef639067!2sCimar%20Automotores!5e0!3m2!1sen!2sar!4v1760301336616!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3317.4449182204175!2d-61.9808675!3d-33.749167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c86359003e90f7%3A0xd9aabe85a1c7b6a5!2sNegrucci%20Automobile!5e0!3m2!1sen!2sar!4v1761508460754!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 17:30hs',
-    'Sábado 09:00 a 16:00hs',
+    'Lunes a Viernes 9 a 12:30 y 16 a 19:30hs',
+    'Sábado 10 a 13hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://cimarautomotores.vercel.app/',
-  title: 'Cimar Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://negrucciautomobile.vercel.app/',
+  title: 'Negrucci Automobile - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

@@ -1,16 +1,16 @@
 [
   {
-    "id": "peugeot-2008-allure-2020",
-    "name": "Peugeot 2008 Allure",
+    "id": "peugeot-308-active-2012",
+    "name": "Peugeot 308 Active",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2020,
+    "ano": 2012,
     "kilometraje": 999999,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 8000000,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
@@ -22,27 +22,24 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp",
-      "1-10.webp"
+      "1-7.webp"
     ],
-    "descripcion": "Peugeot 2008 Allure nafta 1.6 MT, excelente estado año 2020.\n\nTomamos tu auto en parte de pago y te financiamos al resto.\n\nNo dudes en consultar."
+    "descripcion": "Subite a este hermoso 308 1.6 nafta, versión active año 2012.\n\nCon solo anticipo desde: $8.000.000.\n\nSaldo a financiar en cuotas fijas solo con DNI."
   },
   {
-    "id": "fiat-argo-drive-2024",
-    "name": "Fiat Argo Drive",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2024,
-    "kilometraje": 0,
+    "id": "peugeot-308-allure-2012",
+    "name": "Peugeot 308 Allure",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2012,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.3",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -53,27 +50,26 @@
       "2-5.webp",
       "2-6.webp",
       "2-7.webp",
-      "2-8.webp",
-      "2-9.webp"
+      "2-8.webp"
     ],
-    "descripcion": "Fiat Argo Drive 1.3 LN, 0km.\n\nEntrega inmediata."
+    "descripcion": "Peugeot 308 Allure NAV 1.6 nafta año 2012."
   },
   {
-    "id": "renault-kwid-iconic-2019",
-    "name": "Renault Kwid Icónic",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2019,
-    "kilometraje": 65000,
+    "id": "volkswagen-voyage-2017",
+    "name": "Volkswagen Voyage",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.0",
+    "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -83,27 +79,26 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp",
-      "3-10.webp"
+      "3-9.webp"
     ],
-    "descripcion": "Renault Kwid Icónic 1.0 año 2019 con 65 mil km.\n\nExcelente unidad."
+    "descripcion": "Volkswagen Voyage 1.6 año 2017.\n\nNEGRUCCI AUTOMOBILE - USADOS DE SELECCIÓN / 0KM / FINANCIACION / CONSIGNACIONES.\n\n📲 3462 589587\n☎️ 03462-462794\n📍BOULEVARD 12 DE OCTUBRE 1021 (RUTA 8)"
   },
   {
-    "id": "toyota-hilux-srv-2019",
-    "name": "Toyota Hilux SRV",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2019,
-    "kilometraje": 175000,
+    "id": "renault-sandero-stepway-2009",
+    "name": "Renault Sandero Stepway Dinamique",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2009,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "USD"
     },
-    "categoria": "Utilitario",
-    "transmision": "Automática",
-    "motor": "2.8",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -112,28 +107,17 @@
       "4-5.webp",
       "4-6.webp",
       "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp",
-      "4-11.webp",
-      "4-12.webp",
-      "4-13.webp",
-      "4-14.webp",
-      "4-15.webp",
-      "4-16.webp",
-      "4-17.webp",
-      "4-18.webp",
-      "4-19.webp"
+      "4-8.webp"
     ],
-    "descripcion": "Toyota Hilux SRV 4x4 AT 2019.\n\nMuy buen estado, 175.000 km.\n\nTomamos tu auto en parte de pago y te financiamos el resto.\n\nHasta 36 cuotas con tasa fija o crédito UVA.\n\nNo dudes en consultarnos."
+    "descripcion": "Renault Sandero Stepway Dinamique 1.6 año 2009.\n\nNEGRUCCI AUTOMOBILE - USADOS DE SELECCIÓN / 0KM / FINANCIACION / CONSIGNACIONES.\n\n📲 3462 589587\n☎️ 03462-462794\n📍BOULEVARD 12 DE OCTUBRE 1021 (RUTA 8)"
   },
   {
-    "id": "ford-fiesta-kinetic-2016",
-    "name": "Ford Fiesta Kinetic S",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
-    "kilometraje": 106000,
+    "id": "volkswagen-gol-trend-2010",
+    "name": "Volkswagen Gol Trend Pack Plus",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2010,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "USD"
@@ -152,30 +136,24 @@
       "5-6.webp",
       "5-7.webp",
       "5-8.webp",
-      "5-9.webp",
-      "5-10.webp",
-      "5-11.webp",
-      "5-12.webp",
-      "5-13.webp",
-      "5-14.webp",
-      "5-15.webp"
+      "5-9.webp"
     ],
-    "descripcion": "Ford Fiesta Kinetic S 1.6 nafta 5p año 2016.\n\nExcelente estado con 106.000 km."
+    "descripcion": "Volkswagen Gol Trend Pack Plus año 2010.\n\nNEGRUCCI AUTOMOBILE - USADOS DE SELECCIÓN / 0KM / FINANCIACION / CONSIGNACIONES.\n\n📲 3462 589587\n☎️ 03462-462794\n📍BOULEVARD 12 DE OCTUBRE 1021 (RUTA 8)"
   },
   {
-    "id": "fiat-argo-drive-2024-2",
-    "name": "Fiat Argo Drive",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2024,
-    "kilometraje": 0,
+    "id": "renault-sandero-rs-2019",
+    "name": "Renault Sandero RS",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2019,
+    "kilometraje": 48000,
     "precio": {
       "valor": 999999,
       "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.3",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -188,13 +166,8 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp",
-      "6-11.webp",
-      "6-12.webp",
-      "6-13.webp",
-      "6-14.webp",
-      "6-15.webp"
+      "6-10.webp"
     ],
-    "descripcion": "Fiat Argo Drive 1.3 LI EA Nueva MT.\n\n0km. Entrega inmediata."
+    "descripcion": "Renault Sandero RS año 2019.\n\n48.000 kms.\n\nFINANCIACIÓN DEL 50%, SOLO CON DNI.\n\nNEGRUCCI AUTOMOBILE - USADOS DE SELECCIÓN / 0KM / FINANCIACION / CONSIGNACIONES.\n\n📲 3462 589587\n☎️ 03462-462794\n📍BOULEVARD 12 DE OCTUBRE 1021 (RUTA 8)"
   }
 ]
