@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'negrucciautomobile',
-  name: 'Negrucci Automobile',
-  adress: '12 de octubre 1021',
-  city: 'Venado Tuerto',
-  email: 'negrucciautos@gmail.com',
-  instagram: 'negrucci_automobile',
-  facebook: 'https://www.facebook.com/p/Negrucci-Automobile-100063509773492/',
-  whatsapp: ['3462589587'],
-  googlemapsLink: 'https://maps.app.goo.gl/cpBC24BWPU1cVjn39',
+  id: 'bolattiautomotores',
+  name: 'Bolatti Automotores',
+  adress: 'Ruta 178 km200',
+  city: 'Las Rosas',
+  email: 'marketing.bolatti@gmail.com',
+  instagram: 'bolattiautomotores',
+  facebook: 'https://www.facebook.com/BolattiAutomotores/',
+  whatsapp: ['3401524604'],
+  googlemapsLink: 'https://maps.app.goo.gl/co5C53mA6Wvv8Q757',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3317.4449182204175!2d-61.9808675!3d-33.749167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c86359003e90f7%3A0xd9aabe85a1c7b6a5!2sNegrucci%20Automobile!5e0!3m2!1sen!2sar!4v1761508460754!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.365992204528!2d-61.570695122963464!3d-32.48964574895599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ca1dac722924d1%3A0x96ef7f46505a5451!2sBOLATTI%20AUTOMOTORES!5e0!3m2!1sen!2sar!4v1761192326192!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9 a 12:30 y 16 a 19:30hs',
-    'Sábado 10 a 13hs',
+    'Lunes a Viernes 8 a 12:30 y 15 a 19hs',
+    'Sábado 8:30 a 12:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://negrucciautomobile.vercel.app/',
-  title: 'Negrucci Automobile - Compra y Venta de Autos',
+  metadataBase: 'https://bolattiautomotores.vercel.app/',
+  title: 'Bolatti Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
