@@ -5,19 +5,19 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'bolattiautomotores',
-  name: 'Bolatti Automotores',
-  adress: 'Ruta 178 km200',
-  city: 'Las Rosas',
-  email: 'marketing.bolatti@gmail.com',
-  instagram: 'bolattiautomotores',
-  facebook: 'https://www.facebook.com/BolattiAutomotores/',
-  whatsapp: ['3401524604'],
-  googlemapsLink: 'https://maps.app.goo.gl/co5C53mA6Wvv8Q757',
+  id: 'saavedramotors',
+  name: 'Saavedra Motors',
+  adress: 'Saavedra 2125',
+  city: 'Formosa',
+  email: 'rodri.saavedra22@gmail.com',
+  instagram: 'saavedra_motors',
+  facebook: 'https://www.facebook.com/saavedramotors101',
+  whatsapp: ['3704858982', '3704818865'],
+  googlemapsLink: 'https://maps.app.goo.gl/hNjQQowD7A66ZLwz6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.365992204528!2d-61.570695122963464!3d-32.48964574895599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ca1dac722924d1%3A0x96ef7f46505a5451!2sBOLATTI%20AUTOMOTORES!5e0!3m2!1sen!2sar!4v1761192326192!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6021.258811389748!2d-58.19078785468651!3d-26.18815705699006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca51c180e86cd%3A0x712d5ff5de1da21c!2sSaavedra%20Motors!5e0!3m2!1ses!2sar!4v1761577238488!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 8 a 12:30 y 15 a 19hs',
+    'Lunes a Viernes 8:30 a 12:30 y 16:30 a 20:30hs',
     'Sábado 8:30 a 12:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://bolattiautomotores.vercel.app/',
-  title: 'Bolatti Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://saavedramotors.vercel.app/',
+  title: 'Saavedra Motors - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
