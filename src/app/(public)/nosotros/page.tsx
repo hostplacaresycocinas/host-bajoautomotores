@@ -70,18 +70,16 @@ const NosotrosPage = () => {
             className='space-y-3 md:space-y-6 text-center'
           >
             <p className='text-lg md:text-xl text-gray-700 leading-relaxed'>
-              Con casi dos décadas de experiencia, hemos construido una
-              concesionaria que se distingue por entender profundamente las
-              necesidades de cada cliente. Aprendimos a ponernos en el lugar del
-              comprador, del trabajador, del profesional, viviendo cada
-              operación como si fuera propia.
+              Somos una concesionaria dedicada a ofrecer vehículos de calidad
+              con un servicio personalizado y profesional. Nuestra pasión es
+              ayudarte a encontrar el auto perfecto que se adapte a tus
+              necesidades.
             </p>
             <p className='text-lg md:text-xl text-gray-700 leading-relaxed'>
-              A diferencia de las concesionarias tradicionales, ofrecemos
-              vehículos de todas las marcas, lo que nos permite encontrar la
-              mejor opción para cada cliente. Nos dedicamos a esa persona que se
-              esfuerza para llegar y tratamos de hacerle las cosas más fáciles,
-              porque queremos que regresen.
+              Trabajamos con transparencia, compromiso y dedicación en cada
+              operación. Nos enorgullece construir relaciones de confianza con
+              nuestros clientes, brindándoles una experiencia única en cada paso
+              del proceso.
             </p>
           </motion.div>
         </div>
