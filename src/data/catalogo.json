@@ -1,11 +1,11 @@
 [
   {
-    "id": "toyota-corolla-1-8-seg-at-2018",
-    "name": "Toyota Corolla 1.8 SEG AT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2018,
-    "kilometraje": 159000,
+    "id": "chevrolet-cruze-ltz-at-2017",
+    "name": "Chevrolet Cruze LTZ+ AT",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2017,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -23,53 +23,62 @@
       "1-5.webp",
       "1-6.webp"
     ],
-    "descripcion": "Toyota Corolla 1.8 SEG AT\n\nAño 2018\n\n159.000 kms\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
+    "descripcion": "Chevrolet Cruze LTZ+ AT 2017 🚗✨\n\nAutomático, versión full y con todo el confort que buscás.\n\nExcelente estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Supervielle y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "chevrolet-montana-c-gnc-2012",
-    "name": "Chevrolet Montana C/GNC",
+    "id": "ford-territory-titanium-2022",
+    "name": "Ford Territory Titanium",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2022,
+    "kilometraje": 6500,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "2-1.webp",
+      "2-2.webp",
+      "2-3.webp",
+      "2-4.webp",
+      "2-5.webp",
+      "2-6.webp",
+      "2-7.webp",
+      "2-8.webp"
+    ],
+    "descripcion": "Ford Territory Titanium 2022 🚙\n\n6.500 km.\n\nSUV familiar, caja automática y diseño moderno.\n\nExcelente estado, lista para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+  },
+  {
+    "id": "chevrolet-spark-ls-2009",
+    "name": "Chevrolet Spark LS",
     "marca": "Chevrolet",
     "marcaId": "chevrolet",
-    "ano": 2012,
-    "kilometraje": 186000,
+    "ano": 2009,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.4",
-    "combustible": "GNC",
-    "puertas": 4,
-    "images": ["2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp"],
-    "descripcion": "Chevrolet Montana C/GNC\n\nAño 2012\n\n186.000 kms\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
-  },
-  {
-    "id": "fiat-toro-volcano-1-3t-0km",
-    "name": "Fiat Toro Volcano 1.3T",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "1.3",
+    "motor": "1.0",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp", "3-5.webp"],
-    "descripcion": "Fiat Toro Volcano 1.3T nafta\n\n0km\n\nENTREGA INMEDIATA\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
+    "descripcion": "Chevrolet Spark LS 2009 🚗\n\nCity car económico y práctico, ideal para la ciudad.\n\nMuy buen estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "citroen-c3-1-6-exclusive-2013",
-    "name": "Citroën C3 1.6 Exclusive",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2013,
-    "kilometraje": 147000,
+    "id": "nissan-march-active-2018",
+    "name": "Nissan March Active",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2018,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -85,134 +94,56 @@
       "4-3.webp",
       "4-4.webp",
       "4-5.webp",
-      "4-6.webp"
+      "4-6.webp",
+      "4-7.webp"
     ],
-    "descripcion": "Citroën C3 1.6 Exclusive\n\nAño 2013\n\n147.000 kms\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
+    "descripcion": "Nissan March Active 2018 🚗\n\nNafta 1.6, caja manual y consumo súper económico.\n\nCompacto, ágil y listo para la ciudad.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "vw-fox-1-6-trendline-2012",
-    "name": "VW Fox 1.6 Trendline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2012,
-    "kilometraje": 148000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["5-1.webp", "5-2.webp", "5-3.webp", "5-4.webp", "5-5.webp"],
-    "descripcion": "VW Fox 1.6 Trendline\n\nAño 2012\n\n148.000 kms\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
-  },
-  {
-    "id": "renault-clio-1-2-pack-2014",
-    "name": "Renault Clio 1.2 Pack",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2014,
-    "kilometraje": 114000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.2",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "6-1.webp",
-      "6-2.webp",
-      "6-3.webp",
-      "6-4.webp",
-      "6-5.webp",
-      "6-6.webp",
-      "6-7.webp"
-    ],
-    "descripcion": "Renault Clio 1.2 Pack\n\nAño 2014\n\n114.000 kms\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
-  },
-  {
-    "id": "toyota-yaris-xls-plus-cvt-0km",
-    "name": "Toyota Yaris XLS+ CVT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp"
-    ],
-    "descripcion": "Toyota Yaris XLS+ CVT\n\n0km\n\n‼️ Entrega inmediata\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
-  },
-  {
-    "id": "chevrolet-meriva-gl-plus-1-8-c-gnc-2012",
-    "name": "Chevrolet Meriva GL Plus 1.8 C/GNC",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2012,
+    "id": "ford-ecosport-1-5-se-2017",
+    "name": "Ford EcoSport 1.5 SE",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2017,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.8",
-    "combustible": "GNC",
+    "motor": "1.5",
+    "combustible": "Nafta",
     "puertas": 5,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp"
-    ],
-    "descripcion": "Chevrolet Meriva GL Plus 1.8 C/GNC\n\nAño 2012\n\nConsultanos a nuestro WhatsApp, link en la Bio!"
+    "images": ["5-1.webp", "5-2.webp", "5-3.webp", "5-4.webp"],
+    "descripcion": "Ford EcoSport 1.5 SE 2017 🚙\n\nSUV familiar, nafta, cómoda y práctica para ciudad y ruta.\n\nMuy buen estado, lista para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "renault-logan-privilege-1-6-2014",
-    "name": "Renault Logan Privilege 1.6",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2014,
+    "id": "chevrolet-cruze-ltz-premier-at-2021",
+    "name": "Chevrolet Cruze LTZ PREMIER AT",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2021,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.6",
+    "transmision": "Automática",
+    "motor": "1.4",
     "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["9-1.webp", "9-2.webp", "9-3.webp", "9-4.webp"],
-    "descripcion": "Renault Logan Privilege 1.6\n\nAño 2014\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
+    "puertas": 5,
+    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp"],
+    "descripcion": "Chevrolet Cruze LTZ PREMIER AT 2021 🚗✨\n\nAutomático, 5 puertas, tapizado de cuero, butacas electricas, techo solar y mucho más!\n\nExcelente estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "vw-gol-trend-2021",
-    "name": "VW Gol Trend",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2021,
-    "kilometraje": 65000,
+    "id": "peugeot-208-allure-2014",
+    "name": "Peugeot 208 Allure",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2014,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -220,6 +151,70 @@
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["7-1.webp", "7-2.webp", "7-3.webp", "7-4.webp", "7-5.webp"],
+    "descripcion": "Peugeot 208 Allure 2014 🚗\n\nHatchback, cómodo y en muy buen estado.\n\nListo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+  },
+  {
+    "id": "ford-ecosport-1-5-freestyle-2017",
+    "name": "Ford EcoSport 1.5 Freestyle",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2017,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
+    "descripcion": "Ford EcoSport 1.5 Freestyle 2017 🚙\n\nSUV compacta, cómoda.\n\nCon la altura justa para ciudad y ruta.\n\nMotor 1.5, muy buen estado, lista para salir.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville, Galicia y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+  },
+  {
+    "id": "jeep-compass-limited-2022",
+    "name": "Jeep Compass Limited",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2022,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp"
+    ],
+    "descripcion": "Jeep Compass Limited 2022 🚙✨\n\nSUV cómoda, moderna y con equipamiento premium.\n\nExcelente estado, lista para entrega.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville, Galicia y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+  },
+  {
+    "id": "ford-focus-5p-s-2014",
+    "name": "Ford Focus 5P S",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2014,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -228,23 +223,22 @@
       "10-3.webp",
       "10-4.webp",
       "10-5.webp",
-      "10-6.webp",
-      "10-7.webp"
+      "10-6.webp"
     ],
-    "descripcion": "VW Gol Trend\n\nAño 2021\n\n65.000 km\n\nConsultanos a nuestro WhatsApp!\n\nLink en la Bio!"
+    "descripcion": "Ford Focus 5P S 2014 🚗\n\nHatchback práctico y cómodo, listo para salir.\n\nMuy buen estado general.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "ford-fiesta-kinetic-se-2017",
-    "name": "Ford Fiesta Kinetic SE",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2017,
-    "kilometraje": 51000,
+    "id": "citroen-basalt-shine-2025",
+    "name": "Citroën Basalt Shine",
+    "marca": "Citroën",
+    "marcaId": "citroen",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
@@ -257,24 +251,24 @@
       "11-5.webp",
       "11-6.webp"
     ],
-    "descripcion": "Ford Fiesta Kinetic SE\n\nAño 2017\n\n51.000 km\n\nConsultanos a nuestro WhatsApp!\n\nLink en la Bio!"
+    "descripcion": "Citroën Basalt Shine 2025 🚗✨\n\nDiseño tipo coupé-SUV, confort y tecnología para disfrutar cada kilómetro.\n\nYa disponible en nuestro salón.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con superville y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
   },
   {
-    "id": "mercedes-benz-gla-250-4matic-2017",
-    "name": "Mercedes Benz GLA 250 4matic",
-    "marca": "Mercedes Benz",
-    "marcaId": "mercedes-benz",
-    "ano": 2017,
-    "kilometraje": 130000,
+    "id": "ford-ranger-limited-at-2020-4x4",
+    "name": "Ford Ranger Limited AT 4x4",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2020,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "2.0",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "3.2",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "12-1.webp",
       "12-2.webp",
@@ -283,6 +277,6 @@
       "12-5.webp",
       "12-6.webp"
     ],
-    "descripcion": "Mercedes Benz GLA 250 4matic\n\nAño 2017\n\n130.000 km\n\nConsultanos a nuestro WhatsApp!\n\nLink en la bio!"
+    "descripcion": "🛑Vendido Ford Ranger Limited AT 2020 4x4\n\nTope de gama, automática y con tracción integral para trabajo, viaje y ciudad.\n\nExcelente estado, lista para salir.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Santander y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30\n\n🛑vendido"
   }
 ]

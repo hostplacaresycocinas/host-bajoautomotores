@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'pomilioautomoviles',
-  name: 'Pomilio Automoviles',
-  adress: 'Av.Presidente Perón 2220',
-  city: 'Villa María',
-  email: 'pomilioautomoviles@gmail.com',
-  instagram: 'pomilioautomovilesvm',
-  facebook: null,
-  whatsapp: ['3534113405', '2975155167', '3534261609'],
-  googlemapsLink: 'https://maps.app.goo.gl/m2UmoAwVJRCfr91j7',
+  id: 'tabladamotors',
+  name: 'Tablada Motors',
+  adress: 'Octavio Pinto 2407',
+  city: 'Córdoba',
+  email: 'info@tabladamotors.com.ar',
+  instagram: 'tablada_motors',
+  facebook: 'https://www.facebook.com/tabladamotors/',
+  whatsapp: ['3518188893', '3515578847'],
+  googlemapsLink: 'https://maps.app.goo.gl/31SYS3bUVaQj1qBg9',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.9113796516212!2d-63.21882322296575!3d-32.421531845562676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc428d2fd83575%3A0xfa471730176f21cd!2sPOMILIO%20AUTOMOVILES%20S.A!5e0!3m2!1ses!2sar!4v1761586996820!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.821686444672!2d-64.21599542299677!3d-31.391479895050402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298e94e2ece67%3A0x8f89cd690cc70525!2sTablada%20Motors!5e0!3m2!1ses!2sar!4v1761591640640!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 9 a 13 y 16 a 19:30hs',
-    'Sábado 10 a 13hs',
+    'Lunes a Viernes 9:30 a 13 y 15 a 18hs',
+    'Sábado y Domingo Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://pomilioautomoviles.vercel.app/',
-  title: 'Pomilio Automoviles - Compra y Venta de Autos',
+  metadataBase: 'https://tabladamotors.vercel.app/',
+  title: 'Tablada Motors - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
