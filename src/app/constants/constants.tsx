@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: true,
+  price: false,
   objectCover: '50%',
-  id: 'fernandocurtiautomotores',
-  name: 'Fernando Curti Automotores',
-  adress: 'Av. Zapiola 847',
-  city: 'Bernal',
-  email: 'fernandocurtiautomotores@gmail.com',
-  instagram: 'fernandocurtiautomotores',
-  facebook: 'https://www.facebook.com/fernando.curti.9/',
-  whatsapp: ['1131777689'],
-  googlemapsLink: 'https://maps.app.goo.gl/bxpwCphDQqEMQDvh7',
+  id: 'pomilioautomoviles',
+  name: 'Pomilio Automoviles',
+  adress: 'Av.Presidente Perón 2220',
+  city: 'Villa María',
+  email: 'pomilioautomoviles@gmail.com',
+  instagram: 'pomilioautomovilesvm',
+  facebook: null,
+  whatsapp: ['3534113405', '2975155167', '3534261609'],
+  googlemapsLink: 'https://maps.app.goo.gl/m2UmoAwVJRCfr91j7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.3874676833543!2d-58.2923232!3d-34.7206265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d0026c0d889%3A0xea1e38604ac793c5!2sFernando%20Curti%20Automotores!5e0!3m2!1ses!2sar!4v1761583670378!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.9113796516212!2d-63.21882322296575!3d-32.421531845562676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc428d2fd83575%3A0xfa471730176f21cd!2sPOMILIO%20AUTOMOVILES%20S.A!5e0!3m2!1ses!2sar!4v1761586996820!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábado 09:00 a 14:00hs',
+    'Lunes a Viernes 9 a 13 y 16 a 19:30hs',
+    'Sábado 10 a 13hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://fernandocurtiautomotores.vercel.app/',
-  title: 'Fernando Curti Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://pomilioautomoviles.vercel.app/',
+  title: 'Pomilio Automoviles - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
