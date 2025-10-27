@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: false,
+  price: true,
   objectCover: '50%',
-  id: 'saavedramotors',
-  name: 'Saavedra Motors',
-  adress: 'Saavedra 2125',
-  city: 'Formosa',
-  email: 'rodri.saavedra22@gmail.com',
-  instagram: 'saavedra_motors',
-  facebook: 'https://www.facebook.com/saavedramotors101',
-  whatsapp: ['3704858982', '3704818865'],
-  googlemapsLink: 'https://maps.app.goo.gl/hNjQQowD7A66ZLwz6',
+  id: 'fernandocurtiautomotores',
+  name: 'Fernando Curti Automotores',
+  adress: 'Av. Zapiola 847',
+  city: 'Bernal',
+  email: 'fernandocurtiautomotores@gmail.com',
+  instagram: 'fernandocurtiautomotores',
+  facebook: 'https://www.facebook.com/fernando.curti.9/',
+  whatsapp: ['1131777689'],
+  googlemapsLink: 'https://maps.app.goo.gl/bxpwCphDQqEMQDvh7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6021.258811389748!2d-58.19078785468651!3d-26.18815705699006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca51c180e86cd%3A0x712d5ff5de1da21c!2sSaavedra%20Motors!5e0!3m2!1ses!2sar!4v1761577238488!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.3874676833543!2d-58.2923232!3d-34.7206265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d0026c0d889%3A0xea1e38604ac793c5!2sFernando%20Curti%20Automotores!5e0!3m2!1ses!2sar!4v1761583670378!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 8:30 a 12:30 y 16:30 a 20:30hs',
-    'Sábado 8:30 a 12:30hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábado 09:00 a 14:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://saavedramotors.vercel.app/',
-  title: 'Saavedra Motors - Compra y Venta de Autos',
+  metadataBase: 'https://fernandocurtiautomotores.vercel.app/',
+  title: 'Fernando Curti Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

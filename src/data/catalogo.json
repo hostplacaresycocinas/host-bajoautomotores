@@ -1,37 +1,45 @@
 [
   {
-    "id": "peugeot-2008-allure-2025",
-    "name": "Peugeot 2008 Allure",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "honda-fit-1-5-2012",
+    "name": "Honda Fit 1.5",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2012,
+    "kilometraje": 122000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp"],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nPeugeot 2008 Allure 2025\n\n🔰 Color: Blanco perlado\n🔰 Condición: 0km\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#peugeot #formosa #venta"
-  },
-  {
-    "id": "toyota-yaris-xls-2024",
-    "name": "Toyota Yaris XLS",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
-    "kilometraje": 26000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 12900,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "1-1.webp",
+      "1-2.webp",
+      "1-3.webp",
+      "1-4.webp",
+      "1-5.webp",
+      "1-6.webp",
+      "1-7.webp"
+    ],
+    "descripcion": "HONDA FIT 1.5 🚘\n\nLa versión viene con climatizador digital de aire acondicionado, dirección, levanta vidrios en las 4 puertas, cierre centralizado y aire acondicionado.\n\nEs año 2012 y tiene 122.000 km\n\nCubiertas al 80% con tuercas de seguridad.\n\nManuales y segunda llave\n\nVTV y Grabado de Autopartes.\n\nValor Efectivo USS 12.900\n\nEste vehículo fue verificado y aprobado por nuestro taller.\n\nEstamos en 📍Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689"
+  },
+  {
+    "id": "renault-sandero-stepway-intense-2020",
+    "name": "Renault Sandero Stepway Intense",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2020,
+    "kilometraje": 13000,
+    "precio": {
+      "valor": 17500,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -41,43 +49,56 @@
       "2-4.webp",
       "2-5.webp",
       "2-6.webp",
-      "2-7.webp"
+      "2-7.webp",
+      "2-8.webp",
+      "2-9.webp"
     ],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nToyota Yaris XLS 2024 1.5 6MT 5P 26.000 km\n\n🔰 Color: GRIS OSCURO\n🔰 Año: 2024\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#toyota #formosa #venta"
+    "descripcion": "👉🏻VENDIDO\n\nIMPECABLE INGRESO🙌🏻\n\nRENAULT SANDERO STEPWAY INTENSE AT CVT\n\nLa versión INTENSE trae pantalla táctil de 7\" con Android y CarPlay.\n\nAire, dirección y levanta vidrios.\n\nCierre centralizado y comandos al volante.\n\nEs año 2020 y tiene solo 13.000 km\n\nMotor 1.6 16v. y caja automática CVT.\n\nAirbags + ABS + Control de estabilidad.\n\nÚnico dueño, con manuales, segunda llave y autopartes ya realizado.\n\nEste vehículo fue verificado y aprobado por nuestro taller.\n\nValor efectivo U$S 17.500\n\nEstamos en Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689"
   },
   {
-    "id": "volkswagen-polo-highline-2025",
-    "name": "Volkswagen Polo Highline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "fiat-uno-way-1-4-attractive-2012",
+    "name": "Fiat Uno Way 1.4 Attractive",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2012,
+    "kilometraje": 112000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 8400,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.0",
+    "transmision": "Manual",
+    "motor": "1.4",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp", "3-5.webp"],
-    "descripcion": "✅ENTREGA INMEDIATA✅\n\nVolkswagen Polo Highline 1.0 170 TSI 2025 AT\n\n🔰 Color: Gris Plata\n🔰 Año: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#toyota #formosa #venta"
+    "images": [
+      "3-1.webp",
+      "3-2.webp",
+      "3-3.webp",
+      "3-4.webp",
+      "3-5.webp",
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp",
+      "3-10.webp"
+    ],
+    "descripcion": "FIAT UNO WAY 1.4 ATTRACTIVE🚘\n\nLa versión ATTRACTIVE viene con aire, dirección, levanta vidrios, cierre centralizado y aire acondicionado.\n\nEs año 2012 y tiene 112.000 km\n\nCubiertas Pirelli Scorpion Nuevas\n\nManuales y segunda llave\n\nVTV y Grabado de Autopartes.\n\nÚnico Dueño\n\nValor Efectivo USS 8400🔥🔥\n\nEste vehículo fue verificado y aprobado por nuestro taller.\n\nEstamos en 📍Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689"
   },
   {
-    "id": "volkswagen-polo-comforline-2025-1",
-    "name": "Volkswagen Polo Comforline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2025,
-    "kilometraje": 0,
+    "id": "peugeot-2008-allure-1-6-2016",
+    "name": "Peugeot 2008 Allure 1.6",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2016,
+    "kilometraje": 158000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 9900,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.0",
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -87,103 +108,53 @@
       "4-4.webp",
       "4-5.webp",
       "4-6.webp",
-      "4-7.webp"
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp"
     ],
-    "descripcion": "✅ENTREGA INMEDIATA✅\n\nVolkswagen Polo Comforline 1.0 170 TSI 2025 AT\n\n🔰 Color: Blanco\n🔰 Año: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#volkswagen #formosa #venta"
+    "descripcion": "🔥INGRESO EN CONSIGNACION\n\nPEUGEOT 2008 ALLURE 1.6\n\nLa versión viene con frenos ABS, doble Airbag, sensor de estacionamiento, faros antiniebla y comandos al volante para el manejo de su pantalla multimedia.\n\nEs años 2016 y tiene 158.000 km\n\nTodos los service realizados.\n\nGravado de autopartes y VTV hasta el 2026.\n\nManuales y segunda llave.\n\nValor efectivo U$S 9.900\n\nEstamos en Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689"
   },
   {
-    "id": "ford-ranger-limited-v6-2024",
-    "name": "Ford Ranger Limited V6",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2024,
-    "kilometraje": 0,
+    "id": "nissan-kicks-advance-cvt-2018",
+    "name": "Nissan Kicks Advance CVT",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2018,
+    "kilometraje": 74800,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 18500,
+      "moneda": "USD"
     },
-    "categoria": "Pickup",
+    "categoria": "SUV",
     "transmision": "Automática",
-    "motor": "3.2",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "5-1.webp",
       "5-2.webp",
       "5-3.webp",
       "5-4.webp",
       "5-5.webp",
-      "5-6.webp"
+      "5-6.webp",
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp"
     ],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nFord Ranger Limited + V6 2024\n\n🔰 Color: Blanco\n🔰 Año: 2024\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#ford #formosa #venta"
+    "descripcion": "👉🏻VENDIDO\n\n🔥NUEVO INGRESO\n\nNISSAN KICKS ADVANCE CVT AUTOMÁTICA\n\nEs año 2018 y tiene 74.800 km\n\nLa versión ADVANCE trae frenos ABS, AIRBAG conductor y pasajero, pantalla multimedia con conectividad, comandos al volante, pack eléctrico y llave de presencia.\n\nVTV y autopartes realizados.\n\nManuales y segunda llave.\n\nValor Contado USS 18.500\n\nEste vehículo fue verificado y aprobado por nuestro taller.\n\nEstamos en Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689\n\n🔥 INGRESO UNO DE LOS PEDIDOS !!"
   },
   {
-    "id": "ford-ranger-xl-2025",
-    "name": "Ford Ranger XL",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp"],
-    "descripcion": "✅ENTREGA INMEDIATA ✅\n\nFord Ranger XL 4x2 Manual 2025 0km 2.0\n\n🔰 Color: Blanco\n🔰 Año: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#ford #formosa #venta"
-  },
-  {
-    "id": "renault-kwid-2025-1",
-    "name": "Renault Kwid",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["7-1.webp", "7-2.webp", "7-3.webp", "7-4.webp", "7-5.webp"],
-    "descripcion": "✅ENTREGA INMEDIATA✅\n\nRenault Kwid 1.0 SCE\n\n🔰 Color: GRIS PLATA/BITONO\n🔰 Año: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#renault #formosa #venta"
-  },
-  {
-    "id": "renault-kwid-2025-2",
-    "name": "Renault Kwid",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nRenault Kwid 1.0 SCE\n\n🔰 Color: Gris oscuro/bitono\n🔰 Año: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#Renault #formosa #venta"
-  },
-  {
-    "id": "fiat-palio-fire-2015",
-    "name": "Fiat Palio Fire",
+    "id": "fiat-palio-attractive-1-4-8v-2012",
+    "name": "Fiat Palio Attractive 1.4 8v",
     "marca": "Fiat",
     "marcaId": "fiat",
-    "ano": 2015,
-    "kilometraje": 160000,
+    "ano": 2012,
+    "kilometraje": 139000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 9500,
+      "moneda": "USD"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
@@ -191,85 +162,17 @@
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp",
-      "9-7.webp"
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp"
     ],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nFiat Palio Fire 1.4 2015 160.000 km\n\n🔰 Color: Blanco\n🔰 Año: 2015\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#fiat #formosa #venta"
-  },
-  {
-    "id": "ford-ka-s-2018",
-    "name": "Ford Ka S",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2018,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["10-1.webp", "10-2.webp", "10-3.webp", "10-4.webp", "10-5.webp"],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nFord Ka S 2018 1.5L\n\n🔰 Color: Gris Plata\n🔰 Año: 2018\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#toyota #formosa #venta"
-  },
-  {
-    "id": "volkswagen-polo-comforline-2025-2",
-    "name": "Volkswagen Polo Comforline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp"
-    ],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nVolkswagen Polo Comforline AT 2025 0km\n\nColores disponibles: BLANCO, GRIS INDY, GRIS PLATA\n\nAño: 2025\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#volkswagen #formosa #venta"
-  },
-  {
-    "id": "ford-ranger-4x4-2022",
-    "name": "Ford Ranger 4x4",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2022,
-    "kilometraje": 50000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.2",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp"
-    ],
-    "descripcion": "ENTREGA INMEDIATA ✅\n\nFord Ranger 4x4 AT 3.2 2022 Gris plata 50.000 km\n\n🔰 Color: GRIS PLATA\n🔰 Año: 2022\n\nSi estás pensando en sacar tu primer vehículo ¡nosotros te cumplimos el sueño!\n\nPásate por nuestra sucursal y recibí toda la info.\n\nO escribinos por mensaje privado ¡te esperamos!\n\n#ford #formosa #venta"
+    "descripcion": "👉🏻VENDIDO\n\nFIAT PALIO ATTRACTIVE 1.4 8v.\n\nLa versión Attractive viene con:\n\n• Computadora de abordo.\n• Aire acondicionado.\n• Cierre centralizado con comando a distancia.\n• Levanta vidrios eléctricos delanteros y espejos eléctricos.\n• Llantas y faros antiniebla.\n\nEs año 2012 y tiene 139.000km\n\nCubiertas muy buenas con tuercas antirrobo.\n\nMantenimiento al día\n\nVTV vigente y grabado de autopartes\n\nValor en efectivo U$S 9.500\n\nEstamos en Zapiola 847 Bernal, solo atendemos con visitas programadas, háblame y coordina la tuya !!\n\n\"Fernando Curti Automotores en zona sur, confianza, atención personalizada y autos con garantía.\"\n\nCel. 11-3177-7689"
   }
 ]
