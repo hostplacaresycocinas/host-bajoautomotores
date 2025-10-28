@@ -1,44 +1,47 @@
 [
   {
-    "id": "chevrolet-cruze-ltz-at-2017",
-    "name": "Chevrolet Cruze LTZ+ AT",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2017,
+    "id": "toyota-corolla-cross-gr-sport-2023",
+    "name": "Toyota Corolla Cross GR-Sport",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2023,
     "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.8",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
-      "1-1.webp",
-      "1-2.webp",
-      "1-3.webp",
-      "1-4.webp",
-      "1-5.webp",
-      "1-6.webp"
-    ],
-    "descripcion": "Chevrolet Cruze LTZ+ AT 2017 🚗✨\n\nAutomático, versión full y con todo el confort que buscás.\n\nExcelente estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Supervielle y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "ford-territory-titanium-2022",
-    "name": "Ford Territory Titanium",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2022,
-    "kilometraje": 6500,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Automática",
-    "motor": "1.5",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "1-1.webp",
+      "1-2.webp",
+      "1-3.webp",
+      "1-4.webp",
+      "1-5.webp",
+      "1-6.webp",
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp"
+    ],
+    "descripcion": "❤️ TOYOTA COROLLA CROSS GR-SPORT 2023❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "toyota-corolla-cross-xli-2-0-2024",
+    "name": "Toyota Corolla Cross XLI 2.0",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2024,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -49,45 +52,55 @@
       "2-5.webp",
       "2-6.webp",
       "2-7.webp",
-      "2-8.webp"
+      "2-8.webp",
+      "2-9.webp"
     ],
-    "descripcion": "Ford Territory Titanium 2022 🚙\n\n6.500 km.\n\nSUV familiar, caja automática y diseño moderno.\n\nExcelente estado, lista para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+    "descripcion": "⚡️ TOYOTA COROLLA CROSS XLI 2.0 AÑO 2024\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
   },
   {
-    "id": "chevrolet-spark-ls-2009",
-    "name": "Chevrolet Spark LS",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2009,
-    "kilometraje": 999999,
+    "id": "volkswagen-amarok-v6-comfortline-2023",
+    "name": "Volkswagen Amarok V6 Comfortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2023,
+    "kilometraje": 34000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp", "3-5.webp"],
-    "descripcion": "Chevrolet Spark LS 2009 🚗\n\nCity car económico y práctico, ideal para la ciudad.\n\nMuy buen estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "3.0 V6",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "3-1.webp",
+      "3-2.webp",
+      "3-3.webp",
+      "3-4.webp",
+      "3-5.webp",
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp"
+    ],
+    "descripcion": "🚀 VOLKSWAGEN AMAROK V6 COMFORTLINE 258CV 2023 34mil KM 😍😍\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
   },
   {
-    "id": "nissan-march-active-2018",
-    "name": "Nissan March Active",
+    "id": "nissan-versa-advance-pure-drive-2019",
+    "name": "Nissan Versa Advance Pure Drive",
     "marca": "Nissan",
     "marcaId": "nissan",
-    "ano": 2018,
+    "ano": 2019,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -95,32 +108,14 @@
       "4-4.webp",
       "4-5.webp",
       "4-6.webp",
-      "4-7.webp"
+      "4-7.webp",
+      "4-8.webp"
     ],
-    "descripcion": "Nissan March Active 2018 🚗\n\nNafta 1.6, caja manual y consumo súper económico.\n\nCompacto, ágil y listo para la ciudad.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+    "descripcion": "📌 NISSAN VERSA ADVANCE PURE DRIVE 2019🔥\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
   },
   {
-    "id": "ford-ecosport-1-5-se-2017",
-    "name": "Ford EcoSport 1.5 SE",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2017,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["5-1.webp", "5-2.webp", "5-3.webp", "5-4.webp"],
-    "descripcion": "Ford EcoSport 1.5 SE 2017 🚙\n\nSUV familiar, nafta, cómoda y práctica para ciudad y ruta.\n\nMuy buen estado, lista para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "chevrolet-cruze-ltz-premier-at-2021",
-    "name": "Chevrolet Cruze LTZ PREMIER AT",
+    "id": "chevrolet-s-10-2-8td-4x4-ltz-at-2021",
+    "name": "Chevrolet S-10 2.8TD 4x4 LTZ AT",
     "marca": "Chevrolet",
     "marcaId": "chevrolet",
     "ano": 2021,
@@ -129,133 +124,118 @@
       "valor": 999999,
       "moneda": "ARS"
     },
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "2.8 TD",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "5-1.webp",
+      "5-2.webp",
+      "5-3.webp",
+      "5-4.webp",
+      "5-5.webp",
+      "5-6.webp",
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp"
+    ],
+    "descripcion": "🔆 CHEVROLET S-10 2.8TD 4x4 LTZ AT 2021\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "fiat-toro-freedom-2020",
+    "name": "Fiat Toro Freedom",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2020,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "1.8",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": [
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp"
+    ],
+    "descripcion": "🐂 FIAT TORO FREEDOM año 2020🔥📍\n\nMotor 1.8 NAFTA con caja automática\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "citroen-c3-aircross-shine-2024",
+    "name": "Citroen C3 Aircross Shine",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2024,
+    "kilometraje": 18500,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "7-1.webp",
+      "7-2.webp",
+      "7-3.webp",
+      "7-4.webp",
+      "7-5.webp",
+      "7-6.webp",
+      "7-7.webp",
+      "7-8.webp",
+      "7-9.webp",
+      "7-10.webp"
+    ],
+    "descripcion": "❤️ CITROEN C3 AIRCROSS SHINE 7 ASIENTOS AUTOMATICA❗️📍\n\nAño 2024 con 18500KM\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "volkswagen-virtus-comfortline-2018",
+    "name": "Volkswagen Virtus Comfortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
     "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "1.4",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp"],
-    "descripcion": "Chevrolet Cruze LTZ PREMIER AT 2021 🚗✨\n\nAutomático, 5 puertas, tapizado de cuero, butacas electricas, techo solar y mucho más!\n\nExcelente estado, listo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "peugeot-208-allure-2014",
-    "name": "Peugeot 208 Allure",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2014,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["7-1.webp", "7-2.webp", "7-3.webp", "7-4.webp", "7-5.webp"],
-    "descripcion": "Peugeot 208 Allure 2014 🚗\n\nHatchback, cómodo y en muy buen estado.\n\nListo para salir.\n\nFinanciamos con créditos prendarios y personales, los bancos que nos acompañan son Galicia, Superville y Bancor 💳\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "ford-ecosport-1-5-freestyle-2017",
-    "name": "Ford EcoSport 1.5 Freestyle",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2017,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.5",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
-    "descripcion": "Ford EcoSport 1.5 Freestyle 2017 🚙\n\nSUV compacta, cómoda.\n\nCon la altura justa para ciudad y ruta.\n\nMotor 1.5, muy buen estado, lista para salir.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville, Galicia y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "jeep-compass-limited-2022",
-    "name": "Jeep Compass Limited",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2022,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp"
+      "8-1.webp",
+      "8-2.webp",
+      "8-3.webp",
+      "8-4.webp",
+      "8-5.webp",
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp",
+      "8-10.webp"
     ],
-    "descripcion": "Jeep Compass Limited 2022 🚙✨\n\nSUV cómoda, moderna y con equipamiento premium.\n\nExcelente estado, lista para entrega.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville, Galicia y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
+    "descripcion": "💎 Volkswagen Virtus Comfortline 2018❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
   },
   {
-    "id": "ford-focus-5p-s-2014",
-    "name": "Ford Focus 5P S",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2014,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "2.0",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp"
-    ],
-    "descripcion": "Ford Focus 5P S 2014 🚗\n\nHatchback práctico y cómodo, listo para salir.\n\nMuy buen estado general.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Superville y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "citroen-basalt-shine-2025",
-    "name": "Citroën Basalt Shine",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2025,
-    "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp"
-    ],
-    "descripcion": "Citroën Basalt Shine 2025 🚗✨\n\nDiseño tipo coupé-SUV, confort y tecnología para disfrutar cada kilómetro.\n\nYa disponible en nuestro salón.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con superville y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30"
-  },
-  {
-    "id": "ford-ranger-limited-at-2020-4x4",
-    "name": "Ford Ranger Limited AT 4x4",
+    "id": "ford-f-150-raptor-2020",
+    "name": "Ford F-150 Raptor",
     "marca": "Ford",
     "marcaId": "ford",
     "ano": 2020,
@@ -266,17 +246,110 @@
     },
     "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "3.2",
-    "combustible": "Diésel",
+    "motor": "3.5 V6",
+    "combustible": "Nafta",
     "puertas": 4,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp",
+      "9-7.webp",
+      "9-8.webp",
+      "9-9.webp",
+      "9-10.webp",
+      "9-11.webp",
+      "9-12.webp"
+    ],
+    "descripcion": "🚀 FORD F-150 RAPTOR 2020❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "toyota-corolla-cross-xli-2-0-cvt-2024",
+    "name": "Toyota Corolla Cross XLI 2.0 CVT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2024,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "CVT",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "10-1.webp",
+      "10-2.webp",
+      "10-3.webp",
+      "10-4.webp",
+      "10-5.webp",
+      "10-6.webp",
+      "10-7.webp",
+      "10-8.webp",
+      "10-9.webp",
+      "10-10.webp"
+    ],
+    "descripcion": "☑️ TOYOTA COROLLA CROSS XLI 2.0 CVT 2024❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "jeep-renegade-sport-plus-1-8-2021",
+    "name": "Jeep Renegade Sport Plus 1.8",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2021,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.8",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "11-1.webp",
+      "11-2.webp",
+      "11-3.webp",
+      "11-4.webp",
+      "11-5.webp",
+      "11-6.webp",
+      "11-7.webp",
+      "11-8.webp",
+      "11-9.webp"
+    ],
+    "descripcion": "🚙 JEEP RENEGADE SPORT PLUS 1.8 año 2021❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+  },
+  {
+    "id": "citroen-c3-1-6-at-pack-design-feel-2024",
+    "name": "Citroen C3 1.6 AT Pack Design Feel",
+    "marca": "Citroen",
+    "marcaId": "citroen",
+    "ano": 2024,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automática",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "12-1.webp",
       "12-2.webp",
       "12-3.webp",
       "12-4.webp",
       "12-5.webp",
-      "12-6.webp"
+      "12-6.webp",
+      "12-7.webp",
+      "12-8.webp"
     ],
-    "descripcion": "🛑Vendido Ford Ranger Limited AT 2020 4x4\n\nTope de gama, automática y con tracción integral para trabajo, viaje y ciudad.\n\nExcelente estado, lista para salir.\n\nFinanciamos créditos personales y prendarios, con tasa fija o UVA.\n\nTrabajamos con Santander y Bancor.\n\nTomamos tu usado como parte de pago 🔁\n\nEscribinos y coordiná tu visita 📲\n\nAv. Octavio Pinto 2407 – Córdoba Capital\n\nLunes a viernes 9:30 a 13 y 15 a 18:30\n\n🛑vendido"
+    "descripcion": "🚙 CITROEN C3 1.6 AT PACK DESING FEEL 2024❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
   }
 ]

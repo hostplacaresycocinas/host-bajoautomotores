@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'tabladamotors',
-  name: 'Tablada Motors',
-  adress: 'Octavio Pinto 2407',
-  city: 'Córdoba',
-  email: 'info@tabladamotors.com.ar',
-  instagram: 'tablada_motors',
-  facebook: 'https://www.facebook.com/tabladamotors/',
-  whatsapp: ['3518188893', '3515578847'],
-  googlemapsLink: 'https://maps.app.goo.gl/31SYS3bUVaQj1qBg9',
+  id: 'modalautomotores',
+  name: 'Modal Automotores',
+  adress: 'Av. Olascoaga y El Chocón',
+  city: 'Neuquén',
+  email: 'modalautomotores@gmail.com',
+  instagram: 'modalautomotores',
+  facebook: 'https://www.facebook.com/profile.php?id=100084359903974',
+  whatsapp: ['2995860782', '2995742593'],
+  googlemapsLink: 'https://maps.app.goo.gl/WU9QCNMwA4bSWVct5',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.821686444672!2d-64.21599542299677!3d-31.391479895050402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298e94e2ece67%3A0x8f89cd690cc70525!2sTablada%20Motors!5e0!3m2!1ses!2sar!4v1761591640640!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.026236846731!2d-68.06160592275036!3d-38.96906890094789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33cb5fdc213b%3A0xa653ed393317a60a!2sModal%20automotores!5e0!3m2!1sen!2sar!4v1760241174498!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9:30 a 13 y 15 a 18hs',
-    'Sábado y Domingo Cerrado',
+    'Lunes a Viernes 9:00 a 18:00hs',
+    'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://tabladamotors.vercel.app/',
-  title: 'Tablada Motors - Compra y Venta de Autos',
+  metadataBase: 'https://modalautomotores.vercel.app/',
+  title: 'Modal Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
