@@ -1,19 +1,19 @@
 [
   {
-    "id": "toyota-corolla-cross-gr-sport-2023",
-    "name": "Toyota Corolla Cross GR-Sport",
+    "id": "toyota-etios-xls-2014",
+    "name": "Toyota Etios XLS",
     "marca": "Toyota",
     "marcaId": "toyota",
-    "ano": 2023,
+    "ano": 2014,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0",
-    "combustible": "Nafta",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.5",
+    "combustible": "Nafta/GNC",
     "puertas": 5,
     "images": [
       "1-1.webp",
@@ -22,27 +22,25 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp"
+      "1-7.webp"
     ],
-    "descripcion": "❤️ TOYOTA COROLLA CROSS GR-SPORT 2023❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "TOYATA ETIOS XLS 2014\n\nEl auto ideal para vos! 🏁\n\nCuenta con ⬇️\n• Motor 1.5\n• Nafta y GNC\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "toyota-corolla-cross-xli-2-0-2024",
-    "name": "Toyota Corolla Cross XLI 2.0",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
+    "id": "nissan-march-active-pure-drive",
+    "name": "Nissan March Active Pure Drive",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 999999,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0",
-    "combustible": "Nafta",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta/GNC",
     "puertas": 5,
     "images": [
       "2-1.webp",
@@ -51,28 +49,26 @@
       "2-4.webp",
       "2-5.webp",
       "2-6.webp",
-      "2-7.webp",
-      "2-8.webp",
-      "2-9.webp"
+      "2-7.webp"
     ],
-    "descripcion": "⚡️ TOYOTA COROLLA CROSS XLI 2.0 AÑO 2024\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "NISSAN MARCH ACTIVE PURE DRIVE\n\nEstilo y practicidad! 🏁\n\n• Motor 1.6\n• 16 válvulas\n• Nafta y GNC\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "volkswagen-amarok-v6-comfortline-2023",
-    "name": "Volkswagen Amarok V6 Comfortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2023,
-    "kilometraje": 34000,
+    "id": "fiat-palio-adventure-weekend-locker-2014",
+    "name": "Fiat Palio Adventure Weekend Locker",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2014,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.0 V6",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta/GNC",
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -80,54 +76,51 @@
       "3-4.webp",
       "3-5.webp",
       "3-6.webp",
-      "3-7.webp",
-      "3-8.webp"
+      "3-7.webp"
     ],
-    "descripcion": "🚀 VOLKSWAGEN AMAROK V6 COMFORTLINE 258CV 2023 34mil KM 😍😍\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "FIAT PALIO ADVENTURE WEEKEND LOCKER 2014\n\nComodidad y confianza 🏁\n\n• Motor 1.6\n• Nafta y GNC\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "nissan-versa-advance-pure-drive-2019",
-    "name": "Nissan Versa Advance Pure Drive",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2019,
+    "id": "renault-sandero-stepway-2017-dynamique",
+    "name": "Renault Sandero Stepway Dynamique",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2017,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "SUV",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 4,
+    "combustible": "Nafta/GNC",
+    "puertas": 5,
     "images": [
       "4-1.webp",
       "4-2.webp",
       "4-3.webp",
       "4-4.webp",
       "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp"
+      "4-6.webp"
     ],
-    "descripcion": "📌 NISSAN VERSA ADVANCE PURE DRIVE 2019🔥\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "RENAULT SANDERO STEPWAY 2017 DYNAMIQUE\n\nIdeal para paseos en familia! 🏁\n\n• Motor 1.6\n• Nafta y GNC\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "chevrolet-s-10-2-8td-4x4-ltz-at-2021",
-    "name": "Chevrolet S-10 2.8TD 4x4 LTZ AT",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2021,
+    "id": "ford-focus-se-plus-powershift-at-2015",
+    "name": "Ford Focus SE Plus Powershift AT",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2015,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "2.8 TD",
-    "combustible": "Diésel",
+    "motor": "2.0",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "5-1.webp",
@@ -135,28 +128,24 @@
       "5-3.webp",
       "5-4.webp",
       "5-5.webp",
-      "5-6.webp",
-      "5-7.webp",
-      "5-8.webp",
-      "5-9.webp",
-      "5-10.webp"
+      "5-6.webp"
     ],
-    "descripcion": "🔆 CHEVROLET S-10 2.8TD 4x4 LTZ AT 2021\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "FORD FOCUS SE PLUS POWERSHIFT AT 2015\n\nEl modelo ideal para vos 🏁\n\nTe contamos… ⬇️\n• Motor 2.0\n• Nafta\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "fiat-toro-freedom-2020",
-    "name": "Fiat Toro Freedom",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2020,
-    "kilometraje": 999999,
+    "id": "focus-se-plus-2014",
+    "name": "Focus SE Plus",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2014,
+    "kilometraje": 157000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "1.8",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -166,27 +155,24 @@
       "6-4.webp",
       "6-5.webp",
       "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
+      "6-7.webp"
     ],
-    "descripcion": "🐂 FIAT TORO FREEDOM año 2020🔥📍\n\nMotor 1.8 NAFTA con caja automática\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "FOCUS SE PLUS 2014\n\nEstilo y comodidad! 🏁\n\n• Motor 2.0\n• Nafta\n• 157.000 km\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "citroen-c3-aircross-shine-2024",
-    "name": "Citroen C3 Aircross Shine",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2024,
-    "kilometraje": 18500,
+    "id": "fiat-mobi-easy-2018",
+    "name": "Fiat Mobi Easy",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2018,
+    "kilometraje": 80300,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.6",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -195,29 +181,25 @@
       "7-3.webp",
       "7-4.webp",
       "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
+      "7-6.webp"
     ],
-    "descripcion": "❤️ CITROEN C3 AIRCROSS SHINE 7 ASIENTOS AUTOMATICA❗️📍\n\nAño 2024 con 18500KM\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "MOBI EASY 2018\n\nDurabilidad y confianza! 🏁\n\n• Motor 1.0\n• Nafta\n• 80.300 km\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "volkswagen-virtus-comfortline-2018",
-    "name": "Volkswagen Virtus Comfortline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
+    "id": "fiat-grand-siena-attractive-pack-seguridad-2014",
+    "name": "Fiat Grand Siena Attractive Pack Seguridad",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2014,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6",
-    "combustible": "Nafta",
+    "transmision": "Manual",
+    "motor": "1.4",
+    "combustible": "Nafta/GNC",
     "puertas": 4,
     "images": [
       "8-1.webp",
@@ -226,27 +208,24 @@
       "8-4.webp",
       "8-5.webp",
       "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp"
+      "8-7.webp"
     ],
-    "descripcion": "💎 Volkswagen Virtus Comfortline 2018❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "FIAT GRAND SIENA ATTRACTIVE PACK SEGURIDAD 2014\n\nUn auto práctico y seguro! 🏁\n\nIdeal para vos y tu familia!\n\n• Motor 1.4\n• Nafta y GNC\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "ford-f-150-raptor-2020",
-    "name": "Ford F-150 Raptor",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2020,
+    "id": "volkswagen-polo-2016-trendline-sedan",
+    "name": "Volkswagen Polo Trendline Sedan",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2016,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.5 V6",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -256,29 +235,24 @@
       "9-4.webp",
       "9-5.webp",
       "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp",
-      "9-10.webp",
-      "9-11.webp",
-      "9-12.webp"
+      "9-7.webp"
     ],
-    "descripcion": "🚀 FORD F-150 RAPTOR 2020❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "VOLKSWAGEN POLO 2016\n\nAuto ideal para vos! Te contamos porque ⬇️\n\n• Motor 1.6\n• Nafta\n• TRENDLINE SEDAN\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "toyota-corolla-cross-xli-2-0-cvt-2024",
-    "name": "Toyota Corolla Cross XLI 2.0 CVT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
+    "id": "volkswagen-t-cross-2022-trendline",
+    "name": "Volkswagen T-Cross Trendline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2022,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "CVT",
-    "motor": "2.0",
+    "transmision": "Manual",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -288,29 +262,26 @@
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp"
+      "10-7.webp"
     ],
-    "descripcion": "☑️ TOYOTA COROLLA CROSS XLI 2.0 CVT 2024❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "VOLKSWAGEN T-CROSS 2022\n\nAuto ideal para vos! Te contamos porque ⬇️\n\n• Motor 1.6\n• Nafta\n• TRENDLINE\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "jeep-renegade-sport-plus-1-8-2021",
-    "name": "Jeep Renegade Sport Plus 1.8",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2021,
-    "kilometraje": 999999,
+    "id": "volkswagen-bora-mpi-trendline-2013",
+    "name": "Volkswagen Bora MPI Trendline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
+    "kilometraje": 132000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.8",
+    "motor": "2.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -318,26 +289,24 @@
       "11-4.webp",
       "11-5.webp",
       "11-6.webp",
-      "11-7.webp",
-      "11-8.webp",
-      "11-9.webp"
+      "11-7.webp"
     ],
-    "descripcion": "🚙 JEEP RENEGADE SPORT PLUS 1.8 año 2021❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "VOLKSWAGEN BORA MPI TRENDLINE 2013\n\nTu auto ideal\n\nEstilo y durabilidad! 🏁\n\n• Motor 2.0\n• Nafta\n• 132.000 km\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   },
   {
-    "id": "citroen-c3-1-6-at-pack-design-feel-2024",
-    "name": "Citroen C3 1.6 AT Pack Design Feel",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2024,
-    "kilometraje": 999999,
+    "id": "renault-clio-mio-confort-plus-2016",
+    "name": "Renault Clio Mío Confort Plus",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2016,
+    "kilometraje": 116000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.6",
+    "transmision": "Manual",
+    "motor": "1.2",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -347,9 +316,8 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp",
-      "12-8.webp"
+      "12-7.webp"
     ],
-    "descripcion": "🚙 CITROEN C3 1.6 AT PACK DESING FEEL 2024❗️\n\n💲 Financiamos solo con DNI, credito prendario por medio de banco o financiera a TASA FIJA O UVA.\n\n🚨 NO DUDES EN CONSULTARNOS❗️\n\n📞 2995860782 MATEO\n📞 2995742593 RODRIGO\n📞 2994565555 MARTIN\n\n📍 Avenida Olascoaga y El Chocon, NEUQUEN CAPITAL.\n\n📩 modalautomotores@gmail.com"
+    "descripcion": "RENAULT CLIO MÍO CONFORT PLUS 2016\n\nPracticidad y comodidad! 🏁\n\n• Motor 1.2\n• Nafta\n• 116.000 km\n\nFINANCIACIÓN CON LOS MEJORES BANCOS, ÚNICAMENTE CON TU DNI !!! 🏦\n\nInteresado? No dudes en consultar, nuestros asesores te están esperando! 📲\n\n📞 3513 98 1767\n📍 Av. Alem 449, Cordoba, Argentina"
   }
 ]

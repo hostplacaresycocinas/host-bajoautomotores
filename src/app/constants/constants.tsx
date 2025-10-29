@@ -5,19 +5,19 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'modalautomotores',
-  name: 'Modal Automotores',
-  adress: 'Av. Olascoaga y El Chocón',
-  city: 'Neuquén',
-  email: 'modalautomotores@gmail.com',
-  instagram: 'modalautomotores',
-  facebook: 'https://www.facebook.com/profile.php?id=100084359903974',
-  whatsapp: ['2995860782', '2995742593'],
-  googlemapsLink: 'https://maps.app.goo.gl/WU9QCNMwA4bSWVct5',
+  id: 'cordilleraautomotores',
+  name: 'Cordillera Automotores',
+  adress: 'Av. Alem 449',
+  city: 'Córdoba',
+  email: 'cordilleraautomotores@gmail.com',
+  instagram: 'cordillera.automotores_oficial',
+  facebook: 'https://www.facebook.com/profile.php?id=100070098579885',
+  whatsapp: ['3513981767'],
+  googlemapsLink: 'https://maps.app.goo.gl/E22hTwbC9qLqdLv78',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.026236846731!2d-68.06160592275036!3d-38.96906890094789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33cb5fdc213b%3A0xa653ed393317a60a!2sModal%20automotores!5e0!3m2!1sen!2sar!4v1760241174498!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.8185769307634!2d-64.17050166107896!3d-31.39656700408104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299005b451e87%3A0x3f57e5bcfb9bd1c0!2sCordillera%20Automotores!5e0!3m2!1sen!2sar!4v1761686760007!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9:00 a 18:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
     'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://modalautomotores.vercel.app/',
-  title: 'Modal Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://cordilleraautomotores.vercel.app/',
+  title: 'Cordillera Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
