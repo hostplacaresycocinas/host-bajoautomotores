@@ -14,7 +14,7 @@ const HeroHome = () => {
     >
       <div className='max-w-[1920px] w-full flex flex-col items-center z-10'>
         <div className='flex justify-center max-w-6xl lg:max-w-[1920px] w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
-          <article className='h-[550px] md:h-[650px] lg:h-[700px] xl:h-[800px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
+          <article className='h-[540px] md:h-[650px] lg:h-[700px] xl:h-[800px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
             <HeroCarousel />
 
             {/* Resplandores de fondo con color primario (ocultos en mobile por performance) */}
@@ -35,7 +35,7 @@ const HeroHome = () => {
             {/* Overlay gradient más suave */}
             <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-b from-black/70 via-black/70 to-black/80 -z-20'></div>
 
-            <div className='flex flex-col items-center max-w-4xl px-4'>
+            <div className='flex flex-col items-center max-w-4xl px-4 mt-8 md:mt-0'>
               {/* Badge superior */}
               <motion.div
                 initial={{ opacity: 0, y: -20 }}
