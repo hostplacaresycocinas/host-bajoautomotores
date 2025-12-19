@@ -33,7 +33,7 @@ export const BASE_URL_MELI = 'https://onlymotors-ml.agenciagrvity.com';
 export const TENANT_MELI = '76479dd8-2531-4d14-b93f-e9a77c4b0ed7';
 
 export const metadataCompany = {
-  metadataBase: 'https://cordilleraautomotores.vercel.app/',
+  metadataBase: 'https://cordilleraautomotores.com.ar/',
   title: 'Cordillera Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
