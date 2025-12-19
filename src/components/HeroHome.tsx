@@ -38,9 +38,14 @@ const HeroHome = () => {
             <div className='flex flex-col items-center max-w-4xl px-4'>
               {/* Badge superior */}
               <motion.div
-                initial={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: 'easeOut' }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 100,
+                  damping: 15,
+                  mass: 0.5,
+                }}
                 className='inline-flex items-center gap-1 px-4 py-2 bg-white/10 md:backdrop-blur-sm border border-white/20 rounded-full mb-2 lg:mb-3'
               >
                 <LocationIcon className='w-6 h-6 text-color-primary-light' />
@@ -52,18 +57,30 @@ const HeroHome = () => {
               {/* Título principal */}
               <div className='flex flex-col items-center mb-0 lg:mb-4'>
                 <motion.h1
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2, ease: 'easeOut' }}
+                  transition={{
+                    type: 'spring',
+                    stiffness: 100,
+                    damping: 20,
+                    mass: 0.8,
+                    delay: 0.15,
+                  }}
                   className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white text-center mb-2 uppercase'
                 >
                   {company.name}
                 </motion.h1>
 
                 <motion.div
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.3, ease: 'easeOut' }}
+                  transition={{
+                    type: 'spring',
+                    stiffness: 100,
+                    damping: 20,
+                    mass: 0.8,
+                    delay: 0.25,
+                  }}
                   className='items-center gap-3 hidden md:flex'
                 >
                   <div className='w-12 md:w-20 h-[4px] bg-gradient-to-r from-transparent to-color-primary-light'></div>
@@ -76,9 +93,15 @@ const HeroHome = () => {
 
               {/* Descripción */}
               <motion.p
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.4, ease: 'easeOut' }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 100,
+                  damping: 20,
+                  mass: 0.8,
+                  delay: 0.35,
+                }}
                 className='text-base sm:text-lg md:text-xl lg:text-2xl text-center text-color-text-light max-w-2xl leading-relaxed font-medium'
               >
                 Vehículos seleccionados con atención personalizada.
@@ -88,9 +111,15 @@ const HeroHome = () => {
 
               {/* Botones CTA */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5, ease: 'easeOut' }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 100,
+                  damping: 20,
+                  mass: 0.8,
+                  delay: 0.45,
+                }}
                 className='flex flex-col sm:flex-row gap-3 md:gap-4 mt-3 md:mt-5'
               >
                 {/* Botón principal */}
