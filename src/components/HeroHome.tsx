@@ -14,7 +14,7 @@ const HeroHome = () => {
     >
       <div className='max-w-[1920px] w-full flex flex-col items-center z-10'>
         <div className='flex justify-center max-w-6xl lg:max-w-[1920px] w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
-          <article className='h-[520px] md:h-[550px] lg:h-[700px] xl:h-[800px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
+          <article className='h-[550px] md:h-[650px] lg:h-[700px] xl:h-[800px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
             <HeroCarousel />
 
             {/* Resplandores de fondo con color primario (ocultos en mobile por performance) */}
@@ -41,7 +41,7 @@ const HeroHome = () => {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className='inline-flex items-center gap-1 px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-2 lg:mb-3 transform-gpu will-change-transform'
+                className='inline-flex items-center gap-1 px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-3 lg:mb-3 transform-gpu will-change-transform'
               >
                 <LocationIcon className='w-6 h-6 text-color-primary-light' />
                 <span className='text-base md:text-lg font-medium text-white/90 tracking-wide'>
