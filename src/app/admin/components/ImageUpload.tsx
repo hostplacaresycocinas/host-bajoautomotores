@@ -37,7 +37,6 @@ interface ImageUploadProps {
   }>;
   maxFiles?: number;
   accept?: string;
-  onImageClick?: (url: string, index: number, orientation?: number) => void;
 }
 
 interface FileWithOrientation extends File {
@@ -52,15 +51,9 @@ interface SortableImageProps {
   };
   index: number;
   onRemove: () => void;
-  onClick?: () => void;
 }
 
-const SortableImage = ({
-  image,
-  index,
-  onRemove,
-  onClick,
-}: SortableImageProps) => {
+const SortableImage = ({ image, index, onRemove }: SortableImageProps) => {
   const {
     attributes,
     listeners,
@@ -85,7 +78,6 @@ const SortableImage = ({
       className={`relative border rounded-md overflow-hidden ${
         isDragging ? 'shadow-lg border-red-400 opacity-80' : ''
       }`}
-      onClick={onClick}
     >
       <div
         className='absolute top-2 left-2 p-1.5 bg-white/80 rounded-full shadow-sm cursor-grab z-10 hover:bg-white'
@@ -124,7 +116,6 @@ interface SortableNewImageProps {
   index: number;
   onEdit: () => void;
   onRemove: () => void;
-  onClick?: () => void;
 }
 
 const SortableNewImage = ({
@@ -132,7 +123,6 @@ const SortableNewImage = ({
   src,
   onEdit,
   onRemove,
-  onClick,
 }: SortableNewImageProps) => {
   const {
     attributes,
@@ -158,7 +148,6 @@ const SortableNewImage = ({
       className={`relative border rounded-md overflow-hidden ${
         isDragging ? 'shadow-lg border-red-400 opacity-80' : ''
       }`}
-      onClick={onClick}
     >
       <div
         className='absolute top-2 left-2 p-1.5 bg-white/80 rounded-full shadow-sm cursor-grab z-10 hover:bg-white'
@@ -281,7 +270,6 @@ export function ImageUpload({
   accept = 'image/*',
   defaultImages = [],
   onImagesUpdate,
-  onImageClick,
 }: ImageUploadProps) {
   const [previewImages, setPreviewImages] = useState<string[]>([]);
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
@@ -556,7 +544,7 @@ export function ImageUpload({
         {/* Imágenes actuales con reordenamiento */}
         {existingImages.length > 0 && (
           <div className='mb-6'>
-            <label className='block text-sm font-medium text-gray-700 mb-2'>
+            <label className='block text-base font-medium text-gray-700 mb-2'>
               Imágenes actuales{' '}
               <span className='text-gray-500 text-xs font-normal'>
                 (Arrastra para reordenar)
@@ -579,7 +567,6 @@ export function ImageUpload({
                       image={image}
                       index={index}
                       onRemove={() => removeImage(index, true)}
-                      onClick={() => onImageClick?.(image.imageUrl, index)}
                     />
                   ))}
                 </div>
@@ -590,7 +577,7 @@ export function ImageUpload({
 
         {/* Sección de nuevas imágenes */}
         <div>
-          <label className='block text-sm font-medium text-gray-700 mb-2'>
+          <label className='block text-base font-medium text-gray-700 mb-2'>
             Nuevas imágenes{' '}
             <span className='text-gray-500 text-xs font-normal'>
               {selectedFiles.length > 0 ? '(Arrastra para reordenar)' : ''}
@@ -621,7 +608,7 @@ export function ImageUpload({
                     onClick={triggerFileInput}
                   >
                     <Plus className='h-8 w-8 text-gray-400 mb-2' />
-                    <span className='text-sm text-gray-500'>Agregar</span>
+                    <span className='text-base text-gray-500'>Agregar</span>
                   </div>
                 )}
 
@@ -634,7 +621,6 @@ export function ImageUpload({
                     index={index}
                     onEdit={() => handleEditImage(index)}
                     onRemove={() => removeImage(index)}
-                    onClick={() => onImageClick?.(src, index)}
                   />
                 ))}
               </div>

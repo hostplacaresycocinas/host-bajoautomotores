@@ -65,7 +65,7 @@ export function LimitModal({ isOpen, onClose, type }: LimitModalProps) {
                         ? 'Límite de ingresos alcanzado'
                         : 'Límite de destacados alcanzado'}
                     </Dialog.Title>
-                    <p className='mt-2 text-sm text-gray-500'>
+                    <p className='mt-2 text-base text-gray-500'>
                       Ya tenés 10/10 vehículos{' '}
                       {type === 'destacado' ? 'en ingresos' : 'destacados'}.
                       Para agregar uno nuevo, primero tenés que quitar otro de
@@ -81,7 +81,7 @@ export function LimitModal({ isOpen, onClose, type }: LimitModalProps) {
                       type === 'destacado'
                         ? 'bg-blue-600 hover:bg-blue-700'
                         : 'bg-yellow-600 hover:bg-yellow-700'
-                    } px-4 py-2 text-sm font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                    } px-4 py-2 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                       type === 'destacado'
                         ? 'focus:ring-blue-500'
                         : 'focus:ring-yellow-500'

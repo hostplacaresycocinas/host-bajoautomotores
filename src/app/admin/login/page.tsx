@@ -85,7 +85,7 @@ export default function LoginPage() {
                 <div>
                   <label
                     htmlFor='username'
-                    className='block text-sm font-medium text-color-text-light mb-2'
+                    className='block text-base font-medium text-color-text-light mb-2'
                   >
                     Usuario
                   </label>
@@ -103,7 +103,7 @@ export default function LoginPage() {
                 <div>
                   <label
                     htmlFor='password'
-                    className='block text-sm font-medium text-color-text-light mb-2'
+                    className='block text-base font-medium text-color-text-light mb-2'
                   >
                     Contraseña
                   </label>
@@ -120,14 +120,14 @@ export default function LoginPage() {
               </div>
 
               {error && (
-                <div className='mt-5 text-sm text-red-600'>{error}</div>
+                <div className='mt-5 text-base text-red-600'>{error}</div>
               )}
 
               <div className='mt-8'>
                 <button
                   type='submit'
                   disabled={loading}
-                  className='w-full py-3 bg-color-primary-admin hover:bg-color-primary-admin-dark text-white font-medium rounded-md transition-colors text-base disabled:opacity-70'
+                  className='w-full py-3 bg-color-primary-admin hover:bg-color-primary-dark-admin text-white font-medium rounded-md transition-colors text-base disabled:opacity-70'
                 >
                   {loading ? 'Iniciando sesión...' : 'Iniciar sesión'}
                 </button>

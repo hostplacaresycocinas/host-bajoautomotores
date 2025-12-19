@@ -5,9 +5,45 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { company } from '@/app/constants/constants';
-import catalogo from '@/data/catalogo.json';
+import {
+  company,
+  API_BASE_URL,
+  TENANT_PUBLIC,
+} from '@/app/constants/constants';
 import AutoScroll from 'embla-carousel-auto-scroll';
+
+interface ApiCar {
+  id: string;
+  brand: string;
+  model: string;
+  year: number;
+  color: string;
+  price: string;
+  currency: 'USD' | 'ARS';
+  description: string;
+  categoryId: string;
+  mileage: number;
+  transmission: string;
+  fuel: string;
+  doors: number;
+  position: number;
+  featured: boolean;
+  favorite: boolean;
+  active: boolean;
+  createdAt: string;
+  updatedAt: string;
+  Category: {
+    id: string;
+    name: string;
+    createdAt: string;
+    updatedAt: string;
+  };
+  images: {
+    thumbnailUrl: string;
+    imageUrl: string;
+    order: number;
+  }[];
+}
 
 interface Auto {
   id: string;
@@ -48,38 +84,56 @@ const CarsHome = ({ title }: CarsHomeProps) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const loadVehiculos = () => {
+    const fetchVehiculos = async () => {
       setLoading(true);
       try {
-        const vehiculosProcesados = catalogo
+        const response = await fetch(
+          `${API_BASE_URL}/api/cars?tenant=${TENANT_PUBLIC}&limit=6`,
+          { cache: 'no-store' }
+        );
+        if (!response.ok) {
+          throw new Error('Error al cargar los vehículos');
+        }
+        const data = await response.json();
+        const cars: ApiCar[] = data.cars || [];
+
+        // Mapear los datos de la API a la estructura Auto
+        const vehiculosProcesados: Auto[] = cars
           .slice(0, 6) // Máximo 6 vehículos
           .map((auto) => ({
             id: auto.id,
-            name: auto.name,
-            marca: auto.marca,
-            marcaId: auto.marcaId,
-            ano: auto.ano,
-            kilometraje: auto.kilometraje,
-            precio: auto.precio,
-            categoria: auto.categoria,
-            transmision: auto.transmision,
-            motor: auto.motor,
-            combustible: auto.combustible,
-            puertas: auto.puertas,
-            images: auto.images,
-            descripcion: auto.descripcion,
+            name: `${auto.brand} ${auto.model}`,
+            marca: auto.brand,
+            marcaId: auto.categoryId || '',
+            ano: auto.year,
+            kilometraje: auto.mileage || 0,
+            precio: {
+              valor: parseFloat(auto.price) || 0,
+              moneda: auto.currency || 'ARS',
+            },
+            categoria: auto.Category?.name || '',
+            transmision: auto.transmission || '',
+            motor: '',
+            combustible: auto.fuel || '',
+            puertas: auto.doors || 0,
+            images: auto.images
+              ? auto.images
+                  .sort((a, b) => a.order - b.order)
+                  .map((img) => img.thumbnailUrl || img.imageUrl)
+              : [],
+            descripcion: auto.description || '',
           }));
 
         setVehiculos(vehiculosProcesados);
       } catch (err) {
-        console.error('Error al cargar vehículos:', err);
+        console.error('Error al obtener vehículos:', err);
         setError('No se pudieron cargar los vehículos');
       } finally {
         setLoading(false);
       }
     };
 
-    loadVehiculos();
+    fetchVehiculos();
   }, []);
 
   if (loading) {
@@ -179,9 +233,11 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                           objectPosition: `center ${company.objectCover}`,
                         }}
                         src={
+                          auto.images &&
+                          auto.images.length > 0 &&
                           auto.images[0]
-                            ? `/assets/catalogo/${auto.images[0]}`
-                            : '/assets/placeholder.jpg'
+                            ? auto.images[0]
+                            : '/placeholder.jpg'
                         }
                         alt={`${auto.name}`}
                       />

@@ -200,7 +200,7 @@ export default function HistorialPage() {
   if (loading && autosVendidos.length === 0) {
     return (
       <div className='flex items-center justify-center min-h-screen'>
-        <div className='animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-color-primary'></div>
+        <div className='animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-color-primary-admin'></div>
       </div>
     );
   }
@@ -256,7 +256,7 @@ export default function HistorialPage() {
                       <span className='text-gray-400'>Sin imagen</span>
                     </div>
                   )}
-                  <div className='absolute top-3 right-3 bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-medium'>
+                  <div className='absolute top-3 right-3 bg-red-500 text-white px-3 py-1.5 rounded-full text-base font-medium'>
                     Vendido
                   </div>
                 </div>
@@ -286,11 +286,11 @@ export default function HistorialPage() {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                       {auto.price && parseFloat(auto.price) > 0 ? (
                         <div>
-                          <p className='text-sm text-gray-500'>
+                          <p className='text-base text-gray-500'>
                             Precio de venta
                           </p>
                           {auto.price && parseFloat(auto.price) > 0 ? (
-                            <p className='text-xl font-bold text-color-primary mt-1'>
+                            <p className='text-xl font-bold text-color-primary-admin mt-1'>
                               {auto.currency === 'ARS' ? '$' : 'US$'}
                               {parseFloat(auto.price).toLocaleString(
                                 auto.currency === 'ARS' ? 'es-AR' : 'en-US'
@@ -305,7 +305,9 @@ export default function HistorialPage() {
                       )}
 
                       <div>
-                        <p className='text-sm text-gray-500'>Fecha de venta</p>
+                        <p className='text-base text-gray-500'>
+                          Fecha de venta
+                        </p>
                         <p className='text-lg font-medium text-gray-700 mt-1'>
                           {new Date(auto.sellDate).toLocaleDateString('es-AR')}
                         </p>
@@ -321,7 +323,7 @@ export default function HistorialPage() {
           )}
           {loadingMore && (
             <div className='py-6 flex justify-center items-center'>
-              <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary'></div>
+              <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary-admin'></div>
               <span className='ml-3 text-gray-600'>Cargando más ventas...</span>
             </div>
           )}

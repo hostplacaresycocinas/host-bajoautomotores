@@ -6,7 +6,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ArrowIcon from '@/components/icons/ArrowIcon';
 import WhatsappIcon from '@/components/icons/WhatsappIcon';
-import { company } from '@/app/constants/constants';
+import {
+  company,
+  API_BASE_URL,
+  TENANT_PUBLIC,
+} from '@/app/constants/constants';
 import ImageGalleryModal from '@/components/ImageGalleryModal';
 import useEmblaCarousel from 'embla-carousel-react';
 import DropDownIcon from '@/components/icons/DropDownIcon';
@@ -14,7 +18,6 @@ import CarrouselRelated from '@/components/CarrouselRelated';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import catalogo from '@/data/catalogo.json';
 import ShareMenu from '@/components/ShareMenu';
 
 interface ApiCar {
@@ -23,15 +26,12 @@ interface ApiCar {
   model: string;
   year: number;
   color: string;
-  price: {
-    valor: number;
-    moneda: string;
-  };
+  price: string;
+  currency: 'USD' | 'ARS';
   description: string;
   categoryId: string;
   mileage: number;
-  motor: string | null;
-  transmission: string | null;
+  transmission: string;
   fuel: string;
   doors: number;
   position: number;
@@ -66,7 +66,7 @@ export default function AutoDetailPage() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalStartIndex, setModalStartIndex] = useState(0);
-  const [orderedimages, setOrderedimages] = useState<ApiCar['images']>([]);
+  const [orderedImages, setOrderedImages] = useState<ApiCar['images']>([]);
 
   const scrollPrev = useCallback(() => {
     if (embla) {
@@ -105,57 +105,20 @@ export default function AutoDetailPage() {
   }, [embla]);
 
   useEffect(() => {
-    const fetchCar = () => {
+    const fetchCar = async () => {
       try {
-        const carData = catalogo.find((car) => car.id === id);
-
-        if (!carData) {
-          throw new Error('Vehículo no encontrado');
+        const response = await fetch(
+          `${API_BASE_URL}/api/cars/${id}?tenant=${TENANT_PUBLIC}`,
+          { cache: 'no-store' }
+        );
+        if (!response.ok) {
+          throw new Error('Error al cargar el vehículo');
         }
-
-        // Transformar los datos al formato esperado
-        const auto = {
-          id: carData.id,
-          brand: carData.marca,
-          model: carData.name,
-          year: carData.ano,
-          color: '',
-          price: {
-            valor: carData.precio.valor,
-            moneda: carData.precio.moneda,
-          },
-          description: carData.descripcion,
-          categoryId: carData.categoria,
-          mileage: carData.kilometraje,
-          motor: carData.motor || null,
-          transmission: carData.transmision || null,
-          fuel: carData.combustible,
-          doors: carData.puertas,
-          position: 0,
-          featured: false,
-          favorite: false,
-          active: true,
-          createdAt: new Date().toISOString(),
-          updatedAt: new Date().toISOString(),
-          Category: {
-            id: carData.categoria.toLowerCase(),
-            name:
-              carData.categoria.charAt(0).toUpperCase() +
-              carData.categoria.slice(1),
-            createdAt: new Date().toISOString(),
-            updatedAt: new Date().toISOString(),
-          },
-          images: carData.images.map((img, index) => ({
-            thumbnailUrl: `/assets/catalogo/${img}`,
-            imageUrl: `/assets/catalogo/${img}`,
-            order: index,
-          })),
-        };
-
+        const data = await response.json();
         // Ordenar las imágenes por el campo order
-        const sortedimages = [...auto.images].sort((a, b) => a.order - b.order);
-        setOrderedimages(sortedimages);
-        setCar({ ...auto, images: sortedimages });
+        const sortedImages = [...data.images].sort((a, b) => a.order - b.order);
+        setOrderedImages(sortedImages);
+        setCar({ ...data, images: sortedImages });
       } catch (error) {
         setError(
           error instanceof Error ? error.message : 'Error al cargar el vehículo'
@@ -304,7 +267,7 @@ export default function AutoDetailPage() {
                   ref={mainViewportRef}
                 >
                   <div className='flex'>
-                    {orderedimages.map((image, index) => (
+                    {orderedImages.map((image, index) => (
                       <div
                         key={index}
                         className='relative min-w-full aspect-[4/3]'
@@ -355,11 +318,11 @@ export default function AutoDetailPage() {
               {/* Miniaturas - grid de 3 columnas, ocultas en mobile */}
               {car.images.length > 1 && (
                 <div className='hidden md:grid grid-cols-3 gap-3'>
-                  {orderedimages.slice(1, 4).map((image, index) => {
+                  {orderedImages.slice(1, 4).map((image, index) => {
                     const actualIndex = index + 1; // Índice real en el array (1, 2, 3)
                     const isLastThumbnail = index === 2;
-                    const hasMoreimages = car.images.length > 4;
-                    const shouldShowBlur = isLastThumbnail && hasMoreimages;
+                    const hasMoreImages = car.images.length > 4;
+                    const shouldShowBlur = isLastThumbnail && hasMoreImages;
 
                     return (
                       <button
@@ -458,41 +421,43 @@ export default function AutoDetailPage() {
                 </div>
 
                 {/* Precio */}
-                {car.price && car.price.valor > 0 ? (
+                {car.price && parseFloat(car.price) > 0 ? (
                   <div
                     className={`${
                       company.price ? '' : 'hidden'
                     } text-2xl font-bold text-color-primary mb-2 md:mb-4`}
                   >
-                    {car.price.moneda === 'ARS' ? '$' : 'US$'}
-                    {car.price.valor.toLocaleString('es-ES')}
+                    {car.currency === 'ARS' ? '$' : 'US$'}
+                    {parseFloat(car.price).toLocaleString('es-ES')}
                   </div>
                 ) : (
                   ''
                 )}
 
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 text-color-text mb-6'>
-                  <div>
-                    <p className='text-color-text text-base font-medium'>
-                      Kilometraje
-                    </p>
-                    <p
-                      className={`font-medium ${
-                        car.mileage === 0
-                          ? 'text-color-primary font-semibold'
-                          : 'text-color-title'
-                      }`}
-                    >
-                      {car.mileage.toLocaleString('es-AR')} km
-                    </p>
-                  </div>
-                  {car.motor && (
+                  {car.mileage !== null && (
+                    <div>
+                      <p className='text-color-text text-base font-medium'>
+                        Kilometraje
+                      </p>
+                      <p
+                        className={`font-medium ${
+                          car.mileage === 0
+                            ? 'text-color-primary font-semibold'
+                            : 'text-color-title'
+                        }`}
+                      >
+                        {car.mileage.toLocaleString('es-AR')} km
+                      </p>
+                    </div>
+                  )}
+                  {car.color && (
                     <div className='flex flex-col gap-1'>
                       <p className='text-color-text text-base font-medium'>
-                        Motor
+                        Color
                       </p>
                       <p className='text-color-title font-medium'>
-                        {car.motor}
+                        {car.color}
                       </p>
                     </div>
                   )}
@@ -500,7 +465,7 @@ export default function AutoDetailPage() {
                     <p className='text-color-text text-base font-medium'>Año</p>
                     <p className='text-color-title font-medium'>{car.year}</p>
                   </div>
-                  {car.transmission ? (
+                  {car.transmission && (
                     <div>
                       <p className='text-color-text text-base font-medium'>
                         Transmisión
@@ -509,15 +474,15 @@ export default function AutoDetailPage() {
                         {car.transmission}
                       </p>
                     </div>
-                  ) : (
-                    ''
                   )}
-                  <div>
-                    <p className='text-color-text text-base font-medium'>
-                      Combustible
-                    </p>
-                    <p className='text-color-title font-medium'>{car.fuel}</p>
-                  </div>
+                  {car.fuel && (
+                    <div>
+                      <p className='text-color-text text-base font-medium'>
+                        Combustible
+                      </p>
+                      <p className='text-color-title font-medium'>{car.fuel}</p>
+                    </div>
+                  )}
                   {car.doors ? (
                     <div>
                       <p className='text-color-text text-base font-medium'>
@@ -576,7 +541,7 @@ export default function AutoDetailPage() {
         {/* Modal de galería */}
         {showModal && (
           <ImageGalleryModal
-            images={orderedimages.map((img) => img.imageUrl)}
+            images={orderedImages.map((img) => img.imageUrl)}
             currentIndex={modalStartIndex}
             productId={car.id}
             marcaId={car.brand.toLowerCase()}

@@ -187,8 +187,16 @@ export function ImageCropModal({
   if (!isOpen) return null;
 
   return (
-    <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
-      <div className='bg-white rounded-lg p-6 max-w-4xl w-full max-h-[90vh] overflow-auto'>
+    <div 
+      className='fixed inset-0 z-[60] flex items-center justify-center bg-black bg-opacity-50' 
+      onClick={(e) => {
+        e.stopPropagation();
+        if (e.target === e.currentTarget) {
+          handleClose();
+        }
+      }}
+    >
+      <div className='bg-white rounded-lg p-6 max-w-4xl w-full max-h-[90vh] overflow-auto' onClick={(e) => e.stopPropagation()}>
         <div className='flex justify-between items-center mb-4'>
           <h2 className='text-xl font-semibold'>Recortar imagen</h2>
           <button
@@ -232,7 +240,7 @@ export function ImageCropModal({
           </div>
 
           <div className='w-full md:w-64 flex flex-col'>
-            <p className='text-sm font-medium text-gray-700 mb-2'>
+            <p className='text-base font-medium text-gray-700 mb-2'>
               Vista previa
             </p>
             <div

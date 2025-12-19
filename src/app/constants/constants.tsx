@@ -26,7 +26,11 @@ export const company = {
 };
 
 export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
-export const TENANT = 'accotto-automotores';
+export const TENANT = 'cordillera-automotores';
+export const TENANT_PUBLIC = 'cordillera-automotores';
+
+export const BASE_URL_MELI = 'https://onlymotors-ml.agenciagrvity.com';
+export const TENANT_MELI = '76479dd8-2531-4d14-b93f-e9a77c4b0ed7';
 
 export const metadataCompany = {
   metadataBase: 'https://cordilleraautomotores.vercel.app/',

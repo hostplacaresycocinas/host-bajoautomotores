@@ -70,13 +70,13 @@ const ImageCropModal = ({
         <div className='flex justify-end space-x-3 mt-4'>
           <button
             onClick={onClose}
-            className='px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary'
+            className='px-4 py-2 border border-gray-300 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary'
           >
             Cancelar
           </button>
           <button
             onClick={handleCrop}
-            className='px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-color-primary hover:bg-color-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary'
+            className='px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-color-primary hover:bg-color-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary'
           >
             Recortar
           </button>

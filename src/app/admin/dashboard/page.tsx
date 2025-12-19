@@ -216,9 +216,8 @@ const SortableAutoCard = ({
                 <h3 className='text-lg lg:text-xl font-semibold text-gray-900'>
                   {auto.modelo}
                 </h3>
-                <p className='text-gray-600 lg:text-lg'>{auto.año}</p>
                 {auto.precio && auto.precio > 0 ? (
-                  <p className='text-xl lg:text-2xl font-bold text-color-primary mt-1'>
+                  <p className='text-xl lg:text-2xl font-bold text-color-primary-admin mt-1'>
                     {auto.currency === 'ARS' ? '$' : 'US$'}
                     {auto.precio.toLocaleString(
                       auto.currency === 'ARS' ? 'es-AR' : 'en-US'
@@ -227,9 +226,9 @@ const SortableAutoCard = ({
                 ) : (
                   ''
                 )}
-                <p className='text-sm lg:text-base text-gray-500 mt-2'>
-                  {auto.kilometraje.toLocaleString('es-AR')} km •{' '}
-                  {auto.combustible}
+                <p className='text-base lg:text-base text-gray-500 mt-2'>
+                  {auto.año} • {auto.combustible} •{' '}
+                  {auto.kilometraje.toLocaleString('es-AR')} km
                 </p>
               </div>
               <div className='flex gap-2'>
@@ -238,7 +237,7 @@ const SortableAutoCard = ({
                     e.stopPropagation();
                     onToggleActive(auto.id);
                   }}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+                  className={`px-3 py-1 rounded-full text-base font-medium transition-colors ${
                     auto.active
                       ? 'bg-green-100 text-green-700 hover:bg-green-200'
                       : 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200'
@@ -253,7 +252,7 @@ const SortableAutoCard = ({
                       onToggleDestacado(auto.id);
                     }
                   }}
-                  className={`p-2 rounded-full transition-all ${
+                  className={`p-2 rounded-full transition-all hidden ${
                     auto.destacado
                       ? 'bg-blue-100 text-blue-700 hover:bg-blue-200 shadow-sm'
                       : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
@@ -279,7 +278,7 @@ const SortableAutoCard = ({
                       onToggleFavorito(auto.id);
                     }
                   }}
-                  className={`p-2 rounded-full transition-all ${
+                  className={`p-2 rounded-full transition-all hidden ${
                     auto.favorito
                       ? 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200 shadow-sm'
                       : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
@@ -305,7 +304,7 @@ const SortableAutoCard = ({
                   }}
                   className='p-2 hover:bg-gray-100 rounded-full transition-colors'
                 >
-                  <Edit size={20} className='text-color-primary' />
+                  <Edit size={20} className='text-color-primary-admin' />
                 </button>
                 <button
                   onClick={(e) => {
@@ -1602,7 +1601,7 @@ export default function DashboardPage() {
   if (loading && autos.length === 0) {
     return (
       <div className='flex items-center justify-center min-h-screen'>
-        <div className='animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-color-primary'></div>
+        <div className='animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-color-primary-admin'></div>
       </div>
     );
   }
@@ -1639,7 +1638,7 @@ export default function DashboardPage() {
               Guardar orden
             </button>
           )}
-          <div className='flex items-center gap-2 text-sm'>
+          <div className='hidden items-center gap-2 text-base'>
             <div className='bg-blue-100 text-blue-700 px-3 py-1.5 rounded-full'>
               <span className='font-semibold'>{autosDestacados.length}/10</span>{' '}
               ingresos
@@ -1717,7 +1716,7 @@ export default function DashboardPage() {
           {buscando && (
             <button
               onClick={limpiarBusqueda}
-              className='mt-3 text-color-primary hover:underline'
+              className='mt-3 text-color-primary-admin hover:underline'
             >
               Limpiar búsqueda
             </button>
@@ -1774,11 +1773,8 @@ export default function DashboardPage() {
                             <h3 className='text-lg lg:text-xl font-semibold text-gray-900'>
                               {auto.marca} {auto.modelo}
                             </h3>
-                            <p className='text-gray-600 lg:text-lg'>
-                              {auto.año}
-                            </p>
                             {auto.precio && auto.precio > 0 ? (
-                              <p className='text-xl lg:text-2xl font-bold text-color-primary mt-1'>
+                              <p className='text-xl lg:text-2xl font-bold text-color-primary-admin mt-1'>
                                 {auto.currency === 'ARS' ? '$' : 'US$'}
                                 {auto.precio.toLocaleString(
                                   auto.currency === 'ARS' ? 'es-AR' : 'en-US'
@@ -1787,9 +1783,9 @@ export default function DashboardPage() {
                             ) : (
                               ''
                             )}
-                            <p className='text-sm lg:text-base text-gray-500 mt-2'>
-                              {auto.kilometraje.toLocaleString('es-AR')} km •{' '}
-                              {auto.combustible}
+                            <p className='text-base lg:text-base text-gray-500 mt-2'>
+                              {auto.año} • {auto.combustible} •{' '}
+                              {auto.kilometraje.toLocaleString('es-AR')} km
                             </p>
                           </div>
                           <div className='flex gap-2'>
@@ -1798,7 +1794,7 @@ export default function DashboardPage() {
                                 e.stopPropagation();
                                 handleToggleEstado(auto.id);
                               }}
-                              className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+                              className={`px-3 py-1 rounded-full text-base font-medium transition-colors ${
                                 auto.active
                                   ? 'bg-green-100 text-green-700 hover:bg-green-200'
                                   : 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200'
@@ -1813,7 +1809,7 @@ export default function DashboardPage() {
                                   handleToggleDestacado(auto.id);
                                 }
                               }}
-                              className={`p-2 rounded-full transition-all ${
+                              className={`p-2 rounded-full transition-all hidden ${
                                 auto.destacado
                                   ? 'bg-blue-100 text-blue-700 hover:bg-blue-200 shadow-sm'
                                   : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
@@ -1843,7 +1839,7 @@ export default function DashboardPage() {
                                   handleToggleFavorito(auto.id);
                                 }
                               }}
-                              className={`p-2 rounded-full transition-all ${
+                              className={`p-2 rounded-full transition-all hidden ${
                                 auto.favorito
                                   ? 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200 shadow-sm'
                                   : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
@@ -1874,7 +1870,10 @@ export default function DashboardPage() {
                               }}
                               className='p-2 hover:bg-gray-100 rounded-full transition-colors'
                             >
-                              <Edit size={20} className='text-color-primary' />
+                              <Edit
+                                size={20}
+                                className='text-color-primary-admin'
+                              />
                             </button>
                             <button
                               onClick={(e) => {
@@ -1910,7 +1909,7 @@ export default function DashboardPage() {
               )}
               {loadingMore && (
                 <div className='py-6 flex justify-center items-center'>
-                  <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary'></div>
+                  <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary-admin'></div>
                   <span className='ml-3 text-gray-600'>
                     Cargando más vehículos...
                   </span>
@@ -1959,7 +1958,7 @@ export default function DashboardPage() {
                     )}
                   {loadingMore && (
                     <div className='py-6 flex justify-center items-center'>
-                      <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary'></div>
+                      <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary-admin'></div>
                       <span className='ml-3 text-gray-600'>
                         Cargando más vehículos...
                       </span>

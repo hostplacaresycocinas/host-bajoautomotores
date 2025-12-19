@@ -119,11 +119,11 @@ const CreateAutoModal = ({
   };
 
   const inputStyles =
-    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
+    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-base shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
   const selectStyles =
-    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-sm shadow-sm focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
+    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-base shadow-sm focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
   const textareaStyles =
-    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
+    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-base shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
 
   return (
     <Transition appear show={isOpen} as={Fragment}>
@@ -162,7 +162,7 @@ const CreateAutoModal = ({
                 <form onSubmit={handleSubmit} className='space-y-4'>
                   <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Modelo
                       </label>
                       <input
@@ -180,7 +180,7 @@ const CreateAutoModal = ({
                       />
                     </div>
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Marca
                       </label>
                       <input
@@ -199,7 +199,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Año
                       </label>
                       <input
@@ -220,7 +220,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Kilometraje
                       </label>
                       <input
@@ -242,7 +242,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Categoría
                       </label>
                       <input
@@ -261,7 +261,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Transmisión
                       </label>
                       <select
@@ -285,7 +285,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Color
                       </label>
                       <input
@@ -304,7 +304,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Combustible
                       </label>
                       <select
@@ -325,11 +325,12 @@ const CreateAutoModal = ({
                         <option value='Diésel'>Diésel</option>
                         <option value='GNC'>GNC</option>
                         <option value='Eléctrico'>Eléctrico</option>
+                        <option value='Híbrido'>Híbrido</option>
                       </select>
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Puertas
                       </label>
                       <select
@@ -354,7 +355,7 @@ const CreateAutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700'>
+                      <label className='block text-base font-medium text-gray-700'>
                         Precio
                       </label>
                       <input
@@ -377,7 +378,7 @@ const CreateAutoModal = ({
                   </div>
 
                   <div>
-                    <label className='block text-sm font-medium text-gray-700 mb-2'>
+                    <label className='block text-base font-medium text-gray-700 mb-2'>
                       Descripción
                     </label>
                     <textarea
@@ -396,7 +397,7 @@ const CreateAutoModal = ({
                   </div>
 
                   <div>
-                    <label className='block text-sm font-medium text-gray-700 mb-2'>
+                    <label className='block text-base font-medium text-gray-700 mb-2'>
                       Imágenes
                     </label>
                     <ImageUpload
@@ -410,14 +411,14 @@ const CreateAutoModal = ({
                     <button
                       type='button'
                       onClick={onClose}
-                      className='px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary'
+                      className='px-4 py-2 border border-gray-300 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary'
                       disabled={submitting}
                     >
                       Cancelar
                     </button>
                     <button
                       type='submit'
-                      className='px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-color-primary hover:bg-color-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary flex items-center'
+                      className='px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-color-primary-admin hover:bg-color-primary-admin/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary flex items-center'
                       disabled={submitting}
                     >
                       {submitting ? (

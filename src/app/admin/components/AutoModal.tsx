@@ -6,7 +6,6 @@ import { ImageUpload } from './ImageUpload';
 import { Auto } from '@/types/auto';
 import Cookies from 'js-cookie';
 import { ChevronDown } from 'lucide-react';
-import ImageCropModal from './image-crop-modal';
 import { API_BASE_URL, TENANT } from '@/app/constants/constants';
 
 interface FileWithOrientation extends File {
@@ -109,14 +108,15 @@ const AutoModal = ({
   const transmisionInputRef = useRef<HTMLInputElement>(null);
   const [showErrorModal, setShowErrorModal] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const [selectedImageForCrop, setSelectedImageForCrop] = useState<{
-    url: string;
-    index: number;
-    orientation?: number;
-  } | null>(null);
+
+  // Función para capitalizar la primera letra
+  const capitalizeFirst = (str: string) => {
+    if (!str) return str;
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
 
   // Opciones para los selectores
-  const combustibleOptions = ['Nafta', 'Diesel', 'GNC', 'Eléctrico'];
+  const combustibleOptions = ['Nafta', 'Diesel', 'GNC', 'Eléctrico', 'Híbrido'];
   const puertasOptions = ['2', '3', '4', '5'];
   const transmisionOptions = ['Manual', 'Automática', 'CVT'];
 
@@ -476,26 +476,9 @@ const AutoModal = ({
   };
 
   const inputStyles =
-    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
+    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-base shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-primary-admin focus:ring-1 focus:ring-color-primary-admin transition-colors';
   const textareaStyles =
-    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-secondary focus:ring-1 focus:ring-color-secondary transition-colors';
-
-  const handleImageClick = (
-    url: string,
-    index: number,
-    orientation?: number
-  ) => {
-    setSelectedImageForCrop({ url, index, orientation });
-  };
-
-  const handleCroppedImage = (croppedImage: File, index: number) => {
-    // Actualizar el archivo en selectedFiles con la versión recortada
-    setSelectedFiles((prevFiles) => {
-      const newFiles = [...prevFiles];
-      newFiles[index] = croppedImage;
-      return newFiles;
-    });
-  };
+    'mt-1 block w-full px-4 py-2.5 bg-white border border-gray-300 rounded-lg text-base shadow-sm placeholder-gray-400 focus:outline-none focus:border-color-primary-admin focus:ring-1 focus:ring-color-primary-admin transition-colors';
 
   return (
     <Transition appear show={isOpen} as={Fragment}>
@@ -533,13 +516,13 @@ const AutoModal = ({
 
                 {loading ? (
                   <div className='flex justify-center py-8'>
-                    <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary'></div>
+                    <div className='animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-color-primary-admin'></div>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className='space-y-4'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Modelo
                         </label>
                         <input
@@ -557,7 +540,7 @@ const AutoModal = ({
                         />
                       </div>
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Marca
                         </label>
                         <div className='relative' ref={marcaInputRef}>
@@ -591,7 +574,7 @@ const AutoModal = ({
                           </div>
 
                           {showMarcaDropdown && (
-                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-sm max-h-60 overflow-y-auto'>
+                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-base max-h-60 overflow-y-auto'>
                               {marcas.map((marca) => (
                                 <div
                                   key={marca}
@@ -616,7 +599,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Año
                         </label>
                         <input
@@ -637,7 +620,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Kilometraje
                         </label>
                         <input
@@ -660,14 +643,14 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Categoría
                         </label>
                         <div className='relative' ref={categoryInputRef}>
                           <div className='flex items-center relative'>
                             <input
                               type='text'
-                              value={formData.categoria}
+                              value={capitalizeFirst(formData.categoria)}
                               onChange={(e) =>
                                 setFormData((prev) => ({
                                   ...prev,
@@ -691,7 +674,7 @@ const AutoModal = ({
                           </div>
 
                           {showCategoryDropdown && (
-                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-sm max-h-60 overflow-y-auto'>
+                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-base max-h-60 overflow-y-auto'>
                               {categories.map((category) => (
                                 <div
                                   key={category.id}
@@ -704,7 +687,7 @@ const AutoModal = ({
                                     setShowCategoryDropdown(false);
                                   }}
                                 >
-                                  {category.name}
+                                  {capitalizeFirst(category.name)}
                                 </div>
                               ))}
                             </div>
@@ -713,7 +696,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Motor
                         </label>
                         <input
@@ -732,7 +715,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Combustible
                         </label>
                         <div className='relative' ref={combustibleInputRef}>
@@ -747,8 +730,9 @@ const AutoModal = ({
                                 }))
                               }
                               onFocus={() => setShowCombustibleDropdown(true)}
-                              className={inputStyles}
+                              className={`${inputStyles} cursor-pointer`}
                               placeholder='Seleccionar tipo de combustible'
+                              readOnly
                               required
                             />
                             <button
@@ -765,7 +749,7 @@ const AutoModal = ({
                           </div>
 
                           {showCombustibleDropdown && (
-                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-sm max-h-60 overflow-y-auto'>
+                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-base max-h-60 overflow-y-auto'>
                               {combustibleOptions.map((option) => (
                                 <div
                                   key={option}
@@ -787,7 +771,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Puertas
                         </label>
                         <div className='relative' ref={puertasInputRef}>
@@ -830,7 +814,7 @@ const AutoModal = ({
                           </div>
 
                           {showPuertasDropdown && (
-                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-sm max-h-60 overflow-y-auto'>
+                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-base max-h-60 overflow-y-auto'>
                               {puertasOptions.map((option) => (
                                 <div
                                   key={option}
@@ -852,7 +836,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Transmisión
                         </label>
                         <div className='relative' ref={transmisionInputRef}>
@@ -867,8 +851,9 @@ const AutoModal = ({
                                 }))
                               }
                               onFocus={() => setShowTransmisionDropdown(true)}
-                              className={inputStyles}
+                              className={`${inputStyles} cursor-pointer`}
                               placeholder='Seleccionar tipo de transmisión'
+                              readOnly
                               required
                             />
                             <button
@@ -885,7 +870,7 @@ const AutoModal = ({
                           </div>
 
                           {showTransmisionDropdown && (
-                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-sm max-h-60 overflow-y-auto'>
+                            <div className='absolute z-10 mt-1 w-full bg-white shadow-lg rounded-md py-1 text-base max-h-60 overflow-y-auto'>
                               {transmisionOptions.map((option) => (
                                 <div
                                   key={option}
@@ -907,7 +892,7 @@ const AutoModal = ({
                       </div>
 
                       <div>
-                        <label className='block text-sm font-medium text-gray-700'>
+                        <label className='block text-base font-medium text-gray-700'>
                           Precio
                         </label>
                         <div className='flex items-center space-x-1.5'>
@@ -920,7 +905,7 @@ const AutoModal = ({
                                   prev.currency === 'USD' ? 'ARS' : 'USD',
                               }))
                             }
-                            className={`w-20 py-2.5 text-sm font-medium rounded-lg border ${
+                            className={`w-20 py-2.5 text-base font-medium rounded-lg border ${
                               formData.currency === 'USD'
                                 ? 'bg-green-600/20 text-green-600 border-green-600/60'
                                 : 'bg-sky-500/20 text-sky-500 border-sky-500/60'
@@ -960,7 +945,7 @@ const AutoModal = ({
                     </div>
 
                     <div>
-                      <label className='block text-sm font-medium text-gray-700 mb-2'>
+                      <label className='block text-base font-medium text-gray-700 mb-2'>
                         Descripción
                       </label>
                       <div className='relative'>
@@ -991,7 +976,6 @@ const AutoModal = ({
                         defaultImages={formData.imagenes}
                         maxFiles={20}
                         accept='image/*'
-                        onImageClick={handleImageClick}
                       />
                     </div>
 
@@ -999,14 +983,14 @@ const AutoModal = ({
                       <button
                         type='button'
                         onClick={onClose}
-                        className='px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary'
+                        className='px-4 py-2 border border-gray-300 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary-admin'
                         disabled={submitting}
                       >
                         Cancelar
                       </button>
                       <button
                         type='submit'
-                        className='px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-color-primary-admin hover:bg-color-primary-admin/90 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-secondary flex items-center'
+                        className='px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-color-primary-admin hover:bg-color-primary-admin/90 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-color-primary-admin flex items-center'
                         disabled={submitting}
                       >
                         {submitting ? (
@@ -1085,13 +1069,13 @@ const AutoModal = ({
                     Error
                   </Dialog.Title>
                   <div className='mt-2'>
-                    <p className='text-sm text-gray-500'>{errorMessage}</p>
+                    <p className='text-base text-gray-500'>{errorMessage}</p>
                   </div>
 
                   <div className='mt-4'>
                     <button
                       type='button'
-                      className='inline-flex justify-center rounded-md border border-transparent bg-color-primary-admin px-4 py-2 text-sm font-medium text-white hover:bg-color-primary-admin/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-color-primary focus-visible:ring-offset-2'
+                      className='inline-flex justify-center rounded-md border border-transparent bg-color-primary-admin px-4 py-2 text-base font-medium text-white hover:bg-color-primary-admin/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-color-primary-admin focus-visible:ring-offset-2'
                       onClick={() => setShowErrorModal(false)}
                     >
                       Entendido
@@ -1103,17 +1087,6 @@ const AutoModal = ({
           </div>
         </Dialog>
       </Transition>
-      {selectedImageForCrop && (
-        <ImageCropModal
-          isOpen={true}
-          onClose={() => setSelectedImageForCrop(null)}
-          imageUrl={selectedImageForCrop.url}
-          onCropComplete={(croppedImage) => {
-            handleCroppedImage(croppedImage, selectedImageForCrop.index);
-            setSelectedImageForCrop(null);
-          }}
-        />
-      )}
     </Transition>
   );
 };

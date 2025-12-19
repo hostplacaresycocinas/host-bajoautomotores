@@ -50,7 +50,7 @@ const SellConfirmModal = ({
                   Confirmar Venta
                 </Dialog.Title>
                 <div className='mt-2'>
-                  <p className='text-sm text-gray-500'>
+                  <p className='text-base text-gray-500'>
                     ¿Estás seguro de que deseas marcar como vendido el vehículo{' '}
                     <span className='font-semibold text-gray-700'>
                       {autoName}
@@ -62,14 +62,14 @@ const SellConfirmModal = ({
                 <div className='mt-4 flex justify-end gap-3'>
                   <button
                     type='button'
-                    className='inline-flex justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2'
+                    className='inline-flex justify-center rounded-md border border-transparent bg-gray-100 px-4 py-2 text-base font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2'
                     onClick={onClose}
                   >
                     Cancelar
                   </button>
                   <button
                     type='button'
-                    className='inline-flex justify-center rounded-md border border-transparent bg-slate-700 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2'
+                    className='inline-flex justify-center rounded-md border border-transparent bg-slate-700 px-4 py-2 text-base font-medium text-white hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2'
                     onClick={onConfirm}
                   >
                     Confirmar Venta
