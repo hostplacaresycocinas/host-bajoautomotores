@@ -12,7 +12,7 @@ export const company = {
   email: 'cordilleraautomotores@gmail.com',
   instagram: 'cordillera.automotores_oficial',
   facebook: 'https://www.facebook.com/profile.php?id=100070098579885',
-  whatsapp: ['3513981767'],
+  whatsapp: ['3517656816'],
   googlemapsLink: 'https://maps.app.goo.gl/E22hTwbC9qLqdLv78',
   googlemaps:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.8185769307634!2d-64.17050166107896!3d-31.39656700408104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299005b451e87%3A0x3f57e5bcfb9bd1c0!2sCordillera%20Automotores!5e0!3m2!1sen!2sar!4v1761686760007!5m2!1sen!2sar',
