@@ -656,7 +656,9 @@ const CatalogoPage = () => {
                               {car.price && parseFloat(car.price) > 0 ? (
                                 <>
                                   {car.currency === 'ARS' ? '$' : 'US$'}
-                                  {parseFloat(car.price).toLocaleString('es-ES')}
+                                  {parseFloat(car.price).toLocaleString(
+                                    'es-ES'
+                                  )}
                                 </>
                               ) : (
                                 'Consultar precio'
@@ -837,7 +839,7 @@ const CatalogoPageWithSuspense = () => {
     <div className='relative min-h-screen w-full'>
       {/* Contenido principal */}
       <Header />
-      <div className='h-28 bg-color-bg-secondary-dark'></div>
+      <div className='h-[100px] bg-color-bg-secondary-dark'></div>
       <Suspense fallback={<div>Cargando...</div>}>
         <CatalogoPage />
       </Suspense>
