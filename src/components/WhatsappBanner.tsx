@@ -6,17 +6,17 @@ import WhatsappIcon from './icons/WhatsappIcon';
 
 const WhatsappBanner = () => {
   return (
-    <section className='h-[150px] sm:h-[200px] lg:h-[300px] relative my-8 md:my-14 lg:my-20'>
+    <section className='h-[150px] sm:h-[220px] lg:h-[300px] relative my-8 md:my-14 lg:my-20'>
       <div className='w-full h-full'>
         <Image
           className='w-full h-full object-cover'
           src='/assets/whatsapp-banner/whatsapp-banner.webp'
-          width={1140}
-          height={200}
+          width={1200}
+          height={300}
           alt='imagen banner'
         />
       </div>
-      <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 w-full bg-black/60'>
+      <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 w-full bg-black/70 lg:bg-black/80'>
         {company.whatsapp ? (
           <div className='flex m-5 gap-5 sm:m-20 md:m-28 lg:m-36 w-full max-w-6xl'>
             <article className='w-full text-color-title-light'>

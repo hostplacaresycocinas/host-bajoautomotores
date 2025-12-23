@@ -89,8 +89,8 @@ const VentaPage = () => {
         {/* Imagen de fondo con overlay */}
         <div className='absolute inset-0 z-0'>
           <Image
-            src='/assets/nosotros/nosotros-banner.webp'
-            alt={`Equipo de ${company.name}`}
+            src='/assets/venta/venta-banner.webp'
+            alt='Venta de Autos'
             fill
             className='object-cover'
             priority
