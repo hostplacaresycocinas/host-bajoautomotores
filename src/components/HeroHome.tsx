@@ -70,7 +70,7 @@ const HeroHome = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className='text-lg md:text-xl lg:text-2xl text-center text-color-text-light max-w-2xl leading-relaxed mb-5 md:mb-8 lg:mb-10 transform-gpu will-change-transform'
+                className='text-lg md:text-xl lg:text-2xl text-center text-color-title-light max-w-2xl leading-relaxed mb-5 md:mb-8 lg:mb-10 transform-gpu will-change-transform'
               >
                 En {company.name} tenemos los mejores autos para vos.
                 <br className='hidden sm:block' />
