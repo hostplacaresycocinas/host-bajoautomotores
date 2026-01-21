@@ -16,7 +16,7 @@ const WhatsappBanner = () => {
           alt='imagen banner'
         />
       </div>
-      <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 w-full bg-black/70 lg:bg-black/80'>
+      <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 w-full bg-black/60 lg:bg-black/70'>
         {company.whatsapp ? (
           <div className='flex m-5 gap-5 sm:m-20 md:m-28 lg:m-36 w-full max-w-6xl'>
             <article className='w-full text-color-title-light'>

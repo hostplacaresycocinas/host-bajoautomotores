@@ -5,19 +5,19 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'cordilleraautomotores',
-  name: 'Cordillera Automotores',
-  adress: 'Av. Alem 449',
-  city: 'Córdoba',
-  email: 'cordilleraautomotores@gmail.com',
-  instagram: 'cordillera.automotores_oficial',
-  facebook: 'https://www.facebook.com/profile.php?id=100070098579885',
-  whatsapp: ['3517656816'],
-  googlemapsLink: 'https://maps.app.goo.gl/E22hTwbC9qLqdLv78',
+  id: 'bajoautomotores',
+  name: 'Bajo Automotores',
+  adress: 'Gutiérrez 399',
+  city: 'Pehuajó',
+  email: 'hbautomotores@gmail.com',
+  instagram: 'hb.automotores',
+  facebook: 'https://www.facebook.com/hbautomotoresprofiles/',
+  whatsapp: ['2396614213'],
+  googlemapsLink: 'https://maps.app.goo.gl/u4VhRuu6CFhJjHLb8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.8185769307634!2d-64.17050166107896!3d-31.39656700408104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299005b451e87%3A0x3f57e5bcfb9bd1c0!2sCordillera%20Automotores!5e0!3m2!1sen!2sar!4v1761686760007!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.6577529749507!2d-61.90148432334564!3d-35.80833452211312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c0f7757231c925%3A0x9acf1879ad8fac94!2sHB%20Automotores!5e0!3m2!1sen!2sar!4v1759159637410!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
+    'Lunes a Viernes 09:00 a 18:00hs',
     'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
@@ -26,15 +26,15 @@ export const company = {
 };
 
 export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
-export const TENANT = 'cordillera-automotores';
-export const TENANT_PUBLIC = 'cordillera-automotores';
+export const TENANT = 'bajo-automotores';
+export const TENANT_PUBLIC = 'bajo-automotores';
 
 export const BASE_URL_MELI = 'https://onlymotors-ml.agenciagrvity.com';
 export const TENANT_MELI = '76479dd8-2531-4d14-b93f-e9a77c4b0ed7';
 
 export const metadataCompany = {
-  metadataBase: 'https://cordilleraautomotores.com.ar/',
-  title: 'Cordillera Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://bajoautomotores.com.ar/',
+  title: 'Bajo Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
