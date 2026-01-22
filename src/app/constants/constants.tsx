@@ -2,7 +2,7 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
   id: 'bajoautomotores',
