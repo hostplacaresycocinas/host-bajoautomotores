@@ -839,7 +839,7 @@ const CatalogoPageWithSuspense = () => {
     <div className='relative min-h-screen w-full'>
       {/* Contenido principal */}
       <Header />
-      <div className='h-[100px] bg-color-bg-secondary-dark'></div>
+      <div className=''></div>
       <Suspense fallback={<div>Cargando...</div>}>
         <CatalogoPage />
       </Suspense>

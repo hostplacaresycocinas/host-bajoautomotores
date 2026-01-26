@@ -564,7 +564,7 @@ export default function AutoDetailPage() {
   return (
     <>
       <Header />
-      <div className='h-[100px] bg-color-bg-secondary-dark'></div>
+      <div className=''></div>
       <div className='relative '>{renderContent()}</div>
       <Footer />
     </>

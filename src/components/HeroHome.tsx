@@ -14,7 +14,7 @@ const HeroHome = () => {
     >
       <div className='max-w-[1920px] w-full flex flex-col items-center z-10'>
         <div className='flex justify-center max-w-6xl lg:max-w-[1920px] w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
-          <article className='h-[540px] md:h-[650px] lg:h-[700px] xl:h-[800px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
+          <article className='h-[500px] md:h-[600px] lg:h-[650px] xl:h-[750px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
             <HeroCarousel />
 
             {/* Resplandores sutiles y elegantes (ocultos en mobile por performance) */}
@@ -33,7 +33,7 @@ const HeroHome = () => {
             <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-b from-black/90 via-black/70 to-black/90 -z-20'></div>
 
             {/* Contenedor centrado con diseño limpio */}
-            <div className='flex flex-col items-center justify-center w-full max-w-5xl px-4 md:px-6 lg:px-8 z-30 mt-12 md:mt-10'>
+            <div className='flex flex-col items-center justify-center w-full max-w-5xl px-4 md:px-6 lg:px-8 z-30'>
               {/* Badge minimalista */}
               
 

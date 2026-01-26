@@ -31,7 +31,7 @@ const Footer = () => {
                   <div className='w-48 sm:w-52 md:w-52 lg:w-56 h-12 sm:h-14'>
                     <Image
                       className='w-full h-full object-contain object-left'
-                      src='/assets/company/logo.webp'
+                      src='/assets/company/logo-white.webp'
                       alt={`${company.name} logo`}
                       width={288}
                       height={72}
@@ -41,7 +41,7 @@ const Footer = () => {
                   <div className='w-60 sm:w-60 md:w-64 lg:w-72 h-12 md:h-14'>
                     <Image
                       className='w-full h-full object-contain object-left'
-                      src='/assets/company/logo.webp'
+                      src='/assets/company/logo-white.webp'
                       alt={`${company.name} logo`}
                       width={288}
                       height={72}
