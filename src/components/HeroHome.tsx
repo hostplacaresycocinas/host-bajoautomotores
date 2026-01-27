@@ -40,7 +40,7 @@ const HeroHome = () => {
                 initial={{ opacity: 0, scaleX: 0 }}
                 animate={{ opacity: 1, scaleX: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className='w-56 md:w-72 lg:w-96 xl:w-[500px] h-0.5 md:h-1 bg-gradient-to-r from-transparent via-color-primary to-transparent mt-3 md:mt-4 mb-3 md:mb-8 transform-gpu will-change-transform'
+                className='w-56 md:w-72 lg:w-96 xl:w-[500px] h-1 bg-gradient-to-r from-transparent via-color-primary to-transparent mt-3 md:mt-4 mb-3 md:mb-8 transform-gpu will-change-transform'
               ></motion.div>
 
               {/* Descripción centrada */}
