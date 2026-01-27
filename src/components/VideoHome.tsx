@@ -21,7 +21,7 @@ const beneficios = [
     numero: '03',
     titulo: '44 Años de Experiencia',
     descripcion:
-      'Más de cuatro décadas en el mercado automotriz, brindando soluciones confiables.',
+      'Más de cuatro décadas en el mercado automotor, brindando soluciones confiables.',
   },
   {
     numero: '04',

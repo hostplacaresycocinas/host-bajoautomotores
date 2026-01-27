@@ -17,8 +17,8 @@ export const company = {
   googlemaps:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.6577529749507!2d-61.90148432334564!3d-35.80833452211312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c0f7757231c925%3A0x9acf1879ad8fac94!2sHB%20Automotores!5e0!3m2!1sen!2sar!4v1759159637410!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 18:00hs',
-    'Sábado 09:00 a 13:00hs',
+    'Lunes a Sábado 8:30 a 12 y 16 a 20hs',
+    'Domingo Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:

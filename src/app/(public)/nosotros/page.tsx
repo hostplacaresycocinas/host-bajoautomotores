@@ -41,7 +41,7 @@ const NosotrosPage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className='text-xl md:text-2xl text-white/90 font-medium leading-relaxed'
           >
-            Tu socio de confianza en el mundo automotriz
+            Tu socio de confianza en el mundo automotor
           </motion.p>
         </div>
       </section>
@@ -111,6 +111,12 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='space-y-8'
             >
+              <div>
+                <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
+                  Nuestra <span className='text-color-primary'>Historia</span>
+                </h2>
+              </div>
+
               <div className='space-y-6'>
                 <div className='flex items-start space-x-4'>
                   <div className='w-11 h-11 bg-color-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1'>
@@ -123,9 +129,10 @@ const NosotrosPage = () => {
                       Nuestros inicios
                     </h3>
                     <p className='text-gray-600 leading-relaxed'>
-                      Detrás de cada auto, hay una historia… y esta es la
-                      nuestra. Nacimos de la pasión por los automóviles y el
-                      compromiso genuino con nuestros clientes.
+                      Bajo Automotores nació allá por el año 1981. Somos una
+                      empresa familiar que desde nuestros comienzos hemos estado
+                      ubicados en la misma esquina de Pehuajó, manteniendo nuestra
+                      tradición y compromiso con la comunidad.
                     </p>
                   </div>
                 </div>
@@ -138,12 +145,17 @@ const NosotrosPage = () => {
                   </div>
                   <div>
                     <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                      Nuestro compromiso
+                      Nuestra actualidad
                     </h3>
                     <p className='text-gray-600 leading-relaxed'>
-                      Desde el primer día, trabajamos con transparencia,
-                      honestidad y dedicación. Cada vehículo que ofrecemos
-                      representa nuestro compromiso con la excelencia.
+                      Hoy en día, además de nuestro local ubicado en{' '}
+                      <span className='font-semibold text-gray-900'>
+                        {company.adress}, {company.city}
+                      </span>
+                      , contamos con un depósito para tener disponible el
+                      vehículo que estás buscando. Seguimos siendo una empresa
+                      familiar comprometida con brindarte la mejor atención y
+                      los mejores autos.
                     </p>
                   </div>
                 </div>
@@ -156,13 +168,14 @@ const NosotrosPage = () => {
                   </div>
                   <div>
                     <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                      Nuestra misión
+                      Nuestro compromiso
                     </h3>
                     <p className='text-gray-600 leading-relaxed'>
-                      Porque no solo vendemos autos, creamos relaciones de
-                      confianza duraderas. Nos enfocamos en ofrecerte la mejor
-                      atención personalizada y opciones que se adapten a tus
-                      necesidades específicas.
+                      Después de más de cuatro décadas en el mismo lugar, seguimos
+                      trabajando con transparencia, honestidad y dedicación. Cada
+                      vehículo que ofrecemos representa nuestro compromiso con la
+                      excelencia y la confianza que nuestros clientes depositan en
+                      nosotros.
                     </p>
                   </div>
                 </div>
