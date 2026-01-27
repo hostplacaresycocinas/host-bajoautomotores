@@ -51,9 +51,9 @@ const HeroHome = () => {
                 className='text-lg md:text-xl lg:text-2xl text-center text-color-title-light max-w-2xl leading-relaxed mb-5 md:mb-8 lg:mb-10 transform-gpu will-change-transform'
                 style={{ textShadow: '0 2px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6)' }}
               >
-                En {company.name} tenemos los mejores autos para vos.
+                En {company.name} tenemos los mejores autos para vos.{' '}
                 <br className='hidden sm:block' />
-                Envianos tu consulta y nosotros te asesoramos.
+                 Envianos tu consulta y nosotros te asesoramos.
               </motion.p>
 
               {/* Botones CTA - diseño minimalista */}
