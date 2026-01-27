@@ -17,20 +17,8 @@ const HeroHome = () => {
           <article className='h-[500px] md:h-[600px] lg:h-[650px] xl:h-[750px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
             <HeroCarousel />
 
-            {/* Resplandores sutiles y elegantes (ocultos en mobile por performance) */}
-            <div className='absolute w-full h-full top-0 left-0 -z-30 overflow-hidden hidden md:block'>
-              {/* Resplandor central suave */}
-              <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] md:w-[800px] md:h-[800px] bg-color-primary rounded-full blur-[180px] opacity-25'></div>
-              
-              {/* Resplandor superior derecho */}
-              <div className='absolute top-0 right-0 w-96 h-96 md:w-[500px] md:h-[500px] bg-color-primary rounded-full blur-[150px] opacity-20'></div>
-              
-              {/* Resplandor inferior izquierdo */}
-              <div className='absolute bottom-0 left-0 w-80 h-80 md:w-[450px] md:h-[450px] bg-color-primary-light rounded-full blur-[140px] opacity-15'></div>
-            </div>
-
             {/* Overlay con mayor opacidad para disimular calidad del video */}
-            <div className='absolute w-full h-full top-0 left-0 bg-gradient-to-b from-black/90 via-black/70 to-black/90 -z-20'></div>
+            <div className='absolute w-full h-full top-0 left-0 bg-black/50 -z-20'></div>
 
             {/* Contenedor centrado con diseño limpio */}
             <div className='flex flex-col items-center justify-center w-full max-w-5xl px-4 md:px-6 lg:px-8 z-30'>
@@ -42,27 +30,17 @@ const HeroHome = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-8xl font-bold text-white text-center uppercase tracking-tight leading-none transform-gpu will-change-transform'
+                className='text-[28px] min-[380px]:text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-[85px] text-nowrap font-bold text-white text-center uppercase tracking-tight leading-none transform-gpu will-change-transform'
+                style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.6)' }}
               >
-                Tu próximo auto
+                Tu próximo auto esta acá
               </motion.h1>
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-8xl font-bold text-color-primary-light text-center mb-3 md:mb-4 uppercase tracking-tight leading-none transform-gpu will-change-transform'
-              >
-                te esta esperando
-              </motion.h1>
-
-              
-
               {/* Línea decorativa sutil */}
               <motion.div
                 initial={{ opacity: 0, scaleX: 0 }}
                 animate={{ opacity: 1, scaleX: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className='w-32 md:w-44 lg:w-56 h-0.5 bg-gradient-to-r from-transparent via-color-primary to-transparent mb-3 md:mb-8 transform-gpu will-change-transform'
+                className='w-56 md:w-72 lg:w-96 xl:w-[500px] h-0.5 md:h-1 bg-gradient-to-r from-transparent via-color-primary to-transparent mt-3 md:mt-4 mb-3 md:mb-8 transform-gpu will-change-transform'
               ></motion.div>
 
               {/* Descripción centrada */}
@@ -71,6 +49,7 @@ const HeroHome = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className='text-lg md:text-xl lg:text-2xl text-center text-color-title-light max-w-2xl leading-relaxed mb-5 md:mb-8 lg:mb-10 transform-gpu will-change-transform'
+                style={{ textShadow: '0 2px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.6)' }}
               >
                 En {company.name} tenemos los mejores autos para vos.
                 <br className='hidden sm:block' />
