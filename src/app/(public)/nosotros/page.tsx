@@ -5,6 +5,8 @@ import { company } from '@/app/constants/constants';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
+import WhatsappIcon from '@/components/icons/WhatsappIcon';
+import LocationIcon from '@/components/icons/LocationIcon';
 
 const NosotrosPage = () => {
   return (
@@ -50,7 +52,7 @@ const NosotrosPage = () => {
       {/* Sección Principal: Imagen y Textos */}
       <section className='pt-10 md:pt-16 lg:pt-20'>
         <div className='max-w-7xl mx-auto px-4'>
-          <div className='grid lg:grid-cols-2 gap-12 lg:gap-16 items-center'>
+          <div className='grid lg:grid-cols-2 gap-8 lg:gap-16 items-center'>
             {/* Imagen con diseño moderno */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -59,7 +61,7 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='relative'
             >
-              <div className='relative h-72 md:h-80 lg:h-[500px]'>
+              <div className='relative h-64 md:h-72 lg:h-[400px]'>
                 <Image
                   src='/assets/nosotros/nosotros-1.webp'
                   alt={`Equipo de ${company.name}`}
@@ -88,19 +90,7 @@ const NosotrosPage = () => {
                   </div>
                 </div> */}
 
-                {/* Badge flotante - Opción 2: Con años de experiencia */}
-                <div className='absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-lg'>
-                  <div className='flex items-center space-x-3'>
-                    <div className='w-12 h-12 bg-color-primary rounded-full flex items-center justify-center'>
-                      <span className='text-white font-bold text-lg'>+44</span>
-                    </div>
-                    <div>
-                      <p className='font-semibold text-gray-900'>
-                        Años de experiencia
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                {/* Badge flotante removido (según pedido) */}
               </div>
             </motion.div>
 
@@ -110,75 +100,57 @@ const NosotrosPage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className='space-y-8'
+              className='space-y-6'
             >
-              <div>
-                <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
-                  Nuestra <span className='text-color-primary'>Historia</span>
-                </h2>
-              </div>
+              <div className=''>
+                <p className='text-gray-900 text-lg md:text-2xl font-semibold leading-relaxed'>
+                Empresa familiar con +44 años de experiencia 🤝
+                  <br />
+                  🚘 Venta de 0km y usados multimarcas
+                </p>
 
-              <div className='space-y-6'>
-                <div className='flex items-start space-x-4'>
-                  <div className='w-11 h-11 bg-color-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1'>
-                    <span className='text-white text-xl md:text-2xl font-semibold'>
-                      1
+                <div className='mt-6 space-y-4'>
+                  <a
+                    href='https://wa.me/2396614213'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='group flex items-start gap-3 rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 hover:bg-gray-100 transition-colors'
+                    aria-label='Contactar por WhatsApp al 2396614213'
+                  >
+                    <span className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-sm flex-shrink-0'>
+                      <WhatsappIcon className='h-6 w-6' />
                     </span>
-                  </div>
-                  <div>
-                    <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                      Nuestros inicios
-                    </h3>
-                    <p className='text-gray-600 leading-relaxed'>
-                      Bajo Automotores nació allá por el año 1981. Somos una
-                      empresa familiar que desde nuestros comienzos hemos estado
-                      ubicados en la misma esquina de Pehuajó, manteniendo nuestra
-                      tradición y compromiso con la comunidad.
-                    </p>
-                  </div>
-                </div>
 
-                <div className='flex items-start space-x-4'>
-                  <div className='w-11 h-11 bg-color-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1'>
-                    <span className='text-white text-xl md:text-2xl font-semibold'>
-                      2
-                    </span>
-                  </div>
-                  <div>
-                    <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                      Nuestra actualidad
-                    </h3>
-                    <p className='text-gray-600 leading-relaxed'>
-                      Hoy en día, además de nuestro local ubicado en{' '}
-                      <span className='font-semibold text-gray-900'>
-                        {company.adress}, {company.city}
+                    <div className='min-w-0'>
+                      <div className='text-sm text-gray-700 font-medium'>
+                        WhatsApp
+                      </div>
+                      <div className='text-xl md:text-2xl font-extrabold text-gray-900 tracking-wide group-hover:text-color-primary transition-colors'>
+                        2396614213
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href={company.googlemapsLink}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='group flex items-start gap-3 rounded-xl border border-gray-200 bg-gray-50 px-4 py-4 hover:bg-gray-100 transition-colors'
+                    aria-label='Abrir ubicación en Google Maps'
+                  >
+                    <span className='inline-flex h-12 w-12 items-center justify-center rounded-full bg-color-primary text-white shadow-sm flex-shrink-0'>
+                      <LocationIcon className='h-6 w-6' />
                       </span>
-                      , contamos con un depósito para tener disponible el
-                      vehículo que estás buscando. Seguimos siendo una empresa
-                      familiar comprometida con brindarte la mejor atención y
-                      los mejores autos.
-                    </p>
-                  </div>
-                </div>
 
-                <div className='flex items-start space-x-4'>
-                  <div className='w-11 h-11 bg-color-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1'>
-                    <span className='text-white text-xl md:text-2xl font-semibold'>
-                      3
-                    </span>
-                  </div>
-                  <div>
-                    <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                      Nuestro compromiso
-                    </h3>
-                    <p className='text-gray-600 leading-relaxed'>
-                      Después de más de cuatro décadas en el mismo lugar, seguimos
-                      trabajando con transparencia, honestidad y dedicación. Cada
-                      vehículo que ofrecemos representa nuestro compromiso con la
-                      excelencia y la confianza que nuestros clientes depositan en
-                      nosotros.
-                    </p>
-                  </div>
+                    <div className='min-w-0'>
+                      <div className='text-sm text-gray-700 font-medium'>
+                        Dirección
+                      </div>
+                      <div className='text-gray-900 font-semibold leading-snug group-hover:text-color-primary transition-colors'>
+                        {company.adress}, {company.city}
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </motion.div>
@@ -187,7 +159,7 @@ const NosotrosPage = () => {
       </section>
 
       {/* Sección de valores con diseño de tarjetas */}
-      <section className='py-20 md:py-32 bg-gray-50'>
+      <section className='py-20 md:py-32'>
         <div className='max-w-7xl mx-auto px-4'>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
