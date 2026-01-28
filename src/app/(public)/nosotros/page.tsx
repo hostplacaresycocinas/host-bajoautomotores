@@ -61,7 +61,7 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='relative'
             >
-              <div className='relative h-64 md:h-72 lg:h-[400px]'>
+              <div className='relative h-64 md:h-72 lg:h-[450px]'>
                 <Image
                   src='/assets/nosotros/nosotros-1.webp'
                   alt={`Equipo de ${company.name}`}
