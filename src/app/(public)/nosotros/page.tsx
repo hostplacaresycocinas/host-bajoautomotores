@@ -41,7 +41,8 @@ const NosotrosPage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className='text-xl md:text-2xl text-white/90 font-medium leading-relaxed'
           >
-            Tu socio de confianza en el mundo automotor
+            {company.name}.<br />
+            Desde Pehuajó, creciendo junto a la región
           </motion.p>
         </div>
       </section>
