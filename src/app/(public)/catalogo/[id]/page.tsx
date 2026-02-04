@@ -454,7 +454,7 @@ export default function AutoDetailPage() {
                   {car.color && (
                     <div className='flex flex-col gap-1'>
                       <p className='text-color-text text-base font-medium'>
-                        Color
+                        Motor
                       </p>
                       <p className='text-color-title font-medium'>
                         {car.color}
