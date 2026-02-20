@@ -3,7 +3,7 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: true,
-  price: false,
+  price: true,
   objectCover: '50%',
   id: 'bajoautomotores',
   name: 'Bajo Automotores',
