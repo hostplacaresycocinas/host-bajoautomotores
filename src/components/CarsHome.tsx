@@ -102,7 +102,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
           .slice(0, 6) // Máximo 6 vehículos
           .map((auto) => ({
             id: auto.id,
-            name: `${auto.brand} ${auto.model}`,
+            name: `${auto.model}`,
             marca: auto.brand,
             marcaId: auto.categoryId || '',
             ano: auto.year,
