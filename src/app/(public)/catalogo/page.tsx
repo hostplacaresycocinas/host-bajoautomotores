@@ -648,22 +648,12 @@ const CatalogoPage = () => {
                               {car.model}
                             </h3>
 
-                            <div
-                              className={`${
-                                company.price ? '' : 'hidden'
-                              } text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
-                            >
-                              {car.price && parseFloat(car.price) > 0 ? (
-                                <>
-                                  {car.currency === 'ARS' ? '$' : 'US$'}
-                                  {parseFloat(car.price).toLocaleString(
-                                    'es-ES'
-                                  )}
-                                </>
-                              ) : (
-                                'Consultar precio'
-                              )}
-                            </div>
+                            {(company.price && car.price != null && parseFloat(car.price) > 0) ? (
+                              <div className='text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300'>
+                                {car.currency === 'ARS' ? '$' : 'US$'}
+                                {parseFloat(car.price).toLocaleString('es-ES')}
+                              </div>
+                            ) : null}
 
                             {/* Diseño minimalista con separadores tipo | */}
                             <div className='flex flex-wrap items-center text-color-text font-medium'>

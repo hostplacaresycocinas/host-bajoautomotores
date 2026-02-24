@@ -253,20 +253,12 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                       {auto.mlTitle || auto.model}
                     </h3>
 
-                    <div
-                      className={`${
-                        company.price ? '' : 'hidden'
-                      } text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
-                    >
-                      {auto.price && auto.price > 0 ? (
-                        <>
-                          {auto.currency === 'ARS' ? '$' : 'US$'}
-                          {auto.price.toLocaleString('es-ES')}
-                        </>
-                      ) : (
-                        ''
-                      )}
-                    </div>
+                    {(company.price && auto.price != null && auto.price > 0) ? (
+                      <div className='text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300'>
+                        {auto.currency === 'ARS' ? '$' : 'US$'}
+                        {auto.price.toLocaleString('es-ES')}
+                      </div>
+                    ) : null}
 
                     {/* Diseño minimalista con separadores tipo | */}
                     <div className='flex flex-wrap items-center text-color-text font-medium'>

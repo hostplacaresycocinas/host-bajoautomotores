@@ -421,18 +421,12 @@ export default function AutoDetailPage() {
                 </div>
 
                 {/* Precio */}
-                {car.price && parseFloat(car.price) > 0 ? (
-                  <div
-                    className={`${
-                      company.price ? '' : 'hidden'
-                    } text-2xl font-bold text-color-primary mb-2 md:mb-4`}
-                  >
+                {(company.price && car.price != null && parseFloat(car.price) > 0) ? (
+                  <div className='text-2xl font-bold text-color-primary mb-2 md:mb-4'>
                     {car.currency === 'ARS' ? '$' : 'US$'}
                     {parseFloat(car.price).toLocaleString('es-ES')}
                   </div>
-                ) : (
-                  ''
-                )}
+                ) : null}
 
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-4 text-color-text mb-6'>
                   {car.mileage !== null && (

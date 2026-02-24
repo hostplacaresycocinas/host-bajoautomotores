@@ -294,14 +294,12 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                         {auto.name}
                       </h3>
 
-                      <div
-                        className={`${
-                          company.price ? '' : 'hidden'
-                        } text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
-                      >
-                        {auto.precio.moneda === 'ARS' ? '$' : 'US$'}
-                        {auto.precio.valor.toLocaleString('es-ES')}
-                      </div>
+                      {(company.price && auto.precio?.valor != null && auto.precio.valor > 0) ? (
+                        <div className='text-color-primary text-xl md:text-[22px] font-bold tracking-tight truncate md:mb-1 transition-colors duration-300'>
+                          {auto.precio.moneda === 'ARS' ? '$' : 'US$'}
+                          {auto.precio.valor.toLocaleString('es-ES')}
+                        </div>
+                      ) : null}
 
                       {/* Diseño minimalista con separadores tipo | */}
                       <div className='flex flex-wrap items-center text-color-text font-medium'>
