@@ -10,7 +10,7 @@ export const company = {
   adress: 'Gutiérrez 399',
   city: 'Pehuajó',
   email: 'hbautomotores@gmail.com',
-  instagram: 'hb.automotores',
+  instagram: 'bajoautomotores',
   facebook: 'https://www.facebook.com/hbautomotoresprofiles/',
   whatsapp: ['2396614213'],
   googlemapsLink: 'https://maps.app.goo.gl/u4VhRuu6CFhJjHLb8',
