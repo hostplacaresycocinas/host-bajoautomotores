@@ -9,7 +9,7 @@ export const company = {
   name: 'Bajo Automotores',
   adress: 'Gutiérrez 399',
   city: 'Pehuajó',
-  email: 'hbautomotores@gmail.com',
+  email: 'bajoautomotores@gmail.com',
   instagram: 'bajoautomotores',
   facebook: 'https://www.facebook.com/hbautomotoresprofiles/',
   whatsapp: ['2396614213'],
