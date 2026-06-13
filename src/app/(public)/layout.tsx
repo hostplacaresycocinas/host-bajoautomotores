@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { company, metadataCompany } from '../constants/constants';
+import { SiteGoogleAnalytics } from '@/components/analytics/SiteGoogleAnalytics';
 
 export const metadata = {
   metadataBase: metadataCompany.metadataBase,
@@ -32,6 +33,7 @@ export default function PublicLayout({
         </a>
       )}
       {children}
+      <SiteGoogleAnalytics />
     </>
   );
 }
