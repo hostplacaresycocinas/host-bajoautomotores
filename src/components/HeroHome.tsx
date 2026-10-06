@@ -14,7 +14,7 @@ const HeroHome = () => {
     >
       <div className='max-w-[1920px] w-full flex flex-col items-center z-10'>
         <div className='flex justify-center max-w-6xl lg:max-w-[1920px] w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
-          <article className='h-[500px] md:h-[600px] lg:h-[650px] xl:h-[750px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
+          <article className='h-[600px] md:h-[600px] lg:h-[650px] xl:h-[750px] relative w-full flex flex-col items-center justify-center md:min-w-[430px] lg:min-w-[540px] z-20'>
             <HeroCarousel />
 
             {/* Overlay con mayor opacidad para disimular calidad del video */}
