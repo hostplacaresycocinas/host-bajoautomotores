@@ -4,14 +4,13 @@ import SearchIcon from '@/components/icons/SearchIcon';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { Suspense, useEffect, useState } from 'react';
+import { Suspense, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import {
   company,
   API_BASE_URL,
   TENANT_PUBLIC,
 } from '@/app/constants/constants';
 import ArrowIcon from '@/components/icons/ArrowIcon';
-import { motion, AnimatePresence } from 'framer-motion';
 import {
   Select,
   SelectTrigger,
@@ -83,6 +82,95 @@ const ITEM =
   'rounded-lg py-2 cursor-pointer focus:bg-neutral-100 focus:text-color-primary data-[state=checked]:font-semibold';
 const CHIP =
   'flex items-center gap-2 pl-3.5 pr-2.5 py-1.5 rounded-full bg-color-primary/10 border border-color-primary/20 text-color-primary text-sm font-medium';
+
+const GRID =
+  'max-w-7xl w-[calc(100%-2rem)] sm:w-[calc(100%-3rem)] md:w-[calc(100%-4rem)] lg:w-[calc(100%-5rem)] xl:w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 lg:gap-y-16 gap-x-4 sm:gap-x-6 lg:gap-x-12 mt-10 min-h-[600px] place-content-start mx-4 sm:mx-6 md:mx-8 lg:mx-10';
+
+// Imagen con skeleton de fondo y fade-in recién cuando terminó de cargar
+const CarImage = ({
+  src,
+  alt,
+  priority,
+}: {
+  src: string;
+  alt: string;
+  priority?: boolean;
+}) => {
+  const imgRef = useRef<HTMLImageElement>(null);
+  // Si la imagen ya está en caché (ej. al recargar) se muestra sin animación
+  const [state, setState] = useState<'loading' | 'cached' | 'loaded'>(
+    'loading'
+  );
+
+  useLayoutEffect(() => {
+    const img = imgRef.current;
+    if (img?.complete && img.naturalWidth > 0) setState('cached');
+  }, []);
+
+  const loaded = state !== 'loading';
+
+  return (
+    <div
+      className={`w-full h-full ${loaded ? 'bg-neutral-100' : 'bg-neutral-200 animate-pulse'}`}
+    >
+      <Image
+        ref={imgRef}
+        priority={priority}
+        width={600}
+        height={450}
+        sizes='(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw'
+        onLoad={() => setState((s) => (s === 'loading' ? 'loaded' : s))}
+        className={`object-cover w-full h-full ${
+          state === 'cached' ? '' : 'transition-opacity duration-300'
+        } ${loaded ? 'opacity-100' : 'opacity-0'}`}
+        style={{ objectPosition: `center ${company.objectCover}` }}
+        src={src}
+        alt={alt}
+      />
+    </div>
+  );
+};
+
+const CardSkeleton = () => (
+  <div className='w-full animate-pulse'>
+    <div className='aspect-[4/3] rounded-xl bg-neutral-200' />
+    <div className='py-3 space-y-2.5'>
+      <div className='h-6 w-3/4 rounded-md bg-neutral-200' />
+      <div className='h-4 w-1/3 rounded-md bg-neutral-200' />
+      <div className='h-4 w-1/2 rounded-md bg-neutral-200' />
+      <div className='h-4 w-20 rounded-md bg-neutral-200' />
+    </div>
+  </div>
+);
+
+const CardsSkeleton = () => (
+  <div className={GRID}>
+    {Array.from({ length: 6 }).map((_, i) => (
+      <CardSkeleton key={i} />
+    ))}
+  </div>
+);
+
+// Fallback inicial (Suspense): filtros + cards en skeleton
+const CatalogoFallback = () => (
+  <section className='flex flex-col items-center w-full mb-16 md:mb-20'>
+    <div className='w-full flex justify-center mt-8 md:mt-10'>
+      <div className='max-w-md sm:max-w-2xl lg:max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-0'>
+        <div className='bg-white border border-neutral-200 rounded-2xl shadow-[0_10px_40px_-20px_rgba(0,0,0,0.25)] p-4 sm:p-6 animate-pulse'>
+          <div className='h-5 w-36 rounded-md bg-neutral-200 mb-4 sm:mb-5' />
+          <div className='flex flex-col sm:flex-row gap-3 sm:gap-5'>
+            <div className='h-12 flex-grow rounded-xl bg-neutral-100' />
+            <div className='flex gap-2 sm:gap-5'>
+              <div className='h-11 sm:h-12 flex-1 sm:flex-none sm:w-44 lg:w-52 rounded-xl bg-neutral-100' />
+              <div className='h-11 sm:h-12 flex-1 sm:flex-none sm:w-44 lg:w-52 rounded-xl bg-neutral-100' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <CardsSkeleton />
+  </section>
+);
 
 const CatalogoPage = () => {
   const router = useRouter();
@@ -187,7 +275,9 @@ const CatalogoPage = () => {
   useEffect(() => {
     if (!searchParams.has('page')) {
       const savedPage = sessionStorage.getItem('catalogCurrentPage');
-      if (savedPage) {
+      if (savedPage === '1') {
+        sessionStorage.removeItem('catalogCurrentPage');
+      } else if (savedPage) {
         const params = new URLSearchParams(window.location.search);
         params.set('page', savedPage);
         router.replace(`/catalogo?${params.toString()}`, { scroll: false });
@@ -491,30 +581,13 @@ const CatalogoPage = () => {
         </div>
 
         <>
-          {loading && filteredProducts.length === 0 ? (
-            <div className='flex justify-center items-center min-h-[600px]'>
-              <div className='animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-color-primary'></div>
-            </div>
+          {loading ? (
+            <CardsSkeleton />
           ) : filteredProducts.length > 0 ? (
             <>
-              <AnimatePresence mode='wait'>
-                <motion.div
-                  key={`${currentPage}-${marcaFilter}-${categoriaFilter}-${searchFilter}`}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                  className='max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:w-full gap-y-10 lg:gap-y-16 gap-x-4 sm:gap-x-6 lg:gap-x-12 mt-10 min-h-[600px] place-content-start mx-4 sm:mx-6 md:mx-8 lg:mx-10'
-                >
-                  {filteredProducts.map((car) => (
-                    <motion.div
-                      key={car.id}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      transition={{ duration: 0.15 }}
-                      className='w-full'
-                    >
+              <div className={GRID}>
+                  {filteredProducts.map((car, index) => (
+                    <div key={car.id} className='w-full'>
                       <Link
                         href={`/catalogo/${car.id}`}
                         className='w-full relative overflow-hidden'
@@ -531,30 +604,17 @@ const CatalogoPage = () => {
 
                           {/* Contenedor de la imagen */}
                           <div className='relative overflow-hidden aspect-[4/3] rounded-xl group'>
-                            <motion.div
-                              initial={{ opacity: 0 }}
-                              animate={{ opacity: 1 }}
-                              transition={{ duration: 0.5, ease: 'easeOut' }}
-                              className='w-full h-full '
-                            >
-                              <Image
-                                priority
-                                width={600}
-                                height={600}
-                                className='object-cover w-full h-full transition-transform duration-700'
-                                style={{
-                                  objectPosition: `center ${company.objectCover}`,
-                                }}
-                                src={
-                                  car.images &&
-                                  car.images.length > 0 &&
-                                  car.images[0]?.thumbnailUrl
-                                    ? car.images[0].thumbnailUrl
-                                    : '/assets/placeholder.webp'
-                                }
-                                alt={`${car.model}`}
-                              />
-                            </motion.div>
+                            <CarImage
+                              priority={index < 3}
+                              src={
+                                car.images &&
+                                car.images.length > 0 &&
+                                car.images[0]?.thumbnailUrl
+                                  ? car.images[0].thumbnailUrl
+                                  : '/assets/placeholder.webp'
+                              }
+                              alt={`${car.model}`}
+                            />
 
                             {/* Overlay con "Ver más" al hacer hover */}
                             <div className='absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
@@ -657,10 +717,9 @@ const CatalogoPage = () => {
                           </div>
                         </div>
                       </Link>
-                    </motion.div>
+                    </div>
                   ))}
-                </motion.div>
-              </AnimatePresence>
+              </div>
 
               {/* Paginación */}
               {totalPages > 1 && (
@@ -783,7 +842,7 @@ const CatalogoPageWithSuspense = () => {
       {/* Contenido principal */}
       <Header />
       <div className=''></div>
-      <Suspense fallback={<div>Cargando...</div>}>
+      <Suspense fallback={<CatalogoFallback />}>
         <CatalogoPage />
       </Suspense>
       <Footer />
