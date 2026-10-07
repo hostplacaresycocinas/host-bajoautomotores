@@ -72,6 +72,18 @@ interface Category {
 
 const ITEMS_PER_PAGE = 12;
 
+// Estilos compartidos de los filtros (modo claro)
+const FIELD =
+  'w-full rounded-xl border border-neutral-200 bg-neutral-50 text-color-title placeholder:text-neutral-400 data-[placeholder]:text-neutral-400 outline-none shadow-none hover:border-neutral-300 focus:bg-white focus:border-color-primary focus:ring-4 focus:ring-color-primary/10 transition-all';
+const LABEL =
+  'block text-xs font-medium text-color-text uppercase tracking-wider mb-1.5';
+const MENU =
+  'bg-white border border-neutral-200 text-color-title rounded-xl shadow-xl p-1';
+const ITEM =
+  'rounded-lg py-2 cursor-pointer focus:bg-neutral-100 focus:text-color-primary data-[state=checked]:font-semibold';
+const CHIP =
+  'flex items-center gap-2 pl-3.5 pr-2.5 py-1.5 rounded-full bg-color-primary/10 border border-color-primary/20 text-color-primary text-sm font-medium';
+
 const CatalogoPage = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -266,49 +278,36 @@ const CatalogoPage = () => {
         {/* Sección de filtros modernizada */}
         <div className='w-full flex justify-center mt-8 md:mt-10'>
           <div className='max-w-md sm:max-w-2xl lg:max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-0'>
-            {/* Contenedor principal con fondo oscuro y sombra */}
-            <div className='bg-gradient-to-b from-black to-neutral-900 border border-neutral-800 rounded-lg shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] p-5'>
+            <div className='bg-white border border-neutral-200 rounded-2xl shadow-[0_10px_40px_-20px_rgba(0,0,0,0.25)] p-4 sm:p-6'>
               {/* Título de la sección de filtros */}
-              <div className='mb-5 flex items-center justify-between'>
-                <div className='flex items-center'>
-                  <div
-                    className={`${
-                      company.dark
-                        ? 'bg-color-primary-light'
-                        : 'bg-color-primary'
-                    } w-1 h-5 rounded mr-3`}
-                  ></div>
-                  <h4 className='text-white font-medium'>Filtrar vehículos</h4>
-                </div>
+              <div className='mb-4 sm:mb-5 flex items-center'>
+                <div className='bg-color-primary w-1 h-5 rounded-full mr-3'></div>
+                <h4 className='text-color-title font-semibold tracking-tight'>
+                  Filtrar vehículos
+                </h4>
               </div>
 
-              {/* Vista móvil - Buscador y filtros en acordeón */}
-              <div className='sm:hidden space-y-4'>
-                {/* Buscador móvil */}
+              {/* Vista móvil */}
+              <div className='sm:hidden space-y-3'>
                 <form onSubmit={handleSubmit} className='relative'>
+                  <div className='absolute left-0 top-0 h-full pl-3.5 flex items-center text-neutral-400 pointer-events-none'>
+                    <SearchIcon className='w-5 h-5' />
+                  </div>
                   <input
                     type='text'
                     placeholder='Buscar vehículo...'
                     value={searchValue}
                     onChange={handleSearch}
-                    className='w-full pl-10 pr-4 py-3 border border-neutral-700 rounded-md bg-neutral-800/80 outline-none text-white placeholder-white/40 focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all'
+                    className={`${FIELD} pl-11 pr-20 py-3`}
                   />
-                  <div className='absolute left-0 top-0 h-full px-3 flex items-center text-white/50'>
-                    <SearchIcon className='w-5 h-5' />
-                  </div>
                   <button
                     type='submit'
-                    className={`${
-                      company.dark
-                        ? 'hover:text-color-primary-light'
-                        : 'hover:text-color-primary-dark'
-                    } absolute right-0 top-0 h-full px-4 text-white/50 transition-colors`}
+                    className='absolute right-1.5 top-1.5 bottom-1.5 px-3.5 rounded-lg bg-color-primary hover:bg-color-primary-dark text-white text-sm font-medium transition-colors'
                   >
                     Buscar
                   </button>
                 </form>
 
-                {/* Filtros en línea para móvil */}
                 <div className='flex gap-2'>
                   <Select
                     value={marcaFilter || 'all'}
@@ -316,22 +315,15 @@ const CatalogoPage = () => {
                       updateFilters('marca', value === 'all' ? '' : value);
                     }}
                   >
-                    <SelectTrigger className='h-10 flex-1 px-3 py-2 border border-neutral-700 rounded-md bg-neutral-800/80 text-white text-sm outline-none focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all appearance-none'>
+                    <SelectTrigger className={`${FIELD} h-11 flex-1 px-3.5 text-sm`}>
                       <SelectValue placeholder='Marcas' />
                     </SelectTrigger>
-                    <SelectContent className='bg-neutral-800 border border-neutral-700 text-white rounded-lg shadow-lg max-h-60 overflow-y-auto'>
-                      <SelectItem
-                        value='all'
-                        className='text-neutral-400 hover:text-white hover:bg-neutral-700'
-                      >
+                    <SelectContent className={`${MENU} max-h-60`}>
+                      <SelectItem value='all' className={`${ITEM} text-neutral-400`}>
                         Marcas
                       </SelectItem>
                       {todasLasMarcas.map((marca) => (
-                        <SelectItem
-                          key={marca}
-                          value={marca}
-                          className='hover:text-color-primary hover:bg-neutral-700'
-                        >
+                        <SelectItem key={marca} value={marca} className={ITEM}>
                           {marca}
                         </SelectItem>
                       ))}
@@ -344,21 +336,18 @@ const CatalogoPage = () => {
                       updateFilters('categoria', value === 'all' ? '' : value);
                     }}
                   >
-                    <SelectTrigger className='h-10 flex-1 px-3 py-2 border border-neutral-700 rounded-md bg-neutral-800/80 text-white text-sm outline-none focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all appearance-none'>
+                    <SelectTrigger className={`${FIELD} h-11 flex-1 px-3.5 text-sm`}>
                       <SelectValue placeholder='Categorías' />
                     </SelectTrigger>
-                    <SelectContent className='bg-neutral-800 border border-neutral-700 text-white rounded-lg shadow-lg max-h-60 overflow-y-auto'>
-                      <SelectItem
-                        value='all'
-                        className='text-neutral-400 hover:text-white hover:bg-neutral-700'
-                      >
+                    <SelectContent className={`${MENU} max-h-60`}>
+                      <SelectItem value='all' className={`${ITEM} text-neutral-400`}>
                         Categorías
                       </SelectItem>
                       {categorias.map((categoria) => (
                         <SelectItem
                           key={categoria.id}
                           value={categoria.name}
-                          className='hover:text-color-primary hover:bg-neutral-700'
+                          className={ITEM}
                         >
                           {categoria.name}
                         </SelectItem>
@@ -368,169 +357,133 @@ const CatalogoPage = () => {
                 </div>
               </div>
 
-              {/* Vista desktop - Filtros completos */}
-              <div className='hidden sm:flex sm:flex-row gap-4 sm:gap-6'>
-                {/* Buscador mejorado */}
+              {/* Vista desktop */}
+              <div className='hidden sm:flex sm:flex-row gap-4 lg:gap-5'>
                 <div className='relative flex-grow'>
-                  <label className='block text-xs text-white/70 uppercase tracking-wider mb-1.5'>
-                    Buscar por nombre
-                  </label>
+                  <label className={LABEL}>Buscar por nombre</label>
                   <form onSubmit={handleSubmit} className='relative'>
+                    <div className='absolute left-0 top-0 h-full pl-4 flex items-center text-neutral-400 pointer-events-none'>
+                      <SearchIcon className='w-5 h-5' />
+                    </div>
                     <input
                       type='text'
                       placeholder='Ej: Mercedes Benz, Ford...'
                       value={searchValue}
                       onChange={handleSearch}
-                      className='w-full px-4 py-3 border border-neutral-700 rounded-md bg-neutral-800/80 outline-none text-white placeholder-white/40 focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all'
+                      className={`${FIELD} h-12 pl-12 pr-28`}
                     />
                     <button
                       type='submit'
-                      className={`${
-                        company.dark
-                          ? 'hover:text-color-primary-light'
-                          : 'hover:text-color-primary'
-                      } absolute right-0 top-0 h-full px-4 text-white/50 transition-colors`}
+                      className='absolute right-1.5 top-1.5 bottom-1.5 px-5 rounded-lg bg-color-primary hover:bg-color-primary-dark text-white text-sm font-medium transition-colors'
                     >
-                      <SearchIcon className='w-5 h-5' />
+                      Buscar
                     </button>
                   </form>
                 </div>
 
-                {/* Filtros en columna en móvil, fila en escritorio */}
-                <div className='flex flex-col sm:flex-row gap-4 sm:gap-6'>
-                  {/* Filtro de Marca */}
+                <div className='flex flex-row gap-4 lg:gap-5'>
                   <div>
-                    <label className='block text-xs text-white/70 uppercase tracking-wider mb-1.5'>
-                      Marca
-                    </label>
-                    <div className='relative'>
-                      <Select
-                        value={marcaFilter || 'all'}
-                        onValueChange={(value) => {
-                          updateFilters('marca', value === 'all' ? '' : value);
-                        }}
-                      >
-                        <SelectTrigger className='h-full w-full sm:w-44 px-4 py-3 pr-10 border border-neutral-700 rounded-md bg-neutral-800/80 text-white outline-none focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all appearance-none'>
-                          <SelectValue placeholder='Todas las marcas' />
-                        </SelectTrigger>
-                        <SelectContent className='bg-neutral-800 border border-neutral-700 text-white rounded-lg shadow-lg'>
-                          <SelectItem
-                            value='all'
-                            className='text-neutral-400 hover:text-white hover:bg-neutral-700'
-                          >
-                            Todas las marcas
+                    <label className={LABEL}>Marca</label>
+                    <Select
+                      value={marcaFilter || 'all'}
+                      onValueChange={(value) => {
+                        updateFilters('marca', value === 'all' ? '' : value);
+                      }}
+                    >
+                      <SelectTrigger className={`${FIELD} h-12 w-44 lg:w-52 px-4`}>
+                        <SelectValue placeholder='Todas las marcas' />
+                      </SelectTrigger>
+                      <SelectContent className={MENU}>
+                        <SelectItem value='all' className={`${ITEM} text-neutral-400`}>
+                          Todas las marcas
+                        </SelectItem>
+                        {todasLasMarcas.map((marca) => (
+                          <SelectItem key={marca} value={marca} className={ITEM}>
+                            {marca}
                           </SelectItem>
-                          {todasLasMarcas.map((marca) => (
-                            <SelectItem
-                              key={marca}
-                              value={marca}
-                              className={`${
-                                company.dark
-                                  ? 'hover:text-color-primary-light'
-                                  : 'hover:text-color-primary'
-                              } hover:bg-neutral-700`}
-                            >
-                              {marca}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
+                        ))}
+                      </SelectContent>
+                    </Select>
                   </div>
 
-                  {/* Filtro de Categoría */}
                   <div>
-                    <label className='block text-xs text-white/70 uppercase tracking-wider mb-1.5'>
-                      Categoría
-                    </label>
-                    <div className='relative'>
-                      <Select
-                        value={categoriaFilter || 'all'}
-                        onValueChange={(value) => {
-                          updateFilters(
-                            'categoria',
-                            value === 'all' ? '' : value
-                          );
-                        }}
-                      >
-                        <SelectTrigger className='h-full w-full sm:w-44 px-4 py-3 pr-10 border border-neutral-700 rounded-md bg-neutral-800/80 text-white outline-none focus:border-color-primary focus:ring-1 focus:ring-color-primary/40 transition-all appearance-none'>
-                          <SelectValue placeholder='Todas las categorías' />
-                        </SelectTrigger>
-                        <SelectContent className='bg-neutral-800 border border-neutral-700 text-white rounded-lg shadow-lg'>
+                    <label className={LABEL}>Categoría</label>
+                    <Select
+                      value={categoriaFilter || 'all'}
+                      onValueChange={(value) => {
+                        updateFilters('categoria', value === 'all' ? '' : value);
+                      }}
+                    >
+                      <SelectTrigger className={`${FIELD} h-12 w-44 lg:w-52 px-4`}>
+                        <SelectValue placeholder='Todas las categorías' />
+                      </SelectTrigger>
+                      <SelectContent className={MENU}>
+                        <SelectItem value='all' className={`${ITEM} text-neutral-400`}>
+                          Todas las categorías
+                        </SelectItem>
+                        {categorias.map((categoria) => (
                           <SelectItem
-                            value='all'
-                            className='text-neutral-400 hover:text-white hover:bg-neutral-700'
+                            key={categoria.id}
+                            value={categoria.name}
+                            className={ITEM}
                           >
-                            Todas las categorías
+                            {categoria.name}
                           </SelectItem>
-                          {categorias.map((categoria) => (
-                            <SelectItem
-                              key={categoria.id}
-                              value={categoria.name}
-                              className={`${
-                                company.dark
-                                  ? 'hover:text-color-primary-light'
-                                  : 'hover:text-color-primary'
-                              } hover:bg-neutral-700`}
-                            >
-                              {categoria.name}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
+                        ))}
+                      </SelectContent>
+                    </Select>
                   </div>
                 </div>
               </div>
 
               {/* Filtros activos */}
               {(searchFilter || marcaFilter || categoriaFilter) && (
-                <div className='mt-4 flex flex-wrap gap-2'>
+                <div className='mt-4 pt-4 border-t border-neutral-100 flex flex-wrap items-center gap-2'>
                   {searchFilter && (
-                    <div className='flex items-center gap-2 px-3 py-2 rounded-full bg-neutral-800/80 border border-neutral-700 text-white'>
+                    <div className={CHIP}>
                       <span>Búsqueda: {searchFilter}</span>
                       <button
                         onClick={() => updateFilters('search', '')}
-                        className='text-neutral-400 hover:text-white transition-colors'
+                        className='text-color-primary/70 hover:text-color-primary transition-colors'
+                        aria-label='Quitar búsqueda'
                       >
                         <CloseIcon className='w-4 h-4 stroke-[2]' />
                       </button>
                     </div>
                   )}
                   {marcaFilter && (
-                    <div className='flex items-center gap-2 px-3 py-2 rounded-full bg-neutral-800/80 border border-neutral-700 text-white'>
+                    <div className={CHIP}>
                       <span>Marca: {marcaFilter}</span>
                       <button
                         onClick={() => updateFilters('marca', '')}
-                        className='text-neutral-400 hover:text-white transition-colors'
+                        className='text-color-primary/70 hover:text-color-primary transition-colors'
+                        aria-label='Quitar marca'
                       >
                         <CloseIcon className='w-4 h-4 stroke-[2]' />
                       </button>
                     </div>
                   )}
                   {categoriaFilter && (
-                    <div className='flex items-center gap-2 px-3 py-2 rounded-full bg-neutral-800/80 border border-neutral-700 text-white'>
+                    <div className={CHIP}>
                       <span>Categoría: {categoriaFilter}</span>
                       <button
                         onClick={() => updateFilters('categoria', '')}
-                        className='text-neutral-400 hover:text-white transition-colors'
+                        className='text-color-primary/70 hover:text-color-primary transition-colors'
+                        aria-label='Quitar categoría'
                       >
                         <CloseIcon className='w-4 h-4 stroke-[2]' />
                       </button>
                     </div>
                   )}
-                  {(searchFilter || marcaFilter || categoriaFilter) && (
-                    <button
-                      onClick={() => {
-                        setSearchValue('');
-                        router.push('/catalogo');
-                      }}
-                      className='flex items-center gap-2 px-3 py-2 rounded-full bg-color-primary hover:bg-color-primary-dark text-white transition-colors'
-                    >
-                      <span>Limpiar filtros</span>
-                      <CloseIcon className='w-4 h-4 stroke-[2]' />
-                    </button>
-                  )}
+                  <button
+                    onClick={() => {
+                      setSearchValue('');
+                      router.push('/catalogo');
+                    }}
+                    className='ml-auto text-sm font-medium text-color-text hover:text-color-primary underline-offset-4 hover:underline transition-colors'
+                  >
+                    Limpiar filtros
+                  </button>
                 </div>
               )}
             </div>
